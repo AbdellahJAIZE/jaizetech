@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4>Elsewhere</h4>
+            <h4>{t('footer.elsewhereTitle')}</h4>
             <ul>
               <li><a href="https://linkedin.com/in/abdellah-jaize" target="_blank" rel="noopener">LinkedIn</a></li>
               <li><a href="https://github.com/AbdellahJAIZE" target="_blank" rel="noopener">GitHub</a></li>

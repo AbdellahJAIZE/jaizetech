@@ -25,6 +25,14 @@ export default async function ServicesPage({
 
 function Services() {
   const t = useTranslations('services');
+  const labels = t.raw('labels') as {
+    price: string;
+    duration: string;
+    for: string;
+    delivers: string;
+    excludes: string;
+    discussCta: string;
+  };
 
   const items = t.raw('items') as Array<{
     id: string;
@@ -54,21 +62,21 @@ function Services() {
               <header className="service-detail-head">
                 <h2>{s.name}</h2>
                 <aside className="svc-meta">
-                  <div><span className="label">Prijs</span><span className="value price">{s.price}</span></div>
-                  <div><span className="label">Looptijd</span><span className="value">{s.duration}</span></div>
-                  <div><span className="label">Voor</span><span className="value">{s.for}</span></div>
+                  <div><span className="label">{labels.price}</span><span className="value price">{s.price}</span></div>
+                  <div><span className="label">{labels.duration}</span><span className="value">{s.duration}</span></div>
+                  <div><span className="label">{labels.for}</span><span className="value">{s.for}</span></div>
                 </aside>
               </header>
               <p className="summary">{s.summary}</p>
-              <h4>Wat je krijgt</h4>
+              <h4>{labels.delivers}</h4>
               <ul className="delivers">
                 {s.delivers.map((d, i) => (
                   <li key={i}>{d}</li>
                 ))}
               </ul>
-              <p className="excludes"><strong>Niet inbegrepen:</strong> {s.excludes}</p>
+              <p className="excludes"><strong>{labels.excludes}:</strong> {s.excludes}</p>
               <Link className="btn btn-secondary btn-sm" href="/contact">
-                Plan een gesprek over {s.name} <span className="arrow">→</span>
+                {labels.discussCta}: {s.name} <span className="arrow">→</span>
               </Link>
             </article>
           ))}

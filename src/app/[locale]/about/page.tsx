@@ -63,15 +63,15 @@ function About() {
             <h3>{t('credentials.title')}</h3>
             <div className="creds-grid">
               <div>
-                <h4>Education</h4>
+                <h4>{t('credentials.educationLabel')}</h4>
                 <ul>{education.map((e, i) => <li key={i}>{e}</li>)}</ul>
               </div>
               <div>
-                <h4>Certifications</h4>
+                <h4>{t('credentials.certsLabel')}</h4>
                 <ul>{certs.map((c, i) => <li key={i}>{c}</li>)}</ul>
               </div>
               <div>
-                <h4>Languages</h4>
+                <h4>{t('credentials.languagesLabel')}</h4>
                 <ul>{languages.map((l, i) => <li key={i}>{l}</li>)}</ul>
               </div>
             </div>

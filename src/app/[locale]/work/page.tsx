@@ -25,6 +25,12 @@ export default async function WorkPage({
 
 function Work() {
   const t = useTranslations('work');
+  const labels = t.raw('labels') as {
+    challenge: string;
+    approach: string;
+    outcomes: string;
+    stack: string;
+  };
   const cases = t.raw('cases') as Array<{
     id: string;
     client: string;
@@ -65,15 +71,15 @@ function Work() {
 
               <div className="case-body">
                 <div>
-                  <h4>Uitdaging</h4>
+                  <h4>{labels.challenge}</h4>
                   <p>{c.challenge}</p>
                 </div>
                 <div>
-                  <h4>Aanpak</h4>
+                  <h4>{labels.approach}</h4>
                   <p>{c.approach}</p>
                 </div>
                 <div>
-                  <h4>Resultaat</h4>
+                  <h4>{labels.outcomes}</h4>
                   <ul>
                     {c.outcomes.map((o, i) => (
                       <li key={i}>{o}</li>
@@ -81,7 +87,7 @@ function Work() {
                   </ul>
                 </div>
                 <div>
-                  <h4>Stack</h4>
+                  <h4>{labels.stack}</h4>
                   <div className="tags">
                     {c.stack.map((s) => (
                       <span key={s} className="tag">{s}</span>
