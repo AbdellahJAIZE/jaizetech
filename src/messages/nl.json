@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize · Senior software engineering en AI-integratie",
-    "defaultDescription": "Senior software engineering, AI-integratie en technisch leiderschap voor Nederlandse scale-ups. Vaste prijzen. Beschikbaar vanaf juli 2026."
+    "defaultTitle": "Jaize · Productieklare AI-agenten, RAG en automation",
+    "defaultDescription": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen. Beschikbaar vanaf juli 2026."
   },
   "nav": {
     "services": "Diensten",
@@ -16,11 +16,11 @@
     "closeMenu": "Sluit menu"
   },
   "home": {
-    "title": "Jaize · Senior software engineering en AI-integratie",
-    "description": "Senior software engineering, AI-integratie en technisch leiderschap voor Nederlandse scale-ups. Vaste prijzen. Beschikbaar vanaf juli 2026.",
+    "title": "Jaize · Productieklare AI-agenten, RAG en automation",
+    "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen. Beschikbaar vanaf juli 2026.",
     "hero": {
-      "headline": "Senior engineering en AI-integratie voor Nederlandse scale-ups.",
-      "lead": "Volledige stack ontwikkeling, AI-pijplijnen en technisch leiderschap. Op vaste prijs of dagtarief. Beschikbaar vanaf juli 2026.",
+      "headline": "Productieklare AI: agenten, RAG en document-automatisering.",
+      "lead": "Voor Nederlandse scale-ups en SMB's. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief. Beschikbaar vanaf juli 2026.",
       "ctaPrimary": "Plan een gratis kennismakingsgesprek",
       "ctaSecondary": "Bekijk diensten"
     },
@@ -102,83 +102,102 @@
     },
     "items": [
       {
+        "id": "rag-assistant",
+        "name": "RAG Knowledge Assistant",
+        "price": "€15.000",
+        "duration": "4 weken",
+        "for": "Bedrijven met veel interne documentatie — handleidingen, contracten, beleid, tickets — die hun teams sneller antwoorden willen geven.",
+        "summary": "Veilige RAG-assistent over je bedrijfsdocumenten. Vector search, citaties, evaluatie en productie-deployment.",
+        "delivers": [
+          "Document ingestion pipeline (PDF, DOCX, web pages, Notion, etc.)",
+          "Vector database (Pinecone, Weaviate of pgvector)",
+          "LLM-laag met OpenAI, Anthropic of Gemini + LangChain",
+          "Chat-UI met citaties, history en feedback",
+          "Evaluatie-suite voor antwoordkwaliteit",
+          "Deployment op AWS, GCP of Cloudflare met monitoring"
+        ],
+        "excludes": "Doorlopende content-curatie en eindgebruiker support."
+      },
+      {
+        "id": "ai-agent",
+        "name": "AI Workflow Agent",
+        "price": "€25.000",
+        "duration": "6 weken",
+        "for": "Bedrijven met repetitieve onderzoeks-, operations- of analyse-workflows die geautomatiseerd moeten worden met AI die echt redenert.",
+        "summary": "AI-agent gebouwd met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
+        "delivers": [
+          "Discovery: workflow mapping en scope-definitie",
+          "Multi-step LangGraph agent met tool-use, geheugen en validatie",
+          "Tool-integraties (APIs, databases, document stores, e-mail)",
+          "Human-in-the-loop checkpoints voor kritieke beslissingen",
+          "Productie-deployment, monitoring en cost tracking",
+          "Documentatie en team-walkthrough"
+        ],
+        "excludes": "Trainen van eigen modellen. Gebruikt LLM APIs, niet self-hosted."
+      },
+      {
+        "id": "mvp",
+        "name": "Production-Ready AI SaaS MVP",
+        "price": "€22.000",
+        "duration": "6 weken",
+        "for": "Founders en scale-ups die een AI-product van idee naar deployed product willen brengen — backend, frontend, auth, dashboards en AI-features.",
+        "summary": "Volledige AI SaaS MVP: backend, frontend, auth, dashboards, AI-features en deployment. Klaar voor je eerste betalende klanten.",
+        "delivers": [
+          "NestJS / Node backend met REST of GraphQL API",
+          "Next.js frontend met Tailwind en responsive design",
+          "Auth (JWT of OAuth), RBAC, multi-tenant indien nodig",
+          "AI-features: LLM workflows, RAG, OCR of vision per scope",
+          "Admin / analytics dashboard",
+          "Deployment op AWS, GCP of Cloudflare met CI/CD"
+        ],
+        "excludes": "Native mobile apps. Complexe machine learning (gebruik AI Workflow Agent of RAG)."
+      },
+      {
+        "id": "doc-automation",
+        "name": "Document Intelligence & OCR Automation",
+        "price": "€20.000",
+        "duration": "5 weken",
+        "for": "Boekhouders, compliance-teams, logistiek, HR of admin-zware bedrijven die documenten handmatig verwerken.",
+        "summary": "End-to-end document-automatisering: OCR, classificatie, gestructureerde extractie, validatie-agents en API of dashboard delivery.",
+        "delivers": [
+          "OCR pipeline (Tesseract, AWS Textract of Google Document AI)",
+          "Document classificatie (facturen, bonnen, contracten, formulieren)",
+          "LLM-gedreven structured extraction (key-value en tabellen)",
+          "Validatie-agents die fouten detecteren vóór het systeem ze accepteert",
+          "API of dashboard integratie met je bestaande tooling",
+          "Audit trail en exportable reporting"
+        ],
+        "excludes": "Hardware (scanners) en juridisch advies over data-retentie."
+      },
+      {
         "id": "ai-audit",
         "name": "AI Integration Audit",
         "price": "€3.500",
         "duration": "1 week",
-        "for": "CTO of founder die wil weten waar AI échte waarde toevoegt aan het product.",
-        "summary": "Snelle technische review van je stack, identificatie van 5–10 hoogste-impact AI-integratiekansen, en een geprioriteerde routekaart.",
+        "for": "CTO of founder die wil weten waar AI in hun bestaande product écht waarde toevoegt — en waar het tijdverspilling is.",
+        "summary": "Snelle technische review van je stack, identificatie van 5–10 hoogste-impact AI-integratiekansen, met geprioriteerde routekaart en proof-of-concept.",
         "delivers": [
-          "Day 1–2: codebase walkthrough en product context",
-          "Day 3: research naar best-fit AI tooling voor je stack",
-          "Day 4: prototype van één hoog-impact integratie",
-          "Day 5: rapport met routekaart, kostprojectie en 90-dagen plan"
+          "Day 1–2: codebase en product walkthrough",
+          "Day 3: best-fit AI tooling research (LLM, RAG, OCR, vision)",
+          "Day 4: werkend prototype van één hoog-impact integratie",
+          "Day 5: rapport met routekaart, kostprojectie en 90-dagen plan",
+          "60 minuten readout call met je team"
         ],
-        "excludes": "Implementatie van de roadmap (komt apart of als AI Pipeline)."
-      },
-      {
-        "id": "mvp",
-        "name": "Production-Ready MVP",
-        "price": "€18.000",
-        "duration": "4 weken",
-        "for": "Pre-seed of seed startups die PMF valideren en hun MVP in 4 weken willen lanceren.",
-        "summary": "Volledige backend + frontend + deployment van een gevalideerde MVP. Ik bouw, jij krijgt gebruikers.",
-        "delivers": [
-          "NestJS of Node + database, REST of GraphQL API",
-          "Next.js of React frontend, responsive en getest",
-          "JWT of OAuth authenticatie",
-          "Deployment op AWS, GCP of Cloudflare",
-          "Eenvoudige admin / dashboard",
-          "Source code in jullie repo, met documentatie"
-        ],
-        "excludes": "Native mobile apps en complexe AI-features (gebruik andere diensten)."
-      },
-      {
-        "id": "tech-lead",
-        "name": "Embedded Tech Lead",
-        "price": "€12.000",
-        "duration": "4 weken",
-        "for": "Series A scale-ups waarvan het senior team uitgerekt is en architecturale richting nodig heeft.",
-        "summary": "Architectuur review, team coaching en routekaart. Senior denkkracht zonder fulltime CTO.",
-        "delivers": [
-          "Week 1: architecture review (huidige staat, schaalproblemen, debt)",
-          "Week 2: roadmap (12-maanden tech roadmap, hiring plan)",
-          "Week 3: team coaching (code reviews, mentoring 1-op-1)",
-          "Week 4: handover (documentatie, hiring rubric, follow-up advies)",
-          "Tot 16 uur per week engagement",
-          "30 dagen async support na afronding"
-        ],
-        "excludes": "Day-to-day feature ontwikkeling — daarvoor is de Engineer rol."
-      },
-      {
-        "id": "ai-pipeline",
-        "name": "Production AI Pipeline",
-        "price": "€25.000",
-        "duration": "6 weken",
-        "for": "Mid-stage bedrijven met custom AI-behoeftes — computer vision, LLM workflows, RAG-systemen, classificatie op schaal.",
-        "summary": "Productieklare AI-inferentie pijplijnen. Opgezet, gedeployed en gemonitord.",
-        "delivers": [
-          "Week 1: discovery en scope confirmatie",
-          "Week 2: data pipeline",
-          "Weken 3–4: model integratie of training",
-          "Week 5: deployment en monitoring",
-          "Week 6: documentatie en handover",
-          "Stack opties: NVIDIA Triton + YOLO/ResNet (vision), LangGraph + OpenAI/Anthropic (LLM), Pinecone/Weaviate (RAG)"
-        ],
-        "excludes": "Onderhoud van het systeem na week 6 (komt apart als retainer of Fractional CTO)."
+        "excludes": "Implementatie (komt apart als RAG, Agent of MVP)."
       },
       {
         "id": "fractional-cto",
-        "name": "Fractional CTO",
+        "name": "Fractional Tech Lead / AI Advisor",
         "price": "€5.000 / maand",
         "duration": "min. 3 maanden",
-        "for": "5–15 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op strategisch en tactisch niveau.",
-        "summary": "Eén dag per week strategische plus tactische technische leiding voor je product en team.",
+        "for": "5–20 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op architectuur, AI-strategie en hiring.",
+        "summary": "Eén dag per week strategische plus tactische technische leiding — architecture, AI-roadmap, hiring, team coaching, vendor evaluaties.",
         "delivers": [
           "1 dag per week (woensdag standaard) on-site of remote",
           "Wekelijkse 1-op-1 met founder of CEO",
-          "Code reviews, architectuur-beslissingen, hiring support",
-          "Vendor evaluaties",
+          "Architectuur-beslissingen en code reviews",
+          "AI-roadmap en build-vs-buy advies",
+          "Hiring support: vacature-tekst, technical interviews, leveling",
           "Async support gedurende de week"
         ],
         "excludes": "Fulltime feature engineering en production on-call."

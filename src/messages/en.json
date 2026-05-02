@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize · Senior software engineering and AI integration",
-    "defaultDescription": "Senior software engineering, AI integration and technical leadership for Dutch scale-ups. Fixed prices. Available from July 2026."
+    "defaultTitle": "Jaize · Production-ready AI agents, RAG, and automation",
+    "defaultDescription": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices. Available from July 2026."
   },
   "nav": {
     "services": "Services",
@@ -16,11 +16,11 @@
     "closeMenu": "Close menu"
   },
   "home": {
-    "title": "Jaize · Senior software engineering and AI integration",
-    "description": "Senior software engineering, AI integration and technical leadership for Dutch scale-ups. Fixed prices. Available from July 2026.",
+    "title": "Jaize · Production-ready AI agents, RAG, and automation",
+    "description": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices. Available from July 2026.",
     "hero": {
-      "headline": "Senior engineering and AI integration for Dutch scale-ups.",
-      "lead": "Full-stack engineering, AI pipelines and technical leadership. Fixed-price or day rate. Available from July 2026.",
+      "headline": "Production-ready AI: agents, RAG, and document automation.",
+      "lead": "For Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and full-stack — from prototype to production. Fixed price or day rate. Available from July 2026.",
       "ctaPrimary": "Book a free intro call",
       "ctaSecondary": "See services"
     },
@@ -102,83 +102,102 @@
     },
     "items": [
       {
+        "id": "rag-assistant",
+        "name": "RAG Knowledge Assistant",
+        "price": "€15,000",
+        "duration": "4 weeks",
+        "for": "Companies with heavy internal documentation — manuals, contracts, policies, tickets — that need teams to find answers faster.",
+        "summary": "Secure RAG assistant over your company documents. Vector search, citations, evaluation, and production deployment.",
+        "delivers": [
+          "Document ingestion pipeline (PDF, DOCX, web pages, Notion, etc.)",
+          "Vector database (Pinecone, Weaviate, or pgvector)",
+          "LLM layer with OpenAI, Anthropic or Gemini + LangChain",
+          "Chat UI with citations, history, and feedback",
+          "Evaluation suite for answer quality",
+          "Deployment on AWS, GCP, or Cloudflare with monitoring"
+        ],
+        "excludes": "Ongoing content curation and end-user support."
+      },
+      {
+        "id": "ai-agent",
+        "name": "AI Workflow Agent",
+        "price": "€25,000",
+        "duration": "6 weeks",
+        "for": "Companies with repetitive research, operations, or analysis workflows that need automating with AI that actually reasons.",
+        "summary": "AI agent built with LangGraph combining tools, memory, and structured reasoning to automate a complete business workflow.",
+        "delivers": [
+          "Discovery: workflow mapping and scope definition",
+          "Multi-step LangGraph agent with tool-use, memory, and validation",
+          "Tool integrations (APIs, databases, document stores, email)",
+          "Human-in-the-loop checkpoints for critical decisions",
+          "Production deployment, monitoring, and cost tracking",
+          "Documentation and team walkthrough"
+        ],
+        "excludes": "Custom model training. Uses LLM APIs, not self-hosted models."
+      },
+      {
+        "id": "mvp",
+        "name": "Production-Ready AI SaaS MVP",
+        "price": "€22,000",
+        "duration": "6 weeks",
+        "for": "Founders and scale-ups taking an AI product from idea to deployed product — backend, frontend, auth, dashboards, and AI features.",
+        "summary": "Full AI SaaS MVP: backend, frontend, auth, dashboards, AI features, and deployment. Ready for your first paying customers.",
+        "delivers": [
+          "NestJS / Node backend with REST or GraphQL API",
+          "Next.js frontend with Tailwind and responsive design",
+          "Auth (JWT or OAuth), RBAC, multi-tenant if needed",
+          "AI features: LLM workflows, RAG, OCR, or vision per scope",
+          "Admin / analytics dashboard",
+          "Deployment on AWS, GCP, or Cloudflare with CI/CD"
+        ],
+        "excludes": "Native mobile apps. Complex machine learning (use AI Workflow Agent or RAG)."
+      },
+      {
+        "id": "doc-automation",
+        "name": "Document Intelligence & OCR Automation",
+        "price": "€20,000",
+        "duration": "5 weeks",
+        "for": "Accountants, compliance teams, logistics, HR, or admin-heavy businesses that process documents manually.",
+        "summary": "End-to-end document automation: OCR, classification, structured extraction, validation agents, and API or dashboard delivery.",
+        "delivers": [
+          "OCR pipeline (Tesseract, AWS Textract, or Google Document AI)",
+          "Document classification (invoices, receipts, contracts, forms)",
+          "LLM-driven structured extraction (key-value and tables)",
+          "Validation agents that catch errors before downstream systems accept them",
+          "API or dashboard integration with your existing tooling",
+          "Audit trail and exportable reporting"
+        ],
+        "excludes": "Hardware (scanners) and legal advice on data retention."
+      },
+      {
         "id": "ai-audit",
         "name": "AI Integration Audit",
         "price": "€3,500",
         "duration": "1 week",
-        "for": "CTO or founder who needs to know where AI actually adds value to the product.",
-        "summary": "Quick technical review of your stack, identification of 5–10 highest-impact AI integration opportunities, and a prioritized roadmap.",
+        "for": "CTO or founder who needs to know where AI actually adds value to their existing product — and where it's a distraction.",
+        "summary": "Quick technical review of your stack, identification of 5–10 highest-impact AI integration opportunities, with prioritized roadmap and proof-of-concept.",
         "delivers": [
-          "Day 1–2: codebase walkthrough and product context",
-          "Day 3: research best-fit AI tooling for your stack",
-          "Day 4: prototype of one high-impact integration",
-          "Day 5: report with roadmap, cost projection, 90-day plan"
+          "Day 1–2: codebase and product walkthrough",
+          "Day 3: best-fit AI tooling research (LLM, RAG, OCR, vision)",
+          "Day 4: working prototype of one high-impact integration",
+          "Day 5: report with roadmap, cost projection, 90-day plan",
+          "60-minute readout call with your team"
         ],
-        "excludes": "Implementation of the roadmap (separate engagement, e.g. AI Pipeline)."
-      },
-      {
-        "id": "mvp",
-        "name": "Production-Ready MVP",
-        "price": "€18,000",
-        "duration": "4 weeks",
-        "for": "Pre-seed or seed startups validating PMF who want their MVP launched in 4 weeks.",
-        "summary": "Full backend + frontend + deployment of a validated MVP. I build, you get users.",
-        "delivers": [
-          "NestJS or Node + database, REST or GraphQL API",
-          "Next.js or React frontend, responsive and tested",
-          "JWT or OAuth authentication",
-          "Deployment on AWS, GCP or Cloudflare",
-          "Simple admin / dashboard",
-          "Source code in your repo, documented"
-        ],
-        "excludes": "Native mobile apps and complex AI features (use other engagements)."
-      },
-      {
-        "id": "tech-lead",
-        "name": "Embedded Tech Lead",
-        "price": "€12,000",
-        "duration": "4 weeks",
-        "for": "Series A scale-ups whose senior team is stretched and needs architectural direction.",
-        "summary": "Architecture review, team coaching, and roadmap. Senior thinking without a full-time CTO.",
-        "delivers": [
-          "Week 1: architecture review (current state, scaling challenges, debt)",
-          "Week 2: roadmap (12-month tech roadmap, hiring plan)",
-          "Week 3: team coaching (code reviews, 1-on-1 mentoring)",
-          "Week 4: handover (documentation, hiring rubric, follow-up advice)",
-          "Up to 16 hours per week engagement",
-          "30 days async support after wrap-up"
-        ],
-        "excludes": "Day-to-day feature development — that's the Engineer role."
-      },
-      {
-        "id": "ai-pipeline",
-        "name": "Production AI Pipeline",
-        "price": "€25,000",
-        "duration": "6 weeks",
-        "for": "Mid-stage companies with custom AI needs — computer vision, LLM workflows, RAG systems, classification at scale.",
-        "summary": "Production-ready AI inference pipelines. Set up, deployed, and monitored.",
-        "delivers": [
-          "Week 1: discovery and scope confirmation",
-          "Week 2: data pipeline",
-          "Weeks 3–4: model integration or training",
-          "Week 5: deployment and monitoring",
-          "Week 6: documentation and handover",
-          "Stack options: NVIDIA Triton + YOLO/ResNet (vision), LangGraph + OpenAI/Anthropic (LLM), Pinecone/Weaviate (RAG)"
-        ],
-        "excludes": "System maintenance after week 6 (separate retainer or Fractional CTO)."
+        "excludes": "Implementation (separate engagement as RAG, Agent, or MVP)."
       },
       {
         "id": "fractional-cto",
-        "name": "Fractional CTO",
+        "name": "Fractional Tech Lead / AI Advisor",
         "price": "€5,000 / month",
         "duration": "min. 3 months",
-        "for": "5–15 person startups without full-time technical leadership who need senior thinking on strategic and tactical level.",
-        "summary": "One day per week strategic plus tactical technical leadership for your product and team.",
+        "for": "5–20 person startups without full-time technical leadership who need senior thinking on architecture, AI strategy, and hiring.",
+        "summary": "One day per week of strategic plus tactical technical leadership — architecture, AI roadmap, hiring, team coaching, vendor evaluations.",
         "delivers": [
           "1 day per week (Wednesdays default) on-site or remote",
           "Weekly 1-on-1 with founder or CEO",
-          "Code reviews, architecture decisions, hiring support",
-          "Vendor evaluations",
+          "Architecture decisions and code reviews",
+          "AI roadmap and build-vs-buy guidance",
+          "Hiring support: job posts, technical interviews, leveling",
           "Async support during the week"
         ],
         "excludes": "Full-time feature engineering and production on-call."
