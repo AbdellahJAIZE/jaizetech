@@ -3,7 +3,7 @@
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
     "defaultTitle": "Jaize · Production-ready AI agents, RAG, and automation",
-    "defaultDescription": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices. Available from July 2026."
+    "defaultDescription": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices, fixed scope."
   },
   "nav": {
     "services": "Services",
@@ -17,10 +17,10 @@
   },
   "home": {
     "title": "Jaize · Production-ready AI agents, RAG, and automation",
-    "description": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices. Available from July 2026.",
+    "description": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices, fixed scope.",
     "hero": {
       "headline": "Production-ready AI: agents, RAG, and document automation.",
-      "lead": "For Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and full-stack — from prototype to production. Fixed price or day rate. Available from July 2026.",
+      "lead": "For Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and full-stack — from prototype to production. Fixed price or day rate.",
       "ctaPrimary": "Book a free intro call",
       "ctaSecondary": "See services"
     },
@@ -29,17 +29,13 @@
       "name": "name",
       "nameValue": "Abdellah Jaize",
       "role": "role",
-      "roleValue": "Senior software engineer · Tech lead",
+      "roleValue": "AI software engineer",
       "based": "based",
       "basedValue": "IJlst, Netherlands",
-      "stack": "stack",
-      "stackValue": "NestJS · Next.js · Python · NVIDIA Triton · AWS",
       "lang": "languages",
-      "langValue": "English · Dutch · French · Arabic",
+      "langValue": "English · French · Arabic",
       "kvk": "kvk",
-      "kvkValue": "registering · june 2026",
-      "available": "available",
-      "availableValue": "from july 2026"
+      "kvkValue": "registering · june 2026"
     },
     "services": {
       "kicker": "What I deliver",
@@ -72,8 +68,8 @@
           "a": "Fixed prices are agreed up front. Changes go through a short change request with adjusted price and timeline."
         },
         {
-          "q": "Do you work in Dutch or English?",
-          "a": "Both. Documentation and code in English (industry standard). Meetings and email per preference — Dutch or English."
+          "q": "What language do you work in?",
+          "a": "English — documentation, code, meetings, and email. Industry standard for tech teams in the Netherlands."
         }
       ]
     },
@@ -281,16 +277,16 @@
   },
   "about": {
     "title": "About · Jaize",
-    "description": "Senior software engineer and tech lead, based in IJlst. M.Sc. Big Data and IoT. 5+ years of professional experience across startup, scale-up and agritech.",
+    "description": "AI software engineer, based in IJlst. M.Sc. Big Data and IoT. 5+ years of professional experience shipping production-ready AI systems, RAG, agents, and full-stack.",
     "hero": {
       "kicker": "About",
-      "headline": "Abdellah Jaize · Senior Software Engineer.",
-      "lead": "I build production-ready software end-to-end — backend, frontend, AI integration and infrastructure. 5+ years professional."
+      "headline": "Abdellah Jaize · AI Software Engineer.",
+      "lead": "I build production-ready AI systems — agents, RAG, document automation, and the full stack around them. 5+ years professional."
     },
     "bio": [
-      "I'm a Moroccan software engineer based in IJlst, Friesland. My work focuses on building products end-to-end — not one layer, but the whole product.",
-      "I started as a full-stack engineer and became tech lead at a sportstech startup where I grew the engineering team from 2 to 12+. After that I worked 2.5 years as sole technical owner of an AI computer vision platform for a Dutch agritech company — building everything: application, ML pipelines, hybrid infrastructure and production operations.",
-      "From July 2026 I work independently for Dutch scale-ups and SMEs that need senior engineering and AI integration help."
+      "I'm a Moroccan AI software engineer based in IJlst, Friesland. My work focuses on production-ready AI systems — agents, RAG, document automation — and the full-stack that supports them.",
+      "I started as a full-stack engineer and grew into tech lead at a sportstech startup where I scaled the engineering team from 2 to 12+. After that, 2.5 years as sole technical owner of an AI computer vision platform for a Dutch agritech company — application, ML pipelines, hybrid infrastructure, and production operations.",
+      "I work independently with Dutch scale-ups and SMBs that need production-ready AI systems — not POCs, but systems that scale and keep working."
     ],
     "approach": {
       "title": "My approach",
@@ -319,8 +315,7 @@
       "languages": [
         "Arabic — native",
         "English — professional",
-        "French — professional",
-        "Dutch — basic (working)"
+        "French — professional"
       ]
     },
     "stack": {
@@ -379,7 +374,7 @@
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
-    "tagline": "Senior software engineering and AI integration for Dutch scale-ups.",
+    "tagline": "Production-ready AI systems for Dutch scale-ups.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elsewhere",

@@ -60,10 +60,8 @@ function Home() {
             <dt>{t('readme.name')}</dt><dd>{t('readme.nameValue')}</dd>
             <dt>{t('readme.role')}</dt><dd>{t('readme.roleValue')}</dd>
             <dt>{t('readme.based')}</dt><dd>{t('readme.basedValue')}</dd>
-            <dt>{t('readme.stack')}</dt><dd>{t('readme.stackValue')}</dd>
             <dt>{t('readme.lang')}</dt><dd>{t('readme.langValue')}</dd>
             <dt>{t('readme.kvk')}</dt><dd>{t('readme.kvkValue')}</dd>
-            <dt>{t('readme.available')}</dt><dd className="ok">{t('readme.availableValue')}</dd>
           </dl>
         </div>
       </section>

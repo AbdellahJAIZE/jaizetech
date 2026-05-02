@@ -5,7 +5,7 @@ export default function SchemaJsonLd({ locale }: Props) {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Abdellah Jaize',
-    jobTitle: 'Senior Software Engineer',
+    jobTitle: 'AI Software Engineer',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'IJlst',
@@ -17,7 +17,7 @@ export default function SchemaJsonLd({ locale }: Props) {
       'https://linkedin.com/in/abdellah-jaize',
       'https://github.com/AbdellahJAIZE'
     ],
-    knowsLanguage: ['nl', 'en', 'fr', 'ar']
+    knowsLanguage: ['en', 'fr', 'ar']
   };
 
   const service = {

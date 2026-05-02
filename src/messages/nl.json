@@ -3,7 +3,7 @@
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
     "defaultTitle": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "defaultDescription": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen. Beschikbaar vanaf juli 2026."
+    "defaultDescription": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen, vaste scope."
   },
   "nav": {
     "services": "Diensten",
@@ -17,10 +17,10 @@
   },
   "home": {
     "title": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen. Beschikbaar vanaf juli 2026.",
+    "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen, vaste scope.",
     "hero": {
       "headline": "Productieklare AI: agenten, RAG en document-automatisering.",
-      "lead": "Voor Nederlandse scale-ups en SMB's. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief. Beschikbaar vanaf juli 2026.",
+      "lead": "Voor Nederlandse scale-ups en SMB's. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief.",
       "ctaPrimary": "Plan een gratis kennismakingsgesprek",
       "ctaSecondary": "Bekijk diensten"
     },
@@ -29,17 +29,13 @@
       "name": "naam",
       "nameValue": "Abdellah Jaize",
       "role": "rol",
-      "roleValue": "Senior software engineer · Tech lead",
+      "roleValue": "AI software engineer",
       "based": "gevestigd",
       "basedValue": "IJlst, Nederland",
-      "stack": "stack",
-      "stackValue": "NestJS · Next.js · Python · NVIDIA Triton · AWS",
       "lang": "talen",
-      "langValue": "Nederlands · Engels · Frans · Arabisch",
+      "langValue": "Engels · Frans · Arabisch",
       "kvk": "kvk",
-      "kvkValue": "in registratie · juni 2026",
-      "available": "beschikbaar",
-      "availableValue": "vanaf juli 2026"
+      "kvkValue": "in registratie · juni 2026"
     },
     "services": {
       "kicker": "Wat ik lever",
@@ -72,8 +68,8 @@
           "a": "Vaste prijzen worden vooraf afgesproken. Wijzigingen lopen via een korte verandering-aanvraag met aangepaste prijs en termijn."
         },
         {
-          "q": "Werk je in het Nederlands of Engels?",
-          "a": "Beide. Documentatie en code in het Engels (industriestandaard). Meetings en e-mail naar voorkeur — Nederlands of Engels."
+          "q": "In welke taal werk je?",
+          "a": "Engels — voor documentatie, code, meetings en e-mail. Industriestandaard voor tech-teams in Nederland."
         }
       ]
     },
@@ -281,16 +277,16 @@
   },
   "about": {
     "title": "Over · Jaize",
-    "description": "Senior software engineer en tech lead, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring in startup, scale-up en agritech.",
+    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met production-ready AI-systemen, RAG, agents en volledige stack ontwikkeling.",
     "hero": {
       "kicker": "Over",
-      "headline": "Abdellah Jaize · Senior Software Engineer.",
-      "lead": "Ik bouw production-ready software end-to-end — backend, frontend, AI-integratie en infrastructuur. 5+ jaar professioneel."
+      "headline": "Abdellah Jaize · AI Software Engineer.",
+      "lead": "Ik bouw productieklare AI-systemen — agenten, RAG, document-automatisering en de volledige stack eromheen. 5+ jaar professioneel."
     },
     "bio": [
-      "Ik ben een Marokkaanse software engineer gevestigd in IJlst, Friesland. Mijn werk focust op het einde-naar-einde bouwen van producten — niet één laag, maar het hele product.",
-      "Ik begon als full-stack engineer en ben tech lead geworden bij een sportstech startup waar ik het engineering team uitbreidde van 2 naar 12+. Daarna heb ik 2,5 jaar als sole technical owner gewerkt aan een AI computer vision platform voor een Nederlands agritech bedrijf — alles gebouwd: applicatie, ML pijplijnen, hybrid infrastructuur en productie operations.",
-      "Vanaf juli 2026 werk ik zelfstandig voor Nederlandse scale-ups en MKB die senior engineering- en AI-integratiehulp nodig hebben."
+      "Ik ben een Marokkaanse AI software engineer gevestigd in IJlst, Friesland. Mijn werk focust op productieklare AI-systemen — agenten, RAG, document-automatisering — en de full-stack die ze ondersteunt.",
+      "Ik begon als full-stack engineer en groeide naar tech lead bij een sportstech startup waar ik het engineering team uitbreidde van 2 naar 12+. Daarna 2,5 jaar als sole technical owner van een AI computer vision platform voor een Nederlands agritech bedrijf — applicatie, ML pijplijnen, hybride infrastructuur en productie operations.",
+      "Ik werk zelfstandig voor Nederlandse scale-ups en MKB die productieklare AI-systemen nodig hebben — niet PoC's, maar systemen die opschalen en blijven werken."
     ],
     "approach": {
       "title": "Mijn aanpak",
@@ -319,8 +315,7 @@
       "languages": [
         "Arabisch — moedertaal",
         "Engels — professioneel",
-        "Frans — professioneel",
-        "Nederlands — basis (werkend)"
+        "Frans — professioneel"
       ]
     },
     "stack": {
@@ -379,7 +374,7 @@
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
   "footer": {
-    "tagline": "Senior software engineering en AI-integratie voor Nederlandse scale-ups.",
+    "tagline": "Productieklare AI-systemen voor Nederlandse scale-ups.",
     "linksTitle": "Snel naar",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elders",
