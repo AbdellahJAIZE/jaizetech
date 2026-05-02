@@ -1,6 +1,9 @@
 # Cloudflare Pages redirects — handle default-locale routing
 # (next-intl middleware doesn't run with static export, so we route here.)
 
+# Root → default locale
+/              /nl               301
+
 # Bare paths → default locale (Dutch)
 /services      /nl/services      301
 /work          /nl/work          301
