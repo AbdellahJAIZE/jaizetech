@@ -26,8 +26,8 @@ export default function SchemaJsonLd({ locale }: Props) {
     name: 'Jaize',
     description:
       locale === 'nl'
-        ? 'Senior software engineering en AI-integratie voor Nederlandse scale-ups.'
-        : 'Senior software engineering and AI integration for Dutch scale-ups.',
+        ? 'Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack.'
+        : 'Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery.',
     url: 'https://jaizetech.nl',
     areaServed: { '@type': 'Country', name: 'Netherlands' },
     priceRange: '€€€',
