@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RevealOnScroll from '@/components/RevealOnScroll';
+import SchemaJsonLd from '@/components/SchemaJsonLd';
 import '@/styles/globals.css';
 
 const inter = Inter({
@@ -90,6 +91,7 @@ export default async function LocaleLayout({
           <Footer />
           <RevealOnScroll />
         </NextIntlClientProvider>
+        <SchemaJsonLd locale={locale} />
       </body>
     </html>
   );
