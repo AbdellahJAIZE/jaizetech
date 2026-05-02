@@ -78,6 +78,11 @@ function Home() {
             <ServiceCard key={i} index={i} />
           ))}
         </div>
+        <div className="show-all-services reveal">
+          <Link className="btn btn-secondary" href="/services">
+            {t('services.viewAll')}<span className="arrow">→</span>
+          </Link>
+        </div>
       </section>
 
       <hr className="hr-rule" />

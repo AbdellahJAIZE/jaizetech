@@ -7,12 +7,10 @@ type Props = {
 
 export default function ServiceCard({ index }: Props) {
   const t = useTranslations('services');
-  const home = useTranslations('home');
 
   const item = (t.raw('items') as Array<{
     id: string;
     name: string;
-    price: string;
     duration: string;
     summary: string;
   }>)[index];
@@ -22,12 +20,11 @@ export default function ServiceCard({ index }: Props) {
       <div className="top">
         <h3>{item.name}</h3>
         <div className="price-block">
-          <span className="price">{item.price}</span>
-          <span>{item.duration}</span>
+          <span className="duration-only">{item.duration}</span>
         </div>
       </div>
       <p>{item.summary}</p>
-      <span className="read-more">{home('services.viewAll')} →</span>
+      <span className="read-more">Lees meer →</span>
     </Link>
   );
 }
