@@ -349,7 +349,8 @@
     "options": {
       "scheduleTitle": "Book directly",
       "scheduleLead": "Pick a time slot — confirmation in your inbox immediately.",
-      "scheduleButton": "Open Cal.com",
+      "scheduleIntro": "Intro call (15 min)",
+      "scheduleDeeper": "In-depth call (30 min)",
       "messageTitle": "Send a message",
       "messageLead": "Tell me briefly what you're working on. I reply within 24 hours."
     },

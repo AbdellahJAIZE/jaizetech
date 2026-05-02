@@ -41,14 +41,24 @@ function Contact() {
             <div className="contact-card">
               <h3>{t('options.scheduleTitle')}</h3>
               <p>{t('options.scheduleLead')}</p>
-              <a
-                className="btn btn-primary"
-                href="https://cal.com/abdellah-jaize/15min"
-                target="_blank"
-                rel="noopener"
-              >
-                {t('options.scheduleButton')}<span className="arrow">→</span>
-              </a>
+              <div className="cal-buttons">
+                <a
+                  className="btn btn-primary"
+                  href="https://cal.com/jaize/15min"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {t('options.scheduleIntro')}<span className="arrow">→</span>
+                </a>
+                <a
+                  className="btn btn-secondary"
+                  href="https://cal.com/jaize/30min"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {t('options.scheduleDeeper')}<span className="arrow">→</span>
+                </a>
+              </div>
             </div>
 
             <div className="contact-card">

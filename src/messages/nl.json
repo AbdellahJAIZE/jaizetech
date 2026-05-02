@@ -349,7 +349,8 @@
     "options": {
       "scheduleTitle": "Plan direct",
       "scheduleLead": "Kies een tijdslot dat werkt — bevestiging direct in je inbox.",
-      "scheduleButton": "Open Cal.com",
+      "scheduleIntro": "Kennismakingsgesprek (15 min)",
+      "scheduleDeeper": "Uitgebreid gesprek (30 min)",
       "messageTitle": "Stuur een bericht",
       "messageLead": "Vertel me kort waar je mee bezig bent. Ik reageer binnen 24 uur."
     },
