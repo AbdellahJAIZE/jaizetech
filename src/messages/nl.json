@@ -20,7 +20,7 @@
     "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen, vaste scope.",
     "hero": {
       "headline": "Productieklare AI: agenten, RAG en document-automatisering.",
-      "lead": "Voor Nederlandse scale-ups en SMB's. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief.",
+      "lead": "Voor Nederlandse scale-ups en MKB. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief.",
       "ctaPrimary": "Plan een gratis kennismakingsgesprek",
       "ctaSecondary": "Bekijk diensten"
     },
@@ -65,7 +65,7 @@
         },
         {
           "q": "Wat als de scope verandert?",
-          "a": "Vaste prijzen worden vooraf afgesproken. Wijzigingen lopen via een korte verandering-aanvraag met aangepaste prijs en termijn."
+          "a": "Vaste prijzen worden vooraf afgesproken. Wijzigingen lopen via een kort wijzigingsverzoek met aangepaste prijs en termijn."
         },
         {
           "q": "In welke taal werk je?",
@@ -119,7 +119,7 @@
         "name": "AI Workflow Agent",
         "price": "€25.000",
         "duration": "6 weken",
-        "for": "Bedrijven met repetitieve onderzoeks-, operations- of analyse-workflows die geautomatiseerd moeten worden met AI die echt redenert.",
+        "for": "Bedrijven met repetitieve onderzoeks-, operations- of analyse-workflows die geautomatiseerd moeten worden met AI die echt redeneert.",
         "summary": "AI-agent gebouwd met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
         "delivers": [
           "Discovery: workflow mapping en scope-definitie",
@@ -211,7 +211,7 @@
     "hero": {
       "kicker": "Werk",
       "headline": "Wat ik recent heb gebouwd.",
-      "lead": "Drie opdrachten met concrete uitkomsten. Geen marketing, geen logo-soep — alleen wat ik heb verzonden."
+      "lead": "Drie opdrachten met concrete uitkomsten. Geen marketing, geen logo-soep — alleen wat ik heb opgeleverd."
     },
     "labels": {
       "challenge": "Uitdaging",
@@ -227,7 +227,7 @@
         "year": "2023 – heden",
         "role": "Sole technical owner",
         "challenge": "Een legacy kwaliteitscontrole platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert.",
-        "approach": "Volledige stack vanaf grond opgebouwd: NestJS backend (37+ modules), Vue.js frontend (49 pagina's), PostgreSQL, en NVIDIA Triton inferentie pijplijn met ResNet en YOLO. Hybrid on-prem plus cloud setup.",
+        "approach": "Volledige stack vanaf de grond opgebouwd: NestJS backend (37+ modules), Vue.js frontend (49 pagina's), PostgreSQL, en NVIDIA Triton inferentie-pijplijn met ResNet en YOLO. Hybride on-prem plus cloud setup.",
         "outcomes": [
           "3 miljoen+ AI-inferentie calls geleverd in productie",
           "5 talen ondersteund met multi-locale annotatie workflows",
@@ -277,7 +277,7 @@
   },
   "about": {
     "title": "Over · Jaize",
-    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met production-ready AI-systemen, RAG, agents en volledige stack ontwikkeling.",
+    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met productieklare AI-systemen, RAG, agents en volledige stack ontwikkeling.",
     "hero": {
       "kicker": "Over",
       "headline": "Abdellah Jaize · AI Software Engineer.",
