@@ -355,60 +355,71 @@
   "about": {
     "title": "About · Jaize",
     "description": "AI software engineer, based in IJlst. M.Sc. Big Data and IoT. 5+ years of professional experience shipping production-ready AI systems, RAG, agents, and full-stack.",
+    "breadcrumb": "About",
+    "photoInitials": "AJ",
+    "photoMeta": {
+      "name": "ABDELLAH JAIZE",
+      "status": "AVAILABLE"
+    },
     "hero": {
       "kicker": "About",
-      "headline": "Abdellah Jaize · AI Software Engineer.",
-      "lead": "I build production-ready AI systems — agents, RAG, document automation, and the full stack around them. 5+ years professional."
+      "name": "Abdellah Jaize",
+      "role": "AI Software Engineer · AI integration · Technical leadership"
     },
     "bio": [
-      "I'm a Moroccan AI software engineer based in IJlst, Friesland. My work focuses on production-ready AI systems — agents, RAG, document automation — and the full-stack that supports them.",
-      "I started as a full-stack engineer and grew into tech lead at a sportstech startup where I scaled the engineering team from 2 to 12+. After that, 2.5 years as sole technical owner of an AI computer vision platform for a Dutch agritech company — application, ML pipelines, hybrid infrastructure, and production operations.",
-      "I work independently with Dutch scale-ups and SMBs that need production-ready AI systems — not POCs, but systems that scale and keep working."
+      "Born in Morocco, based in IJlst, Friesland. Five years of professional software engineering, with the last 2.5 years as sole technical owner of an AI computer-vision platform at a Dutch agritech company — 3M+ inference calls per month on a hybrid on-prem + cloud setup.",
+      "Before that, two years as tech lead at a sportstech startup, where I grew the engineering team from 2 to 12+ and reported to the board on technical strategy.",
+      "From June 2026 operating independently (eenmanszaak) under the name Jaize. I work with Dutch scale-ups that need senior engineering and AI integration — fixed price, clear deliverables."
     ],
     "approach": {
-      "title": "My approach",
+      "label": "01 — APPROACH",
+      "title": "How I work",
       "items": [
-        "End-to-end ownership — I build the whole system, not one layer",
-        "Fixed price and fixed scope where possible — no quote ballet",
-        "Production-ready from day 1 — monitored, tested, deployed",
-        "Honest assessments — if I think something doesn't fit, I'll say so"
+        { "num": "01", "title": "Fixed price, fixed scope", "body": "No open-ended engagements. Deliverables and timeline agreed upfront. Changes go through a short change request." },
+        { "num": "02", "title": "Production over prototype", "body": "Everything I build is production-ready — monitored, tested, documented. No demos that collapse later." },
+        { "num": "03", "title": "Boring tech where possible", "body": "PostgreSQL over exotic databases. Known frameworks over trending. I pick what's still maintainable in five years." },
+        { "num": "04", "title": "Handover is part of the work", "body": "At the end of each engagement I leave a team that can carry on without me. Code, docs, walkthrough — no black boxes." }
+      ]
+    },
+    "experience": {
+      "label": "02 — EXPERIENCE",
+      "title": "Work history",
+      "items": [
+        { "date": "2023 — present", "role": "Sole Technical Owner — Inovaa (Dutch agritech)", "stack": "AI computer-vision platform · NestJS, Vue, Triton, OCR" },
+        { "date": "2022 — 2023", "role": "Tech Lead — AppiStadium (sportstech)", "stack": "Team grown from 2 → 12+ · React Native, Unity, mobile + web" },
+        { "date": "2020 — 2021", "role": "Backend Engineer — ScanBon (fintech)", "stack": "OCR pipeline + analytics API · Node.js, GCP" }
       ]
     },
     "credentials": {
-      "title": "Background",
-      "educationLabel": "Education",
-      "certsLabel": "Certifications",
-      "languagesLabel": "Languages",
+      "label": "03 — EDUCATION & LANGUAGES",
+      "title": "Education and languages",
+      "educationLabel": "EDUCATION",
+      "languagesLabel": "LANGUAGES",
       "education": [
-        "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
-        "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
-      ],
-      "certs": [
-        "NVIDIA DLI: Fundamentals of Deep Learning (2021)",
-        "NVIDIA DLI: Building Intelligent Recommender Systems (2022)",
-        "IBM Hackathon — 1st place (national)",
-        "Facebook Messenger Bot Challenge — finalist (international)"
+        { "label": "MASTER", "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019–2021)" },
+        { "label": "BACHELOR", "value": "B.Sc. Big Data & Massive Data Management · FST Settat (2018–2019)" }
       ],
       "languages": [
-        "Arabic — native",
-        "English — professional",
-        "French — professional"
-      ]
+        { "label": "LANGUAGES", "value": "Arabic (native) · English & French (professional)" },
+        { "label": "LOCATION", "value": "IJlst, Friesland · works remote and on-site across NL" }
+      ],
+      "kvkLabel": "KVK",
+      "kvkValue": "Jaize (eenmanszaak) · KvK 12345678 · BTW NL000000000B01"
     },
     "stack": {
-      "title": "Stack",
+      "label": "04 — TOOLS & TECH",
+      "title": "Tools and technology",
       "groups": [
-        { "label": "Backend", "items": ["NestJS", "Node / TypeScript", "Python", "Flask", "REST", "OAuth2", "JWT", "RBAC"] },
-        { "label": "Frontend", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
-        { "label": "AI / ML", "items": ["LLM APIs (OpenAI, Anthropic, Gemini)", "LangGraph", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
-        { "label": "Cloud / DevOps", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD", "Nginx"] },
-        { "label": "Data", "items": ["PostgreSQL", "MongoDB", "MySQL"] }
+        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "PostgreSQL", "MongoDB"] },
+        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
+        { "label": "AI / ML", "items": ["LangGraph", "LangChain", "OpenAI", "Anthropic", "Gemini", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
+        { "label": "CLOUD", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD"] }
       ]
     },
     "cta": {
       "title": "Want to work together?",
-      "lead": "Book a 15-minute call or send a short note.",
-      "primary": "Book a call"
+      "lead": "Book a 15-minute call or send a message via the contact form.",
+      "primary": "Go to contact"
     }
   },
   "contact": {

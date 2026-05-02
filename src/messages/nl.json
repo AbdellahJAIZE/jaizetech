@@ -355,60 +355,71 @@
   "about": {
     "title": "Over · Jaize",
     "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met productieklare AI-systemen, RAG, agents en volledige stack ontwikkeling.",
+    "breadcrumb": "Over",
+    "photoInitials": "AJ",
+    "photoMeta": {
+      "name": "ABDELLAH JAIZE",
+      "status": "BESCHIKBAAR"
+    },
     "hero": {
       "kicker": "Over",
-      "headline": "Abdellah Jaize · AI Software Engineer.",
-      "lead": "Ik bouw productieklare AI-systemen — agenten, RAG, document-automatisering en de volledige stack eromheen. 5+ jaar professioneel."
+      "name": "Abdellah Jaize",
+      "role": "AI Software Engineer · AI-integratie · Technisch Leiderschap"
     },
     "bio": [
-      "Ik ben een Marokkaanse AI software engineer gevestigd in IJlst, Friesland. Mijn werk focust op productieklare AI-systemen — agenten, RAG, document-automatisering — en de full-stack die ze ondersteunt.",
-      "Ik begon als full-stack engineer en groeide naar tech lead bij een sportstech startup waar ik het engineering team uitbreidde van 2 naar 12+. Daarna 2,5 jaar als sole technical owner van een AI computer vision platform voor een Nederlands agritech bedrijf — applicatie, ML pijplijnen, hybride infrastructuur en productie operations.",
-      "Ik werk zelfstandig voor Nederlandse scale-ups en MKB die productieklare AI-systemen nodig hebben — niet PoC's, maar systemen die opschalen en blijven werken."
+      "Geboren in Marokko, gevestigd in IJlst, Friesland. Vijf jaar professionele software engineering, met de laatste 2,5 jaar als enige technische owner van een AI computer-vision platform bij een Nederlandse agritech-bedrijf — 3M+ inferentie-calls per maand op een hybride on-prem + cloud setup.",
+      "Daarvoor twee jaar als tech lead bij een sportstech-startup, waar ik het engineering-team uitbreidde van 2 naar 12+ en aan het board rapporteerde over technische strategie.",
+      "Vanaf juni 2026 zelfstandig ondernemer (eenmanszaak) onder de naam Jaize. Ik werk voor Nederlandse scale-ups die senior engineering en AI-integratie nodig hebben — op vaste prijs, met duidelijke deliverables."
     ],
     "approach": {
+      "label": "01 — AANPAK",
       "title": "Mijn aanpak",
       "items": [
-        "End-to-end ownership — ik bouw het hele systeem, niet één laag",
-        "Vaste prijs en vaste scope waar mogelijk — geen offerteballet",
-        "Productieklaar vanaf dag 1 — gemonitord, getest, gedeployed",
-        "Eerlijke beoordelingen — als ik denk dat iets niet past, zeg ik dat"
+        { "num": "01", "title": "Vaste prijs, vaste scope", "body": "Geen open einde. Vooraf afgesproken deliverables en termijn. Wijzigingen lopen via een kort wijzigingsverzoek." },
+        { "num": "02", "title": "Productie boven prototype", "body": "Alles wat ik bouw is direct productieklaar — met monitoring, tests en documentatie. Geen demo's die later instorten." },
+        { "num": "03", "title": "Saaie technologie waar mogelijk", "body": "PostgreSQL boven exotische databases. Bekende frameworks boven trending. Ik kies voor wat over vijf jaar nog onderhoudbaar is." },
+        { "num": "04", "title": "Overdracht is onderdeel van het werk", "body": "Aan het einde van elke opdracht laat ik een team achter dat zonder mij verder kan. Code, docs en walkthrough — geen black box." }
+      ]
+    },
+    "experience": {
+      "label": "02 — WERKERVARING",
+      "title": "Werkervaring",
+      "items": [
+        { "date": "2023 — heden", "role": "Sole Technical Owner — Inovaa (Nederlandse agritech)", "stack": "AI computer-vision platform · NestJS, Vue, Triton, OCR" },
+        { "date": "2022 — 2023", "role": "Tech Lead — AppiStadium (sportstech)", "stack": "Team van 2 → 12+ · React Native, Unity, mobile + web" },
+        { "date": "2020 — 2021", "role": "Backend Engineer — ScanBon (fintech)", "stack": "OCR pipeline + analytics API · Node.js, GCP" }
       ]
     },
     "credentials": {
-      "title": "Achtergrond",
-      "educationLabel": "Opleiding",
-      "certsLabel": "Certificeringen",
-      "languagesLabel": "Talen",
+      "label": "03 — OPLEIDING EN TALEN",
+      "title": "Opleiding en talen",
+      "educationLabel": "OPLEIDING",
+      "languagesLabel": "TALEN",
       "education": [
-        "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
-        "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
-      ],
-      "certs": [
-        "NVIDIA DLI: Fundamentals of Deep Learning (2021)",
-        "NVIDIA DLI: Building Intelligent Recommender Systems (2022)",
-        "IBM Hackathon — 1e plaats (nationaal)",
-        "Facebook Messenger Bot Challenge — finalist (internationaal)"
+        { "label": "MASTER", "value": "M.Sc. Computer Science · Universiteit Iā (toevoegd)" },
+        { "label": "BACHELOR", "value": "B.Sc. Computer Science · ENSAM Casablanca" }
       ],
       "languages": [
-        "Arabisch — moedertaal",
-        "Engels — professioneel",
-        "Frans — professioneel"
-      ]
+        { "label": "TALEN", "value": "Arabisch (moedertaal) · Engels en Frans (professioneel)" },
+        { "label": "LOCATIE", "value": "IJlst, Friesland · werkt remote en op locatie in heel NL" }
+      ],
+      "kvkLabel": "KVK",
+      "kvkValue": "Jaize (eenmanszaak) · KvK 12345678 · BTW NL000000000B01"
     },
     "stack": {
-      "title": "Stack",
+      "label": "04 — TOOLS EN TECHNOLOGIE",
+      "title": "Tools en technologie",
       "groups": [
-        { "label": "Backend", "items": ["NestJS", "Node / TypeScript", "Python", "Flask", "REST", "OAuth2", "JWT", "RBAC"] },
-        { "label": "Frontend", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
-        { "label": "AI / ML", "items": ["LLM APIs (OpenAI, Anthropic, Gemini)", "LangGraph", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
-        { "label": "Cloud / DevOps", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD", "Nginx"] },
-        { "label": "Data", "items": ["PostgreSQL", "MongoDB", "MySQL"] }
+        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "PostgreSQL", "MongoDB"] },
+        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
+        { "label": "AI / ML", "items": ["LangGraph", "LangChain", "OpenAI", "Anthropic", "Gemini", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
+        { "label": "CLOUD", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD"] }
       ]
     },
     "cta": {
       "title": "Wil je samenwerken?",
-      "lead": "Plan een gesprek van 15 minuten of stuur een korte mail.",
-      "primary": "Plan een gesprek"
+      "lead": "Plan een gesprek van 15 minuten of stuur een bericht via het contactformulier.",
+      "primary": "Naar contact"
     }
   },
   "contact": {
