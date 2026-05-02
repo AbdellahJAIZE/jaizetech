@@ -35,7 +35,7 @@
       "lang": "languages",
       "langValue": "English · French · Arabic",
       "kvk": "kvk",
-      "kvkValue": "registering · june 2026"
+      "kvkValue": "registering · June 2026"
     },
     "services": {
       "kicker": "What I deliver",
@@ -65,7 +65,7 @@
           "a": "No. I work with multiple clients in parallel — usually max 12–15 days per month per engagement. This protects independence and focus."
         },
         {
-          "q": "What if scope changes?",
+          "q": "What if the scope changes?",
           "a": "Fixed prices are agreed up front. Changes go through a short change request with adjusted price and timeline."
         },
         {
@@ -88,7 +88,7 @@
     "hero": {
       "kicker": "Services",
       "headline": "From idea to production AI.",
-      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline, pricing scoped per engagement. No quote ballet."
+      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline, pricing scoped per engagement. No quote runaround."
     },
     "labels": {
       "duration": "Timeline",
@@ -121,7 +121,7 @@
         "id": "rag-assistant",
         "name": "RAG Knowledge Assistant",
         "duration": "3–6 weeks",
-        "for": "Companies with heavy internal documentation — manuals, contracts, policies, tickets — that need teams to find answers faster.",
+        "for": "Companies with heavy internal documentation — manuals, contracts, policies, tickets — so their teams can find answers faster.",
         "summary": "Secure RAG assistant over your company documents. Vector search, citations, evaluation, and production deployment.",
         "delivers": [
           "Document ingestion pipeline (PDF, DOCX, web pages, Notion)",
@@ -163,7 +163,7 @@
           "Admin / analytics dashboard",
           "Deployment on AWS, GCP, or Cloudflare with CI/CD"
         ],
-        "excludes": "Native mobile apps. Complex ML training."
+        "excludes": "Native mobile apps. Complex ML training (use AI Workflow Agent or RAG for that)."
       },
       {
         "id": "doc-automation",
@@ -188,7 +188,7 @@
         "for": "5–20 person startups without full-time technical leadership who need senior thinking on architecture, AI strategy, and hiring.",
         "summary": "One day per week of strategic plus tactical technical leadership — architecture, AI roadmap, hiring, team coaching, vendor evaluations.",
         "delivers": [
-          "1 day per week (Wednesdays default) on-site or remote",
+          "1 day per week (Wednesdays by default) on-site or remote",
           "Weekly 1-on-1 with founder or CEO",
           "Architecture decisions and code reviews",
           "AI roadmap and build-vs-buy guidance",
@@ -336,12 +336,12 @@
         "sector": "FinTech · B2C receipt management",
         "year": "2025 – 2026",
         "role": "Backend Engineer",
-        "summary": "Turn photos of paper receipts into structured expense data, plus an analytics API for mobile dashboards. NestJS backend, OCR pipeline, and JWT auth.",
+        "summary": "Turned photos of paper receipts into structured expense data, with an analytics API for mobile dashboards. NestJS backend, OCR pipeline, and JWT auth.",
         "approach": "OCR via Google Cloud Vision with edge-case and post-processing loop, NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
         "stats": [
           { "value": "50K+", "label": "Receipts processed" },
           { "value": "<2s", "label": "OCR latency p95" },
-          { "value": "4mo", "label": "Engagement" }
+          { "value": "4mo", "label": "Duration" }
         ],
         "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
         "production": "Production-Ready MVP 2025–2026"
@@ -395,7 +395,7 @@
       "label": "03 — EDUCATION & LANGUAGES",
       "title": "Education and languages",
       "educationLabel": "EDUCATION",
-      "languagesLabel": "LANGUAGES",
+      "languagesLabel": "LANGUAGES & LOCATION",
       "education": [
         { "label": "MASTER", "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019–2021)" },
         { "label": "BACHELOR", "value": "B.Sc. Big Data & Massive Data Management · FST Settat (2018–2019)" }
@@ -461,7 +461,7 @@
       "headline": "Notes.",
       "lead": "Short pieces on senior engineering, AI integration in production, and running a freelance practice in the Netherlands."
     },
-    "subscribeTitle": "Want to follow along? Don't miss a post.",
+    "subscribeTitle": "Don't want to miss a post?",
     "subscribeLink": "Subscribe via RSS",
     "empty": "No posts published yet. The first one is coming soon."
   },

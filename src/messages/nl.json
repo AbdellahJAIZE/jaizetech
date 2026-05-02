@@ -3,7 +3,7 @@
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
     "defaultTitle": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "defaultDescription": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen, vaste scope."
+    "defaultDescription": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en fullstack-ontwikkeling. Vaste prijzen, vaste scope."
   },
   "nav": {
     "services": "Diensten",
@@ -17,10 +17,10 @@
   },
   "home": {
     "title": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en volledige stack ontwikkeling. Vaste prijzen, vaste scope.",
+    "description": "Productieklare AI-systemen voor Nederlandse scale-ups: AI-agenten, RAG-assistenten, document-automatisering en fullstack-ontwikkeling. Vaste prijzen, vaste scope.",
     "hero": {
       "headline": "Productieklare AI: agenten, RAG en document-automatisering.",
-      "lead": "Voor Nederlandse scale-ups en MKB. LangGraph, RAG, OCR en volledige stack — van prototype naar productie. Vaste prijs of dagtarief.",
+      "lead": "Voor Nederlandse scale-ups en MKB. LangGraph, RAG, OCR en fullstack — van prototype naar productie. Vaste prijs of dagtarief.",
       "ctaPrimary": "Plan een gratis kennismakingsgesprek",
       "ctaSecondary": "Bekijk diensten"
     },
@@ -35,7 +35,7 @@
       "lang": "talen",
       "langValue": "Engels · Frans · Arabisch",
       "kvk": "kvk",
-      "kvkValue": "in registratie · juni 2026"
+      "kvkValue": "i.o. · juni 2026"
     },
     "services": {
       "kicker": "Wat ik lever",
@@ -62,7 +62,7 @@
         },
         {
           "q": "Werk je voor één klant tegelijk?",
-          "a": "Nee. Ik werk parallel met meerdere klanten — meestal max 12–15 dagen per maand per opdracht. Dit beschermt zelfstandigheid en focus."
+          "a": "Nee. Ik werk parallel met meerdere klanten — meestal maximaal 12–15 dagen per maand per opdracht. Zo houd ik mijn zelfstandigheid en focus."
         },
         {
           "q": "Wat als de scope verandert?",
@@ -88,7 +88,7 @@
     "hero": {
       "kicker": "Diensten",
       "headline": "Van idee naar productie-AI.",
-      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Vaste doorlooptijd, prijs op basis van scope. Geen offerteballet."
+      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Vaste doorlooptijd, prijs op basis van scope. Geen offerte-circus."
     },
     "labels": {
       "duration": "Doorlooptijd",
@@ -106,7 +106,7 @@
         "id": "ai-audit",
         "name": "AI Integration Audit",
         "duration": "1-week sprint",
-        "for": "CTO of founder die wil weten waar AI in het product écht waarde toevoegt — en waar het tijdverspilling is.",
+        "for": "CTO of founder die wil weten waar AI in het product écht waarde toevoegt — en waar het zonde van de tijd is.",
         "summary": "Snelle technische review van je stack, identificatie van de 5–10 hoogste-impact AI-integratiekansen, met geprioriteerde routekaart en werkend prototype.",
         "delivers": [
           "Codebase en product walkthrough",
@@ -121,7 +121,7 @@
         "id": "rag-assistant",
         "name": "RAG Knowledge Assistant",
         "duration": "3–6 weken",
-        "for": "Bedrijven met veel interne documentatie — handleidingen, contracten, beleid, tickets — die hun teams sneller antwoorden willen geven.",
+        "for": "Bedrijven met veel interne documentatie — handleidingen, contracten, beleid, tickets — die hun teams sneller willen helpen aan antwoorden.",
         "summary": "Veilige RAG-assistent over je bedrijfsdocumenten. Vector search, citaties, evaluatie en productie-deployment.",
         "delivers": [
           "Document ingestion pipeline (PDF, DOCX, webpages, Notion)",
@@ -137,7 +137,7 @@
         "id": "ai-agent",
         "name": "AI Workflow Agent",
         "duration": "4–8 weken",
-        "for": "Bedrijven met repetitieve onderzoeks-, operations- of analyse-workflows die geautomatiseerd moeten worden met AI die echt redeneert.",
+        "for": "Bedrijven met repetitieve onderzoeks-, operationele of analyse-workflows die je wilt automatiseren met AI die echt redeneert.",
         "summary": "AI-agent met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
         "delivers": [
           "Discovery: workflow mapping en scope-definitie",
@@ -153,7 +153,7 @@
         "id": "mvp",
         "name": "AI SaaS MVP",
         "duration": "4–8 weken",
-        "for": "Founders en scale-ups die een AI-product van idee naar gedeployed product willen brengen — backend, frontend, auth, dashboards en AI-features.",
+        "for": "Founders en scale-ups die een AI-product van idee naar live product willen brengen — backend, frontend, auth, dashboards en AI-features.",
         "summary": "Volledige AI SaaS MVP: backend, frontend, auth, dashboards, AI-features en deployment. Klaar voor je eerste betalende klanten.",
         "delivers": [
           "NestJS / Node backend met REST of GraphQL API",
@@ -163,7 +163,7 @@
           "Admin / analytics dashboard",
           "Deployment op AWS, GCP of Cloudflare met CI/CD"
         ],
-        "excludes": "Native mobile apps. Complexe machine learning training."
+        "excludes": "Native mobile apps. Complexe ML-training (gebruik AI Workflow Agent of RAG)."
       },
       {
         "id": "doc-automation",
@@ -175,7 +175,7 @@
           "OCR pipeline (Tesseract, AWS Textract of Google Document AI)",
           "Document classificatie (facturen, bonnen, contracten, formulieren)",
           "LLM-gedreven structured extraction (key-value en tabellen)",
-          "Validatie-agents die fouten detecteren vóór downstream-systemen ze accepteren",
+          "Validatie-agents die fouten detecteren voordat downstream-systemen ze accepteren",
           "API of dashboard integratie met je bestaande tooling",
           "Audit trail en exportable reporting"
         ],
@@ -186,7 +186,7 @@
         "name": "Fractional CTO / AI Advisor",
         "duration": "Doorlopend (min. 3 maanden)",
         "for": "5–20 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op architectuur, AI-strategie en hiring.",
-        "summary": "Eén dag per week strategische plus tactische technische leiding — architecture, AI-roadmap, hiring, team coaching, vendor-evaluaties.",
+        "summary": "Eén dag per week strategische én tactische technische leiding — architectuur, AI-roadmap, hiring, team coaching, vendor-evaluaties.",
         "delivers": [
           "1 dag per week (standaard woensdag) on-site of remote",
           "Wekelijkse 1-op-1 met founder of CEO",
@@ -218,7 +218,7 @@
         "name": "AI Prototype / POC Sprint",
         "duration": "2–4 weken",
         "for": "Innovatie-teams, product managers en founders die AI-ideeën willen valideren voor er groot in te investeren.",
-        "summary": "Werkende POC van je AI-idee in 2–4 weken. Met echte data en eerlijke evaluatie. Productionize alleen wat zich bewijst.",
+        "summary": "Werkende POC van je AI-idee in 2–4 weken. Met echte data en eerlijke evaluatie. Naar productie alleen wat zich bewijst.",
         "delivers": [
           "Scope-workshop en succes-criteria",
           "Werkend prototype met representatieve data",
@@ -264,7 +264,7 @@
         "id": "devops-rescue",
         "name": "DevOps & Production Rescue",
         "duration": "2–6 weken",
-        "for": "Kleine SaaS-bedrijven, fabrieken en teams met één overbelaste developer wiens productie-systeem aan vernieuwing toe is.",
+        "for": "Kleine SaaS-bedrijven, fabrieken en teams met één overbelaste developer van wie het productiesysteem aan vernieuwing toe is.",
         "summary": "Stabiliseer en moderniseer productie-systemen — CI/CD, Docker, monitoring, backups, deployments en on-prem of cloud-migraties.",
         "delivers": [
           "Infrastructuur-audit en quick wins",
@@ -279,7 +279,7 @@
     ],
     "cta": {
       "title": "Niet zeker welke past?",
-      "lead": "Plan een gesprek van 15 minuten — ik vertel je eerlijk welke (of geen) bij je past.",
+      "lead": "Plan een gesprek van 15 minuten — ik vertel je eerlijk welke (of geen van deze) bij je past.",
       "primary": "Plan een gesprek"
     }
   },
@@ -305,7 +305,7 @@
         "year": "2023 – 2026",
         "role": "Sole Technical Owner",
         "summary": "Een legacy kwaliteitscontrole-platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert. Solo gebouwd, end-to-end.",
-        "approach": "Hybride architectuur: NVIDIA Triton voor model serving op eigen hardware, modulaire NestJS API en een data-pipeline met OCR en validatie-agents. 37+ backend modules, 49 frontend-pagina's, en een hybride on-prem + cloud setup voor cost-efficiency en hardware-soevereiniteit.",
+        "approach": "Hybride architectuur: NVIDIA Triton voor model serving op eigen hardware, modulaire NestJS API en een data-pipeline met OCR en validatie-agents. 37+ backend modules, 49 frontend-pagina's en een hybride on-prem + cloud setup voor kostenefficiëntie en hardware-soevereiniteit.",
         "stats": [
           { "value": "3M+", "label": "Inferentie-calls per maand" },
           { "value": "99.7%", "label": "Uptime over 2,5 jaar" },
@@ -320,7 +320,7 @@
         "sector": "Sportstech · Vroege-fase startup",
         "year": "2022 – 2023",
         "role": "Tech Lead",
-        "summary": "Een early-stage sportstech-startup had een 2-persoons engineering team en moest snel productieklare velocity halen. Ik nam tech lead over en bouwde het team uit terwijl we doorgingen met shippen.",
+        "summary": "Een early-stage sportstech-startup had een 2-persoons engineering team en moest snel productiesnelheid bereiken. Ik nam de tech-lead-rol over en bouwde het team uit terwijl we bleven shippen.",
         "approach": "Hands-on team-opbouw: zes maanden senior+medior hires, drie maanden React Native als core stack, daarna OAuth2 + Firebase Auth, dashboards en CI/CD op AWS. Ik bleef coderen en code reviewen tijdens het hiringproces.",
         "stats": [
           { "value": "2 → 12+", "label": "Team grootte" },
@@ -355,7 +355,7 @@
   },
   "about": {
     "title": "Over · Jaize",
-    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met productieklare AI-systemen, RAG, agents en volledige stack ontwikkeling.",
+    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met productieklare AI-systemen, RAG, agents en fullstack-ontwikkeling.",
     "breadcrumb": "Over",
     "photoInitials": "AJ",
     "photoMeta": {
@@ -368,7 +368,7 @@
       "role": "AI Software Engineer · AI-integratie · Technisch Leiderschap"
     },
     "bio": [
-      "Geboren in Marokko, gevestigd in IJlst, Friesland. Vijf jaar professionele software engineering, met de laatste 2,5 jaar als enige technische owner van een AI computer-vision platform bij een Nederlandse agritech-bedrijf — 3M+ inferentie-calls per maand op een hybride on-prem + cloud setup.",
+      "Geboren in Marokko, gevestigd in IJlst, Friesland. Vijf jaar als professioneel software engineer, waarvan de laatste 2,5 jaar als enige technisch eigenaar van een AI computer-vision platform bij een Nederlands agritech-bedrijf — 3M+ inferentie-calls per maand op een hybride on-prem + cloud setup.",
       "Daarvoor twee jaar als tech lead bij een sportstech-startup, waar ik het engineering-team uitbreidde van 2 naar 12+ en aan het board rapporteerde over technische strategie.",
       "Vanaf juni 2026 zelfstandig ondernemer (eenmanszaak) onder de naam Jaize. Ik werk voor Nederlandse scale-ups die senior engineering en AI-integratie nodig hebben — op vaste prijs, met duidelijke deliverables."
     ],
@@ -395,10 +395,10 @@
       "label": "03 — OPLEIDING EN TALEN",
       "title": "Opleiding en talen",
       "educationLabel": "OPLEIDING",
-      "languagesLabel": "TALEN",
+      "languagesLabel": "TALEN EN LOCATIE",
       "education": [
-        { "label": "MASTER", "value": "M.Sc. Computer Science · Universiteit Iā (toevoegd)" },
-        { "label": "BACHELOR", "value": "B.Sc. Computer Science · ENSAM Casablanca" }
+        { "label": "MASTER", "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019–2021)" },
+        { "label": "BACHELOR", "value": "B.Sc. Big Data & Massive Data Management · FST Settat (2018–2019)" }
       ],
       "languages": [
         { "label": "TALEN", "value": "Arabisch (moedertaal) · Engels en Frans (professioneel)" },
@@ -461,7 +461,7 @@
       "headline": "Notities.",
       "lead": "Korte stukken over senior engineering, AI-integratie in productie, en het runnen van een ZZP-praktijk in Nederland."
     },
-    "subscribeTitle": "Meer posts volgen. Wil je geen post missen?",
+    "subscribeTitle": "Geen post missen?",
     "subscribeLink": "Abonneer via RSS",
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
@@ -471,7 +471,7 @@
     "contactTitle": "Contact",
     "elsewhereTitle": "Elders",
     "based": "Gevestigd in IJlst, Nederland",
-    "kvk": "KvK in registratie · juni 2026",
+    "kvk": "KvK i.o. · juni 2026 (in oprichting)",
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden"
