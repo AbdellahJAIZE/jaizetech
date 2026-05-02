@@ -78,12 +78,6 @@ function Services() {
                 </div>
 
                 <aside className="meta-rail">
-                  <span className="label">{labels.duration}</span>
-                  <div className="value">{s.duration}</div>
-
-                  <span className="label">{labels.scopeNote}</span>
-                  <div className="value" style={{ fontSize: 13, color: 'var(--muted)' }}>—</div>
-
                   <Link className="btn btn-secondary btn-sm" href="/contact">
                     {labels.discussCta}<span className="arrow">→</span>
                   </Link>

@@ -19,9 +19,6 @@ export default function ServiceCard({ index }: Props) {
     <Link className="service-card" href={{ pathname: '/services', hash: item.id }}>
       <div className="top">
         <h3>{item.name}</h3>
-        <div className="price-block">
-          <span className="duration-only">{item.duration}</span>
-        </div>
       </div>
       <p>{item.summary}</p>
       <span className="read-more">Lees meer →</span>
