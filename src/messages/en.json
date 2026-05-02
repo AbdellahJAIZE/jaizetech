@@ -92,6 +92,14 @@
       "headline": "Productized engineering. Fixed scope, fixed price, fixed timeline.",
       "lead": "Five ways I work with Dutch scale-ups and SMEs. No quote ballet — pick what fits."
     },
+    "labels": {
+      "price": "Price",
+      "duration": "Duration",
+      "for": "For",
+      "delivers": "What you get",
+      "excludes": "Not included",
+      "discussCta": "Discuss this engagement"
+    },
     "items": [
       {
         "id": "ai-audit",
@@ -190,6 +198,12 @@
       "headline": "What I've built recently.",
       "lead": "Three engagements with concrete outcomes. No marketing, no logo soup — just what I shipped."
     },
+    "labels": {
+      "challenge": "Challenge",
+      "approach": "Approach",
+      "outcomes": "Outcomes",
+      "stack": "Stack"
+    },
     "cases": [
       {
         "id": "inovaa",
@@ -270,6 +284,9 @@
     },
     "credentials": {
       "title": "Background",
+      "educationLabel": "Education",
+      "certsLabel": "Certifications",
+      "languagesLabel": "Languages",
       "education": [
         "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
         "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
@@ -343,6 +360,7 @@
     "tagline": "Senior software engineering and AI integration for Dutch scale-ups.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
+    "elsewhereTitle": "Elsewhere",
     "based": "Based in IJlst, Netherlands",
     "kvk": "KvK registering · June 2026",
     "rights": "All rights reserved",

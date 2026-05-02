@@ -92,6 +92,14 @@
       "headline": "Productized engineering. Vaste scope, vaste prijs, vaste termijn.",
       "lead": "Vijf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Geen offerteballet — kies wat past."
     },
+    "labels": {
+      "price": "Prijs",
+      "duration": "Looptijd",
+      "for": "Voor",
+      "delivers": "Wat je krijgt",
+      "excludes": "Niet inbegrepen",
+      "discussCta": "Bespreek deze opdracht"
+    },
     "items": [
       {
         "id": "ai-audit",
@@ -190,6 +198,12 @@
       "headline": "Wat ik recent heb gebouwd.",
       "lead": "Drie opdrachten met concrete uitkomsten. Geen marketing, geen logo-soep — alleen wat ik heb verzonden."
     },
+    "labels": {
+      "challenge": "Uitdaging",
+      "approach": "Aanpak",
+      "outcomes": "Resultaat",
+      "stack": "Stack"
+    },
     "cases": [
       {
         "id": "inovaa",
@@ -270,6 +284,9 @@
     },
     "credentials": {
       "title": "Achtergrond",
+      "educationLabel": "Opleiding",
+      "certsLabel": "Certificeringen",
+      "languagesLabel": "Talen",
       "education": [
         "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
         "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
@@ -343,6 +360,7 @@
     "tagline": "Senior software engineering en AI-integratie voor Nederlandse scale-ups.",
     "linksTitle": "Snel naar",
     "contactTitle": "Contact",
+    "elsewhereTitle": "Elders",
     "based": "Gevestigd in IJlst, Nederland",
     "kvk": "KvK in registratie · juni 2026",
     "rights": "Alle rechten voorbehouden",
