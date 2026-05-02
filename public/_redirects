@@ -1,9 +1,9 @@
-# Cloudflare Pages redirects
-# (Optional — used if we want explicit redirects beyond what next-intl provides.)
+# Cloudflare Pages redirects — handle default-locale routing
+# (next-intl middleware doesn't run with static export, so we route here.)
 
-# Strip trailing slash from non-root paths
-/diensten/  /diensten  301
-/werk/      /werk      301
-/over/      /over      301
-/blog/      /blog      301
-/contact/   /contact   301
+# Bare paths → default locale (Dutch)
+/services      /nl/services      301
+/work          /nl/work          301
+/about         /nl/about         301
+/blog          /nl/blog          301
+/contact       /nl/contact       301
