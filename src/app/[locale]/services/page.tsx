@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
+import Breadcrumb from '@/components/Breadcrumb';
 
 export async function generateMetadata({
   params
@@ -26,18 +27,16 @@ export default async function ServicesPage({
 function Services() {
   const t = useTranslations('services');
   const labels = t.raw('labels') as {
-    price: string;
     duration: string;
     for: string;
     delivers: string;
     excludes: string;
     discussCta: string;
+    scopeNote: string;
   };
-
   const items = t.raw('items') as Array<{
     id: string;
     name: string;
-    price: string;
     duration: string;
     for: string;
     summary: string;
@@ -46,52 +45,62 @@ function Services() {
   }>;
 
   return (
-    <>
-      <section className="page-hero">
-        <div className="container">
-          <span className="eyebrow">{t('hero.kicker')}</span>
+    <section className="section">
+      <div className="container">
+        <Breadcrumb current={t('breadcrumb')} />
+
+        <header style={{ marginBottom: 48, maxWidth: 720 }}>
           <h1>{t('hero.headline')}</h1>
-          <p className="lead">{t('hero.lead')}</p>
-        </div>
-      </section>
+          <p className="lead" style={{ marginTop: 16 }}>{t('hero.lead')}</p>
+        </header>
 
-      <section className="section">
-        <div className="container">
-          {items.map((s) => (
-            <article key={s.id} id={s.id} className="service-detail">
-              <header className="service-detail-head">
-                <h2>{s.name}</h2>
-                <aside className="svc-meta">
-                  <div><span className="label">{labels.price}</span><span className="value price">{s.price}</span></div>
-                  <div><span className="label">{labels.duration}</span><span className="value">{s.duration}</span></div>
-                  <div><span className="label">{labels.for}</span><span className="value">{s.for}</span></div>
+        <div className="services-list">
+          {items.map((s, i) => {
+            const num = String(i + 1).padStart(2, '0');
+            return (
+              <article key={s.id} id={s.id} className="service-section">
+                <div>
+                  <div className="num">{num} — DIENST</div>
+                  <h2>{s.name}</h2>
+                  <p className="summary">{s.summary}</p>
+
+                  <span className="delivers-label">{labels.delivers}</span>
+                  <ul className="delivers">
+                    {s.delivers.map((d, j) => <li key={j}>{d}</li>)}
+                  </ul>
+
+                  <p className="for-line">
+                    <strong>{labels.for}:</strong> {s.for}
+                  </p>
+                  <p className="for-line" style={{ borderLeftColor: 'transparent' }}>
+                    <strong>{labels.excludes}:</strong> {s.excludes}
+                  </p>
+                </div>
+
+                <aside className="meta-rail">
+                  <span className="label">{labels.duration}</span>
+                  <div className="value">{s.duration}</div>
+
+                  <span className="label">{labels.scopeNote}</span>
+                  <div className="value" style={{ fontSize: 13, color: 'var(--muted)' }}>—</div>
+
+                  <Link className="btn btn-secondary btn-sm" href="/contact">
+                    {labels.discussCta}<span className="arrow">→</span>
+                  </Link>
                 </aside>
-              </header>
-              <p className="summary">{s.summary}</p>
-              <h4>{labels.delivers}</h4>
-              <ul className="delivers">
-                {s.delivers.map((d, i) => (
-                  <li key={i}>{d}</li>
-                ))}
-              </ul>
-              <p className="excludes"><strong>{labels.excludes}:</strong> {s.excludes}</p>
-              <Link className="btn btn-secondary btn-sm" href="/contact">
-                {labels.discussCta}: {s.name} <span className="arrow">→</span>
-              </Link>
-            </article>
-          ))}
+              </article>
+            );
+          })}
         </div>
-      </section>
 
-      <section className="section cta-section">
-        <div className="container-narrow reveal">
+        <section className="numbered-section" style={{ marginTop: 32 }}>
           <h2>{t('cta.title')}</h2>
-          <p className="lead">{t('cta.lead')}</p>
-          <Link className="btn btn-primary btn-lg" href="/contact">
+          <p className="lead" style={{ marginBottom: 24, maxWidth: 600 }}>{t('cta.lead')}</p>
+          <Link className="btn btn-primary" href="/contact">
             {t('cta.primary')}<span className="arrow">→</span>
           </Link>
-        </div>
-      </section>
-    </>
+        </section>
+      </div>
+    </section>
   );
 }

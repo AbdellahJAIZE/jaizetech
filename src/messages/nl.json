@@ -84,6 +84,7 @@
   "services": {
     "title": "Diensten · Jaize",
     "description": "Elf opdrachten voor productieklare AI: agents, RAG, document-automatisering, MVPs en technische leiding. Doorlooptijd vast, prijs scoped per engagement.",
+    "breadcrumb": "Diensten",
     "hero": {
       "kicker": "Diensten",
       "headline": "Van idee naar productie-AI.",
@@ -284,66 +285,66 @@
   },
   "work": {
     "title": "Werk · Jaize",
-    "description": "Drie recente opdrachten — AI computer vision platform, scaling van een tech-team van 2 naar 12+, en backend voor een receipt-management platform.",
+    "description": "Drie recente opdrachten — AI computer-vision platform, scaling van een tech-team van 2 naar 12+, en backend voor een receipt-management platform.",
+    "breadcrumb": "Werk",
     "hero": {
       "kicker": "Werk",
-      "headline": "Wat ik recent heb gebouwd.",
-      "lead": "Drie opdrachten met concrete uitkomsten. Geen marketing, geen logo-soep — alleen wat ik heb opgeleverd."
+      "headline": "Wat ik heb gebouwd.",
+      "lead": "Drie projecten in detail — de uitdaging, hoe ik het aanpakte, en wat eruit kwam."
     },
     "labels": {
-      "challenge": "Uitdaging",
       "approach": "Aanpak",
-      "outcomes": "Resultaat",
-      "stack": "Stack"
+      "stack": "Stack",
+      "production": "Productie"
     },
     "cases": [
       {
         "id": "inovaa",
-        "client": "Nederlands agritech bedrijf",
-        "sector": "AI computer vision · Industriële kwaliteitscontrole",
-        "year": "2023 – heden",
-        "role": "Sole technical owner",
-        "challenge": "Een legacy kwaliteitscontrole platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert.",
-        "approach": "Volledige stack vanaf de grond opgebouwd: NestJS backend (37+ modules), Vue.js frontend (49 pagina's), PostgreSQL, en NVIDIA Triton inferentie-pijplijn met ResNet en YOLO. Hybride on-prem plus cloud setup.",
-        "outcomes": [
-          "3 miljoen+ AI-inferentie calls geleverd in productie",
-          "5 talen ondersteund met multi-locale annotatie workflows",
-          "~3TB aan productdata gemigreerd zonder dataloss",
-          "Geautomatiseerde backups (pg_dump + offsite NAS) en zero-downtime deployments"
+        "client": "AI computer-vision platform voor Nederlandse agritech",
+        "sector": "Agritech · Industriële kwaliteitscontrole",
+        "year": "2023 – 2026",
+        "role": "Sole Technical Owner",
+        "summary": "Een legacy kwaliteitscontrole-platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert. Solo gebouwd, end-to-end.",
+        "approach": "Hybride architectuur: NVIDIA Triton voor model serving op eigen hardware, modulaire NestJS API en een data-pipeline met OCR en validatie-agents. 37+ backend modules, 49 frontend-pagina's, en een hybride on-prem + cloud setup voor cost-efficiency en hardware-soevereiniteit.",
+        "stats": [
+          { "value": "3M+", "label": "Inferentie-calls per maand" },
+          { "value": "99.7%", "label": "Uptime over 2,5 jaar" },
+          { "value": "2.5y", "label": "In productie" }
         ],
-        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"]
+        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"],
+        "production": "Productie sinds Q3 2023"
       },
       {
         "id": "appistadium",
-        "client": "AppiStadium",
+        "client": "Engineering team van 2 naar 12+ schalen",
         "sector": "Sportstech · Vroege-fase startup",
         "year": "2022 – 2023",
-        "role": "Tech lead",
-        "challenge": "Een 2-persoons engineering team uitbreiden naar productieklare velocity bij een gewone startup met snel groeiende product-eisen.",
-        "approach": "Geërfde 2-persoons team uitgebreid naar 12+ engineers (mobile, backend, web, cloud). React Native met gedeelde backend voor iOS plus Android. Rapporteerde aan board over technische strategie.",
-        "outcomes": [
-          "Engineering team uitgebreid van 2 → 12+ in 18 maanden",
-          "React Native app gepubliceerd op App Store en Google Play",
-          "OAuth2 / Firebase Auth met RBAC over web en mobile",
-          "Volledige DevOps / CI/CD setup op AWS"
+        "role": "Tech Lead",
+        "summary": "Een early-stage sportstech-startup had een 2-persoons engineering team en moest snel productieklare velocity halen. Ik nam tech lead over en bouwde het team uit terwijl we doorgingen met shippen.",
+        "approach": "Hands-on team-opbouw: zes maanden senior+medior hires, drie maanden React Native als core stack, daarna OAuth2 + Firebase Auth, dashboards en CI/CD op AWS. Ik bleef coderen en code reviewen tijdens het hiringproces.",
+        "stats": [
+          { "value": "2 → 12+", "label": "Team grootte" },
+          { "value": "6mo", "label": "Tot eerste production ship" },
+          { "value": "2y", "label": "In de rol" }
         ],
-        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"]
+        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"],
+        "production": "Embedded Tech Lead 2022–2023"
       },
       {
         "id": "scanbon",
-        "client": "Abraham Stone B.V. (ScanBon)",
+        "client": "OCR-pijplijn en analytics-API voor bonbeheer",
         "sector": "FinTech · B2C receipt management",
         "year": "2025 – 2026",
-        "role": "Backend en mobile engineer",
-        "challenge": "Een receipt-scanning app uitbreiden met OCR-pijplijn, uitgaven-categorisering en analytics API.",
-        "approach": "NestJS backend opgebouwd met OCR pipeline, JWT authenticatie, receipt categorisering en uitgaven-analytics API. Deployed op GCP met CI/CD.",
-        "outcomes": [
-          "Backend met OCR-pijplijn live in productie",
-          "JWT-gebaseerde authenticatie en rolbeheer",
-          "Uitgaven-analytics API voor dashboards",
-          "GCP deployment met geautomatiseerde CI/CD"
+        "role": "Backend Engineer",
+        "summary": "Foto's van papieren bonnen omzetten naar gestructureerde uitgavendata, plus een analytics-API voor mobiele dashboards. NestJS backend, OCR-pipeline en JWT-auth.",
+        "approach": "OCR via Google Cloud Vision met edge-cases en post-processing loop, NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
+        "stats": [
+          { "value": "50K+", "label": "Bonnen verwerkt" },
+          { "value": "<2s", "label": "OCR latency p95" },
+          { "value": "4mo", "label": "Doorlooptijd" }
         ],
-        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"]
+        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
+        "production": "Production-Ready MVP 2025–2026"
       }
     ],
     "cta": {
@@ -453,12 +454,15 @@
   },
   "blog": {
     "title": "Blog · Jaize",
-    "description": "Aantekeningen over senior software engineering, AI-integratie en zelfstandig werken in Nederland.",
+    "description": "Korte stukken over senior engineering, AI-integratie in productie, en het runnen van een ZZP-praktijk in Nederland.",
+    "breadcrumb": "Blog",
     "hero": {
       "kicker": "Blog",
-      "headline": "Aantekeningen over engineering en AI.",
-      "lead": "Concrete leerpunten uit productie-projecten. Korte stukken, lange vorm waar nuttig."
+      "headline": "Notities.",
+      "lead": "Korte stukken over senior engineering, AI-integratie in productie, en het runnen van een ZZP-praktijk in Nederland."
     },
+    "subscribeTitle": "Meer posts volgen. Wil je geen post missen?",
+    "subscribeLink": "Abonneer via RSS",
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
   "footer": {

@@ -84,6 +84,7 @@
   "services": {
     "title": "Services · Jaize",
     "description": "Eleven engagements for production AI: agents, RAG, document automation, MVPs, and technical leadership. Timeline fixed, pricing scoped per engagement.",
+    "breadcrumb": "Services",
     "hero": {
       "kicker": "Services",
       "headline": "From idea to production AI.",
@@ -284,66 +285,66 @@
   },
   "work": {
     "title": "Work · Jaize",
-    "description": "Three recent engagements — AI computer vision platform, scaling a tech team from 2 to 12+, and backend for a receipt-management platform.",
+    "description": "Three recent engagements — AI computer-vision platform, scaling a tech team from 2 to 12+, and backend for a receipt-management platform.",
+    "breadcrumb": "Work",
     "hero": {
       "kicker": "Work",
-      "headline": "What I've built recently.",
-      "lead": "Three engagements with concrete outcomes. No marketing, no logo soup — just what I shipped."
+      "headline": "What I've built.",
+      "lead": "Three projects in detail — the challenge, how I tackled it, and what came out."
     },
     "labels": {
-      "challenge": "Challenge",
       "approach": "Approach",
-      "outcomes": "Outcomes",
-      "stack": "Stack"
+      "stack": "Stack",
+      "production": "Production"
     },
     "cases": [
       {
         "id": "inovaa",
-        "client": "Dutch agritech company",
-        "sector": "AI computer vision · Industrial quality control",
-        "year": "2023 – present",
-        "role": "Sole technical owner",
-        "challenge": "Replace a legacy quality control platform with an AI-driven system that automatically classifies millions of product images.",
-        "approach": "Full stack built from scratch: NestJS backend (37+ modules), Vue.js frontend (49 pages), PostgreSQL, and NVIDIA Triton inference pipeline with ResNet and YOLO. Hybrid on-prem plus cloud setup.",
-        "outcomes": [
-          "3M+ AI inference calls delivered in production",
-          "5 languages supported with multi-locale annotation workflows",
-          "~3TB of product data migrated with zero data loss",
-          "Automated backups (pg_dump + offsite NAS) and zero-downtime deployments"
+        "client": "AI computer-vision platform for Dutch agritech",
+        "sector": "Agritech · Industrial quality control",
+        "year": "2023 – 2026",
+        "role": "Sole Technical Owner",
+        "summary": "Replaced a legacy quality-control platform with an AI-driven system that automatically classifies millions of product images. Built solo, end-to-end.",
+        "approach": "Hybrid architecture: NVIDIA Triton for model serving on owned hardware, modular NestJS API, and a data pipeline with OCR plus validation agents. 37+ backend modules, 49 frontend pages, and a hybrid on-prem + cloud setup for cost-efficiency and hardware sovereignty.",
+        "stats": [
+          { "value": "3M+", "label": "Inference calls per month" },
+          { "value": "99.7%", "label": "Uptime over 2.5 years" },
+          { "value": "2.5y", "label": "In production" }
         ],
-        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"]
+        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"],
+        "production": "Production since Q3 2023"
       },
       {
         "id": "appistadium",
-        "client": "AppiStadium",
+        "client": "Engineering team scaled from 2 to 12+",
         "sector": "Sportstech · Early-stage startup",
         "year": "2022 – 2023",
-        "role": "Tech lead",
-        "challenge": "Grow a 2-person engineering team to production-ready velocity at a typical startup with rapidly growing product demands.",
-        "approach": "Inherited 2-person team grown to 12+ engineers (mobile, backend, web, cloud). React Native with shared backend for iOS plus Android. Reported to board on technical strategy.",
-        "outcomes": [
-          "Engineering team grown from 2 → 12+ in 18 months",
-          "React Native app published on App Store and Google Play",
-          "OAuth2 / Firebase Auth with RBAC across web and mobile",
-          "Full DevOps / CI/CD setup on AWS"
+        "role": "Tech Lead",
+        "summary": "An early-stage sportstech startup had a 2-person engineering team and needed production-ready velocity fast. I took over as tech lead and grew the team while we kept shipping.",
+        "approach": "Hands-on team building: six months of senior + mid-level hires, three months of React Native as core stack, then OAuth2 + Firebase Auth, dashboards, and CI/CD on AWS. I kept coding and reviewing while hiring.",
+        "stats": [
+          { "value": "2 → 12+", "label": "Team size" },
+          { "value": "6mo", "label": "To first production ship" },
+          { "value": "2y", "label": "In the role" }
         ],
-        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"]
+        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"],
+        "production": "Embedded Tech Lead 2022–2023"
       },
       {
         "id": "scanbon",
-        "client": "Abraham Stone B.V. (ScanBon)",
+        "client": "OCR pipeline and analytics API for receipt management",
         "sector": "FinTech · B2C receipt management",
         "year": "2025 – 2026",
-        "role": "Backend and mobile engineer",
-        "challenge": "Extend a receipt-scanning app with OCR pipeline, expense categorization and analytics API.",
-        "approach": "Built NestJS backend with OCR pipeline, JWT authentication, receipt categorization and expense analytics API. Deployed on GCP with CI/CD.",
-        "outcomes": [
-          "Backend with OCR pipeline live in production",
-          "JWT-based authentication and role management",
-          "Expense analytics API for dashboards",
-          "GCP deployment with automated CI/CD"
+        "role": "Backend Engineer",
+        "summary": "Turn photos of paper receipts into structured expense data, plus an analytics API for mobile dashboards. NestJS backend, OCR pipeline, and JWT auth.",
+        "approach": "OCR via Google Cloud Vision with edge-case and post-processing loop, NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
+        "stats": [
+          { "value": "50K+", "label": "Receipts processed" },
+          { "value": "<2s", "label": "OCR latency p95" },
+          { "value": "4mo", "label": "Engagement" }
         ],
-        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"]
+        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
+        "production": "Production-Ready MVP 2025–2026"
       }
     ],
     "cta": {
@@ -453,12 +454,15 @@
   },
   "blog": {
     "title": "Blog · Jaize",
-    "description": "Notes on senior software engineering, AI integration, and independent work in the Netherlands.",
+    "description": "Short pieces on senior engineering, AI integration in production, and running a freelance practice in the Netherlands.",
+    "breadcrumb": "Blog",
     "hero": {
       "kicker": "Blog",
-      "headline": "Notes on engineering and AI.",
-      "lead": "Concrete lessons from production projects. Short pieces, long form where useful."
+      "headline": "Notes.",
+      "lead": "Short pieces on senior engineering, AI integration in production, and running a freelance practice in the Netherlands."
     },
+    "subscribeTitle": "Want to follow along? Don't miss a post.",
+    "subscribeLink": "Subscribe via RSS",
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
