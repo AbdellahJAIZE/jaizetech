@@ -39,8 +39,9 @@
     },
     "services": {
       "kicker": "What I deliver",
-      "title": "Productized engineering — fixed scope, fixed price.",
-      "viewAll": "See all services"
+      "title": "From idea to production AI.",
+      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Timeline fixed, pricing scoped per engagement.",
+      "viewAll": "View all 11 services"
     },
     "work": {
       "kicker": "Work",
@@ -82,32 +83,49 @@
   },
   "services": {
     "title": "Services · Jaize",
-    "description": "Five fixed-price engagements for AI integration, MVP development, and technical leadership. Clear, predictable, production-ready.",
+    "description": "Eleven engagements for production AI: agents, RAG, document automation, MVPs, and technical leadership. Timeline fixed, pricing scoped per engagement.",
     "hero": {
       "kicker": "Services",
-      "headline": "Productized engineering. Fixed scope, fixed price, fixed timeline.",
-      "lead": "Five ways I work with Dutch scale-ups and SMEs. No quote ballet — pick what fits."
+      "headline": "From idea to production AI.",
+      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline, pricing scoped per engagement. No quote ballet."
     },
     "labels": {
-      "price": "Price",
-      "duration": "Duration",
-      "for": "For",
+      "duration": "Timeline",
+      "for": "Best for",
       "delivers": "What you get",
       "excludes": "Not included",
-      "discussCta": "Discuss this engagement"
+      "discussCta": "Discuss this engagement",
+      "scopeNote": "Pricing depends on scope",
+      "showAll": "View all 11 services",
+      "homeKicker": "What I deliver",
+      "homeTitle": "From idea to production AI."
     },
     "items": [
       {
+        "id": "ai-audit",
+        "name": "AI Integration Audit",
+        "duration": "1-week sprint",
+        "for": "CTO or founder who needs to know where AI actually adds value to the product — and where it's a distraction.",
+        "summary": "Quick technical review of your stack, identification of the 5–10 highest-impact AI integration opportunities, with a prioritized roadmap and working prototype.",
+        "delivers": [
+          "Codebase and product walkthrough",
+          "Best-fit AI tooling research (LLM, RAG, OCR, vision)",
+          "Working prototype of one high-impact integration",
+          "Report with roadmap, cost projection, 90-day plan",
+          "60-minute readout call with your team"
+        ],
+        "excludes": "Implementation (separate engagement as RAG, Agent, MVP, etc.)."
+      },
+      {
         "id": "rag-assistant",
         "name": "RAG Knowledge Assistant",
-        "price": "€15,000",
-        "duration": "4 weeks",
+        "duration": "3–6 weeks",
         "for": "Companies with heavy internal documentation — manuals, contracts, policies, tickets — that need teams to find answers faster.",
         "summary": "Secure RAG assistant over your company documents. Vector search, citations, evaluation, and production deployment.",
         "delivers": [
-          "Document ingestion pipeline (PDF, DOCX, web pages, Notion, etc.)",
+          "Document ingestion pipeline (PDF, DOCX, web pages, Notion)",
           "Vector database (Pinecone, Weaviate, or pgvector)",
-          "LLM layer with OpenAI, Anthropic or Gemini + LangChain",
+          "LLM layer with OpenAI, Anthropic, or Gemini + LangChain",
           "Chat UI with citations, history, and feedback",
           "Evaluation suite for answer quality",
           "Deployment on AWS, GCP, or Cloudflare with monitoring"
@@ -117,10 +135,9 @@
       {
         "id": "ai-agent",
         "name": "AI Workflow Agent",
-        "price": "€25,000",
-        "duration": "6 weeks",
+        "duration": "4–8 weeks",
         "for": "Companies with repetitive research, operations, or analysis workflows that need automating with AI that actually reasons.",
-        "summary": "AI agent built with LangGraph combining tools, memory, and structured reasoning to automate a complete business workflow.",
+        "summary": "AI agent with LangGraph combining tools, memory, and structured reasoning to automate an end-to-end business workflow.",
         "delivers": [
           "Discovery: workflow mapping and scope definition",
           "Multi-step LangGraph agent with tool-use, memory, and validation",
@@ -133,9 +150,8 @@
       },
       {
         "id": "mvp",
-        "name": "Production-Ready AI SaaS MVP",
-        "price": "€22,000",
-        "duration": "6 weeks",
+        "name": "AI SaaS MVP",
+        "duration": "4–8 weeks",
         "for": "Founders and scale-ups taking an AI product from idea to deployed product — backend, frontend, auth, dashboards, and AI features.",
         "summary": "Full AI SaaS MVP: backend, frontend, auth, dashboards, AI features, and deployment. Ready for your first paying customers.",
         "delivers": [
@@ -146,13 +162,12 @@
           "Admin / analytics dashboard",
           "Deployment on AWS, GCP, or Cloudflare with CI/CD"
         ],
-        "excludes": "Native mobile apps. Complex machine learning (use AI Workflow Agent or RAG)."
+        "excludes": "Native mobile apps. Complex ML training."
       },
       {
         "id": "doc-automation",
         "name": "Document Intelligence & OCR Automation",
-        "price": "€20,000",
-        "duration": "5 weeks",
+        "duration": "3–6 weeks",
         "for": "Accountants, compliance teams, logistics, HR, or admin-heavy businesses that process documents manually.",
         "summary": "End-to-end document automation: OCR, classification, structured extraction, validation agents, and API or dashboard delivery.",
         "delivers": [
@@ -166,26 +181,9 @@
         "excludes": "Hardware (scanners) and legal advice on data retention."
       },
       {
-        "id": "ai-audit",
-        "name": "AI Integration Audit",
-        "price": "€3,500",
-        "duration": "1 week",
-        "for": "CTO or founder who needs to know where AI actually adds value to their existing product — and where it's a distraction.",
-        "summary": "Quick technical review of your stack, identification of 5–10 highest-impact AI integration opportunities, with prioritized roadmap and proof-of-concept.",
-        "delivers": [
-          "Day 1–2: codebase and product walkthrough",
-          "Day 3: best-fit AI tooling research (LLM, RAG, OCR, vision)",
-          "Day 4: working prototype of one high-impact integration",
-          "Day 5: report with roadmap, cost projection, 90-day plan",
-          "60-minute readout call with your team"
-        ],
-        "excludes": "Implementation (separate engagement as RAG, Agent, or MVP)."
-      },
-      {
         "id": "fractional-cto",
-        "name": "Fractional Tech Lead / AI Advisor",
-        "price": "€5,000 / month",
-        "duration": "min. 3 months",
+        "name": "Fractional CTO / AI Advisor",
+        "duration": "Ongoing (min. 3 months)",
         "for": "5–20 person startups without full-time technical leadership who need senior thinking on architecture, AI strategy, and hiring.",
         "summary": "One day per week of strategic plus tactical technical leadership — architecture, AI roadmap, hiring, team coaching, vendor evaluations.",
         "delivers": [
@@ -197,6 +195,85 @@
           "Async support during the week"
         ],
         "excludes": "Full-time feature engineering and production on-call."
+      },
+      {
+        "id": "ai-features",
+        "name": "AI Features for Existing Products",
+        "duration": "2–6 weeks per feature",
+        "for": "SaaS companies, agencies, and software teams without AI experience who want concrete AI features added to their existing product.",
+        "summary": "Practical AI features in your existing software — copilots, summarization, classification, search, OCR, and workflow automation.",
+        "delivers": [
+          "Feature scoping and feasibility evaluation",
+          "LLM API integration (OpenAI, Anthropic, Gemini)",
+          "UI/UX for AI features in your existing app",
+          "Evaluation framework and prompt testing",
+          "Production deployment with monitoring and cost tracking",
+          "Works with your existing stack — no rewrite"
+        ],
+        "excludes": "Full product rewrite. Custom model training."
+      },
+      {
+        "id": "poc-sprint",
+        "name": "AI Prototype / POC Sprint",
+        "duration": "2–4 weeks",
+        "for": "Innovation teams, product managers, and founders evaluating AI bets before committing to bigger investment.",
+        "summary": "Working POC of your AI idea in 2–4 weeks. Real data, honest evaluation. Productionize only what proves itself.",
+        "delivers": [
+          "Scope workshop and success criteria",
+          "Working prototype with representative data",
+          "Evaluation against pre-defined metrics",
+          "Demo for stakeholders",
+          "Report with recommendation: productionize, pivot, or stop"
+        ],
+        "excludes": "Production deployment (separate engagement). Long-term maintenance."
+      },
+      {
+        "id": "internal-platform",
+        "name": "Internal Dashboards & Workflow Platforms",
+        "duration": "4–10 weeks",
+        "for": "SMBs, agencies, operations teams, compliance businesses, and agritech / industrial companies still running critical work in spreadsheets and email.",
+        "summary": "Custom internal platform that replaces spreadsheet and email work — RBAC, multi-tenant, i18n, dashboards, and annotation workflows.",
+        "delivers": [
+          "Full-stack platform (NestJS + Next.js)",
+          "Role-based access control and multi-tenant if needed",
+          "i18n for multi-locale teams",
+          "Dashboards and data visualization",
+          "Annotation and review workflows",
+          "Admin tools and CI/CD deployment"
+        ],
+        "excludes": "Native mobile apps. Hardware integration."
+      },
+      {
+        "id": "llm-hardening",
+        "name": "LLM Evaluation & Production Hardening",
+        "duration": "2–5 weeks",
+        "for": "Teams with an LLM POC that needs to become a production-grade system — reliable, monitored, and cost-efficient.",
+        "summary": "Make your LLM application reliable — evals, prompt testing, RAG quality checks, monitoring, latency optimization, and deployment.",
+        "delivers": [
+          "Evaluation framework with automated tests",
+          "Prompt testing and versioning",
+          "RAG quality monitoring (retrieval + generation metrics)",
+          "Latency and cost profiling",
+          "Production deployment hardening",
+          "Observability and alerting"
+        ],
+        "excludes": "Building the LLM app from scratch — use AI Workflow Agent or RAG Assistant for that."
+      },
+      {
+        "id": "devops-rescue",
+        "name": "DevOps & Production Rescue",
+        "duration": "2–6 weeks",
+        "for": "Small SaaS companies, factories, and teams with one overloaded developer whose production system needs modernizing.",
+        "summary": "Stabilize and modernize production systems — CI/CD, Docker, monitoring, backups, deployments, and on-prem / cloud migrations.",
+        "delivers": [
+          "Infrastructure audit and quick wins",
+          "CI/CD setup or modernization (GitLab, GitHub Actions)",
+          "Docker containerization",
+          "Monitoring + alerting (Uptime Kuma, Prometheus, Grafana)",
+          "Automated backups",
+          "Deployment pipeline improvements"
+        ],
+        "excludes": "Long-term ongoing operations (separate retainer)."
       }
     ],
     "cta": {

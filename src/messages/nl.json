@@ -39,8 +39,9 @@
     },
     "services": {
       "kicker": "Wat ik lever",
-      "title": "Productized engineering — vaste scope, vaste prijs.",
-      "viewAll": "Alle diensten bekijken"
+      "title": "Van idee naar productie-AI.",
+      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Doorlooptijd vast, prijs op basis van scope.",
+      "viewAll": "Bekijk alle 11 diensten"
     },
     "work": {
       "kicker": "Werk",
@@ -82,45 +83,61 @@
   },
   "services": {
     "title": "Diensten · Jaize",
-    "description": "Vijf vaste-prijs opdrachten voor AI-integratie, MVP-ontwikkeling en technisch leiderschap. Helder, voorspelbaar, productieklaar.",
+    "description": "Elf opdrachten voor productieklare AI: agents, RAG, document-automatisering, MVPs en technische leiding. Doorlooptijd vast, prijs scoped per engagement.",
     "hero": {
       "kicker": "Diensten",
-      "headline": "Productized engineering. Vaste scope, vaste prijs, vaste termijn.",
-      "lead": "Vijf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Geen offerteballet — kies wat past."
+      "headline": "Van idee naar productie-AI.",
+      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Vaste doorlooptijd, prijs op basis van scope. Geen offerteballet."
     },
     "labels": {
-      "price": "Prijs",
-      "duration": "Looptijd",
+      "duration": "Doorlooptijd",
       "for": "Voor",
       "delivers": "Wat je krijgt",
       "excludes": "Niet inbegrepen",
-      "discussCta": "Bespreek deze opdracht"
+      "discussCta": "Bespreek deze opdracht",
+      "scopeNote": "Prijs op basis van scope",
+      "showAll": "Bekijk alle 11 diensten",
+      "homeKicker": "Wat ik lever",
+      "homeTitle": "Van idee naar productie-AI."
     },
     "items": [
       {
+        "id": "ai-audit",
+        "name": "AI Integration Audit",
+        "duration": "1-week sprint",
+        "for": "CTO of founder die wil weten waar AI in het product écht waarde toevoegt — en waar het tijdverspilling is.",
+        "summary": "Snelle technische review van je stack, identificatie van de 5–10 hoogste-impact AI-integratiekansen, met geprioriteerde routekaart en werkend prototype.",
+        "delivers": [
+          "Codebase en product walkthrough",
+          "Best-fit AI tooling research (LLM, RAG, OCR, vision)",
+          "Werkend prototype van één hoog-impact integratie",
+          "Rapport met routekaart, kostprojectie en 90-dagen plan",
+          "60 minuten readout call met je team"
+        ],
+        "excludes": "Implementatie (komt apart als RAG, Agent, MVP, etc.)."
+      },
+      {
         "id": "rag-assistant",
         "name": "RAG Knowledge Assistant",
-        "price": "€15.000",
-        "duration": "4 weken",
+        "duration": "3–6 weken",
         "for": "Bedrijven met veel interne documentatie — handleidingen, contracten, beleid, tickets — die hun teams sneller antwoorden willen geven.",
         "summary": "Veilige RAG-assistent over je bedrijfsdocumenten. Vector search, citaties, evaluatie en productie-deployment.",
         "delivers": [
-          "Document ingestion pipeline (PDF, DOCX, web pages, Notion, etc.)",
+          "Document ingestion pipeline (PDF, DOCX, webpages, Notion)",
           "Vector database (Pinecone, Weaviate of pgvector)",
           "LLM-laag met OpenAI, Anthropic of Gemini + LangChain",
           "Chat-UI met citaties, history en feedback",
           "Evaluatie-suite voor antwoordkwaliteit",
           "Deployment op AWS, GCP of Cloudflare met monitoring"
         ],
-        "excludes": "Doorlopende content-curatie en eindgebruiker support."
+        "excludes": "Doorlopende content-curatie en eindgebruiker-support."
       },
       {
         "id": "ai-agent",
         "name": "AI Workflow Agent",
-        "price": "€25.000",
-        "duration": "6 weken",
+        "duration": "4–8 weken",
         "for": "Bedrijven met repetitieve onderzoeks-, operations- of analyse-workflows die geautomatiseerd moeten worden met AI die echt redeneert.",
-        "summary": "AI-agent gebouwd met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
+        "summary": "AI-agent met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
         "delivers": [
           "Discovery: workflow mapping en scope-definitie",
           "Multi-step LangGraph agent met tool-use, geheugen en validatie",
@@ -129,14 +146,13 @@
           "Productie-deployment, monitoring en cost tracking",
           "Documentatie en team-walkthrough"
         ],
-        "excludes": "Trainen van eigen modellen. Gebruikt LLM APIs, niet self-hosted."
+        "excludes": "Custom model training. Gebruikt LLM APIs, geen self-hosted modellen."
       },
       {
         "id": "mvp",
-        "name": "Production-Ready AI SaaS MVP",
-        "price": "€22.000",
-        "duration": "6 weken",
-        "for": "Founders en scale-ups die een AI-product van idee naar deployed product willen brengen — backend, frontend, auth, dashboards en AI-features.",
+        "name": "AI SaaS MVP",
+        "duration": "4–8 weken",
+        "for": "Founders en scale-ups die een AI-product van idee naar gedeployed product willen brengen — backend, frontend, auth, dashboards en AI-features.",
         "summary": "Volledige AI SaaS MVP: backend, frontend, auth, dashboards, AI-features en deployment. Klaar voor je eerste betalende klanten.",
         "delivers": [
           "NestJS / Node backend met REST of GraphQL API",
@@ -146,57 +162,118 @@
           "Admin / analytics dashboard",
           "Deployment op AWS, GCP of Cloudflare met CI/CD"
         ],
-        "excludes": "Native mobile apps. Complexe machine learning (gebruik AI Workflow Agent of RAG)."
+        "excludes": "Native mobile apps. Complexe machine learning training."
       },
       {
         "id": "doc-automation",
         "name": "Document Intelligence & OCR Automation",
-        "price": "€20.000",
-        "duration": "5 weken",
+        "duration": "3–6 weken",
         "for": "Boekhouders, compliance-teams, logistiek, HR of admin-zware bedrijven die documenten handmatig verwerken.",
         "summary": "End-to-end document-automatisering: OCR, classificatie, gestructureerde extractie, validatie-agents en API of dashboard delivery.",
         "delivers": [
           "OCR pipeline (Tesseract, AWS Textract of Google Document AI)",
           "Document classificatie (facturen, bonnen, contracten, formulieren)",
           "LLM-gedreven structured extraction (key-value en tabellen)",
-          "Validatie-agents die fouten detecteren vóór het systeem ze accepteert",
+          "Validatie-agents die fouten detecteren vóór downstream-systemen ze accepteren",
           "API of dashboard integratie met je bestaande tooling",
           "Audit trail en exportable reporting"
         ],
         "excludes": "Hardware (scanners) en juridisch advies over data-retentie."
       },
       {
-        "id": "ai-audit",
-        "name": "AI Integration Audit",
-        "price": "€3.500",
-        "duration": "1 week",
-        "for": "CTO of founder die wil weten waar AI in hun bestaande product écht waarde toevoegt — en waar het tijdverspilling is.",
-        "summary": "Snelle technische review van je stack, identificatie van 5–10 hoogste-impact AI-integratiekansen, met geprioriteerde routekaart en proof-of-concept.",
-        "delivers": [
-          "Day 1–2: codebase en product walkthrough",
-          "Day 3: best-fit AI tooling research (LLM, RAG, OCR, vision)",
-          "Day 4: werkend prototype van één hoog-impact integratie",
-          "Day 5: rapport met routekaart, kostprojectie en 90-dagen plan",
-          "60 minuten readout call met je team"
-        ],
-        "excludes": "Implementatie (komt apart als RAG, Agent of MVP)."
-      },
-      {
         "id": "fractional-cto",
-        "name": "Fractional Tech Lead / AI Advisor",
-        "price": "€5.000 / maand",
-        "duration": "min. 3 maanden",
+        "name": "Fractional CTO / AI Advisor",
+        "duration": "Doorlopend (min. 3 maanden)",
         "for": "5–20 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op architectuur, AI-strategie en hiring.",
-        "summary": "Eén dag per week strategische plus tactische technische leiding — architecture, AI-roadmap, hiring, team coaching, vendor evaluaties.",
+        "summary": "Eén dag per week strategische plus tactische technische leiding — architecture, AI-roadmap, hiring, team coaching, vendor-evaluaties.",
         "delivers": [
-          "1 dag per week (woensdag standaard) on-site of remote",
+          "1 dag per week (standaard woensdag) on-site of remote",
           "Wekelijkse 1-op-1 met founder of CEO",
           "Architectuur-beslissingen en code reviews",
           "AI-roadmap en build-vs-buy advies",
-          "Hiring support: vacature-tekst, technical interviews, leveling",
+          "Hiring support: vacatureteksten, technical interviews, leveling",
           "Async support gedurende de week"
         ],
         "excludes": "Fulltime feature engineering en production on-call."
+      },
+      {
+        "id": "ai-features",
+        "name": "AI-Features voor Bestaande Producten",
+        "duration": "2–6 weken per feature",
+        "for": "SaaS-bedrijven, agencies en software-teams zonder AI-ervaring die concrete AI-features willen toevoegen aan hun bestaande product.",
+        "summary": "Praktische AI-features in je bestaande software — copilots, samenvatting, classificatie, search, OCR en workflow-automatisering.",
+        "delivers": [
+          "Feature-scoping en evaluatie van haalbaarheid",
+          "LLM API-integratie (OpenAI, Anthropic, Gemini)",
+          "UI/UX voor AI-features in je bestaande app",
+          "Evaluatie-framework en prompt testing",
+          "Productie-deployment met monitoring en cost tracking",
+          "Werkt met je bestaande stack — geen rewrite"
+        ],
+        "excludes": "Volledige product-rewrite. Custom modellen trainen."
+      },
+      {
+        "id": "poc-sprint",
+        "name": "AI Prototype / POC Sprint",
+        "duration": "2–4 weken",
+        "for": "Innovatie-teams, product managers en founders die AI-ideeën willen valideren voor er groot in te investeren.",
+        "summary": "Werkende POC van je AI-idee in 2–4 weken. Met echte data en eerlijke evaluatie. Productionize alleen wat zich bewijst.",
+        "delivers": [
+          "Scope-workshop en succes-criteria",
+          "Werkend prototype met representatieve data",
+          "Evaluatie tegen vooraf bepaalde metrics",
+          "Demo voor stakeholders",
+          "Rapport met aanbeveling: productionize, pivot, of stop"
+        ],
+        "excludes": "Productie-deployment (apart engagement). Long-term onderhoud."
+      },
+      {
+        "id": "internal-platform",
+        "name": "Interne Dashboards & Workflow-Platforms",
+        "duration": "4–10 weken",
+        "for": "MKB, agencies, operations-teams, compliance-bedrijven en agritech / industriële bedrijven die kritisch werk nog in spreadsheets en e-mail draaien.",
+        "summary": "Custom intern platform dat spreadsheet- en e-mail-werk vervangt — RBAC, multi-tenant, i18n, dashboards en annotatie-workflows.",
+        "delivers": [
+          "Full-stack platform (NestJS + Next.js)",
+          "Role-based access control en multi-tenant indien nodig",
+          "i18n voor multi-locale teams",
+          "Dashboards en data-visualisatie",
+          "Annotatie- en review-workflows",
+          "Admin tools en CI/CD deployment"
+        ],
+        "excludes": "Native mobile apps. Hardware-integratie."
+      },
+      {
+        "id": "llm-hardening",
+        "name": "LLM Evaluation & Production Hardening",
+        "duration": "2–5 weken",
+        "for": "Teams met een LLM POC dat een productie-grade systeem moet worden — betrouwbaar, gemonitord en kostenefficiënt.",
+        "summary": "Maak je LLM-applicatie betrouwbaar — evals, prompt testing, RAG quality checks, monitoring, latency optimization en deployment.",
+        "delivers": [
+          "Evaluation framework met geautomatiseerde tests",
+          "Prompt testing en versionering",
+          "RAG quality monitoring (retrieval + generation metrics)",
+          "Latency en cost profiling",
+          "Production deployment hardening",
+          "Observability en alerting"
+        ],
+        "excludes": "Het bouwen van de LLM-app from scratch — gebruik AI Workflow Agent of RAG Assistant."
+      },
+      {
+        "id": "devops-rescue",
+        "name": "DevOps & Production Rescue",
+        "duration": "2–6 weken",
+        "for": "Kleine SaaS-bedrijven, fabrieken en teams met één overbelaste developer wiens productie-systeem aan vernieuwing toe is.",
+        "summary": "Stabiliseer en moderniseer productie-systemen — CI/CD, Docker, monitoring, backups, deployments en on-prem of cloud-migraties.",
+        "delivers": [
+          "Infrastructuur-audit en quick wins",
+          "CI/CD setup of modernisering (GitLab, GitHub Actions)",
+          "Docker containerisatie",
+          "Monitoring + alerting (Uptime Kuma, Prometheus, Grafana)",
+          "Geautomatiseerde backups",
+          "Deployment-pipeline verbeteringen"
+        ],
+        "excludes": "Long-term ongoing operations (apart retainer)."
       }
     ],
     "cta": {
