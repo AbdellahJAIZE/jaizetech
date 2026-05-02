@@ -44,7 +44,7 @@ function Contact() {
               <div className="cal-buttons">
                 <a
                   className="btn btn-primary"
-                  href="https://cal.com/jaize/15min"
+                  href="https://www.cal.eu/jaize/15min?overlayCalendar=true"
                   target="_blank"
                   rel="noopener"
                 >
@@ -52,7 +52,7 @@ function Contact() {
                 </a>
                 <a
                   className="btn btn-secondary"
-                  href="https://cal.com/jaize/30min"
+                  href="https://www.cal.eu/jaize/30min?overlayCalendar=true"
                   target="_blank"
                   rel="noopener"
                 >
