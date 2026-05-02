@@ -330,6 +330,7 @@
     "options": {
       "scheduleTitle": "Plan direct",
       "scheduleLead": "Kies een tijdslot dat werkt — bevestiging direct in je inbox.",
+      "scheduleButton": "Open Cal.com",
       "messageTitle": "Stuur een bericht",
       "messageLead": "Vertel me kort waar je mee bezig bent. Ik reageer binnen 24 uur."
     },
@@ -344,7 +345,8 @@
       "successText": "Bedankt. Ik reageer binnen 24 uur op werkdagen."
     },
     "trust": "Reactie binnen 24 uur op werkdagen · KvK in registratie · IJlst, Nederland",
-    "directMail": "Of mail direct: abdellah@jaizetech.nl"
+    "directMailPrefix": "Of mail direct:",
+    "directMailAddress": "abdellah@jaizetech.nl"
   },
   "blog": {
     "title": "Blog · Jaize",

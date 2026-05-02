@@ -330,6 +330,7 @@
     "options": {
       "scheduleTitle": "Book directly",
       "scheduleLead": "Pick a time slot — confirmation in your inbox immediately.",
+      "scheduleButton": "Open Cal.com",
       "messageTitle": "Send a message",
       "messageLead": "Tell me briefly what you're working on. I reply within 24 hours."
     },
@@ -344,7 +345,8 @@
       "successText": "Thanks. I'll reply within 24 hours on business days."
     },
     "trust": "Reply within 24 hours on business days · KvK registering · IJlst, Netherlands",
-    "directMail": "Or email directly: abdellah@jaizetech.nl"
+    "directMailPrefix": "Or email directly:",
+    "directMailAddress": "abdellah@jaizetech.nl"
   },
   "blog": {
     "title": "Blog · Jaize",

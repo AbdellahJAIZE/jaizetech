@@ -47,7 +47,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener"
               >
-                {t('options.scheduleTitle')}<span className="arrow">→</span>
+                {t('options.scheduleButton')}<span className="arrow">→</span>
               </a>
             </div>
 
@@ -59,7 +59,10 @@ function Contact() {
           </div>
 
           <p className="muted-line center">{t('trust')}</p>
-          <p className="muted-line center">{t('directMail')}</p>
+          <p className="muted-line center">
+            {t('directMailPrefix')}{' '}
+            <a href={`mailto:${t('directMailAddress')}`}>{t('directMailAddress')}</a>
+          </p>
         </div>
       </section>
     </>
