@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "siteName": "jaize",
+    "siteUrl": "https://jaizetech.nl",
+    "defaultTitle": "Jaize · Senior software engineering and AI integration",
+    "defaultDescription": "Senior software engineering, AI integration and technical leadership for Dutch scale-ups. Fixed prices. Available from July 2026."
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookCall": "Book a call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "title": "Jaize · Senior software engineering and AI integration",
+    "description": "Senior software engineering, AI integration and technical leadership for Dutch scale-ups. Fixed prices. Available from July 2026.",
+    "hero": {
+      "headline": "Senior engineering and AI integration for Dutch scale-ups.",
+      "lead": "Full-stack engineering, AI pipelines and technical leadership. Fixed-price or day rate. Available from July 2026.",
+      "ctaPrimary": "Book a free intro call",
+      "ctaSecondary": "See services"
+    },
+    "readme": {
+      "label": "profile",
+      "name": "name",
+      "nameValue": "Abdellah Jaize",
+      "role": "role",
+      "roleValue": "Senior software engineer · Tech lead",
+      "based": "based",
+      "basedValue": "IJlst, Netherlands",
+      "stack": "stack",
+      "stackValue": "NestJS · Next.js · Python · NVIDIA Triton · AWS",
+      "lang": "languages",
+      "langValue": "English · Dutch · French · Arabic",
+      "kvk": "kvk",
+      "kvkValue": "registering · june 2026",
+      "available": "available",
+      "availableValue": "from july 2026"
+    },
+    "services": {
+      "kicker": "What I deliver",
+      "title": "Productized engineering — fixed scope, fixed price.",
+      "viewAll": "See all services"
+    },
+    "work": {
+      "kicker": "Work",
+      "title": "What I've built recently.",
+      "viewAll": "All case studies"
+    },
+    "faq": {
+      "kicker": "Frequently asked",
+      "title": "Practical answers for your decision.",
+      "items": [
+        {
+          "q": "Do you work remote or on-site?",
+          "a": "Both. Mostly remote, with regular visits to Amsterdam, Utrecht or Eindhoven when useful for the engagement."
+        },
+        {
+          "q": "What's your day rate?",
+          "a": "€800–880 per day for hourly engagements. Most work is fixed-price based on the services above."
+        },
+        {
+          "q": "Do you work with one client at a time?",
+          "a": "No. I work with multiple clients in parallel — usually max 12–15 days per month per engagement. This protects independence and focus."
+        },
+        {
+          "q": "What if scope changes?",
+          "a": "Fixed prices are agreed up front. Changes go through a short change request with adjusted price and timeline."
+        },
+        {
+          "q": "Do you work in Dutch or English?",
+          "a": "Both. Documentation and code in English (industry standard). Meetings and email per preference — Dutch or English."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to build something?",
+      "lead": "A 15-minute call gives both of us quick clarity on whether there's a fit.",
+      "primary": "Book a call",
+      "secondary": "Or email directly: abdellah@jaizetech.nl"
+    }
+  },
+  "services": {
+    "title": "Services · Jaize",
+    "description": "Five fixed-price engagements for AI integration, MVP development, and technical leadership. Clear, predictable, production-ready.",
+    "hero": {
+      "kicker": "Services",
+      "headline": "Productized engineering. Fixed scope, fixed price, fixed timeline.",
+      "lead": "Five ways I work with Dutch scale-ups and SMEs. No quote ballet — pick what fits."
+    },
+    "items": [
+      {
+        "id": "ai-audit",
+        "name": "AI Integration Audit",
+        "price": "€3,500",
+        "duration": "1 week",
+        "for": "CTO or founder who needs to know where AI actually adds value to the product.",
+        "summary": "Quick technical review of your stack, identification of 5–10 highest-impact AI integration opportunities, and a prioritized roadmap.",
+        "delivers": [
+          "Day 1–2: codebase walkthrough and product context",
+          "Day 3: research best-fit AI tooling for your stack",
+          "Day 4: prototype of one high-impact integration",
+          "Day 5: report with roadmap, cost projection, 90-day plan"
+        ],
+        "excludes": "Implementation of the roadmap (separate engagement, e.g. AI Pipeline)."
+      },
+      {
+        "id": "mvp",
+        "name": "Production-Ready MVP",
+        "price": "€18,000",
+        "duration": "4 weeks",
+        "for": "Pre-seed or seed startups validating PMF who want their MVP launched in 4 weeks.",
+        "summary": "Full backend + frontend + deployment of a validated MVP. I build, you get users.",
+        "delivers": [
+          "NestJS or Node + database, REST or GraphQL API",
+          "Next.js or React frontend, responsive and tested",
+          "JWT or OAuth authentication",
+          "Deployment on AWS, GCP or Cloudflare",
+          "Simple admin / dashboard",
+          "Source code in your repo, documented"
+        ],
+        "excludes": "Native mobile apps and complex AI features (use other engagements)."
+      },
+      {
+        "id": "tech-lead",
+        "name": "Embedded Tech Lead",
+        "price": "€12,000",
+        "duration": "4 weeks",
+        "for": "Series A scale-ups whose senior team is stretched and needs architectural direction.",
+        "summary": "Architecture review, team coaching, and roadmap. Senior thinking without a full-time CTO.",
+        "delivers": [
+          "Week 1: architecture review (current state, scaling challenges, debt)",
+          "Week 2: roadmap (12-month tech roadmap, hiring plan)",
+          "Week 3: team coaching (code reviews, 1-on-1 mentoring)",
+          "Week 4: handover (documentation, hiring rubric, follow-up advice)",
+          "Up to 16 hours per week engagement",
+          "30 days async support after wrap-up"
+        ],
+        "excludes": "Day-to-day feature development — that's the Engineer role."
+      },
+      {
+        "id": "ai-pipeline",
+        "name": "Production AI Pipeline",
+        "price": "€25,000",
+        "duration": "6 weeks",
+        "for": "Mid-stage companies with custom AI needs — computer vision, LLM workflows, RAG systems, classification at scale.",
+        "summary": "Production-ready AI inference pipelines. Set up, deployed, and monitored.",
+        "delivers": [
+          "Week 1: discovery and scope confirmation",
+          "Week 2: data pipeline",
+          "Weeks 3–4: model integration or training",
+          "Week 5: deployment and monitoring",
+          "Week 6: documentation and handover",
+          "Stack options: NVIDIA Triton + YOLO/ResNet (vision), LangGraph + OpenAI/Anthropic (LLM), Pinecone/Weaviate (RAG)"
+        ],
+        "excludes": "System maintenance after week 6 (separate retainer or Fractional CTO)."
+      },
+      {
+        "id": "fractional-cto",
+        "name": "Fractional CTO",
+        "price": "€5,000 / month",
+        "duration": "min. 3 months",
+        "for": "5–15 person startups without full-time technical leadership who need senior thinking on strategic and tactical level.",
+        "summary": "One day per week strategic plus tactical technical leadership for your product and team.",
+        "delivers": [
+          "1 day per week (Wednesdays default) on-site or remote",
+          "Weekly 1-on-1 with founder or CEO",
+          "Code reviews, architecture decisions, hiring support",
+          "Vendor evaluations",
+          "Async support during the week"
+        ],
+        "excludes": "Full-time feature engineering and production on-call."
+      }
+    ],
+    "cta": {
+      "title": "Not sure which fits?",
+      "lead": "Book a 15-minute call — I'll honestly tell you which one (or none) fits.",
+      "primary": "Book a call"
+    }
+  },
+  "work": {
+    "title": "Work · Jaize",
+    "description": "Three recent engagements — AI computer vision platform, scaling a tech team from 2 to 12+, and backend for a receipt-management platform.",
+    "hero": {
+      "kicker": "Work",
+      "headline": "What I've built recently.",
+      "lead": "Three engagements with concrete outcomes. No marketing, no logo soup — just what I shipped."
+    },
+    "cases": [
+      {
+        "id": "inovaa",
+        "client": "Dutch agritech company",
+        "sector": "AI computer vision · Industrial quality control",
+        "year": "2023 – present",
+        "role": "Sole technical owner",
+        "challenge": "Replace a legacy quality control platform with an AI-driven system that automatically classifies millions of product images.",
+        "approach": "Full stack built from scratch: NestJS backend (37+ modules), Vue.js frontend (49 pages), PostgreSQL, and NVIDIA Triton inference pipeline with ResNet and YOLO. Hybrid on-prem plus cloud setup.",
+        "outcomes": [
+          "3M+ AI inference calls delivered in production",
+          "5 languages supported with multi-locale annotation workflows",
+          "~3TB of product data migrated with zero data loss",
+          "Automated backups (pg_dump + offsite NAS) and zero-downtime deployments"
+        ],
+        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"]
+      },
+      {
+        "id": "appistadium",
+        "client": "AppiStadium",
+        "sector": "Sportstech · Early-stage startup",
+        "year": "2022 – 2023",
+        "role": "Tech lead",
+        "challenge": "Grow a 2-person engineering team to production-ready velocity at a typical startup with rapidly growing product demands.",
+        "approach": "Inherited 2-person team grown to 12+ engineers (mobile, backend, web, cloud). React Native with shared backend for iOS plus Android. Reported to board on technical strategy.",
+        "outcomes": [
+          "Engineering team grown from 2 → 12+ in 18 months",
+          "React Native app published on App Store and Google Play",
+          "OAuth2 / Firebase Auth with RBAC across web and mobile",
+          "Full DevOps / CI/CD setup on AWS"
+        ],
+        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"]
+      },
+      {
+        "id": "scanbon",
+        "client": "Abraham Stone B.V. (ScanBon)",
+        "sector": "FinTech · B2C receipt management",
+        "year": "2025 – 2026",
+        "role": "Backend and mobile engineer",
+        "challenge": "Extend a receipt-scanning app with OCR pipeline, expense categorization and analytics API.",
+        "approach": "Built NestJS backend with OCR pipeline, JWT authentication, receipt categorization and expense analytics API. Deployed on GCP with CI/CD.",
+        "outcomes": [
+          "Backend with OCR pipeline live in production",
+          "JWT-based authentication and role management",
+          "Expense analytics API for dashboards",
+          "GCP deployment with automated CI/CD"
+        ],
+        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"]
+      }
+    ],
+    "cta": {
+      "title": "Similar engagement in mind?",
+      "lead": "Let's talk — I'll tell you in 15 minutes whether I can add value.",
+      "primary": "Book a call"
+    }
+  },
+  "about": {
+    "title": "About · Jaize",
+    "description": "Senior software engineer and tech lead, based in IJlst. M.Sc. Big Data and IoT. 5+ years of professional experience across startup, scale-up and agritech.",
+    "hero": {
+      "kicker": "About",
+      "headline": "Abdellah Jaize · Senior Software Engineer.",
+      "lead": "I build production-ready software end-to-end — backend, frontend, AI integration and infrastructure. 5+ years professional."
+    },
+    "bio": [
+      "I'm a Moroccan software engineer based in IJlst, Friesland. My work focuses on building products end-to-end — not one layer, but the whole product.",
+      "I started as a full-stack engineer and became tech lead at a sportstech startup where I grew the engineering team from 2 to 12+. After that I worked 2.5 years as sole technical owner of an AI computer vision platform for a Dutch agritech company — building everything: application, ML pipelines, hybrid infrastructure and production operations.",
+      "From July 2026 I work independently for Dutch scale-ups and SMEs that need senior engineering and AI integration help."
+    ],
+    "approach": {
+      "title": "My approach",
+      "items": [
+        "End-to-end ownership — I build the whole system, not one layer",
+        "Fixed price and fixed scope where possible — no quote ballet",
+        "Production-ready from day 1 — monitored, tested, deployed",
+        "Honest assessments — if I think something doesn't fit, I'll say so"
+      ]
+    },
+    "credentials": {
+      "title": "Background",
+      "education": [
+        "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
+        "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
+      ],
+      "certs": [
+        "NVIDIA DLI: Fundamentals of Deep Learning (2021)",
+        "NVIDIA DLI: Building Intelligent Recommender Systems (2022)",
+        "IBM Hackathon — 1st place (national)",
+        "Facebook Messenger Bot Challenge — finalist (international)"
+      ],
+      "languages": [
+        "Arabic — native",
+        "English — professional",
+        "French — professional",
+        "Dutch — basic (working)"
+      ]
+    },
+    "stack": {
+      "title": "Stack",
+      "groups": [
+        { "label": "Backend", "items": ["NestJS", "Node / TypeScript", "Python", "Flask", "REST", "OAuth2", "JWT", "RBAC"] },
+        { "label": "Frontend", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
+        { "label": "AI / ML", "items": ["LLM APIs (OpenAI, Anthropic, Gemini)", "LangGraph", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
+        { "label": "Cloud / DevOps", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD", "Nginx"] },
+        { "label": "Data", "items": ["PostgreSQL", "MongoDB", "MySQL"] }
+      ]
+    },
+    "cta": {
+      "title": "Want to work together?",
+      "lead": "Book a 15-minute call or send a short note.",
+      "primary": "Book a call"
+    }
+  },
+  "contact": {
+    "title": "Contact · Jaize",
+    "description": "Book a 15-minute call or send a message. Reply within 24 hours on business days.",
+    "hero": {
+      "headline": "Let's talk.",
+      "lead": "A 15-minute call gives both of us quick clarity."
+    },
+    "options": {
+      "scheduleTitle": "Book directly",
+      "scheduleLead": "Pick a time slot — confirmation in your inbox immediately.",
+      "messageTitle": "Send a message",
+      "messageLead": "Tell me briefly what you're working on. I reply within 24 hours."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company (optional)",
+      "message": "What's your question?",
+      "messagePlaceholder": "A few sentences about what you're trying to build or solve...",
+      "submit": "Send message",
+      "successTitle": "Message received",
+      "successText": "Thanks. I'll reply within 24 hours on business days."
+    },
+    "trust": "Reply within 24 hours on business days · KvK registering · IJlst, Netherlands",
+    "directMail": "Or email directly: abdellah@jaizetech.nl"
+  },
+  "blog": {
+    "title": "Blog · Jaize",
+    "description": "Notes on senior software engineering, AI integration, and independent work in the Netherlands.",
+    "hero": {
+      "kicker": "Blog",
+      "headline": "Notes on engineering and AI.",
+      "lead": "Concrete lessons from production projects. Short pieces, long form where useful."
+    },
+    "empty": "No posts published yet. The first one is coming soon."
+  },
+  "footer": {
+    "tagline": "Senior software engineering and AI integration for Dutch scale-ups.",
+    "linksTitle": "Quick links",
+    "contactTitle": "Contact",
+    "based": "Based in IJlst, Netherlands",
+    "kvk": "KvK registering · June 2026",
+    "rights": "All rights reserved",
+    "privacy": "Privacy policy",
+    "terms": "Terms"
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "siteName": "jaize",
+    "siteUrl": "https://jaizetech.nl",
+    "defaultTitle": "Jaize · Senior software engineering en AI-integratie",
+    "defaultDescription": "Senior software engineering, AI-integratie en technisch leiderschap voor Nederlandse scale-ups. Vaste prijzen. Beschikbaar vanaf juli 2026."
+  },
+  "nav": {
+    "services": "Diensten",
+    "work": "Werk",
+    "about": "Over",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookCall": "Plan een gesprek",
+    "openMenu": "Open menu",
+    "closeMenu": "Sluit menu"
+  },
+  "home": {
+    "title": "Jaize · Senior software engineering en AI-integratie",
+    "description": "Senior software engineering, AI-integratie en technisch leiderschap voor Nederlandse scale-ups. Vaste prijzen. Beschikbaar vanaf juli 2026.",
+    "hero": {
+      "headline": "Senior engineering en AI-integratie voor Nederlandse scale-ups.",
+      "lead": "Volledige stack ontwikkeling, AI-pijplijnen en technisch leiderschap. Op vaste prijs of dagtarief. Beschikbaar vanaf juli 2026.",
+      "ctaPrimary": "Plan een gratis kennismakingsgesprek",
+      "ctaSecondary": "Bekijk diensten"
+    },
+    "readme": {
+      "label": "profiel",
+      "name": "naam",
+      "nameValue": "Abdellah Jaize",
+      "role": "rol",
+      "roleValue": "Senior software engineer · Tech lead",
+      "based": "gevestigd",
+      "basedValue": "IJlst, Nederland",
+      "stack": "stack",
+      "stackValue": "NestJS · Next.js · Python · NVIDIA Triton · AWS",
+      "lang": "talen",
+      "langValue": "Nederlands · Engels · Frans · Arabisch",
+      "kvk": "kvk",
+      "kvkValue": "in registratie · juni 2026",
+      "available": "beschikbaar",
+      "availableValue": "vanaf juli 2026"
+    },
+    "services": {
+      "kicker": "Wat ik lever",
+      "title": "Productized engineering — vaste scope, vaste prijs.",
+      "viewAll": "Alle diensten bekijken"
+    },
+    "work": {
+      "kicker": "Werk",
+      "title": "Wat ik recent heb gebouwd.",
+      "viewAll": "Alle case studies"
+    },
+    "faq": {
+      "kicker": "Veelgestelde vragen",
+      "title": "Praktische antwoorden voor je beslissing.",
+      "items": [
+        {
+          "q": "Werk je remote of op locatie?",
+          "a": "Beide. Voornamelijk remote, met regelmatige bezoeken aan Amsterdam, Utrecht of Eindhoven indien nuttig voor de opdracht."
+        },
+        {
+          "q": "Welk dagtarief reken je?",
+          "a": "€800–880 per dag voor uurmodellen. De meeste opdrachten zijn vaste prijs op basis van bovenstaande dienstverlening."
+        },
+        {
+          "q": "Werk je voor één klant tegelijk?",
+          "a": "Nee. Ik werk parallel met meerdere klanten — meestal max 12–15 dagen per maand per opdracht. Dit beschermt zelfstandigheid en focus."
+        },
+        {
+          "q": "Wat als de scope verandert?",
+          "a": "Vaste prijzen worden vooraf afgesproken. Wijzigingen lopen via een korte verandering-aanvraag met aangepaste prijs en termijn."
+        },
+        {
+          "q": "Werk je in het Nederlands of Engels?",
+          "a": "Beide. Documentatie en code in het Engels (industriestandaard). Meetings en e-mail naar voorkeur — Nederlands of Engels."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om iets te bouwen?",
+      "lead": "Een gesprek van 15 minuten geeft ons beiden snel duidelijkheid over of er een match is.",
+      "primary": "Plan een gesprek",
+      "secondary": "Of mail direct naar abdellah@jaizetech.nl"
+    }
+  },
+  "services": {
+    "title": "Diensten · Jaize",
+    "description": "Vijf vaste-prijs opdrachten voor AI-integratie, MVP-ontwikkeling en technisch leiderschap. Helder, voorspelbaar, productieklaar.",
+    "hero": {
+      "kicker": "Diensten",
+      "headline": "Productized engineering. Vaste scope, vaste prijs, vaste termijn.",
+      "lead": "Vijf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Geen offerteballet — kies wat past."
+    },
+    "items": [
+      {
+        "id": "ai-audit",
+        "name": "AI Integration Audit",
+        "price": "€3.500",
+        "duration": "1 week",
+        "for": "CTO of founder die wil weten waar AI échte waarde toevoegt aan het product.",
+        "summary": "Snelle technische review van je stack, identificatie van 5–10 hoogste-impact AI-integratiekansen, en een geprioriteerde routekaart.",
+        "delivers": [
+          "Day 1–2: codebase walkthrough en product context",
+          "Day 3: research naar best-fit AI tooling voor je stack",
+          "Day 4: prototype van één hoog-impact integratie",
+          "Day 5: rapport met routekaart, kostprojectie en 90-dagen plan"
+        ],
+        "excludes": "Implementatie van de roadmap (komt apart of als AI Pipeline)."
+      },
+      {
+        "id": "mvp",
+        "name": "Production-Ready MVP",
+        "price": "€18.000",
+        "duration": "4 weken",
+        "for": "Pre-seed of seed startups die PMF valideren en hun MVP in 4 weken willen lanceren.",
+        "summary": "Volledige backend + frontend + deployment van een gevalideerde MVP. Ik bouw, jij krijgt gebruikers.",
+        "delivers": [
+          "NestJS of Node + database, REST of GraphQL API",
+          "Next.js of React frontend, responsive en getest",
+          "JWT of OAuth authenticatie",
+          "Deployment op AWS, GCP of Cloudflare",
+          "Eenvoudige admin / dashboard",
+          "Source code in jullie repo, met documentatie"
+        ],
+        "excludes": "Native mobile apps en complexe AI-features (gebruik andere diensten)."
+      },
+      {
+        "id": "tech-lead",
+        "name": "Embedded Tech Lead",
+        "price": "€12.000",
+        "duration": "4 weken",
+        "for": "Series A scale-ups waarvan het senior team uitgerekt is en architecturale richting nodig heeft.",
+        "summary": "Architectuur review, team coaching en routekaart. Senior denkkracht zonder fulltime CTO.",
+        "delivers": [
+          "Week 1: architecture review (huidige staat, schaalproblemen, debt)",
+          "Week 2: roadmap (12-maanden tech roadmap, hiring plan)",
+          "Week 3: team coaching (code reviews, mentoring 1-op-1)",
+          "Week 4: handover (documentatie, hiring rubric, follow-up advies)",
+          "Tot 16 uur per week engagement",
+          "30 dagen async support na afronding"
+        ],
+        "excludes": "Day-to-day feature ontwikkeling — daarvoor is de Engineer rol."
+      },
+      {
+        "id": "ai-pipeline",
+        "name": "Production AI Pipeline",
+        "price": "€25.000",
+        "duration": "6 weken",
+        "for": "Mid-stage bedrijven met custom AI-behoeftes — computer vision, LLM workflows, RAG-systemen, classificatie op schaal.",
+        "summary": "Productieklare AI-inferentie pijplijnen. Opgezet, gedeployed en gemonitord.",
+        "delivers": [
+          "Week 1: discovery en scope confirmatie",
+          "Week 2: data pipeline",
+          "Weken 3–4: model integratie of training",
+          "Week 5: deployment en monitoring",
+          "Week 6: documentatie en handover",
+          "Stack opties: NVIDIA Triton + YOLO/ResNet (vision), LangGraph + OpenAI/Anthropic (LLM), Pinecone/Weaviate (RAG)"
+        ],
+        "excludes": "Onderhoud van het systeem na week 6 (komt apart als retainer of Fractional CTO)."
+      },
+      {
+        "id": "fractional-cto",
+        "name": "Fractional CTO",
+        "price": "€5.000 / maand",
+        "duration": "min. 3 maanden",
+        "for": "5–15 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op strategisch en tactisch niveau.",
+        "summary": "Eén dag per week strategische plus tactische technische leiding voor je product en team.",
+        "delivers": [
+          "1 dag per week (woensdag standaard) on-site of remote",
+          "Wekelijkse 1-op-1 met founder of CEO",
+          "Code reviews, architectuur-beslissingen, hiring support",
+          "Vendor evaluaties",
+          "Async support gedurende de week"
+        ],
+        "excludes": "Fulltime feature engineering en production on-call."
+      }
+    ],
+    "cta": {
+      "title": "Niet zeker welke past?",
+      "lead": "Plan een gesprek van 15 minuten — ik vertel je eerlijk welke (of geen) bij je past.",
+      "primary": "Plan een gesprek"
+    }
+  },
+  "work": {
+    "title": "Werk · Jaize",
+    "description": "Drie recente opdrachten — AI computer vision platform, scaling van een tech-team van 2 naar 12+, en backend voor een receipt-management platform.",
+    "hero": {
+      "kicker": "Werk",
+      "headline": "Wat ik recent heb gebouwd.",
+      "lead": "Drie opdrachten met concrete uitkomsten. Geen marketing, geen logo-soep — alleen wat ik heb verzonden."
+    },
+    "cases": [
+      {
+        "id": "inovaa",
+        "client": "Nederlands agritech bedrijf",
+        "sector": "AI computer vision · Industriële kwaliteitscontrole",
+        "year": "2023 – heden",
+        "role": "Sole technical owner",
+        "challenge": "Een legacy kwaliteitscontrole platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert.",
+        "approach": "Volledige stack vanaf grond opgebouwd: NestJS backend (37+ modules), Vue.js frontend (49 pagina's), PostgreSQL, en NVIDIA Triton inferentie pijplijn met ResNet en YOLO. Hybrid on-prem plus cloud setup.",
+        "outcomes": [
+          "3 miljoen+ AI-inferentie calls geleverd in productie",
+          "5 talen ondersteund met multi-locale annotatie workflows",
+          "~3TB aan productdata gemigreerd zonder dataloss",
+          "Geautomatiseerde backups (pg_dump + offsite NAS) en zero-downtime deployments"
+        ],
+        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"]
+      },
+      {
+        "id": "appistadium",
+        "client": "AppiStadium",
+        "sector": "Sportstech · Vroege-fase startup",
+        "year": "2022 – 2023",
+        "role": "Tech lead",
+        "challenge": "Een 2-persoons engineering team uitbreiden naar productieklare velocity bij een gewone startup met snel groeiende product-eisen.",
+        "approach": "Geërfde 2-persoons team uitgebreid naar 12+ engineers (mobile, backend, web, cloud). React Native met gedeelde backend voor iOS plus Android. Rapporteerde aan board over technische strategie.",
+        "outcomes": [
+          "Engineering team uitgebreid van 2 → 12+ in 18 maanden",
+          "React Native app gepubliceerd op App Store en Google Play",
+          "OAuth2 / Firebase Auth met RBAC over web en mobile",
+          "Volledige DevOps / CI/CD setup op AWS"
+        ],
+        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"]
+      },
+      {
+        "id": "scanbon",
+        "client": "Abraham Stone B.V. (ScanBon)",
+        "sector": "FinTech · B2C receipt management",
+        "year": "2025 – 2026",
+        "role": "Backend en mobile engineer",
+        "challenge": "Een receipt-scanning app uitbreiden met OCR-pijplijn, uitgaven-categorisering en analytics API.",
+        "approach": "NestJS backend opgebouwd met OCR pipeline, JWT authenticatie, receipt categorisering en uitgaven-analytics API. Deployed op GCP met CI/CD.",
+        "outcomes": [
+          "Backend met OCR-pijplijn live in productie",
+          "JWT-gebaseerde authenticatie en rolbeheer",
+          "Uitgaven-analytics API voor dashboards",
+          "GCP deployment met geautomatiseerde CI/CD"
+        ],
+        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"]
+      }
+    ],
+    "cta": {
+      "title": "Vergelijkbare opdracht in gedachten?",
+      "lead": "Laten we praten — ik vertel je in 15 minuten of ik er waarde aan kan toevoegen.",
+      "primary": "Plan een gesprek"
+    }
+  },
+  "about": {
+    "title": "Over · Jaize",
+    "description": "Senior software engineer en tech lead, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring in startup, scale-up en agritech.",
+    "hero": {
+      "kicker": "Over",
+      "headline": "Abdellah Jaize · Senior Software Engineer.",
+      "lead": "Ik bouw production-ready software end-to-end — backend, frontend, AI-integratie en infrastructuur. 5+ jaar professioneel."
+    },
+    "bio": [
+      "Ik ben een Marokkaanse software engineer gevestigd in IJlst, Friesland. Mijn werk focust op het einde-naar-einde bouwen van producten — niet één laag, maar het hele product.",
+      "Ik begon als full-stack engineer en ben tech lead geworden bij een sportstech startup waar ik het engineering team uitbreidde van 2 naar 12+. Daarna heb ik 2,5 jaar als sole technical owner gewerkt aan een AI computer vision platform voor een Nederlands agritech bedrijf — alles gebouwd: applicatie, ML pijplijnen, hybrid infrastructuur en productie operations.",
+      "Vanaf juli 2026 werk ik zelfstandig voor Nederlandse scale-ups en MKB die senior engineering- en AI-integratiehulp nodig hebben."
+    ],
+    "approach": {
+      "title": "Mijn aanpak",
+      "items": [
+        "End-to-end ownership — ik bouw het hele systeem, niet één laag",
+        "Vaste prijs en vaste scope waar mogelijk — geen offerteballet",
+        "Productieklaar vanaf dag 1 — gemonitord, getest, gedeployed",
+        "Eerlijke beoordelingen — als ik denk dat iets niet past, zeg ik dat"
+      ]
+    },
+    "credentials": {
+      "title": "Achtergrond",
+      "education": [
+        "M.Sc. Big Data & IoT, ENSAM Casablanca (2019–2021)",
+        "B.Sc. Big Data & Massive Data Management, FST Settat (2018–2019)"
+      ],
+      "certs": [
+        "NVIDIA DLI: Fundamentals of Deep Learning (2021)",
+        "NVIDIA DLI: Building Intelligent Recommender Systems (2022)",
+        "IBM Hackathon — 1e plaats (nationaal)",
+        "Facebook Messenger Bot Challenge — finalist (internationaal)"
+      ],
+      "languages": [
+        "Arabisch — moedertaal",
+        "Engels — professioneel",
+        "Frans — professioneel",
+        "Nederlands — basis (werkend)"
+      ]
+    },
+    "stack": {
+      "title": "Stack",
+      "groups": [
+        { "label": "Backend", "items": ["NestJS", "Node / TypeScript", "Python", "Flask", "REST", "OAuth2", "JWT", "RBAC"] },
+        { "label": "Frontend", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
+        { "label": "AI / ML", "items": ["LLM APIs (OpenAI, Anthropic, Gemini)", "LangGraph", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
+        { "label": "Cloud / DevOps", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD", "Nginx"] },
+        { "label": "Data", "items": ["PostgreSQL", "MongoDB", "MySQL"] }
+      ]
+    },
+    "cta": {
+      "title": "Wil je samenwerken?",
+      "lead": "Plan een gesprek van 15 minuten of stuur een korte mail.",
+      "primary": "Plan een gesprek"
+    }
+  },
+  "contact": {
+    "title": "Contact · Jaize",
+    "description": "Plan een gesprek van 15 minuten of stuur een bericht. Reactie binnen 24 uur op werkdagen.",
+    "hero": {
+      "headline": "Laten we praten.",
+      "lead": "Een gesprek van 15 minuten geeft ons beiden snel duidelijkheid."
+    },
+    "options": {
+      "scheduleTitle": "Plan direct",
+      "scheduleLead": "Kies een tijdslot dat werkt — bevestiging direct in je inbox.",
+      "messageTitle": "Stuur een bericht",
+      "messageLead": "Vertel me kort waar je mee bezig bent. Ik reageer binnen 24 uur."
+    },
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "company": "Bedrijf (optioneel)",
+      "message": "Wat is je vraag?",
+      "messagePlaceholder": "Een paar zinnen over wat je probeert te bouwen of oplossen...",
+      "submit": "Verstuur bericht",
+      "successTitle": "Bericht ontvangen",
+      "successText": "Bedankt. Ik reageer binnen 24 uur op werkdagen."
+    },
+    "trust": "Reactie binnen 24 uur op werkdagen · KvK in registratie · IJlst, Nederland",
+    "directMail": "Of mail direct: abdellah@jaizetech.nl"
+  },
+  "blog": {
+    "title": "Blog · Jaize",
+    "description": "Aantekeningen over senior software engineering, AI-integratie en zelfstandig werken in Nederland.",
+    "hero": {
+      "kicker": "Blog",
+      "headline": "Aantekeningen over engineering en AI.",
+      "lead": "Concrete leerpunten uit productie-projecten. Korte stukken, lange vorm waar nuttig."
+    },
+    "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
+  },
+  "footer": {
+    "tagline": "Senior software engineering en AI-integratie voor Nederlandse scale-ups.",
+    "linksTitle": "Snel naar",
+    "contactTitle": "Contact",
+    "based": "Gevestigd in IJlst, Nederland",
+    "kvk": "KvK in registratie · juni 2026",
+    "rights": "Alle rechten voorbehouden",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden"
+  }
+}
