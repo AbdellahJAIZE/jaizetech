@@ -331,13 +331,45 @@
         "production": "Embedded Tech Lead 2022–2023"
       },
       {
+        "id": "screebl",
+        "client": "Screebl — B2B SaaS dashboard platform",
+        "sector": "B2B SaaS · Multi-agency analytics",
+        "year": "Jul 2025 – Mar 2026",
+        "role": "Software Engineer",
+        "summary": "Complete B2B SaaS platform built from scratch. Custom dashboard builder, 7-tier RBAC, multi-agency support, and 6 languages. Production-ready for agencies.",
+        "approach": "Nuxt 3 + Tailwind frontend, NestJS 11 + MongoDB backend, 26+ pages with a custom dashboard builder. 7-tier RBAC for agency hierarchy, i18n for 6 languages, Playwright E2E testing. Deployment on AWS with CI/CD.",
+        "stats": [
+          { "value": "26+", "label": "Pages incl. dashboard builder" },
+          { "value": "7-tier", "label": "RBAC + multi-agency" },
+          { "value": "9mo", "label": "Engagement" }
+        ],
+        "stack": ["Nuxt 3", "NestJS 11", "MongoDB", "Tailwind", "AWS", "Playwright"],
+        "production": "In production since Q1 2026"
+      },
+      {
+        "id": "censor",
+        "client": "Censor — compliance portal for Luxembourg companies",
+        "sector": "Compliance · Corporate tax & reporting",
+        "year": "May – Jul 2025",
+        "role": "Software Engineer",
+        "summary": "MVP portal that extracts corporate tax data and KPIs from company filings via OCR and AI. Interactive dashboards for compliance teams.",
+        "approach": "Backend and ETL pipeline for data ingestion. AI-driven OCR extraction of KPIs from company filings. Interactive dashboards for compliance analytics. Fast MVP track with Solution 360.",
+        "stats": [
+          { "value": "OCR + AI", "label": "KPI extraction from filings" },
+          { "value": "ETL", "label": "Data ingestion pipeline" },
+          { "value": "3mo", "label": "MVP delivery" }
+        ],
+        "stack": ["NestJS", "Python", "OCR", "ETL", "Dashboards"],
+        "production": "MVP delivered Q3 2025"
+      },
+      {
         "id": "scanbon",
-        "client": "Backend + OCR pipeline for receipt management app",
+        "client": "ScanBon — backend + OCR pipeline for receipt management app",
         "sector": "FinTech · B2C receipt management",
-        "year": "2025 – 2026",
+        "year": "Dec 2025 – Mar 2026",
         "role": "Backend Engineer (backend only)",
         "summary": "Backend for a Dutch fintech receipt app: OCR pipeline, expense categorization API, and JWT auth. No mobile or frontend work — those were built by others.",
-        "approach": "OCR via Google Cloud Vision with edge-case handling and post-processing loop, NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
+        "approach": "OCR via Google Cloud Vision with edge-case handling and post-processing loop. NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
         "stats": [
           { "value": "OCR", "label": "Pipeline on Google Cloud Vision" },
           { "value": "JWT", "label": "Auth + RBAC" },
@@ -345,6 +377,22 @@
         ],
         "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
         "production": "Production-Ready MVP 2025–2026"
+      },
+      {
+        "id": "arrowlancer",
+        "client": "Arrowlancer — personal project, NL-visa job marketplace",
+        "sector": "Personal project · Marketplace + GenAI",
+        "year": "Dec 2024 – Jan 2026",
+        "role": "Founder & Engineer (own project)",
+        "summary": "Personal project: marketplace connecting international professionals with Dutch employers that sponsor visas. GenAI-driven job discovery tool with automated data ingestion.",
+        "approach": "Next.js frontend, NestJS backend, MongoDB. GenAI job discovery with N8N automation for periodic data ingestion from public job sources. Deployment on Render and AWS Amplify with CI/CD.",
+        "stats": [
+          { "value": "GenAI", "label": "Job discovery tool" },
+          { "value": "N8N", "label": "Automated data ingestion" },
+          { "value": "13mo", "label": "Personal build" }
+        ],
+        "stack": ["Next.js", "NestJS", "MongoDB", "N8N", "GenAI", "AWS"],
+        "production": "Personal project — active since Dec 2024"
       }
     ],
     "cta": {

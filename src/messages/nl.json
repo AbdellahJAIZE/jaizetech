@@ -331,13 +331,45 @@
         "production": "Embedded Tech Lead 2022–2023"
       },
       {
+        "id": "screebl",
+        "client": "Screebl — B2B SaaS dashboard-platform",
+        "sector": "B2B SaaS · Multi-agency analytics",
+        "year": "Jul 2025 – Mar 2026",
+        "role": "Software Engineer",
+        "summary": "Volledig B2B SaaS platform vanaf de grond opgebouwd. Custom dashboard builder, 7-tier RBAC, multi-agency support en 6 talen. Productieklaar voor agencies.",
+        "approach": "Nuxt 3 + Tailwind frontend, NestJS 11 + MongoDB backend, 26+ pagina's met een custom dashboard builder. 7-tier RBAC voor agency-hiërarchie, i18n voor 6 talen, Playwright E2E testing. Deployment op AWS met CI/CD.",
+        "stats": [
+          { "value": "26+", "label": "Pagina's incl. dashboard builder" },
+          { "value": "7-tier", "label": "RBAC + multi-agency" },
+          { "value": "9mo", "label": "Doorlooptijd" }
+        ],
+        "stack": ["Nuxt 3", "NestJS 11", "MongoDB", "Tailwind", "AWS", "Playwright"],
+        "production": "In productie sinds Q1 2026"
+      },
+      {
+        "id": "censor",
+        "client": "Censor — compliance-portal voor Luxemburg",
+        "sector": "Compliance · Corporate tax & reporting",
+        "year": "May – Jul 2025",
+        "role": "Software Engineer",
+        "summary": "MVP-portal die corporate tax-data en KPI's uit company filings extraheert via OCR en AI. Interactieve dashboards voor compliance-teams.",
+        "approach": "Backend en ETL-pipeline voor data-ingestion. AI-gedreven OCR-extractie van KPI's uit company filings. Interactieve dashboards voor compliance-analytics. Snel MVP traject met Solution 360.",
+        "stats": [
+          { "value": "OCR + AI", "label": "KPI-extractie uit filings" },
+          { "value": "ETL", "label": "Data-ingestion pipeline" },
+          { "value": "3mo", "label": "MVP doorlooptijd" }
+        ],
+        "stack": ["NestJS", "Python", "OCR", "ETL", "Dashboards"],
+        "production": "MVP opgeleverd Q3 2025"
+      },
+      {
         "id": "scanbon",
-        "client": "Backend + OCR-pijplijn voor bonbeheer-app",
+        "client": "ScanBon — backend + OCR-pijplijn voor bonbeheer-app",
         "sector": "FinTech · B2C receipt management",
-        "year": "2025 – 2026",
+        "year": "Dec 2025 – Mar 2026",
         "role": "Backend Engineer (alleen backend)",
         "summary": "Backend voor een NL fintech receipt-app: OCR-pijplijn, uitgaven-categorisering API en JWT-auth. Geen mobile of frontend — die werden door anderen gebouwd.",
-        "approach": "OCR via Google Cloud Vision met edge-case handling en post-processing loop, NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
+        "approach": "OCR via Google Cloud Vision met edge-case handling en post-processing loop. NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
         "stats": [
           { "value": "OCR", "label": "Pijplijn op Google Cloud Vision" },
           { "value": "JWT", "label": "Auth + RBAC" },
@@ -345,6 +377,22 @@
         ],
         "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
         "production": "Production-Ready MVP 2025–2026"
+      },
+      {
+        "id": "arrowlancer",
+        "client": "Arrowlancer — eigen project, NL-visa job marketplace",
+        "sector": "Personal project · Marketplace + GenAI",
+        "year": "Dec 2024 – Jan 2026",
+        "role": "Founder & Engineer (eigen project)",
+        "summary": "Eigen project: marketplace die internationale professionals verbindt met Nederlandse werkgevers die visa sponsoren. GenAI-gedreven job discovery tool met geautomatiseerde data-ingestion.",
+        "approach": "Next.js frontend, NestJS backend, MongoDB. GenAI job discovery met N8N automation voor periodieke data-ingestion uit publieke vacaturebronnen. Deployment op Render en AWS Amplify met CI/CD.",
+        "stats": [
+          { "value": "GenAI", "label": "Job discovery tool" },
+          { "value": "N8N", "label": "Geautomatiseerde data-ingestion" },
+          { "value": "13mo", "label": "Eigen build" }
+        ],
+        "stack": ["Next.js", "NestJS", "MongoDB", "N8N", "GenAI", "AWS"],
+        "production": "Eigen project — actief sinds Dec 2024"
       }
     ],
     "cta": {
