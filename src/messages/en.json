@@ -380,19 +380,19 @@
       },
       {
         "id": "arrowlancer",
-        "client": "Arrowlancer — personal project, NL-visa job marketplace",
-        "sector": "Personal project · Marketplace + GenAI",
+        "client": "Arrowlancer — NL-visa job marketplace (built for my brother's startup)",
+        "sector": "Startup · Marketplace + AI agents + voice AI",
         "year": "Dec 2024 – Jan 2026",
-        "role": "Founder & Engineer (own project)",
-        "summary": "Personal project: marketplace connecting international professionals with Dutch employers that sponsor visas. GenAI-driven job discovery tool with automated data ingestion.",
-        "approach": "Next.js frontend, NestJS backend, MongoDB. GenAI job discovery with N8N automation for periodic data ingestion from public job sources. Deployment on Render and AWS Amplify with CI/CD.",
+        "role": "Founding Engineer (built for my brother's startup)",
+        "summary": "Full product build for my brother's startup: marketplace connecting international professionals with Dutch employers that sponsor visas. Includes LangChain job-finder agent, LiveKit voice AI for candidate intake, and automated data ingestion.",
+        "approach": "Built the entire product solo: Next.js frontend with Radix UI + Framer Motion, NestJS backend with Mongoose and Firebase Auth, Python services for the AI components. JobFinder agent built with LangChain for candidate-job matching. LiveKit voice AI for real-time candidate intake. N8N pipelines for periodic job ingestion. Deployment on AWS Amplify + Render.",
         "stats": [
-          { "value": "GenAI", "label": "Job discovery tool" },
-          { "value": "N8N", "label": "Automated data ingestion" },
-          { "value": "13mo", "label": "Personal build" }
+          { "value": "AI Agent", "label": "LangChain job-finder" },
+          { "value": "LiveKit", "label": "Voice AI candidate intake" },
+          { "value": "13mo", "label": "Solo build" }
         ],
-        "stack": ["Next.js", "NestJS", "MongoDB", "N8N", "GenAI", "AWS"],
-        "production": "Personal project — active since Dec 2024"
+        "stack": ["Next.js", "NestJS", "MongoDB", "Python", "LangChain", "LiveKit", "Tailwind", "Firebase", "N8N", "AWS"],
+        "production": "In production for Arrowlancer (owned by brother)"
       }
     ],
     "cta": {
