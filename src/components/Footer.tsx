@@ -50,8 +50,8 @@ export default function Footer() {
         <div className="footer-bottom">
           <span>© {year} Jaize · {t('footer.rights')}</span>
           <div className="legal-links">
-            <a href="#">{t('footer.terms')}</a>
-            <a href="#">{t('footer.privacy')}</a>
+            <Link href="/terms">{t('footer.terms')}</Link>
+            <Link href="/privacy">{t('footer.privacy')}</Link>
           </div>
         </div>
       </div>

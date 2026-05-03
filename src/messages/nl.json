@@ -515,7 +515,7 @@
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
   "footer": {
-    "tagline": "Productieklare AI-systemen voor Nederlandse scale-ups.",
+    "tagline": "Productieklare AI voor Nederlandse scale-ups.",
     "linksTitle": "Snel naar",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elders",
@@ -524,5 +524,97 @@
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden"
+  },
+  "terms": {
+    "title": "Algemene voorwaarden · Jaize",
+    "description": "Algemene voorwaarden voor opdrachten met Jaize (eenmanszaak van Abdellah Jaize, gevestigd in IJlst, Nederland).",
+    "breadcrumb": "Algemene voorwaarden",
+    "headline": "Algemene voorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: mei 2026",
+    "intro": "Korte, duidelijke voorwaarden voor samenwerking met mij. Niets verstoppertje, niets juridisch theater. Als iets onduidelijk is, vraag het gewoon.",
+    "sections": [
+      {
+        "h": "1. Wie ik ben",
+        "p": "Ik ben Abdellah Jaize, software engineer en eenmanszaak onder de naam Jaize. Gevestigd in IJlst, Friesland. KvK-nummer en BTW-nummer worden hier toegevoegd zodra de inschrijving rond is (juni 2026)."
+      },
+      {
+        "h": "2. Wat ik lever",
+        "p": "Software engineering, AI-integratie, RAG-systemen, agents, dashboards en aanverwante technische diensten. Per opdracht spreken we vooraf de scope af. Wat ik niet lever staat ook in de offerte, zodat er geen ruimte voor verwarring is."
+      },
+      {
+        "h": "3. Prijzen en betaling",
+        "p": "Prijzen zijn vast per opdracht en worden vooraf afgesproken. Geen verborgen kosten. Facturatie gebeurt per project of per maand voor doorlopende werkzaamheden. Betaaltermijn is 14 dagen na factuurdatum, tenzij we iets anders afspreken."
+      },
+      {
+        "h": "4. Wijzigingen in scope",
+        "p": "Verandert er iets tijdens de opdracht? Geen probleem. We doen een kort wijzigingsverzoek met aangepaste prijs en termijn. Beide partijen tekenen voordat het werk verschuift."
+      },
+      {
+        "h": "5. Intellectueel eigendom",
+        "p": "Alle code en deliverables die ik voor jou bouw zijn van jou na volledige betaling. Ik mag het werk wel anoniem in mijn portfolio noemen, tenzij we afspreken dat dat niet mag."
+      },
+      {
+        "h": "6. Vertrouwelijkheid",
+        "p": "Wat jij met mij deelt blijft tussen ons. Ik teken graag een NDA als je dat prettig vindt. Andersom verwacht ik hetzelfde van jou voor wat ik laat zien tijdens onze gesprekken."
+      },
+      {
+        "h": "7. Aansprakelijkheid",
+        "p": "Mijn aansprakelijkheid is beperkt tot het bedrag van de specifieke opdracht. Ik doe mijn werk zo zorgvuldig mogelijk, maar geef geen garantie op resultaten van derden zoals AI-modellen, externe APIs of cloudproviders."
+      },
+      {
+        "h": "8. Annulering",
+        "p": "Als één van ons de opdracht wil stoppen, geef het schriftelijk door. Werk dat al gedaan is wordt gefactureerd tot het moment van annulering."
+      },
+      {
+        "h": "9. Toepasselijk recht",
+        "p": "Op deze voorwaarden is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in Friesland."
+      },
+      {
+        "h": "10. Contact",
+        "p": "Vragen over deze voorwaarden? Mail me op abdellah@jaizetech.nl. Ik reageer binnen 24 uur op werkdagen."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacybeleid · Jaize",
+    "description": "Hoe Jaize omgaat met persoonsgegevens van bezoekers en klanten. Korte, eerlijke uitleg.",
+    "breadcrumb": "Privacybeleid",
+    "headline": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: mei 2026",
+    "intro": "Korte uitleg over welke gegevens ik verwerk en waarom. Geen pagina's juridische tekst, alleen wat je echt moet weten.",
+    "sections": [
+      {
+        "h": "1. Wie ik ben",
+        "p": "Abdellah Jaize, eenmanszaak Jaize, gevestigd in IJlst, Nederland. Voor vragen over je gegevens: abdellah@jaizetech.nl."
+      },
+      {
+        "h": "2. Welke gegevens ik verwerk",
+        "p": "Alleen wat je zelf invult op het contactformulier: naam, e-mailadres, eventueel bedrijfsnaam, en je bericht. Verder gebruikt deze website geen tracking-cookies en geen analytics die jou persoonlijk identificeren."
+      },
+      {
+        "h": "3. Waarom ik die gegevens nodig heb",
+        "p": "Om je bericht te lezen en je een antwoord te sturen. Niets meer, niets minder."
+      },
+      {
+        "h": "4. Hoe lang ik ze bewaar",
+        "p": "Tot we klaar zijn met onze conversatie, daarna nog maximaal 2 jaar voor administratie. Wil je dat ik je gegevens eerder verwijder? Stuur een mail, dan doe ik dat binnen een week."
+      },
+      {
+        "h": "5. Met wie ik ze deel",
+        "p": "Met Brevo voor het e-mailverkeer (zij sturen mijn antwoord), en met Cloudflare voor de hosting van deze website. Verder met niemand. Geen advertentienetwerken, geen data-brokers, geen verkoop van gegevens."
+      },
+      {
+        "h": "6. Jouw rechten onder de AVG",
+        "p": "Je hebt recht op inzage, correctie, en verwijdering van je gegevens. Je kunt ook bezwaar maken tegen verwerking. Stuur een mail naar abdellah@jaizetech.nl en ik regel het binnen een week. Niet tevreden? Je kunt klagen bij de Autoriteit Persoonsgegevens."
+      },
+      {
+        "h": "7. Beveiliging",
+        "p": "Berichten die je via het contactformulier stuurt gaan via een versleutelde verbinding. Ik bewaar je gegevens in mijn e-mail (Gmail met 2FA) en in geen andere systemen. Als er ooit een datalek zou zijn, meld ik dat binnen 72 uur volgens AVG-regels."
+      },
+      {
+        "h": "8. Wijzigingen",
+        "p": "Als ik dit beleid aanpas, wordt de datum bovenaan ge-update. Belangrijke wijzigingen meld ik via mijn website."
+      }
+    ]
   }
 }

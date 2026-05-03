@@ -515,7 +515,7 @@
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
-    "tagline": "Production-ready AI systems for Dutch scale-ups.",
+    "tagline": "Production AI for Dutch scale-ups.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elsewhere",
@@ -524,5 +524,97 @@
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
     "terms": "Terms"
+  },
+  "terms": {
+    "title": "Terms · Jaize",
+    "description": "Terms of engagement for working with Jaize (sole proprietorship of Abdellah Jaize, based in IJlst, Netherlands).",
+    "breadcrumb": "Terms",
+    "headline": "Terms",
+    "lastUpdated": "Last updated: May 2026",
+    "intro": "Short, clear terms for working with me. No fine print, no legal theatre. If something isn't clear, just ask.",
+    "sections": [
+      {
+        "h": "1. Who I am",
+        "p": "I'm Abdellah Jaize, software engineer trading as Jaize (sole proprietorship). Based in IJlst, Friesland. KvK and VAT numbers will be added here as soon as registration completes (June 2026)."
+      },
+      {
+        "h": "2. What I deliver",
+        "p": "Software engineering, AI integration, RAG systems, agents, dashboards, and related technical services. We agree the scope of each engagement up front. What I'm not delivering goes in the proposal too, so there's no room for confusion."
+      },
+      {
+        "h": "3. Pricing and payment",
+        "p": "Prices are fixed per engagement and agreed up front. No hidden costs. Invoicing happens per project or monthly for ongoing work. Payment terms are 14 days from invoice date unless we agree otherwise."
+      },
+      {
+        "h": "4. Scope changes",
+        "p": "Something needs to change mid-engagement? No problem. We run a short change request with adjusted price and timeline. Both sides sign before the work shifts."
+      },
+      {
+        "h": "5. Intellectual property",
+        "p": "All code and deliverables I build for you belong to you once payment is complete. I may reference the work anonymously in my portfolio, unless we agree otherwise."
+      },
+      {
+        "h": "6. Confidentiality",
+        "p": "What you share with me stays between us. I'm happy to sign an NDA if you'd prefer. I expect the same from you for anything I show you during our conversations."
+      },
+      {
+        "h": "7. Liability",
+        "p": "My liability is limited to the value of the specific engagement. I do my work as carefully as I can, but I don't guarantee outcomes from third parties like AI models, external APIs, or cloud providers."
+      },
+      {
+        "h": "8. Cancellation",
+        "p": "If either of us wants to stop the engagement, put it in writing. Work already completed gets invoiced up to the cancellation date."
+      },
+      {
+        "h": "9. Governing law",
+        "p": "Dutch law applies to these terms. Disputes go to the competent court in Friesland."
+      },
+      {
+        "h": "10. Contact",
+        "p": "Questions about these terms? Email me at abdellah@jaizetech.nl. I reply within 24 hours on business days."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy · Jaize",
+    "description": "How Jaize handles personal data from visitors and clients. Short, honest explanation.",
+    "breadcrumb": "Privacy policy",
+    "headline": "Privacy policy",
+    "lastUpdated": "Last updated: May 2026",
+    "intro": "Short explanation of what data I process and why. No pages of legal text. Just what you actually need to know.",
+    "sections": [
+      {
+        "h": "1. Who I am",
+        "p": "Abdellah Jaize, sole proprietorship Jaize, based in IJlst, Netherlands. For questions about your data: abdellah@jaizetech.nl."
+      },
+      {
+        "h": "2. What data I collect",
+        "p": "Only what you fill in on the contact form: name, email address, optionally company name, and your message. This site uses no tracking cookies and no analytics that personally identify you."
+      },
+      {
+        "h": "3. Why I need it",
+        "p": "To read your message and reply. Nothing more, nothing less."
+      },
+      {
+        "h": "4. How long I keep it",
+        "p": "Until our conversation ends, then up to 2 more years for record-keeping. Want me to delete your data sooner? Send a mail and I'll do it within a week."
+      },
+      {
+        "h": "5. Who I share it with",
+        "p": "With Brevo for sending emails (they deliver my reply), and with Cloudflare for hosting this site. That's it. No advertising networks, no data brokers, no selling of data."
+      },
+      {
+        "h": "6. Your GDPR rights",
+        "p": "You have the right to access, correct, and delete your data. You can also object to processing. Email abdellah@jaizetech.nl and I'll handle it within a week. Not satisfied? You can complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
+      },
+      {
+        "h": "7. Security",
+        "p": "Messages you send via the contact form go through an encrypted connection. I store your data in my email (Gmail with 2FA) and nowhere else. If there were ever a data breach, I'd report it within 72 hours per GDPR rules."
+      },
+      {
+        "h": "8. Changes",
+        "p": "If I update this policy, the date at the top changes. Significant changes get announced on my site."
+      }
+    ]
   }
 }
