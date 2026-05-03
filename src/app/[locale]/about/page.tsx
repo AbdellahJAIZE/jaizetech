@@ -43,7 +43,9 @@ function About() {
         {/* Hero: photo block + content */}
         <div className="about-hero">
           <div>
-            <div className="photo-block" aria-hidden="true">{t('photoInitials')}</div>
+            <div className="photo-block">
+              <img src="/abdellah.jpg" alt="Abdellah Jaize" />
+            </div>
             <div className="photo-meta">
               <div><span>{photoMeta.name}</span><span>· {photoMeta.status}</span></div>
             </div>

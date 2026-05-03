@@ -1446,15 +1446,17 @@ a.accent-link:hover { color: var(--ink); }
 .about-hero .photo-block {
   aspect-ratio: 1;
   background: var(--ink);
-  color: var(--bg);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 88px;
-  font-weight: 600;
-  letter-spacing: -0.04em;
-  line-height: 1;
-  font-family: var(--font-mono);
+  overflow: hidden;
+  border-radius: 2px;
+}
+.about-hero .photo-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .about-hero .photo-meta {
   margin-top: 20px;
