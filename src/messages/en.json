@@ -380,19 +380,19 @@
       },
       {
         "id": "arrowlancer",
-        "client": "Arrowlancer — NL-visa job marketplace (built for my brother's startup)",
+        "client": "Arrowlancer — NL-visa job marketplace",
         "sector": "Startup · Marketplace + AI agents + voice AI",
         "year": "Dec 2024 – Jan 2026",
-        "role": "Founding Engineer (built for my brother's startup)",
-        "summary": "Full product build for my brother's startup: marketplace connecting international professionals with Dutch employers that sponsor visas. Includes LangChain job-finder agent, LiveKit voice AI for candidate intake, and automated data ingestion.",
-        "approach": "Built the entire product solo: Next.js frontend with Radix UI + Framer Motion, NestJS backend with Mongoose and Firebase Auth, Python services for the AI components. JobFinder agent built with LangChain for candidate-job matching. LiveKit voice AI for real-time candidate intake. N8N pipelines for periodic job ingestion. Deployment on AWS Amplify + Render.",
+        "role": "Founding Engineer (part-time)",
+        "summary": "Part-time founding-engineer engagement (alongside day job): marketplace connecting international professionals with Dutch employers that sponsor visas. Includes LangChain job-finder agent, LiveKit voice AI for candidate intake, and automated data ingestion.",
+        "approach": "Built the entire product solo in part-time hours: Next.js frontend with Radix UI + Framer Motion, NestJS backend with Mongoose and Firebase Auth, Python services for the AI components. JobFinder agent built with LangChain for candidate-job matching. LiveKit voice AI for real-time candidate intake. N8N pipelines for periodic job ingestion. Deployment on AWS Amplify + Render.",
         "stats": [
           { "value": "AI Agent", "label": "LangChain job-finder" },
           { "value": "LiveKit", "label": "Voice AI candidate intake" },
-          { "value": "13mo", "label": "Solo build" }
+          { "value": "13mo", "label": "Part-time build" }
         ],
         "stack": ["Next.js", "NestJS", "MongoDB", "Python", "LangChain", "LiveKit", "Tailwind", "Firebase", "N8N", "AWS"],
-        "production": "In production for Arrowlancer (owned by brother)"
+        "production": "In production since 2025"
       }
     ],
     "cta": {

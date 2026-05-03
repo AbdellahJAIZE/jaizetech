@@ -380,19 +380,19 @@
       },
       {
         "id": "arrowlancer",
-        "client": "Arrowlancer — NL-visa job marketplace (familiebedrijf van mijn broer)",
+        "client": "Arrowlancer — NL-visa job marketplace",
         "sector": "Startup · Marketplace + AI agents + voice AI",
         "year": "Dec 2024 – Jan 2026",
-        "role": "Founding Engineer (gebouwd voor mijn broer's startup)",
-        "summary": "Volledige product-build voor de startup van mijn broer: marketplace die internationale professionals verbindt met Nederlandse werkgevers die visa sponsoren. Inclusief LangChain job-finder agent, LiveKit voice AI voor kandidaat-intake, en geautomatiseerde data-ingestion.",
-        "approach": "Volledig product solo gebouwd: Next.js frontend met Radix UI + Framer Motion, NestJS backend met Mongoose en Firebase Auth, Python-services voor de AI-componenten. JobFinder agent met LangChain voor candidate-job matching. LiveKit voice AI voor real-time kandidaat-intake. N8N pipelines voor periodieke vacature-ingestion. Deployment op AWS Amplify + Render.",
+        "role": "Founding Engineer (parttime)",
+        "summary": "Founding-engineer opdracht (parttime, naast vaste baan): marketplace die internationale professionals verbindt met Nederlandse werkgevers die visa sponsoren. Inclusief LangChain job-finder agent, LiveKit voice AI voor kandidaat-intake, en geautomatiseerde data-ingestion.",
+        "approach": "Volledig product solo gebouwd in parttime-uren: Next.js frontend met Radix UI + Framer Motion, NestJS backend met Mongoose en Firebase Auth, Python-services voor de AI-componenten. JobFinder agent met LangChain voor candidate-job matching. LiveKit voice AI voor real-time kandidaat-intake. N8N pipelines voor periodieke vacature-ingestion. Deployment op AWS Amplify + Render.",
         "stats": [
           { "value": "AI Agent", "label": "LangChain job-finder" },
           { "value": "LiveKit", "label": "Voice AI kandidaat-intake" },
-          { "value": "13mo", "label": "Solo build" }
+          { "value": "13mo", "label": "Parttime build" }
         ],
         "stack": ["Next.js", "NestJS", "MongoDB", "Python", "LangChain", "LiveKit", "Tailwind", "Firebase", "N8N", "AWS"],
-        "production": "In productie voor Arrowlancer (eigendom van broer)"
+        "production": "In productie sinds 2025"
       }
     ],
     "cta": {
