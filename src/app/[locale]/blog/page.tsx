@@ -40,7 +40,7 @@ function Blog() {
         <div style={{ maxWidth: 720, margin: '64px auto' }}>
           <div className="subscribe-card">
             <p>{t('subscribeTitle')}</p>
-            <a href="/blog/rss.xml">{t('subscribeLink')}</a>
+            <a href="/contact">{t('subscribeLink')}</a>
           </div>
         </div>
       </div>

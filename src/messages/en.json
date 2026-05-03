@@ -3,7 +3,7 @@
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
     "defaultTitle": "Jaize · Production-ready AI agents, RAG, and automation",
-    "defaultDescription": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices, fixed scope."
+    "defaultDescription": "Production AI for Dutch scale-ups. AI agents, RAG assistants, document automation, and full-stack engineering. Fixed prices, fixed scope, no surprises."
   },
   "nav": {
     "services": "Services",
@@ -17,10 +17,10 @@
   },
   "home": {
     "title": "Jaize · Production-ready AI agents, RAG, and automation",
-    "description": "Production-ready AI systems for Dutch scale-ups: AI agents, RAG assistants, document automation, and full-stack delivery. Fixed prices, fixed scope.",
+    "description": "Production AI for Dutch scale-ups. AI agents, RAG assistants, document automation, and full-stack engineering. Fixed prices, fixed scope, no surprises.",
     "hero": {
-      "headline": "Production-ready AI: agents, RAG, and document automation.",
-      "lead": "For Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and full-stack — from prototype to production. Fixed price or day rate.",
+      "headline": "Production AI agents, RAG, and document automation.",
+      "lead": "Built for Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and the full stack around it. Fixed price or day rate. We agree the scope, then I ship.",
       "ctaPrimary": "Book a free intro call",
       "ctaSecondary": "See services"
     },
@@ -88,7 +88,7 @@
     "hero": {
       "kicker": "Services",
       "headline": "From idea to production AI.",
-      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline, pricing scoped per engagement. No quote runaround."
+      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline. Pricing depends on scope, which we agree before we start. No quote runaround."
     },
     "labels": {
       "duration": "Timeline",
@@ -290,7 +290,7 @@
     "hero": {
       "kicker": "Work",
       "headline": "What I've built.",
-      "lead": "Three projects in detail — the challenge, how I tackled it, and what came out."
+      "lead": "A few projects in detail. The challenge, how I tackled it, and what came out."
     },
     "labels": {
       "approach": "Approach",
@@ -416,27 +416,27 @@
       "role": "AI Software Engineer · AI integration · Technical leadership"
     },
     "bio": [
-      "Born in Morocco, based in IJlst, Friesland. Five years of professional software engineering, with the last 2.5 years as sole technical owner of an AI computer-vision platform at a Dutch agritech company — 3M+ inference calls per month on a hybrid on-prem + cloud setup.",
-      "Before that, two years as tech lead at a sportstech startup, where I grew the engineering team from 2 to 12+ and reported to the board on technical strategy.",
-      "From June 2026 operating independently (eenmanszaak) under the name Jaize. I work with Dutch scale-ups that need senior engineering and AI integration — fixed price, clear deliverables."
+      "Hi, I'm Abdellah. I'm a Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.",
+      "For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure. It runs about 3 million AI inference calls a month on a hybrid setup. Before that I led the engineering team at a sportstech startup, growing it from 2 to 12 people while reporting to the board on technical strategy.",
+      "From June 2026 I'm working independently as Jaize. I help Dutch scale-ups and SMBs ship AI products that actually make it to production. Fixed price, clear scope, no quote ballet."
     ],
     "approach": {
       "label": "01 — APPROACH",
       "title": "How I work",
       "items": [
-        { "num": "01", "title": "Fixed price, fixed scope", "body": "No open-ended engagements. Deliverables and timeline agreed upfront. Changes go through a short change request." },
-        { "num": "02", "title": "Production over prototype", "body": "Everything I build is production-ready — monitored, tested, documented. No demos that collapse later." },
-        { "num": "03", "title": "Boring tech where possible", "body": "PostgreSQL over exotic databases. Known frameworks over trending. I pick what's still maintainable in five years." },
-        { "num": "04", "title": "Handover is part of the work", "body": "At the end of each engagement I leave a team that can carry on without me. Code, docs, walkthrough — no black boxes." }
+        { "num": "01", "title": "Fixed price, fixed scope", "body": "I don't do open-ended engagements. We agree the deliverables and the timeline up front. If something needs to change, we run a short change request and adjust together." },
+        { "num": "02", "title": "Production over prototype", "body": "Everything I build is meant to run in production. That means monitored, tested, and documented from day one. No fragile demos that fall apart the moment a real user shows up." },
+        { "num": "03", "title": "Boring tech where it makes sense", "body": "PostgreSQL beats exotic databases most of the time. I pick frameworks your team can still maintain in five years, not whatever's trending this quarter." },
+        { "num": "04", "title": "Handover is part of the job", "body": "At the end of each engagement I leave a team that can keep going without me. Clean code, real docs, a walkthrough call. No black boxes." }
       ]
     },
     "experience": {
       "label": "02 — EXPERIENCE",
       "title": "Work history",
       "items": [
-        { "date": "2023 — present", "role": "Sole Technical Owner — Inovaa (Dutch agritech)", "stack": "AI computer-vision platform · NestJS, Vue, Triton, OCR" },
-        { "date": "2022 — 2023", "role": "Tech Lead — AppiStadium (sportstech)", "stack": "Team grown from 2 → 12+ · React Native, Unity, mobile + web" },
-        { "date": "2020 — 2021", "role": "Backend Engineer — ScanBon (fintech)", "stack": "OCR pipeline + analytics API · Node.js, GCP" }
+        { "date": "2023 to now", "role": "Sole Technical Owner at Inovaa (Dutch agritech)", "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR." },
+        { "date": "2022 to 2023", "role": "Tech Lead at AppiStadium (sportstech startup)", "stack": "Grew the team from 2 to 12+. React Native, Unity, mobile and web." },
+        { "date": "2020 to 2021", "role": "Backend Engineer at ScanBon (fintech)", "stack": "OCR pipeline and analytics API. Node.js, GCP." }
       ]
     },
     "credentials": {
@@ -459,16 +459,17 @@
       "label": "04 — TOOLS & TECH",
       "title": "Tools and technology",
       "groups": [
-        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "PostgreSQL", "MongoDB"] },
-        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue / Nuxt", "React Native", "Tailwind", "i18n"] },
-        { "label": "AI / ML", "items": ["LangGraph", "LangChain", "OpenAI", "Anthropic", "Gemini", "NVIDIA Triton", "ResNet", "YOLO", "OCR"] },
-        { "label": "CLOUD", "items": ["AWS", "GCP", "Azure", "Cloudflare", "Docker", "GitLab CI/CD"] }
+        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "Flask", "Express", "PostgreSQL", "MongoDB", "MySQL", "REST", "OAuth2", "JWT", "RBAC"] },
+        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue", "Nuxt 3", "React Native", "Tailwind", "Radix UI", "Framer Motion", "i18n"] },
+        { "label": "AI / AGENTS", "items": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "ReAct Agents", "Multi-Agent Systems", "RAG", "Pinecone", "Weaviate", "OpenAI", "Anthropic", "Gemini", "GPT-4", "Claude", "LLaMA", "Fine-tuning", "LoRA", "Prompt Engineering", "RLHF", "LiveKit", "N8N"] },
+        { "label": "ML / DEEP LEARNING", "items": ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-learn", "NVIDIA Triton", "ResNet", "YOLO", "OCR", "Distributed Training", "Multi-GPU", "DeepSpeed", "MLflow", "Weights & Biases"] },
+        { "label": "CLOUD / DEVOPS", "items": ["AWS", "AWS Amplify", "AWS SageMaker", "AWS Lambda", "GCP", "Vertex AI", "BigQuery", "Azure ML", "Cloudflare", "Docker", "Kubernetes", "GitLab CI/CD", "GitHub Actions", "Nginx", "Linux", "Bash"] }
       ]
     },
     "cta": {
       "title": "Want to work together?",
-      "lead": "Book a 15-minute call or send a message via the contact form.",
-      "primary": "Go to contact"
+      "lead": "Easiest way to start is a short call. Fifteen minutes is usually enough to know if I can help. If you'd rather write, the contact form works too.",
+      "primary": "Get in touch"
     }
   },
   "contact": {
@@ -476,7 +477,7 @@
     "description": "Book a 15-minute call or send a message. Reply within 24 hours on business days.",
     "hero": {
       "headline": "Let's talk.",
-      "lead": "A 15-minute call gives both of us quick clarity."
+      "lead": "A short call is usually the fastest way to know if we're a fit. Fifteen minutes, no pressure."
     },
     "options": {
       "scheduleTitle": "Book directly",
@@ -507,10 +508,10 @@
     "hero": {
       "kicker": "Blog",
       "headline": "Notes.",
-      "lead": "Short pieces on senior engineering, AI integration in production, and running a freelance practice in the Netherlands."
+      "lead": "Short pieces on senior engineering, AI in production, and running a freelance practice in the Netherlands."
     },
-    "subscribeTitle": "Don't want to miss a post?",
-    "subscribeLink": "Subscribe via RSS",
+    "subscribeTitle": "No posts yet. The first one is on the way.",
+    "subscribeLink": "Drop me a line and I'll let you know",
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
