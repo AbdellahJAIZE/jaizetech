@@ -332,15 +332,15 @@
       },
       {
         "id": "scanbon",
-        "client": "OCR-pijplijn en analytics-API voor bonbeheer",
+        "client": "Backend + OCR-pijplijn voor bonbeheer-app",
         "sector": "FinTech · B2C receipt management",
         "year": "2025 – 2026",
-        "role": "Backend Engineer",
-        "summary": "Foto's van papieren bonnen omzetten naar gestructureerde uitgavendata, plus een analytics-API voor mobiele dashboards. NestJS backend, OCR-pipeline en JWT-auth.",
-        "approach": "OCR via Google Cloud Vision met edge-cases en post-processing loop, NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
+        "role": "Backend Engineer (alleen backend)",
+        "summary": "Backend voor een NL fintech receipt-app: OCR-pijplijn, uitgaven-categorisering API en JWT-auth. Geen mobile of frontend — die werden door anderen gebouwd.",
+        "approach": "OCR via Google Cloud Vision met edge-case handling en post-processing loop, NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
         "stats": [
-          { "value": "50K+", "label": "Bonnen verwerkt" },
-          { "value": "<2s", "label": "OCR latency p95" },
+          { "value": "OCR", "label": "Pijplijn op Google Cloud Vision" },
+          { "value": "JWT", "label": "Auth + RBAC" },
           { "value": "4mo", "label": "Doorlooptijd" }
         ],
         "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],

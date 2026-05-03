@@ -332,16 +332,16 @@
       },
       {
         "id": "scanbon",
-        "client": "OCR pipeline and analytics API for receipt management",
+        "client": "Backend + OCR pipeline for receipt management app",
         "sector": "FinTech · B2C receipt management",
         "year": "2025 – 2026",
-        "role": "Backend Engineer",
-        "summary": "Turned photos of paper receipts into structured expense data, with an analytics API for mobile dashboards. NestJS backend, OCR pipeline, and JWT auth.",
-        "approach": "OCR via Google Cloud Vision with edge-case and post-processing loop, NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
+        "role": "Backend Engineer (backend only)",
+        "summary": "Backend for a Dutch fintech receipt app: OCR pipeline, expense categorization API, and JWT auth. No mobile or frontend work — those were built by others.",
+        "approach": "OCR via Google Cloud Vision with edge-case handling and post-processing loop, NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
         "stats": [
-          { "value": "50K+", "label": "Receipts processed" },
-          { "value": "<2s", "label": "OCR latency p95" },
-          { "value": "4mo", "label": "Duration" }
+          { "value": "OCR", "label": "Pipeline on Google Cloud Vision" },
+          { "value": "JWT", "label": "Auth + RBAC" },
+          { "value": "4mo", "label": "Engagement" }
         ],
         "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
         "production": "Production-Ready MVP 2025–2026"
