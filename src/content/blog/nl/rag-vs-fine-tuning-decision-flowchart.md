@@ -133,5 +133,5 @@ Als je vastzit tussen RAG en fine-tuning voor een specifieke use case, dan is ee
 
 ## Verder lezen
 
-- [Van CrewAI naar LangGraph: een migratiehandleiding](/blog/crewai-to-langgraph-migration-playbook) — je RAG-agent van prototype naar productie brengen
-- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features) — wanneer RAG een buy-keuze is en wanneer een build-keuze
+- [Van CrewAI naar LangGraph: een migratiehandleiding](/blog/crewai-to-langgraph-migration-playbook). Je RAG-agent van prototype naar productie brengen.
+- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features). Wanneer RAG een buy-keuze is en wanneer een build-keuze.

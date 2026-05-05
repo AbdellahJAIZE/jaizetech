@@ -113,5 +113,5 @@ If you are weighing one of these three options for your team, a 15-minute call i
 
 ## Related reading
 
-- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features) — before you hire, decide whether to build at all
-- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams) — the compliance work your new hire will need to handle
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). Before you hire, decide whether to build at all.
+- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams). The compliance work your new hire will need to handle.

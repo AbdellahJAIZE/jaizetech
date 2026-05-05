@@ -113,5 +113,5 @@ Als je één van deze drie opties voor je team afweegt, is een gesprek van 15 mi
 
 ## Verder lezen
 
-- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features) — beslis eerst of je überhaupt zelf moet bouwen
-- [EU AI Act-checklist voor Nederlandse softwareteams](/blog/eu-ai-act-checklist-dutch-software-teams) — het compliance-werk dat je nieuwe engineer moet oppakken
+- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features). Beslis eerst of je überhaupt zelf moet bouwen.
+- [EU AI Act-checklist voor Nederlandse softwareteams](/blog/eu-ai-act-checklist-dutch-software-teams). Het compliance-werk dat je nieuwe engineer moet oppakken.

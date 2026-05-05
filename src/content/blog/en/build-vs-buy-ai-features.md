@@ -117,5 +117,5 @@ If your team is stuck on a specific build vs buy call right now, a fifteen-minut
 
 ## Related reading
 
-- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart) — when build means tuning a model vs retrieving over your own data
-- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams) — how compliance affects the build vs buy decision
+- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart). When build means tuning a model vs retrieving over your own data.
+- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams). How compliance affects the build vs buy decision.

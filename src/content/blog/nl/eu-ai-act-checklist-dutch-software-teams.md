@@ -200,7 +200,7 @@ Boetes. Tot 35 miljoen euro of 7 procent van de wereldwijde omzet voor verboden 
 
 ## Waar de meeste teams nu staan
 
-Eerlijke momentopname van wat ik in mei 2026 zie in Nederlandse SaaS.
+Eerlijke momentopname van wat ik op dit moment zie in Nederlandse SaaS.
 
 Een paar teams hebben het werk gedaan. Hun model cards staan in Git. Hun bekendmakingen renderen automatisch. Ze slapen prima.
 
@@ -218,5 +218,5 @@ Als je een werkende engineer met je team door de verordening wil laten lopen om 
 
 ## Verder lezen
 
-- [Een AI engineer aannemen in Nederland](/blog/hire-ai-engineer-netherlands) — wie je nodig hebt om de deadline van augustus 2026 te halen
-- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features) — compliance verschuift de grens tussen bouwen en kopen
+- [Een AI engineer aannemen in Nederland](/blog/hire-ai-engineer-netherlands). Wie je nodig hebt om de deadline van augustus 2026 te halen.
+- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features). Compliance verschuift de grens tussen bouwen en kopen.

@@ -258,5 +258,5 @@ Heb je een CrewAI-prototype dat naar productie moet en weet je niet zeker waar d
 
 ## Verder lezen
 
-- [RAG of fine-tuning: een 20-minuten beslissing](/blog/rag-vs-fine-tuning-decision-flowchart) — de architectuurkeuze die je agent als eerste moet maken
-- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features) — wanneer een managed platform versus zelf bouwen
+- [RAG of fine-tuning: een 20-minuten beslissing](/blog/rag-vs-fine-tuning-decision-flowchart). De architectuurkeuze die je agent als eerste moet maken.
+- [Build vs buy AI features: de math voor je CTO](/blog/build-vs-buy-ai-features). Wanneer een managed platform versus zelf bouwen.

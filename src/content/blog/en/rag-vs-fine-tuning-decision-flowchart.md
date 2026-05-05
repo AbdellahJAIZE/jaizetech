@@ -133,5 +133,5 @@ If you are stuck between RAG and fine-tuning for a specific use case, a 15-minut
 
 ## Related reading
 
-- [CrewAI to LangGraph: a migration playbook](/blog/crewai-to-langgraph-migration-playbook) — taking your RAG agent from prototype to production
-- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features) — when RAG is a buy decision and when it is a build decision
+- [CrewAI to LangGraph: a migration playbook](/blog/crewai-to-langgraph-migration-playbook). Taking your RAG agent from prototype to production.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). When RAG is a buy decision and when it is a build decision.

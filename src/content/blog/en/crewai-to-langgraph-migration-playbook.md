@@ -258,5 +258,5 @@ If you have a CrewAI prototype that needs to ship and you are not sure where the
 
 ## Related reading
 
-- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart) — the architectural choice your agent needs to make first
-- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features) — when to use a managed agent platform vs ship your own
+- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart). The architectural choice your agent needs to make first.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). When to use a managed agent platform vs ship your own.

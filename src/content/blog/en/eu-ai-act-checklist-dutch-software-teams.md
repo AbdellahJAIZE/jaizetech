@@ -200,7 +200,7 @@ Penalties. Up to 35 million euro or 7 percent of global turnover for prohibited 
 
 ## Where most teams are right now
 
-Honest snapshot of what I see in Dutch SaaS in May 2026.
+Honest snapshot of what I see in Dutch SaaS right now.
 
 A few teams have done the work. Their model cards are in Git. Their disclosures render automatically. They sleep fine.
 
@@ -218,5 +218,5 @@ If you want a working engineer to walk through the Act with your team and figure
 
 ## Related reading
 
-- [How to hire an AI engineer in the Netherlands](/blog/hire-ai-engineer-netherlands) — who to bring in to handle the August 2026 deadline
-- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features) — compliance changes which side of the line you fall on
+- [How to hire an AI engineer in the Netherlands](/blog/hire-ai-engineer-netherlands). Who to bring in to handle the August 2026 deadline.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). Compliance changes which side of the line you fall on.

@@ -146,7 +146,7 @@
     },
     "cases": [
       {
-        "id": "inovaa",
+        "id": "agritech",
         "client": "AI computer-vision platform voor Nederlandse agritech",
         "sector": "Agritech · Industriële kwaliteitscontrole",
         "year": "2023 tot heden",
@@ -226,7 +226,7 @@
     "photoInitials": "AJ",
     "photoMeta": {
       "name": "ABDELLAH JAIZE",
-      "status": "BESCHIKBAAR"
+      "status": "BESCHIKBAAR VANAF JUNI 2026"
     },
     "hero": {
       "kicker": "Over",
@@ -243,7 +243,7 @@
       "items": [
         {
           "date": "2023 tot nu",
-          "role": "Software Engineer bij Inovaa (Nederlandse agritech)",
+          "role": "Software Engineer (AI computer-vision platform voor een Nederlands agritech-bedrijf)",
           "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
         },
         {

@@ -117,5 +117,5 @@ Als je team nu vastzit op een specifieke build vs buy keuze, helpt een gesprek v
 
 ## Verder lezen
 
-- [RAG of fine-tuning: een 20-minuten beslissing](/blog/rag-vs-fine-tuning-decision-flowchart) — wanneer bouwen ook fine-tunen betekent versus retrieven over je eigen data
-- [EU AI Act-checklist voor Nederlandse softwareteams](/blog/eu-ai-act-checklist-dutch-software-teams) — hoe compliance de build vs buy keuze beïnvloedt
+- [RAG of fine-tuning: een 20-minuten beslissing](/blog/rag-vs-fine-tuning-decision-flowchart). Wanneer bouwen ook fine-tunen betekent versus retrieven over je eigen data.
+- [EU AI Act-checklist voor Nederlandse softwareteams](/blog/eu-ai-act-checklist-dutch-software-teams). Hoe compliance de build vs buy keuze beïnvloedt.
