@@ -15,13 +15,19 @@ export default function ServiceCard({ index }: Props) {
     summary: string;
   }>)[index];
 
+  const readMore = t('labels.readMore');
+
   return (
-    <Link className="service-card" href={{ pathname: '/services', hash: item.id }}>
+    <Link
+      className="service-card"
+      href={{ pathname: '/services', hash: item.id }}
+      aria-label={`${readMore}: ${item.name}`}
+    >
       <div className="top">
         <h3>{item.name}</h3>
       </div>
       <p>{item.summary}</p>
-      <span className="read-more">Lees meer →</span>
+      <span className="read-more">{readMore} <span aria-hidden="true">→</span></span>
     </Link>
   );
 }

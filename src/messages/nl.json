@@ -2,27 +2,35 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "defaultDescription": "Productieklare AI voor Nederlandse scale-ups. AI-agenten, RAG-assistenten, document-automatisering en volledige stack. Vaste prijzen en vaste scope. Geen verrassingen."
+    "defaultTitle": "Jaize Tech · Onafhankelijke software-engineering",
+    "defaultDescription": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering door Abdellah Jaize, gevestigd in Nederland."
   },
   "nav": {
+    "home": "Home",
     "services": "Diensten",
     "work": "Werk",
     "about": "Over",
     "blog": "Blog",
     "contact": "Contact",
-    "bookCall": "Plan een gesprek",
+    "bookCall": "Neem contact op",
     "openMenu": "Open menu",
-    "closeMenu": "Sluit menu"
+    "closeMenu": "Sluit menu",
+    "homeAria": "Jaize Tech home",
+    "primaryNavAria": "Hoofdnavigatie",
+    "languageAria": "Taal kiezen",
+    "switchToDutchAria": "Wissel naar Nederlands",
+    "switchToEnglishAria": "Wissel naar Engels",
+    "breadcrumbAria": "Kruimelpad",
+    "newTabSuffix": "(opent in nieuw tabblad)"
   },
   "home": {
-    "title": "Jaize · Productieklare AI-agenten, RAG en automation",
-    "description": "Productieklare AI voor Nederlandse scale-ups. AI-agenten, RAG-assistenten, document-automatisering en volledige stack. Vaste prijzen en vaste scope.",
+    "title": "Jaize Tech · Onafhankelijke software-engineering",
+    "description": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering door Abdellah Jaize, gevestigd in Nederland.",
     "hero": {
-      "headline": "Productieklare AI-agenten, RAG en document-automatisering.",
-      "lead": "Gemaakt voor Nederlandse scale-ups en MKB. LangGraph, RAG, OCR en alles eromheen. Vaste prijs of dagtarief. We bepalen samen de scope, daarna lever ik.",
-      "ctaPrimary": "Plan een gratis kennismakingsgesprek",
-      "ctaSecondary": "Bekijk diensten"
+      "headline": "Software, van begin tot eind gebouwd.",
+      "lead": "Web, mobiel, AI-features, infrastructuur. Ik werk samen met teams in Nederland en daarbuiten, aan wat er gebouwd moet worden.",
+      "ctaPrimary": "Neem contact op",
+      "ctaSecondary": "Bekijk wat ik doe"
     },
     "readme": {
       "label": "profiel",
@@ -35,13 +43,13 @@
       "lang": "talen",
       "langValue": "Engels · Frans · Arabisch",
       "kvk": "kvk",
-      "kvkValue": "i.o. · juni 2026"
+      "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "Wat ik lever",
-      "title": "Van idee naar productie-AI.",
-      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Doorlooptijd vast, prijs op basis van scope.",
-      "viewAll": "Bekijk alle 11 diensten"
+      "kicker": "Wat ik doe",
+      "title": "Drie dingen waar ik mee help.",
+      "lead": "Software bouwen, AI-features, infrastructuur. Stuur een bericht en we zoeken samen de rest uit.",
+      "viewAll": "Even sparren"
     },
     "work": {
       "kicker": "Werk",
@@ -50,242 +58,77 @@
     },
     "faq": {
       "kicker": "Veelgestelde vragen",
-      "title": "Praktische antwoorden voor je beslissing.",
+      "title": "Praktische antwoorden.",
       "items": [
         {
-          "q": "Werk je remote of op locatie?",
-          "a": "Beide. Voornamelijk remote, met regelmatige bezoeken aan Amsterdam, Utrecht of Eindhoven indien nuttig voor de opdracht."
+          "q": "Werk je op afstand of op locatie?",
+          "a": "Beide. Meestal op afstand, met af en toe een bezoek aan Amsterdam, Utrecht of Eindhoven als dat het project helpt."
         },
         {
-          "q": "Welk dagtarief reken je?",
-          "a": "€800–880 per dag voor uurmodellen. De meeste opdrachten zijn vaste prijs op basis van bovenstaande dienstverlening."
+          "q": "Hoe werkt de prijs?",
+          "a": "Per project, na een kort scoping-gesprek. Geen vaste pakketten, geen verrassende offertes. We spreken de prijs vooraf af."
         },
         {
-          "q": "Werk je voor één klant tegelijk?",
-          "a": "Nee. Ik werk parallel met meerdere klanten — meestal maximaal 12–15 dagen per maand per opdracht. Zo houd ik mijn zelfstandigheid en focus."
+          "q": "Werk je met één klant tegelijk?",
+          "a": "Nee. Ik werk met meerdere klanten parallel, meestal een paar dagen per week per opdracht. Zo blijf ik onafhankelijk en gefocust."
         },
         {
           "q": "Wat als de scope verandert?",
-          "a": "Vaste prijzen worden vooraf afgesproken. Wijzigingen lopen via een kort wijzigingsverzoek met aangepaste prijs en termijn."
+          "a": "We praten het door en passen samen aan. De meeste wijzigingen zijn klein en verschuiven alleen de planning iets."
         },
         {
           "q": "In welke taal werk je?",
-          "a": "Engels — voor documentatie, code, meetings en e-mail. Industriestandaard voor tech-teams in Nederland."
+          "a": "Engels. Documentatie, code, vergaderingen, e-mail. Gangbaar voor techteams in Nederland."
         }
       ]
     },
     "cta": {
       "title": "Klaar om iets te bouwen?",
-      "lead": "Een gesprek van 15 minuten geeft ons beiden snel duidelijkheid over of er een match is.",
-      "primary": "Plan een gesprek",
+      "lead": "Een gesprek van 15 minuten is genoeg om te weten of er een match is.",
+      "primary": "Neem contact op",
       "secondary": "Of mail direct naar abdellah@jaizetech.nl"
     }
   },
   "services": {
-    "title": "Diensten · Jaize",
-    "description": "Elf opdrachten voor productieklare AI: agents, RAG, document-automatisering, MVPs en technische leiding. Doorlooptijd vast, prijs scoped per engagement.",
+    "title": "Wat ik doe",
+    "description": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering voor teams in Nederland en daarbuiten.",
     "breadcrumb": "Diensten",
     "hero": {
       "kicker": "Diensten",
-      "headline": "Van idee naar productie-AI.",
-      "lead": "Elf manieren waarop ik samenwerk met Nederlandse scale-ups en MKB. Vaste doorlooptijd, prijs op basis van scope. Geen offerte-circus."
+      "headline": "Wat ik doe.",
+      "lead": "Drie dingen waar ik mee help. Lijkt jouw vraag op een ervan? Stuur een bericht en we zoeken samen de rest uit."
     },
     "labels": {
-      "duration": "Doorlooptijd",
-      "for": "Voor",
-      "delivers": "Wat je krijgt",
-      "excludes": "Niet inbegrepen",
-      "discussCta": "Bespreek deze opdracht",
-      "scopeNote": "Prijs op basis van scope",
-      "showAll": "Bekijk alle 11 diensten",
-      "homeKicker": "Wat ik lever",
-      "homeTitle": "Van idee naar productie-AI."
+      "discussCta": "Hierover sparren",
+      "serviceLabel": "WAT IK DOE",
+      "readMore": "Lees meer"
     },
     "items": [
       {
-        "id": "ai-audit",
-        "name": "AI Integration Audit",
-        "duration": "1-week sprint",
-        "for": "CTO of founder die wil weten waar AI in het product écht waarde toevoegt — en waar het zonde van de tijd is.",
-        "summary": "Snelle technische review van je stack, identificatie van de 5–10 hoogste-impact AI-integratiekansen, met geprioriteerde routekaart en werkend prototype.",
-        "delivers": [
-          "Codebase en product walkthrough",
-          "Best-fit AI tooling research (LLM, RAG, OCR, vision)",
-          "Werkend prototype van één hoog-impact integratie",
-          "Rapport met routekaart, kostprojectie en 90-dagen plan",
-          "60 minuten readout call met je team"
-        ],
-        "excludes": "Implementatie (komt apart als RAG, Agent, MVP, etc.)."
+        "id": "software",
+        "name": "Software bouwen",
+        "summary": "Web-apps, mobiele apps, backend-systemen. Ik help je om van een idee een werkend product te maken, of vul aan in een team dat een extra senior nodig heeft."
       },
       {
-        "id": "rag-assistant",
-        "name": "RAG Knowledge Assistant",
-        "duration": "3–6 weken",
-        "for": "Bedrijven met veel interne documentatie — handleidingen, contracten, beleid, tickets — die hun teams sneller willen helpen aan antwoorden.",
-        "summary": "Veilige RAG-assistent over je bedrijfsdocumenten. Vector search, citaties, evaluatie en productie-deployment.",
-        "delivers": [
-          "Document ingestion pipeline (PDF, DOCX, webpages, Notion)",
-          "Vector database (Pinecone, Weaviate of pgvector)",
-          "LLM-laag met OpenAI, Anthropic of Gemini + LangChain",
-          "Chat-UI met citaties, history en feedback",
-          "Evaluatie-suite voor antwoordkwaliteit",
-          "Deployment op AWS, GCP of Cloudflare met monitoring"
-        ],
-        "excludes": "Doorlopende content-curatie en eindgebruiker-support."
+        "id": "ai",
+        "name": "AI in je product",
+        "summary": "Computer vision, taalmodellen, OCR of workflow-agents. Ik help je echte AI-features toevoegen aan een product, geen demo-slides."
       },
       {
-        "id": "ai-agent",
-        "name": "AI Workflow Agent",
-        "duration": "4–8 weken",
-        "for": "Bedrijven met repetitieve onderzoeks-, operationele of analyse-workflows die je wilt automatiseren met AI die echt redeneert.",
-        "summary": "AI-agent met LangGraph die tools, geheugen en gestructureerd redeneren combineert om een end-to-end bedrijfsworkflow te automatiseren.",
-        "delivers": [
-          "Discovery: workflow mapping en scope-definitie",
-          "Multi-step LangGraph agent met tool-use, geheugen en validatie",
-          "Tool-integraties (APIs, databases, document stores, e-mail)",
-          "Human-in-the-loop checkpoints voor kritieke beslissingen",
-          "Productie-deployment, monitoring en cost tracking",
-          "Documentatie en team-walkthrough"
-        ],
-        "excludes": "Custom model training. Gebruikt LLM APIs, geen self-hosted modellen."
-      },
-      {
-        "id": "mvp",
-        "name": "AI SaaS MVP",
-        "duration": "4–8 weken",
-        "for": "Founders en scale-ups die een AI-product van idee naar live product willen brengen — backend, frontend, auth, dashboards en AI-features.",
-        "summary": "Volledige AI SaaS MVP: backend, frontend, auth, dashboards, AI-features en deployment. Klaar voor je eerste betalende klanten.",
-        "delivers": [
-          "NestJS / Node backend met REST of GraphQL API",
-          "Next.js frontend met Tailwind en responsive design",
-          "Auth (JWT of OAuth), RBAC, multi-tenant indien nodig",
-          "AI-features: LLM workflows, RAG, OCR of vision per scope",
-          "Admin / analytics dashboard",
-          "Deployment op AWS, GCP of Cloudflare met CI/CD"
-        ],
-        "excludes": "Native mobile apps. Complexe ML-training (gebruik AI Workflow Agent of RAG)."
-      },
-      {
-        "id": "doc-automation",
-        "name": "Document Intelligence & OCR Automation",
-        "duration": "3–6 weken",
-        "for": "Boekhouders, compliance-teams, logistiek, HR of admin-zware bedrijven die documenten handmatig verwerken.",
-        "summary": "End-to-end document-automatisering: OCR, classificatie, gestructureerde extractie, validatie-agents en API of dashboard delivery.",
-        "delivers": [
-          "OCR pipeline (Tesseract, AWS Textract of Google Document AI)",
-          "Document classificatie (facturen, bonnen, contracten, formulieren)",
-          "LLM-gedreven structured extraction (key-value en tabellen)",
-          "Validatie-agents die fouten detecteren voordat downstream-systemen ze accepteren",
-          "API of dashboard integratie met je bestaande tooling",
-          "Audit trail en exportable reporting"
-        ],
-        "excludes": "Hardware (scanners) en juridisch advies over data-retentie."
-      },
-      {
-        "id": "fractional-cto",
-        "name": "Fractional CTO / AI Advisor",
-        "duration": "Doorlopend (min. 3 maanden)",
-        "for": "5–20 persoons startups zonder fulltime technisch leiderschap die senior denkkracht nodig hebben op architectuur, AI-strategie en hiring.",
-        "summary": "Eén dag per week strategische én tactische technische leiding — architectuur, AI-roadmap, hiring, team coaching, vendor-evaluaties.",
-        "delivers": [
-          "1 dag per week (standaard woensdag) on-site of remote",
-          "Wekelijkse 1-op-1 met founder of CEO",
-          "Architectuur-beslissingen en code reviews",
-          "AI-roadmap en build-vs-buy advies",
-          "Hiring support: vacatureteksten, technical interviews, leveling",
-          "Async support gedurende de week"
-        ],
-        "excludes": "Fulltime feature engineering en production on-call."
-      },
-      {
-        "id": "ai-features",
-        "name": "AI-Features voor Bestaande Producten",
-        "duration": "2–6 weken per feature",
-        "for": "SaaS-bedrijven, agencies en software-teams zonder AI-ervaring die concrete AI-features willen toevoegen aan hun bestaande product.",
-        "summary": "Praktische AI-features in je bestaande software — copilots, samenvatting, classificatie, search, OCR en workflow-automatisering.",
-        "delivers": [
-          "Feature-scoping en evaluatie van haalbaarheid",
-          "LLM API-integratie (OpenAI, Anthropic, Gemini)",
-          "UI/UX voor AI-features in je bestaande app",
-          "Evaluatie-framework en prompt testing",
-          "Productie-deployment met monitoring en cost tracking",
-          "Werkt met je bestaande stack — geen rewrite"
-        ],
-        "excludes": "Volledige product-rewrite. Custom modellen trainen."
-      },
-      {
-        "id": "poc-sprint",
-        "name": "AI Prototype / POC Sprint",
-        "duration": "2–4 weken",
-        "for": "Innovatie-teams, product managers en founders die AI-ideeën willen valideren voor er groot in te investeren.",
-        "summary": "Werkende POC van je AI-idee in 2–4 weken. Met echte data en eerlijke evaluatie. Naar productie alleen wat zich bewijst.",
-        "delivers": [
-          "Scope-workshop en succes-criteria",
-          "Werkend prototype met representatieve data",
-          "Evaluatie tegen vooraf bepaalde metrics",
-          "Demo voor stakeholders",
-          "Rapport met aanbeveling: productionize, pivot, of stop"
-        ],
-        "excludes": "Productie-deployment (apart engagement). Long-term onderhoud."
-      },
-      {
-        "id": "internal-platform",
-        "name": "Interne Dashboards & Workflow-Platforms",
-        "duration": "4–10 weken",
-        "for": "MKB, agencies, operations-teams, compliance-bedrijven en agritech / industriële bedrijven die kritisch werk nog in spreadsheets en e-mail draaien.",
-        "summary": "Custom intern platform dat spreadsheet- en e-mail-werk vervangt — RBAC, multi-tenant, i18n, dashboards en annotatie-workflows.",
-        "delivers": [
-          "Full-stack platform (NestJS + Next.js)",
-          "Role-based access control en multi-tenant indien nodig",
-          "i18n voor multi-locale teams",
-          "Dashboards en data-visualisatie",
-          "Annotatie- en review-workflows",
-          "Admin tools en CI/CD deployment"
-        ],
-        "excludes": "Native mobile apps. Hardware-integratie."
-      },
-      {
-        "id": "llm-hardening",
-        "name": "LLM Evaluation & Production Hardening",
-        "duration": "2–5 weken",
-        "for": "Teams met een LLM POC dat een productie-grade systeem moet worden — betrouwbaar, gemonitord en kostenefficiënt.",
-        "summary": "Maak je LLM-applicatie betrouwbaar — evals, prompt testing, RAG quality checks, monitoring, latency optimization en deployment.",
-        "delivers": [
-          "Evaluation framework met geautomatiseerde tests",
-          "Prompt testing en versionering",
-          "RAG quality monitoring (retrieval + generation metrics)",
-          "Latency en cost profiling",
-          "Production deployment hardening",
-          "Observability en alerting"
-        ],
-        "excludes": "Het bouwen van de LLM-app from scratch — gebruik AI Workflow Agent of RAG Assistant."
-      },
-      {
-        "id": "devops-rescue",
-        "name": "DevOps & Production Rescue",
-        "duration": "2–6 weken",
-        "for": "Kleine SaaS-bedrijven, fabrieken en teams met één overbelaste developer van wie het productiesysteem aan vernieuwing toe is.",
-        "summary": "Stabiliseer en moderniseer productie-systemen — CI/CD, Docker, monitoring, backups, deployments en on-prem of cloud-migraties.",
-        "delivers": [
-          "Infrastructuur-audit en quick wins",
-          "CI/CD setup of modernisering (GitLab, GitHub Actions)",
-          "Docker containerisatie",
-          "Monitoring + alerting (Uptime Kuma, Prometheus, Grafana)",
-          "Geautomatiseerde backups",
-          "Deployment-pipeline verbeteringen"
-        ],
-        "excludes": "Long-term ongoing operations (apart retainer)."
+        "id": "infra",
+        "name": "Infrastructuur en DevOps",
+        "summary": "Cloud-setup, CI/CD, on-premise of hybride. Ik help je je stack betrouwbaar laten draaien zonder dat je een volledig ops-team hoeft te betalen."
       }
     ],
     "cta": {
-      "title": "Welke past bij jouw project?",
-      "lead": "Plan een vrijblijvend gesprek van 15 minuten. Ik help je de juiste aanpak voor jouw situatie te bepalen.",
-      "primary": "Plan een gesprek"
+      "title": "Iets in gedachten?",
+      "lead": "Stuur een kort bericht met wat je nodig hebt. Ik reageer binnen een dag.",
+      "primary": "Stuur een bericht"
     }
   },
   "work": {
-    "title": "Werk · Jaize",
-    "description": "Drie recente opdrachten — AI computer-vision platform, scaling van een tech-team van 2 naar 12+, en backend voor een receipt-management platform.",
+    "title": "Geselecteerd werk",
+    "description": "Geselecteerde case studies. Computer-vision platform in Nederlandse agritech, en mobile en web product bij een sportstech-startup.",
     "breadcrumb": "Werk",
     "hero": {
       "kicker": "Werk",
@@ -295,116 +138,91 @@
     "labels": {
       "approach": "Aanpak",
       "stack": "Stack",
-      "production": "Productie"
+      "production": "Productie",
+      "readCase": "Bekijk deze case",
+      "sector": "SECTOR",
+      "period": "PERIODE",
+      "role": "ROL"
     },
     "cases": [
       {
         "id": "inovaa",
         "client": "AI computer-vision platform voor Nederlandse agritech",
         "sector": "Agritech · Industriële kwaliteitscontrole",
-        "year": "2023 – 2026",
-        "role": "Sole Technical Owner",
-        "summary": "Een legacy kwaliteitscontrole-platform vervangen door een AI-gedreven systeem dat miljoenen productafbeeldingen automatisch classificeert. Solo gebouwd, end-to-end.",
-        "approach": "Hybride architectuur: NVIDIA Triton voor model serving op eigen hardware, modulaire NestJS API en een data-pipeline met OCR en validatie-agents. 37+ backend modules, 49 frontend-pagina's en een hybride on-prem + cloud setup voor kostenefficiëntie en hardware-soevereiniteit.",
+        "year": "2023 tot heden",
+        "role": "Software Engineer",
+        "summary": "Ontwierp en draait een AI-gedreven systeem dat productafbeeldingen classificeert voor industriële kwaliteitscontrole. Enige engineer, end-to-end over applicatie, ML en infrastructuur.",
+        "approach": "Hybride architectuur die NVIDIA Triton voor model serving combineert met een modulaire NestJS API en een data-pipeline met OCR en validatie-agents. Ontworpen voor productie-throughput met aandacht voor kosten en betrouwbaarheid.",
         "stats": [
-          { "value": "3M+", "label": "Inferentie-calls per maand" },
-          { "value": "99.7%", "label": "Uptime over 2,5 jaar" },
-          { "value": "2.5y", "label": "In productie" }
+          {
+            "value": "Productie",
+            "label": "AI inference op schaal"
+          },
+          {
+            "value": "Solo eng.",
+            "label": "End-to-end ownership"
+          },
+          {
+            "value": "2.5y+",
+            "label": "In productie"
+          }
         ],
-        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"],
+        "stack": [
+          "NestJS",
+          "Vue.js",
+          "PostgreSQL",
+          "NVIDIA Triton",
+          "ResNet",
+          "YOLO",
+          "Docker",
+          "GitLab CI/CD"
+        ],
         "production": "Productie sinds Q3 2023"
       },
       {
         "id": "appistadium",
-        "client": "Engineering team van 2 naar 12+ schalen",
+        "client": "Sportstech-startup mobile en web product",
         "sector": "Sportstech · Vroege-fase startup",
-        "year": "2022 – 2023",
-        "role": "Tech Lead",
-        "summary": "Een early-stage sportstech-startup had een 2-persoons engineering team en moest snel productiesnelheid bereiken. Ik nam de tech-lead-rol over en bouwde het team uit terwijl we bleven shippen.",
-        "approach": "Hands-on team-opbouw: zes maanden senior+medior hires, drie maanden React Native als core stack, daarna OAuth2 + Firebase Auth, dashboards en CI/CD op AWS. Ik bleef coderen en code reviewen tijdens het hiringproces.",
-        "stats": [
-          { "value": "2 → 12+", "label": "Team grootte" },
-          { "value": "6mo", "label": "Tot eerste production ship" },
-          { "value": "2y", "label": "In de rol" }
-        ],
-        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"],
-        "production": "Embedded Tech Lead 2022–2023"
-      },
-      {
-        "id": "screebl",
-        "client": "Screebl — B2B SaaS dashboard-platform",
-        "sector": "B2B SaaS · Multi-agency analytics",
-        "year": "Jul 2025 – Mar 2026",
+        "year": "2022 tot 2023",
         "role": "Software Engineer",
-        "summary": "Volledig B2B SaaS platform vanaf de grond opgebouwd. Custom dashboard builder, 7-tier RBAC, multi-agency support en 6 talen. Productieklaar voor agencies.",
-        "approach": "Nuxt 3 + Tailwind frontend, NestJS 11 + MongoDB backend, 26+ pagina's met een custom dashboard builder. 7-tier RBAC voor agency-hiërarchie, i18n voor 6 talen, Playwright E2E testing. Deployment op AWS met CI/CD.",
+        "summary": "Mobile- en web-engineer bij een early-stage sportstech-startup. Bouwde de React Native app met Unity game-features plus React en Next.js back-office en publieke website end-to-end.",
+        "approach": "React Native app met embedded Unity game-scènes. React en Next.js back-office en publieke website op een NestJS backend. AWS CI/CD, OAuth2 en Firebase Auth met RBAC over mobile en web.",
         "stats": [
-          { "value": "26+", "label": "Pagina's incl. dashboard builder" },
-          { "value": "7-tier", "label": "RBAC + multi-agency" },
-          { "value": "9mo", "label": "Doorlooptijd" }
+          {
+            "value": "Mobile + Web",
+            "label": "Geleverde platforms"
+          },
+          {
+            "value": "App Store + GP",
+            "label": "Uitgebracht op"
+          },
+          {
+            "value": "1y 7mo",
+            "label": "In de rol"
+          }
         ],
-        "stack": ["Nuxt 3", "NestJS 11", "MongoDB", "Tailwind", "AWS", "Playwright"],
-        "production": "In productie sinds Q1 2026"
-      },
-      {
-        "id": "censor",
-        "client": "Censor — compliance-portal voor Luxemburg",
-        "sector": "Compliance · Corporate tax & reporting",
-        "year": "May – Jul 2025",
-        "role": "Software Engineer",
-        "summary": "MVP-portal die corporate tax-data en KPI's uit company filings extraheert via OCR en AI. Interactieve dashboards voor compliance-teams.",
-        "approach": "Backend en ETL-pipeline voor data-ingestion. AI-gedreven OCR-extractie van KPI's uit company filings. Interactieve dashboards voor compliance-analytics. Snel MVP traject met Solution 360.",
-        "stats": [
-          { "value": "OCR + AI", "label": "KPI-extractie uit filings" },
-          { "value": "ETL", "label": "Data-ingestion pipeline" },
-          { "value": "3mo", "label": "MVP doorlooptijd" }
+        "stack": [
+          "React Native",
+          "Next.js",
+          "Unity",
+          "AWS",
+          "Firebase",
+          "OAuth2"
         ],
-        "stack": ["NestJS", "Python", "OCR", "ETL", "Dashboards"],
-        "production": "MVP opgeleverd Q3 2025"
-      },
-      {
-        "id": "scanbon",
-        "client": "ScanBon — backend + OCR-pijplijn voor bonbeheer-app",
-        "sector": "FinTech · B2C receipt management",
-        "year": "Dec 2025 – Mar 2026",
-        "role": "Backend Engineer (alleen backend)",
-        "summary": "Backend voor een NL fintech receipt-app: OCR-pijplijn, uitgaven-categorisering API en JWT-auth. Geen mobile of frontend — die werden door anderen gebouwd.",
-        "approach": "OCR via Google Cloud Vision met edge-case handling en post-processing loop. NestJS API voor categorisatie en uitgaven-analytics. JWT-auth en GCP-deployment met geautomatiseerde CI/CD.",
-        "stats": [
-          { "value": "OCR", "label": "Pijplijn op Google Cloud Vision" },
-          { "value": "JWT", "label": "Auth + RBAC" },
-          { "value": "4mo", "label": "Doorlooptijd" }
-        ],
-        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
-        "production": "Production-Ready MVP 2025–2026"
-      },
-      {
-        "id": "arrowlancer",
-        "client": "Arrowlancer — NL-visa job marketplace",
-        "sector": "Startup · Marketplace + AI agents + voice AI",
-        "year": "Dec 2024 – Jan 2026",
-        "role": "Founding Engineer (parttime)",
-        "summary": "Founding-engineer opdracht (parttime, naast vaste baan): marketplace die internationale professionals verbindt met Nederlandse werkgevers die visa sponsoren. Inclusief LangChain job-finder agent, LiveKit voice AI voor kandidaat-intake, en geautomatiseerde data-ingestion.",
-        "approach": "Volledig product solo gebouwd in parttime-uren: Next.js frontend met Radix UI + Framer Motion, NestJS backend met Mongoose en Firebase Auth, Python-services voor de AI-componenten. JobFinder agent met LangChain voor candidate-job matching. LiveKit voice AI voor real-time kandidaat-intake. N8N pipelines voor periodieke vacature-ingestion. Deployment op AWS Amplify + Render.",
-        "stats": [
-          { "value": "AI Agent", "label": "LangChain job-finder" },
-          { "value": "LiveKit", "label": "Voice AI kandidaat-intake" },
-          { "value": "13mo", "label": "Parttime build" }
-        ],
-        "stack": ["Next.js", "NestJS", "MongoDB", "Python", "LangChain", "LiveKit", "Tailwind", "Firebase", "N8N", "AWS"],
-        "production": "In productie sinds 2025"
+        "production": "Software Engineer 2022 tot 2023"
       }
     ],
     "cta": {
       "title": "Vergelijkbare opdracht in gedachten?",
-      "lead": "Laten we praten — ik vertel je in 15 minuten of ik er waarde aan kan toevoegen.",
+      "lead": "Laten we praten. Ik vertel je in 15 minuten of ik er waarde aan kan toevoegen.",
       "primary": "Plan een gesprek"
     }
   },
   "about": {
-    "title": "Over · Jaize",
-    "description": "AI software engineer, gevestigd in IJlst. M.Sc. Big Data en IoT. 5+ jaar professionele ervaring met productieklare AI-systemen, RAG, agents en fullstack-ontwikkeling.",
+    "title": "Over Abdellah Jaize",
+    "description": "Onafhankelijke software engineer in IJlst, Nederland. Vijf jaar productieklare software bouwen, inclusief AI-features.",
     "breadcrumb": "Over",
+    "photoAlt": "Abdellah Jaize, AI software engineer gevestigd in IJlst, Nederland",
     "photoInitials": "AJ",
     "photoMeta": {
       "name": "ABDELLAH JAIZE",
@@ -413,58 +231,51 @@
     "hero": {
       "kicker": "Over",
       "name": "Abdellah Jaize",
-      "role": "AI Software Engineer · AI-integratie · Technisch Leiderschap"
+      "role": "AI Software Engineer"
     },
     "bio": [
       "Hoi, ik ben Abdellah. Marokkaanse engineer, gevestigd in IJlst, Friesland. Vijf jaar professioneel software bouwen. De laatste tijd vooral AI-werk dat echt in productie draait.",
-      "De afgelopen 2,5 jaar ben ik de enige engineer geweest op een AI computer-vision platform bij een Nederlands agritech-bedrijf. Backend, frontend, ML-pijplijnen, infrastructuur. Het draait ongeveer 3 miljoen AI inferentie-calls per maand op een hybride setup. Daarvoor heb ik bij een sportstech-startup het engineering-team geleid en uitgebreid van 2 naar 12 mensen, en rapporteerde aan het board over technische strategie.",
-      "Vanaf juni 2026 werk ik zelfstandig onder de naam Jaize. Ik help Nederlandse scale-ups en MKB met AI-producten die ook echt in productie komen. Vaste prijs, heldere scope, geen offerte-circus."
+      "De afgelopen 2,5 jaar ben ik de enige engineer geweest op een AI computer-vision platform bij een Nederlands agritech-bedrijf. Backend, frontend, ML-pijplijnen, infrastructuur, allemaal in productie. Daarvoor heb ik mobile en web product gebouwd bij een early-stage sportstech-startup met React Native, Next.js en AWS."
     ],
-    "approach": {
-      "label": "01 — AANPAK",
-      "title": "Mijn aanpak",
-      "items": [
-        { "num": "01", "title": "Vaste prijs, vaste scope", "body": "Ik werk niet met open eindes. We spreken vooraf de deliverables en de termijn af. Verandert er iets, dan lopen we samen een kort wijzigingsverzoek door en passen we aan." },
-        { "num": "02", "title": "Productie boven prototype", "body": "Alles wat ik bouw is bedoeld voor productie. Dat betekent vanaf dag één gemonitord, getest en gedocumenteerd. Geen fragiele demo's die instorten zodra een echte gebruiker langskomt." },
-        { "num": "03", "title": "Saaie technologie waar het kan", "body": "PostgreSQL wint het meestal van exotische databases. Ik kies frameworks die je team over vijf jaar nog kan onderhouden, niet wat dit kwartaal trending is." },
-        { "num": "04", "title": "Overdracht hoort bij het werk", "body": "Aan het einde van elke opdracht laat ik een team achter dat zonder mij verder kan. Schone code, echte documentatie, een walkthrough. Geen black boxes." }
-      ]
-    },
     "experience": {
-      "label": "02 — WERKERVARING",
+      "label": "01 · WERKERVARING",
       "title": "Werkervaring",
       "items": [
-        { "date": "2023 tot nu", "role": "Sole Technical Owner bij Inovaa (Nederlandse agritech)", "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR." },
-        { "date": "2022 tot 2023", "role": "Tech Lead bij AppiStadium (sportstech-startup)", "stack": "Team uitgebreid van 2 naar 12+. React Native, Unity, mobile en web." },
-        { "date": "2020 tot 2021", "role": "Backend Engineer bij ScanBon (fintech)", "stack": "OCR-pijplijn en analytics-API. Node.js, GCP." }
+        {
+          "date": "2023 tot nu",
+          "role": "Software Engineer bij Inovaa (Nederlandse agritech)",
+          "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
+        },
+        {
+          "date": "2022 tot 2023",
+          "role": "Software Engineer bij AppiStadium (sportstech-startup)",
+          "stack": "React Native app met Unity, plus React/Next.js back-office en publieke website."
+        }
       ]
     },
     "credentials": {
-      "label": "03 — OPLEIDING EN TALEN",
+      "label": "02 · OPLEIDING EN TALEN",
       "title": "Opleiding en talen",
       "educationLabel": "OPLEIDING",
       "languagesLabel": "TALEN EN LOCATIE",
       "education": [
-        { "label": "MASTER", "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019–2021)" },
-        { "label": "BACHELOR", "value": "B.Sc. Big Data & Massive Data Management · FST Settat (2018–2019)" }
+        {
+          "label": "MASTER",
+          "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019 tot 2021)"
+        }
       ],
       "languages": [
-        { "label": "TALEN", "value": "Arabisch (moedertaal) · Engels en Frans (professioneel)" },
-        { "label": "LOCATIE", "value": "IJlst, Friesland · werkt remote en op locatie in heel NL" }
+        {
+          "label": "TALEN",
+          "value": "Arabisch (moedertaal) · Engels en Frans (professioneel)"
+        },
+        {
+          "label": "LOCATIE",
+          "value": "IJlst, Friesland · werkt remote en op locatie in heel NL"
+        }
       ],
       "kvkLabel": "KVK",
-      "kvkValue": "Jaize (eenmanszaak) · KvK 12345678 · BTW NL000000000B01"
-    },
-    "stack": {
-      "label": "04 — TOOLS EN TECHNOLOGIE",
-      "title": "Tools en technologie",
-      "groups": [
-        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "Flask", "Express", "PostgreSQL", "MongoDB", "MySQL", "REST", "OAuth2", "JWT", "RBAC"] },
-        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue", "Nuxt 3", "React Native", "Tailwind", "Radix UI", "Framer Motion", "i18n"] },
-        { "label": "AI / AGENTS", "items": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "ReAct Agents", "Multi-Agent Systems", "RAG", "Pinecone", "Weaviate", "OpenAI", "Anthropic", "Gemini", "GPT-4", "Claude", "LLaMA", "Fine-tuning", "LoRA", "Prompt Engineering", "RLHF", "LiveKit", "N8N"] },
-        { "label": "ML / DEEP LEARNING", "items": ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-learn", "NVIDIA Triton", "ResNet", "YOLO", "OCR", "Distributed Training", "Multi-GPU", "DeepSpeed", "MLflow", "Weights & Biases"] },
-        { "label": "CLOUD / DEVOPS", "items": ["AWS", "AWS Amplify", "AWS SageMaker", "AWS Lambda", "GCP", "Vertex AI", "BigQuery", "Azure ML", "Cloudflare", "Docker", "Kubernetes", "GitLab CI/CD", "GitHub Actions", "Nginx", "Linux", "Bash"] }
-      ]
+      "kvkValue": "Jaize Tech (eenmanszaak) · KvK 42051769"
     },
     "cta": {
       "title": "Zin om samen te werken?",
@@ -473,15 +284,15 @@
     }
   },
   "contact": {
-    "title": "Contact · Jaize",
-    "description": "Plan een gesprek van 15 minuten of stuur een bericht. Reactie binnen 24 uur op werkdagen.",
+    "title": "Contact en plan een gesprek",
+    "description": "Plan een kennismakingsgesprek van 15 minuten of stuur een bericht. Reactie binnen 24 uur op werkdagen.",
     "hero": {
       "headline": "Laten we praten.",
       "lead": "Een kort gesprek is vaak de snelste manier om te weten of we passen. Vijftien minuten, geen druk."
     },
     "options": {
       "scheduleTitle": "Plan direct",
-      "scheduleLead": "Kies een tijdslot dat werkt — bevestiging direct in je inbox.",
+      "scheduleLead": "Kies een tijdslot dat werkt. De bevestiging valt direct in je inbox.",
       "scheduleIntro": "Kennismakingsgesprek (15 min)",
       "scheduleDeeper": "Uitgebreid gesprek (30 min)",
       "messageTitle": "Stuur een bericht",
@@ -495,15 +306,18 @@
       "messagePlaceholder": "Een paar zinnen over wat je probeert te bouwen of oplossen...",
       "submit": "Verstuur bericht",
       "successTitle": "Bericht ontvangen",
-      "successText": "Bedankt. Ik reageer binnen 24 uur op werkdagen."
+      "successText": "Bedankt. Ik reageer binnen 24 uur op werkdagen.",
+      "errorText": "Het bericht kon niet worden verstuurd. Mail me direct op abdellah@jaizetech.nl.",
+      "requiredMark": "verplicht",
+      "requiredHint": "Verplichte velden zijn gemarkeerd met een sterretje."
     },
-    "trust": "Reactie binnen 24 uur op werkdagen · KvK in registratie · IJlst, Nederland",
+    "trust": "Reactie binnen 24 uur op werkdagen · KvK 42051769 · IJlst, Nederland",
     "directMailPrefix": "Of mail direct:",
     "directMailAddress": "abdellah@jaizetech.nl"
   },
   "blog": {
-    "title": "Blog · Jaize",
-    "description": "Korte stukken over senior engineering, AI-integratie in productie, en het runnen van een ZZP-praktijk in Nederland.",
+    "title": "Notities over AI-engineering en freelance werk",
+    "description": "Korte stukken over senior engineering, AI-integratie in productie en het runnen van een ZZP-praktijk in Nederland.",
     "breadcrumb": "Blog",
     "hero": {
       "kicker": "Blog",
@@ -515,19 +329,24 @@
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
   "footer": {
-    "tagline": "Productieklare AI voor Nederlandse scale-ups.",
+    "tagline": "Onafhankelijke software-engineering.",
     "linksTitle": "Snel naar",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elders",
     "based": "Gevestigd in IJlst, Nederland",
-    "kvk": "KvK i.o. · juni 2026 (in oprichting)",
+    "kvk": "KvK 42051769",
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
-    "terms": "Algemene voorwaarden"
+    "terms": "Algemene voorwaarden",
+    "emailAbdellahAria": "Mail Abdellah direct",
+    "emailInfoAria": "Mail algemene inbox",
+    "linkedinAria": "Abdellah Jaize op LinkedIn (opent in nieuw tabblad)",
+    "githubAria": "Abdellah Jaize op GitHub (opent in nieuw tabblad)",
+    "twitterAria": "Abdellah Jaize op Twitter (opent in nieuw tabblad)"
   },
   "terms": {
-    "title": "Algemene voorwaarden · Jaize",
-    "description": "Algemene voorwaarden voor opdrachten met Jaize (eenmanszaak van Abdellah Jaize, gevestigd in IJlst, Nederland).",
+    "title": "Algemene voorwaarden",
+    "description": "Algemene voorwaarden voor opdrachten met Jaize Tech, eenmanszaak van Abdellah Jaize, gevestigd in IJlst, Nederland.",
     "breadcrumb": "Algemene voorwaarden",
     "headline": "Algemene voorwaarden",
     "lastUpdated": "Laatst bijgewerkt: mei 2026",
@@ -535,7 +354,7 @@
     "sections": [
       {
         "h": "1. Wie ik ben",
-        "p": "Ik ben Abdellah Jaize, software engineer en eenmanszaak onder de naam Jaize. Gevestigd in IJlst, Friesland. KvK-nummer en BTW-nummer worden hier toegevoegd zodra de inschrijving rond is (juni 2026)."
+        "p": "Ik ben Abdellah Jaize, software engineer en eenmanszaak onder de naam Jaize Tech. Gevestigd in IJlst, Friesland. KvK 42051769."
       },
       {
         "h": "2. Wat ik lever",
@@ -576,8 +395,8 @@
     ]
   },
   "privacy": {
-    "title": "Privacybeleid · Jaize",
-    "description": "Hoe Jaize omgaat met persoonsgegevens van bezoekers en klanten. Korte, eerlijke uitleg.",
+    "title": "Privacybeleid",
+    "description": "Hoe Jaize Tech omgaat met persoonsgegevens van bezoekers en klanten. Een korte, eerlijke uitleg. Geen tracking, geen analytics.",
     "breadcrumb": "Privacybeleid",
     "headline": "Privacybeleid",
     "lastUpdated": "Laatst bijgewerkt: mei 2026",
@@ -585,7 +404,7 @@
     "sections": [
       {
         "h": "1. Wie ik ben",
-        "p": "Abdellah Jaize, eenmanszaak Jaize, gevestigd in IJlst, Nederland. Voor vragen over je gegevens: abdellah@jaizetech.nl."
+        "p": "Abdellah Jaize, eenmanszaak Jaize Tech, gevestigd in IJlst, Nederland. KvK 42051769. Voor vragen over je gegevens: abdellah@jaizetech.nl."
       },
       {
         "h": "2. Welke gegevens ik verwerk",
@@ -616,5 +435,12 @@
         "p": "Als ik dit beleid aanpas, wordt de datum bovenaan ge-update. Belangrijke wijzigingen meld ik via mijn website."
       }
     ]
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden.",
+    "lead": "De pagina die je zocht bestaat niet. Probeer een van deze opties.",
+    "backHome": "Terug naar home",
+    "tryThese": "Of spring direct naar een van deze pagina's:",
+    "helpLinksAria": "Handige links"
   }
 }

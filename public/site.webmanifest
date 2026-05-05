@@ -1,0 +1,25 @@
+{
+  "name": "Jaize Tech",
+  "short_name": "Jaize Tech",
+  "description": "Production-ready AI agents, RAG, and document automation for Dutch scale-ups.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#FAFAF7",
+  "theme_color": "#0E0E10",
+  "lang": "nl-NL",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

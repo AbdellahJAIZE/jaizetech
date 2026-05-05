@@ -1,8 +1,11 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import Breadcrumb from '@/components/Breadcrumb';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import WebPageSchema from '@/components/WebPageSchema';
+import { pageAlternates, absoluteUrl } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -11,7 +14,32 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'services' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  const url = absoluteUrl(locale, '/services');
+
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, '/services'),
+    openGraph: {
+      type: 'website',
+      url,
+      title,
+      description,
+      siteName: 'Jaize Tech',
+      locale: locale === 'nl' ? 'nl_NL' : 'en_US',
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: title }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      site: '@JaizeAbdellah',
+      creator: '@JaizeAbdellah',
+      images: ['/og-image.png']
+    }
+  };
 }
 
 export default async function ServicesPage({
@@ -26,28 +54,29 @@ export default async function ServicesPage({
 
 function Services() {
   const t = useTranslations('services');
+  const tNav = useTranslations('nav');
+  const locale = useLocale();
   const labels = t.raw('labels') as {
-    duration: string;
-    for: string;
-    delivers: string;
-    excludes: string;
     discussCta: string;
-    scopeNote: string;
+    serviceLabel: string;
   };
   const items = t.raw('items') as Array<{
     id: string;
     name: string;
-    duration: string;
-    for: string;
     summary: string;
-    delivers: string[];
-    excludes: string;
   }>;
 
   return (
     <section className="section">
       <div className="container">
         <Breadcrumb current={t('breadcrumb')} />
+        <BreadcrumbSchema
+          items={[
+            { name: tNav('home'), url: absoluteUrl(locale, '/') },
+            { name: t('breadcrumb'), url: absoluteUrl(locale, '/services') }
+          ]}
+        />
+        <WebPageSchema locale={locale} path="/services" name={t('title')} description={t('description')} />
 
         <header style={{ marginBottom: 48, maxWidth: 720 }}>
           <h1>{t('hero.headline')}</h1>
@@ -60,21 +89,9 @@ function Services() {
             return (
               <article key={s.id} id={s.id} className="service-section">
                 <div>
-                  <div className="num">{num} — DIENST</div>
+                  <div className="num">{num} · {labels.serviceLabel}</div>
                   <h2>{s.name}</h2>
                   <p className="summary">{s.summary}</p>
-
-                  <span className="delivers-label">{labels.delivers}</span>
-                  <ul className="delivers">
-                    {s.delivers.map((d, j) => <li key={j}>{d}</li>)}
-                  </ul>
-
-                  <p className="for-line">
-                    <strong>{labels.for}:</strong> {s.for}
-                  </p>
-                  <p className="for-line" style={{ borderLeftColor: 'transparent' }}>
-                    <strong>{labels.excludes}:</strong> {s.excludes}
-                  </p>
                 </div>
 
                 <aside className="meta-rail">

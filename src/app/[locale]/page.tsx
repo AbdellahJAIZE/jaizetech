@@ -1,9 +1,12 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import ServiceCard from '@/components/ServiceCard';
 import CaseCard from '@/components/CaseCard';
+import FAQSchema from '@/components/FAQSchema';
+import WebPageSchema from '@/components/WebPageSchema';
+import { pageAlternates, absoluteUrl } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -12,9 +15,32 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'home' });
+  const url = absoluteUrl(locale, '/');
+  const title = t('title');
+  const description = t('description');
+
   return {
-    title: t('title'),
-    description: t('description')
+    title: { absolute: title },
+    description,
+    alternates: pageAlternates(locale, '/'),
+    openGraph: {
+      type: 'website',
+      url,
+      title,
+      description,
+      siteName: 'Jaize Tech',
+      locale: locale === 'nl' ? 'nl_NL' : 'en_US',
+      alternateLocale: locale === 'nl' ? ['en_US'] : ['nl_NL'],
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: title }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      site: '@JaizeAbdellah',
+      creator: '@JaizeAbdellah',
+      images: ['/og-image.png']
+    }
   };
 }
 
@@ -30,10 +56,12 @@ export default async function HomePage({
 
 function Home() {
   const t = useTranslations('home');
+  const locale = useLocale();
   const faqItems = t.raw('faq.items') as Array<{ q: string; a: string }>;
 
   return (
     <>
+      <WebPageSchema locale={locale} path="/" name={t('title')} description={t('description')} />
       <section className="hero container">
         <h1 className="reveal">{t('hero.headline')}</h1>
         <p className="lead reveal">{t('hero.lead')}</p>
@@ -49,7 +77,7 @@ function Home() {
           </Link>
         </div>
 
-        <div className="readme reveal" aria-label="profile">
+        <div className="readme reveal" aria-label={t('readme.label')}>
           <div className="readme-head">
             <span className="traffic" aria-hidden="true">
               <span /><span /><span />
@@ -74,7 +102,7 @@ function Home() {
           <h2>{t('services.title')}</h2>
         </div>
         <div className="services-grid reveal">
-          {[0, 1, 2, 3, 4, 5].map((i) => (
+          {[0, 1, 2].map((i) => (
             <ServiceCard key={i} index={i} />
           ))}
         </div>
@@ -93,19 +121,24 @@ function Home() {
           <h2>{t('work.title')}</h2>
         </div>
         <div className="cases-row reveal">
-          {[0, 1, 2].map((i) => (
+          {[0, 1].map((i) => (
             <CaseCard key={i} index={i} />
           ))}
+        </div>
+        <div className="show-all-services reveal">
+          <Link className="btn btn-secondary" href="/work">
+            {t('work.viewAll')}<span className="arrow">→</span>
+          </Link>
         </div>
       </section>
 
       <hr className="hr-rule" />
 
-      <section className="section">
+      <section className="section" aria-labelledby="faq-title">
         <div className="container-narrow">
           <div className="section-head reveal" style={{ marginBottom: 24 }}>
             <span className="eyebrow">{t('faq.kicker')}</span>
-            <h2>{t('faq.title')}</h2>
+            <h2 id="faq-title">{t('faq.title')}</h2>
           </div>
 
           <div className="faq reveal">
@@ -120,6 +153,7 @@ function Home() {
             ))}
           </div>
         </div>
+        <FAQSchema items={faqItems} />
       </section>
 
       <section className="section cta-section">

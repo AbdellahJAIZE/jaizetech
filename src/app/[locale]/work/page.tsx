@@ -1,8 +1,11 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import Breadcrumb from '@/components/Breadcrumb';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import WebPageSchema from '@/components/WebPageSchema';
+import { pageAlternates, absoluteUrl } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -11,7 +14,32 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'work' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  const url = absoluteUrl(locale, '/work');
+
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, '/work'),
+    openGraph: {
+      type: 'website',
+      url,
+      title,
+      description,
+      siteName: 'Jaize Tech',
+      locale: locale === 'nl' ? 'nl_NL' : 'en_US',
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: title }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      site: '@JaizeAbdellah',
+      creator: '@JaizeAbdellah',
+      images: ['/og-image.png']
+    }
+  };
 }
 
 export default async function WorkPage({
@@ -26,7 +54,9 @@ export default async function WorkPage({
 
 function Work() {
   const t = useTranslations('work');
-  const labels = t.raw('labels') as { approach: string; stack: string; production: string };
+  const tNav = useTranslations('nav');
+  const locale = useLocale();
+  const labels = t.raw('labels') as { approach: string; stack: string; production: string; sector: string; period: string; role: string };
   const cases = t.raw('cases') as Array<{
     id: string;
     client: string;
@@ -44,6 +74,13 @@ function Work() {
     <section className="section">
       <div className="container">
         <Breadcrumb current={t('breadcrumb')} />
+        <BreadcrumbSchema
+          items={[
+            { name: tNav('home'), url: absoluteUrl(locale, '/') },
+            { name: t('breadcrumb'), url: absoluteUrl(locale, '/work') }
+          ]}
+        />
+        <WebPageSchema locale={locale} path="/work" name={t('title')} description={t('description')} />
 
         <header style={{ marginBottom: 48, maxWidth: 720 }}>
           <h1>{t('hero.headline')}</h1>
@@ -59,9 +96,9 @@ function Work() {
                   <p className="case-summary">{c.summary}</p>
                 </div>
                 <div className="case-meta-rail">
-                  <div>SECTOR</div><span className="v">{c.sector}</span>
-                  <div style={{ marginTop: 12 }}>PERIODE</div><span className="v">{c.year}</span>
-                  <div style={{ marginTop: 12 }}>ROL</div><span className="v">{c.role}</span>
+                  <div>{labels.sector}</div><span className="v">{c.sector}</span>
+                  <div style={{ marginTop: 12 }}>{labels.period}</div><span className="v">{c.year}</span>
+                  <div style={{ marginTop: 12 }}>{labels.role}</div><span className="v">{c.role}</span>
                 </div>
               </div>
 

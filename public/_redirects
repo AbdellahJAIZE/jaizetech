@@ -1,12 +1,54 @@
-# Cloudflare Pages redirects — handle default-locale routing
-# (next-intl middleware doesn't run with static export, so we route here.)
+# Cloudflare Pages redirects.
+# next-intl with localePrefix='as-needed' generates files at /nl/* but renders internal
+# links and canonical URLs as bare paths (/services, /work, etc) for the default locale.
+# To avoid 301 chains on every internal click, we serve /nl/* content at bare paths
+# via 200 rewrites. /nl/* URLs themselves 301 to bare paths so there is one canonical URL.
 
-# Root → default locale
-/              /nl               301
+# 1) Strip trailing slashes (canonical has no trailing slash)
+/services/     /services         301
+/work/         /work             301
+/about/        /about            301
+/blog/         /blog             301
+/contact/      /contact          301
+/terms/        /terms            301
+/privacy/      /privacy          301
+/en/           /en               301
+/en/services/  /en/services      301
+/en/work/      /en/work          301
+/en/about/     /en/about         301
+/en/blog/      /en/blog          301
+/en/contact/   /en/contact       301
+/en/terms/     /en/terms         301
+/en/privacy/   /en/privacy       301
 
-# Bare paths → default locale (Dutch)
-/services      /nl/services      301
-/work          /nl/work          301
-/about         /nl/about         301
-/blog          /nl/blog          301
-/contact       /nl/contact       301
+# 2) Canonicalize away the /nl prefix (default locale exposes no prefix)
+/nl            /                 301
+/nl/           /                 301
+/nl/services   /services         301
+/nl/services/  /services         301
+/nl/work       /work             301
+/nl/work/      /work             301
+/nl/about      /about            301
+/nl/about/     /about            301
+/nl/blog       /blog             301
+/nl/blog/      /blog             301
+/nl/contact    /contact          301
+/nl/contact/   /contact          301
+/nl/terms      /terms            301
+/nl/terms/     /terms            301
+/nl/privacy    /privacy          301
+/nl/privacy/   /privacy          301
+
+# 3) Canonicalize /nl/blog/<slug> → /blog/<slug>
+/nl/blog/*     /blog/:splat      301
+
+# 4) Internal rewrite: serve NL content at bare paths (URL stays clean, no redirect)
+/              /nl               200
+/services      /nl/services      200
+/work          /nl/work          200
+/about         /nl/about         200
+/blog          /nl/blog          200
+/blog/*        /nl/blog/:splat   200
+/contact       /nl/contact       200
+/terms         /nl/terms         200
+/privacy       /nl/privacy       200

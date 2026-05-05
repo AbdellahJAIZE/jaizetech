@@ -1,8 +1,11 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import Breadcrumb from '@/components/Breadcrumb';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import WebPageSchema from '@/components/WebPageSchema';
+import { pageAlternates, absoluteUrl } from '@/lib/seo';
 
 export async function generateMetadata({
   params
@@ -11,7 +14,36 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  const url = absoluteUrl(locale, '/about');
+
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, '/about'),
+    openGraph: {
+      type: 'profile',
+      firstName: 'Abdellah',
+      lastName: 'Jaize',
+      url,
+      title,
+      description,
+      siteName: 'Jaize Tech',
+      locale: locale === 'nl' ? 'nl_NL' : 'en_US',
+      images: [
+        { url: '/abdellah.jpg', width: 600, height: 600, alt: 'Abdellah Jaize, AI software engineer based in IJlst, Netherlands' }
+      ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      site: '@JaizeAbdellah',
+      creator: '@JaizeAbdellah',
+      images: ['/abdellah.jpg']
+    }
+  };
 }
 
 export default async function AboutPage({
@@ -26,25 +58,41 @@ export default async function AboutPage({
 
 function About() {
   const t = useTranslations('about');
+  const tNav = useTranslations('nav');
+  const locale = useLocale();
 
   const bio = t.raw('bio') as string[];
-  const approachItems = t.raw('approach.items') as Array<{ num: string; title: string; body: string }>;
   const experience = t.raw('experience.items') as Array<{ date: string; role: string; stack: string }>;
   const education = t.raw('credentials.education') as Array<{ label: string; value: string }>;
   const languages = t.raw('credentials.languages') as Array<{ label: string; value: string }>;
-  const stackGroups = t.raw('stack.groups') as Array<{ label: string; items: string[] }>;
   const photoMeta = t.raw('photoMeta') as { name: string; status: string };
+  const photoAlt = t('photoAlt');
 
   return (
     <section className="section">
       <div className="container">
         <Breadcrumb current={t('breadcrumb')} />
+        <BreadcrumbSchema
+          items={[
+            { name: tNav('home'), url: absoluteUrl(locale, '/') },
+            { name: t('breadcrumb'), url: absoluteUrl(locale, '/about') }
+          ]}
+        />
+        <WebPageSchema locale={locale} path="/about" name={t('title')} description={t('description')} />
 
         {/* Hero: photo block + content */}
         <div className="about-hero">
           <div>
             <div className="photo-block">
-              <img src="/abdellah.jpg" alt="Abdellah Jaize" />
+              <img
+                src="/abdellah.jpg"
+                alt={photoAlt}
+                width={600}
+                height={600}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+              />
             </div>
             <div className="photo-meta">
               <div><span>{photoMeta.name}</span><span>· {photoMeta.status}</span></div>
@@ -59,22 +107,7 @@ function About() {
           </div>
         </div>
 
-        {/* 01 — Approach */}
-        <section className="numbered-section">
-          <div className="section-label">{t('approach.label')}</div>
-          <h2>{t('approach.title')}</h2>
-          <div className="approach-grid">
-            {approachItems.map((item) => (
-              <div key={item.num} className="approach-card">
-                <div className="num">{item.num}</div>
-                <h3>{item.title}</h3>
-                <p>{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* 02 — Experience */}
+        {/* 01 — Experience */}
         <section className="numbered-section">
           <div className="section-label">{t('experience.label')}</div>
           <h2>{t('experience.title')}</h2>
@@ -91,7 +124,7 @@ function About() {
           </div>
         </section>
 
-        {/* 03 — Education + Languages */}
+        {/* 02 — Education + Languages */}
         <section className="numbered-section">
           <div className="section-label">{t('credentials.label')}</div>
           <h2>{t('credentials.title')}</h2>
@@ -120,24 +153,6 @@ function About() {
                 <dd>{t('credentials.kvkValue')}</dd>
               </dl>
             </div>
-          </div>
-        </section>
-
-        {/* 04 — Tools & tech */}
-        <section className="numbered-section">
-          <div className="section-label">{t('stack.label')}</div>
-          <h2>{t('stack.title')}</h2>
-          <div className="tools-groups">
-            {stackGroups.map((g) => (
-              <div key={g.label} className="tool-group">
-                <div className="tool-label">{g.label}</div>
-                <div className="tags">
-                  {g.items.map((it) => (
-                    <span key={it} className="tag">{it}</span>
-                  ))}
-                </div>
-              </div>
-            ))}
           </div>
         </section>
 

@@ -6,12 +6,12 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" role="contentinfo">
       <div className="container">
         <div className="footer-grid">
           <div className="col-brand">
-            <Link className="wordmark" href="/" aria-label="jaize home">
-              jaize<span className="dot" aria-hidden="true" />
+            <Link className="wordmark" href="/" aria-label={t('nav.homeAria')}>
+              jaize tech<span className="dot" aria-hidden="true" />
             </Link>
             <p>{t('footer.tagline')}</p>
             <p className="legal-line">
@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
+          <nav aria-label={t('footer.linksTitle')}>
             <h4>{t('footer.linksTitle')}</h4>
             <ul>
               <li><Link href="/services">{t('nav.services')}</Link></li>
@@ -28,21 +28,57 @@ export default function Footer() {
               <li><Link href="/blog">{t('nav.blog')}</Link></li>
               <li><Link href="/contact">{t('nav.contact')}</Link></li>
             </ul>
-          </div>
+          </nav>
 
           <div>
             <h4>{t('footer.contactTitle')}</h4>
             <ul>
-              <li><a href="mailto:abdellah@jaizetech.nl">abdellah@jaizetech.nl</a></li>
-              <li><a href="mailto:info@jaizetech.nl">info@jaizetech.nl</a></li>
+              <li>
+                <a href="mailto:abdellah@jaizetech.nl" aria-label={t('footer.emailAbdellahAria')}>
+                  abdellah@jaizetech.nl
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@jaizetech.nl" aria-label={t('footer.emailInfoAria')}>
+                  info@jaizetech.nl
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4>{t('footer.elsewhereTitle')}</h4>
             <ul>
-              <li><a href="https://linkedin.com/in/abdellah-jaize" target="_blank" rel="noopener">LinkedIn</a></li>
-              <li><a href="https://github.com/AbdellahJAIZE" target="_blank" rel="noopener">GitHub</a></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/abdellah-jaize"
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  aria-label={t('footer.linkedinAria')}
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AbdellahJAIZE"
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  aria-label={t('footer.githubAria')}
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/JaizeAbdellah"
+                  target="_blank"
+                  rel="noopener noreferrer me"
+                  aria-label={t('footer.twitterAria')}
+                >
+                  Twitter
+                </a>
+              </li>
             </ul>
           </div>
         </div>

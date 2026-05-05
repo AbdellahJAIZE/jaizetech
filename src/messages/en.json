@@ -2,27 +2,35 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize · Production-ready AI agents, RAG, and automation",
-    "defaultDescription": "Production AI for Dutch scale-ups. AI agents, RAG assistants, document automation, and full-stack engineering. Fixed prices, fixed scope, no surprises."
+    "defaultTitle": "Jaize Tech · Independent software engineering",
+    "defaultDescription": "Software builds, AI features, and infrastructure work. Independent engineering by Abdellah Jaize, based in the Netherlands."
   },
   "nav": {
+    "home": "Home",
     "services": "Services",
     "work": "Work",
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "bookCall": "Book a call",
+    "bookCall": "Get in touch",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "homeAria": "Jaize Tech home",
+    "primaryNavAria": "Primary navigation",
+    "languageAria": "Language switcher",
+    "switchToDutchAria": "Switch language to Dutch",
+    "switchToEnglishAria": "Switch language to English",
+    "breadcrumbAria": "Breadcrumb",
+    "newTabSuffix": "(opens in new tab)"
   },
   "home": {
-    "title": "Jaize · Production-ready AI agents, RAG, and automation",
-    "description": "Production AI for Dutch scale-ups. AI agents, RAG assistants, document automation, and full-stack engineering. Fixed prices, fixed scope, no surprises.",
+    "title": "Jaize Tech · Independent software engineering",
+    "description": "Software builds, AI features, and infrastructure work. Independent engineering by Abdellah Jaize, based in the Netherlands.",
     "hero": {
-      "headline": "Production AI agents, RAG, and document automation.",
-      "lead": "Built for Dutch scale-ups and SMBs. LangGraph, RAG, OCR, and the full stack around it. Fixed price or day rate. We agree the scope, then I ship.",
-      "ctaPrimary": "Book a free intro call",
-      "ctaSecondary": "See services"
+      "headline": "Software, built end to end.",
+      "lead": "Web, mobile, AI features, infrastructure. I work with teams in the Netherlands and beyond, on whatever needs shipping.",
+      "ctaPrimary": "Get in touch",
+      "ctaSecondary": "See what I do"
     },
     "readme": {
       "label": "profile",
@@ -35,13 +43,13 @@
       "lang": "languages",
       "langValue": "English · French · Arabic",
       "kvk": "kvk",
-      "kvkValue": "registering · June 2026"
+      "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "What I deliver",
-      "title": "From idea to production AI.",
-      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Timeline fixed, pricing scoped per engagement.",
-      "viewAll": "View all 11 services"
+      "kicker": "What I do",
+      "title": "Three things I help with.",
+      "lead": "Software builds, AI features, infrastructure. Get in touch and we figure out the rest.",
+      "viewAll": "Talk it through"
     },
     "work": {
       "kicker": "Work",
@@ -50,242 +58,77 @@
     },
     "faq": {
       "kicker": "Frequently asked",
-      "title": "Practical answers for your decision.",
+      "title": "Practical answers.",
       "items": [
         {
           "q": "Do you work remote or on-site?",
-          "a": "Both. Mostly remote, with regular visits to Amsterdam, Utrecht or Eindhoven when useful for the engagement."
+          "a": "Both. Mostly remote, with visits to Amsterdam, Utrecht or Eindhoven when it helps the project."
         },
         {
-          "q": "What's your day rate?",
-          "a": "€800–880 per day for hourly engagements. Most work is fixed-price based on the services above."
+          "q": "How does pricing work?",
+          "a": "Per project, after a short scoping call. No fixed packages, no surprise quotes. We agree the price up front."
         },
         {
           "q": "Do you work with one client at a time?",
-          "a": "No. I work with multiple clients in parallel — usually max 12–15 days per month per engagement. This protects independence and focus."
+          "a": "No. I work with a few clients in parallel, usually a couple of days per week per engagement. That keeps me independent and focused."
         },
         {
           "q": "What if the scope changes?",
-          "a": "Fixed prices are agreed up front. Changes go through a short change request with adjusted price and timeline."
+          "a": "We talk it through and adjust together. Most changes are minor and just shift the timeline a little."
         },
         {
           "q": "What language do you work in?",
-          "a": "English — documentation, code, meetings, and email. Industry standard for tech teams in the Netherlands."
+          "a": "English. Documentation, code, meetings, email. Standard for tech teams in the Netherlands."
         }
       ]
     },
     "cta": {
       "title": "Ready to build something?",
-      "lead": "A 15-minute call gives both of us quick clarity on whether there's a fit.",
-      "primary": "Book a call",
+      "lead": "A 15-minute call is enough for both of us to know if there's a fit.",
+      "primary": "Get in touch",
       "secondary": "Or email directly: abdellah@jaizetech.nl"
     }
   },
   "services": {
-    "title": "Services · Jaize",
-    "description": "Eleven engagements for production AI: agents, RAG, document automation, MVPs, and technical leadership. Timeline fixed, pricing scoped per engagement.",
+    "title": "What I do",
+    "description": "Software builds, AI features, and infrastructure work. Independent engineering for teams in the Netherlands and beyond.",
     "breadcrumb": "Services",
     "hero": {
       "kicker": "Services",
-      "headline": "From idea to production AI.",
-      "lead": "Eleven ways I work with Dutch scale-ups and SMBs. Fixed timeline. Pricing depends on scope, which we agree before we start. No quote runaround."
+      "headline": "What I do.",
+      "lead": "Three things I help with. If your need looks close to one of them, send a message and we figure out the rest together."
     },
     "labels": {
-      "duration": "Timeline",
-      "for": "Best for",
-      "delivers": "What you get",
-      "excludes": "Not included",
-      "discussCta": "Discuss this engagement",
-      "scopeNote": "Pricing depends on scope",
-      "showAll": "View all 11 services",
-      "homeKicker": "What I deliver",
-      "homeTitle": "From idea to production AI."
+      "discussCta": "Talk about this",
+      "serviceLabel": "WHAT I DO",
+      "readMore": "Read more"
     },
     "items": [
       {
-        "id": "ai-audit",
-        "name": "AI Integration Audit",
-        "duration": "1-week sprint",
-        "for": "CTO or founder who needs to know where AI actually adds value to the product — and where it's a distraction.",
-        "summary": "Quick technical review of your stack, identification of the 5–10 highest-impact AI integration opportunities, with a prioritized roadmap and working prototype.",
-        "delivers": [
-          "Codebase and product walkthrough",
-          "Best-fit AI tooling research (LLM, RAG, OCR, vision)",
-          "Working prototype of one high-impact integration",
-          "Report with roadmap, cost projection, 90-day plan",
-          "60-minute readout call with your team"
-        ],
-        "excludes": "Implementation (separate engagement as RAG, Agent, MVP, etc.)."
+        "id": "software",
+        "name": "Software builds",
+        "summary": "Web apps, mobile apps, back-end systems. I help you take an idea from sketch to a working product, or fill in for a team that needs an extra senior pair of hands."
       },
       {
-        "id": "rag-assistant",
-        "name": "RAG Knowledge Assistant",
-        "duration": "3–6 weeks",
-        "for": "Companies with heavy internal documentation — manuals, contracts, policies, tickets — so their teams can find answers faster.",
-        "summary": "Secure RAG assistant over your company documents. Vector search, citations, evaluation, and production deployment.",
-        "delivers": [
-          "Document ingestion pipeline (PDF, DOCX, web pages, Notion)",
-          "Vector database (Pinecone, Weaviate, or pgvector)",
-          "LLM layer with OpenAI, Anthropic, or Gemini + LangChain",
-          "Chat UI with citations, history, and feedback",
-          "Evaluation suite for answer quality",
-          "Deployment on AWS, GCP, or Cloudflare with monitoring"
-        ],
-        "excludes": "Ongoing content curation and end-user support."
+        "id": "ai",
+        "name": "AI in your product",
+        "summary": "Computer vision, language models, OCR, or workflow agents. I help you add real AI features to a product, not slideware demos."
       },
       {
-        "id": "ai-agent",
-        "name": "AI Workflow Agent",
-        "duration": "4–8 weeks",
-        "for": "Companies with repetitive research, operations, or analysis workflows that need automating with AI that actually reasons.",
-        "summary": "AI agent with LangGraph combining tools, memory, and structured reasoning to automate an end-to-end business workflow.",
-        "delivers": [
-          "Discovery: workflow mapping and scope definition",
-          "Multi-step LangGraph agent with tool-use, memory, and validation",
-          "Tool integrations (APIs, databases, document stores, email)",
-          "Human-in-the-loop checkpoints for critical decisions",
-          "Production deployment, monitoring, and cost tracking",
-          "Documentation and team walkthrough"
-        ],
-        "excludes": "Custom model training. Uses LLM APIs, not self-hosted models."
-      },
-      {
-        "id": "mvp",
-        "name": "AI SaaS MVP",
-        "duration": "4–8 weeks",
-        "for": "Founders and scale-ups taking an AI product from idea to deployed product — backend, frontend, auth, dashboards, and AI features.",
-        "summary": "Full AI SaaS MVP: backend, frontend, auth, dashboards, AI features, and deployment. Ready for your first paying customers.",
-        "delivers": [
-          "NestJS / Node backend with REST or GraphQL API",
-          "Next.js frontend with Tailwind and responsive design",
-          "Auth (JWT or OAuth), RBAC, multi-tenant if needed",
-          "AI features: LLM workflows, RAG, OCR, or vision per scope",
-          "Admin / analytics dashboard",
-          "Deployment on AWS, GCP, or Cloudflare with CI/CD"
-        ],
-        "excludes": "Native mobile apps. Complex ML training (use AI Workflow Agent or RAG for that)."
-      },
-      {
-        "id": "doc-automation",
-        "name": "Document Intelligence & OCR Automation",
-        "duration": "3–6 weeks",
-        "for": "Accountants, compliance teams, logistics, HR, or admin-heavy businesses that process documents manually.",
-        "summary": "End-to-end document automation: OCR, classification, structured extraction, validation agents, and API or dashboard delivery.",
-        "delivers": [
-          "OCR pipeline (Tesseract, AWS Textract, or Google Document AI)",
-          "Document classification (invoices, receipts, contracts, forms)",
-          "LLM-driven structured extraction (key-value and tables)",
-          "Validation agents that catch errors before downstream systems accept them",
-          "API or dashboard integration with your existing tooling",
-          "Audit trail and exportable reporting"
-        ],
-        "excludes": "Hardware (scanners) and legal advice on data retention."
-      },
-      {
-        "id": "fractional-cto",
-        "name": "Fractional CTO / AI Advisor",
-        "duration": "Ongoing (min. 3 months)",
-        "for": "5–20 person startups without full-time technical leadership who need senior thinking on architecture, AI strategy, and hiring.",
-        "summary": "One day per week of strategic plus tactical technical leadership — architecture, AI roadmap, hiring, team coaching, vendor evaluations.",
-        "delivers": [
-          "1 day per week (Wednesdays by default) on-site or remote",
-          "Weekly 1-on-1 with founder or CEO",
-          "Architecture decisions and code reviews",
-          "AI roadmap and build-vs-buy guidance",
-          "Hiring support: job posts, technical interviews, leveling",
-          "Async support during the week"
-        ],
-        "excludes": "Full-time feature engineering and production on-call."
-      },
-      {
-        "id": "ai-features",
-        "name": "AI Features for Existing Products",
-        "duration": "2–6 weeks per feature",
-        "for": "SaaS companies, agencies, and software teams without AI experience who want concrete AI features added to their existing product.",
-        "summary": "Practical AI features in your existing software — copilots, summarization, classification, search, OCR, and workflow automation.",
-        "delivers": [
-          "Feature scoping and feasibility evaluation",
-          "LLM API integration (OpenAI, Anthropic, Gemini)",
-          "UI/UX for AI features in your existing app",
-          "Evaluation framework and prompt testing",
-          "Production deployment with monitoring and cost tracking",
-          "Works with your existing stack — no rewrite"
-        ],
-        "excludes": "Full product rewrite. Custom model training."
-      },
-      {
-        "id": "poc-sprint",
-        "name": "AI Prototype / POC Sprint",
-        "duration": "2–4 weeks",
-        "for": "Innovation teams, product managers, and founders evaluating AI bets before committing to bigger investment.",
-        "summary": "Working POC of your AI idea in 2–4 weeks. Real data, honest evaluation. Productionize only what proves itself.",
-        "delivers": [
-          "Scope workshop and success criteria",
-          "Working prototype with representative data",
-          "Evaluation against pre-defined metrics",
-          "Demo for stakeholders",
-          "Report with recommendation: productionize, pivot, or stop"
-        ],
-        "excludes": "Production deployment (separate engagement). Long-term maintenance."
-      },
-      {
-        "id": "internal-platform",
-        "name": "Internal Dashboards & Workflow Platforms",
-        "duration": "4–10 weeks",
-        "for": "SMBs, agencies, operations teams, compliance businesses, and agritech / industrial companies still running critical work in spreadsheets and email.",
-        "summary": "Custom internal platform that replaces spreadsheet and email work — RBAC, multi-tenant, i18n, dashboards, and annotation workflows.",
-        "delivers": [
-          "Full-stack platform (NestJS + Next.js)",
-          "Role-based access control and multi-tenant if needed",
-          "i18n for multi-locale teams",
-          "Dashboards and data visualization",
-          "Annotation and review workflows",
-          "Admin tools and CI/CD deployment"
-        ],
-        "excludes": "Native mobile apps. Hardware integration."
-      },
-      {
-        "id": "llm-hardening",
-        "name": "LLM Evaluation & Production Hardening",
-        "duration": "2–5 weeks",
-        "for": "Teams with an LLM POC that needs to become a production-grade system — reliable, monitored, and cost-efficient.",
-        "summary": "Make your LLM application reliable — evals, prompt testing, RAG quality checks, monitoring, latency optimization, and deployment.",
-        "delivers": [
-          "Evaluation framework with automated tests",
-          "Prompt testing and versioning",
-          "RAG quality monitoring (retrieval + generation metrics)",
-          "Latency and cost profiling",
-          "Production deployment hardening",
-          "Observability and alerting"
-        ],
-        "excludes": "Building the LLM app from scratch — use AI Workflow Agent or RAG Assistant for that."
-      },
-      {
-        "id": "devops-rescue",
-        "name": "DevOps & Production Rescue",
-        "duration": "2–6 weeks",
-        "for": "Small SaaS companies, factories, and teams with one overloaded developer whose production system needs modernizing.",
-        "summary": "Stabilize and modernize production systems — CI/CD, Docker, monitoring, backups, deployments, and on-prem / cloud migrations.",
-        "delivers": [
-          "Infrastructure audit and quick wins",
-          "CI/CD setup or modernization (GitLab, GitHub Actions)",
-          "Docker containerization",
-          "Monitoring + alerting (Uptime Kuma, Prometheus, Grafana)",
-          "Automated backups",
-          "Deployment pipeline improvements"
-        ],
-        "excludes": "Long-term ongoing operations (separate retainer)."
+        "id": "infra",
+        "name": "Infrastructure and DevOps",
+        "summary": "Cloud setup, CI/CD, on-prem, or hybrid. I help you get your stack to run reliably without paying for a full ops team."
       }
     ],
     "cta": {
-      "title": "Which engagement fits your project?",
-      "lead": "Book a 15-minute consultation. I'll help you identify the right engagement for your situation.",
-      "primary": "Book a call"
+      "title": "Got something in mind?",
+      "lead": "Send a short message describing what you need. I reply within a day.",
+      "primary": "Send a message"
     }
   },
   "work": {
-    "title": "Work · Jaize",
-    "description": "Three recent engagements — AI computer-vision platform, scaling a tech team from 2 to 12+, and backend for a receipt-management platform.",
+    "title": "Selected work",
+    "description": "Selected case studies. Computer-vision platform in Dutch agritech, and mobile and web product at a sportstech startup.",
     "breadcrumb": "Work",
     "hero": {
       "kicker": "Work",
@@ -295,116 +138,91 @@
     "labels": {
       "approach": "Approach",
       "stack": "Stack",
-      "production": "Production"
+      "production": "Production",
+      "readCase": "Read this case",
+      "sector": "SECTOR",
+      "period": "PERIOD",
+      "role": "ROLE"
     },
     "cases": [
       {
         "id": "inovaa",
         "client": "AI computer-vision platform for Dutch agritech",
         "sector": "Agritech · Industrial quality control",
-        "year": "2023 – 2026",
-        "role": "Sole Technical Owner",
-        "summary": "Replaced a legacy quality-control platform with an AI-driven system that automatically classifies millions of product images. Built solo, end-to-end.",
-        "approach": "Hybrid architecture: NVIDIA Triton for model serving on owned hardware, modular NestJS API, and a data pipeline with OCR plus validation agents. 37+ backend modules, 49 frontend pages, and a hybrid on-prem + cloud setup for cost-efficiency and hardware sovereignty.",
+        "year": "2023 to Present",
+        "role": "Software Engineer",
+        "summary": "Designed and operated an AI-driven system that classifies product images for industrial quality control. Sole engineer, end-to-end across application, ML, and infrastructure.",
+        "approach": "Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.",
         "stats": [
-          { "value": "3M+", "label": "Inference calls per month" },
-          { "value": "99.7%", "label": "Uptime over 2.5 years" },
-          { "value": "2.5y", "label": "In production" }
+          {
+            "value": "Production",
+            "label": "AI inference at scale"
+          },
+          {
+            "value": "Sole eng.",
+            "label": "End-to-end ownership"
+          },
+          {
+            "value": "2.5y+",
+            "label": "In production"
+          }
         ],
-        "stack": ["NestJS", "Vue.js", "PostgreSQL", "NVIDIA Triton", "ResNet", "YOLO", "Docker", "GitLab CI/CD"],
+        "stack": [
+          "NestJS",
+          "Vue.js",
+          "PostgreSQL",
+          "NVIDIA Triton",
+          "ResNet",
+          "YOLO",
+          "Docker",
+          "GitLab CI/CD"
+        ],
         "production": "Production since Q3 2023"
       },
       {
         "id": "appistadium",
-        "client": "Engineering team scaled from 2 to 12+",
+        "client": "Sportstech startup mobile and web product",
         "sector": "Sportstech · Early-stage startup",
-        "year": "2022 – 2023",
-        "role": "Tech Lead",
-        "summary": "An early-stage sportstech startup had a 2-person engineering team and needed production-ready velocity fast. I took over as tech lead and grew the team while we kept shipping.",
-        "approach": "Hands-on team building: six months of senior + mid-level hires, three months of React Native as core stack, then OAuth2 + Firebase Auth, dashboards, and CI/CD on AWS. I kept coding and reviewing while hiring.",
-        "stats": [
-          { "value": "2 → 12+", "label": "Team size" },
-          { "value": "6mo", "label": "To first production ship" },
-          { "value": "2y", "label": "In the role" }
-        ],
-        "stack": ["React Native", "Next.js", "Unity", "AWS", "Firebase", "OAuth2"],
-        "production": "Embedded Tech Lead 2022–2023"
-      },
-      {
-        "id": "screebl",
-        "client": "Screebl — B2B SaaS dashboard platform",
-        "sector": "B2B SaaS · Multi-agency analytics",
-        "year": "Jul 2025 – Mar 2026",
+        "year": "2022 to 2023",
         "role": "Software Engineer",
-        "summary": "Complete B2B SaaS platform built from scratch. Custom dashboard builder, 7-tier RBAC, multi-agency support, and 6 languages. Production-ready for agencies.",
-        "approach": "Nuxt 3 + Tailwind frontend, NestJS 11 + MongoDB backend, 26+ pages with a custom dashboard builder. 7-tier RBAC for agency hierarchy, i18n for 6 languages, Playwright E2E testing. Deployment on AWS with CI/CD.",
+        "summary": "Mobile and web engineer at an early-stage sportstech startup. Built React Native app with Unity game features plus React and Next.js back-office and public website end-to-end.",
+        "approach": "React Native app with embedded Unity game scenes. React and Next.js back-office and public website on a NestJS backend. AWS CI/CD, OAuth2 and Firebase Auth with RBAC across mobile and web.",
         "stats": [
-          { "value": "26+", "label": "Pages incl. dashboard builder" },
-          { "value": "7-tier", "label": "RBAC + multi-agency" },
-          { "value": "9mo", "label": "Engagement" }
+          {
+            "value": "Mobile + Web",
+            "label": "Platforms shipped"
+          },
+          {
+            "value": "App Store + GP",
+            "label": "Released on"
+          },
+          {
+            "value": "1y 7mo",
+            "label": "In the role"
+          }
         ],
-        "stack": ["Nuxt 3", "NestJS 11", "MongoDB", "Tailwind", "AWS", "Playwright"],
-        "production": "In production since Q1 2026"
-      },
-      {
-        "id": "censor",
-        "client": "Censor — compliance portal for Luxembourg companies",
-        "sector": "Compliance · Corporate tax & reporting",
-        "year": "May – Jul 2025",
-        "role": "Software Engineer",
-        "summary": "MVP portal that extracts corporate tax data and KPIs from company filings via OCR and AI. Interactive dashboards for compliance teams.",
-        "approach": "Backend and ETL pipeline for data ingestion. AI-driven OCR extraction of KPIs from company filings. Interactive dashboards for compliance analytics. Fast MVP track with Solution 360.",
-        "stats": [
-          { "value": "OCR + AI", "label": "KPI extraction from filings" },
-          { "value": "ETL", "label": "Data ingestion pipeline" },
-          { "value": "3mo", "label": "MVP delivery" }
+        "stack": [
+          "React Native",
+          "Next.js",
+          "Unity",
+          "AWS",
+          "Firebase",
+          "OAuth2"
         ],
-        "stack": ["NestJS", "Python", "OCR", "ETL", "Dashboards"],
-        "production": "MVP delivered Q3 2025"
-      },
-      {
-        "id": "scanbon",
-        "client": "ScanBon — backend + OCR pipeline for receipt management app",
-        "sector": "FinTech · B2C receipt management",
-        "year": "Dec 2025 – Mar 2026",
-        "role": "Backend Engineer (backend only)",
-        "summary": "Backend for a Dutch fintech receipt app: OCR pipeline, expense categorization API, and JWT auth. No mobile or frontend work — those were built by others.",
-        "approach": "OCR via Google Cloud Vision with edge-case handling and post-processing loop. NestJS API for categorization and expense analytics. JWT auth and GCP deployment with automated CI/CD.",
-        "stats": [
-          { "value": "OCR", "label": "Pipeline on Google Cloud Vision" },
-          { "value": "JWT", "label": "Auth + RBAC" },
-          { "value": "4mo", "label": "Engagement" }
-        ],
-        "stack": ["NestJS", "GCP", "OCR", "JWT", "TypeScript"],
-        "production": "Production-Ready MVP 2025–2026"
-      },
-      {
-        "id": "arrowlancer",
-        "client": "Arrowlancer — NL-visa job marketplace",
-        "sector": "Startup · Marketplace + AI agents + voice AI",
-        "year": "Dec 2024 – Jan 2026",
-        "role": "Founding Engineer (part-time)",
-        "summary": "Part-time founding-engineer engagement (alongside day job): marketplace connecting international professionals with Dutch employers that sponsor visas. Includes LangChain job-finder agent, LiveKit voice AI for candidate intake, and automated data ingestion.",
-        "approach": "Built the entire product solo in part-time hours: Next.js frontend with Radix UI + Framer Motion, NestJS backend with Mongoose and Firebase Auth, Python services for the AI components. JobFinder agent built with LangChain for candidate-job matching. LiveKit voice AI for real-time candidate intake. N8N pipelines for periodic job ingestion. Deployment on AWS Amplify + Render.",
-        "stats": [
-          { "value": "AI Agent", "label": "LangChain job-finder" },
-          { "value": "LiveKit", "label": "Voice AI candidate intake" },
-          { "value": "13mo", "label": "Part-time build" }
-        ],
-        "stack": ["Next.js", "NestJS", "MongoDB", "Python", "LangChain", "LiveKit", "Tailwind", "Firebase", "N8N", "AWS"],
-        "production": "In production since 2025"
+        "production": "Software Engineer 2022 to 2023"
       }
     ],
     "cta": {
       "title": "Similar engagement in mind?",
-      "lead": "Let's talk — I'll tell you in 15 minutes whether I can add value.",
+      "lead": "Let's talk. I'll tell you in 15 minutes whether I can add value.",
       "primary": "Book a call"
     }
   },
   "about": {
-    "title": "About · Jaize",
-    "description": "AI software engineer, based in IJlst. M.Sc. Big Data and IoT. 5+ years of professional experience shipping production-ready AI systems, RAG, agents, and full-stack.",
+    "title": "About Abdellah Jaize",
+    "description": "Independent software engineer based in IJlst, Netherlands. Five years building production software, including AI features.",
     "breadcrumb": "About",
+    "photoAlt": "Abdellah Jaize, AI software engineer based in IJlst, Netherlands",
     "photoInitials": "AJ",
     "photoMeta": {
       "name": "ABDELLAH JAIZE",
@@ -413,58 +231,51 @@
     "hero": {
       "kicker": "About",
       "name": "Abdellah Jaize",
-      "role": "AI Software Engineer · AI integration · Technical leadership"
+      "role": "AI Software Engineer"
     },
     "bio": [
-      "Hi, I'm Abdellah. I'm a Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.",
-      "For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure. It runs about 3 million AI inference calls a month on a hybrid setup. Before that I led the engineering team at a sportstech startup, growing it from 2 to 12 people while reporting to the board on technical strategy.",
-      "From June 2026 I'm working independently as Jaize. I help Dutch scale-ups and SMBs ship AI products that actually make it to production. Fixed price, clear scope, no quote ballet."
+      "Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.",
+      "For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure, all in production. Before that I built mobile and web product at an early-stage sportstech startup across React Native, Next.js, and AWS."
     ],
-    "approach": {
-      "label": "01 — APPROACH",
-      "title": "How I work",
-      "items": [
-        { "num": "01", "title": "Fixed price, fixed scope", "body": "I don't do open-ended engagements. We agree the deliverables and the timeline up front. If something needs to change, we run a short change request and adjust together." },
-        { "num": "02", "title": "Production over prototype", "body": "Everything I build is meant to run in production. That means monitored, tested, and documented from day one. No fragile demos that fall apart the moment a real user shows up." },
-        { "num": "03", "title": "Boring tech where it makes sense", "body": "PostgreSQL beats exotic databases most of the time. I pick frameworks your team can still maintain in five years, not whatever's trending this quarter." },
-        { "num": "04", "title": "Handover is part of the job", "body": "At the end of each engagement I leave a team that can keep going without me. Clean code, real docs, a walkthrough call. No black boxes." }
-      ]
-    },
     "experience": {
-      "label": "02 — EXPERIENCE",
+      "label": "01 · EXPERIENCE",
       "title": "Work history",
       "items": [
-        { "date": "2023 to now", "role": "Sole Technical Owner at Inovaa (Dutch agritech)", "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR." },
-        { "date": "2022 to 2023", "role": "Tech Lead at AppiStadium (sportstech startup)", "stack": "Grew the team from 2 to 12+. React Native, Unity, mobile and web." },
-        { "date": "2020 to 2021", "role": "Backend Engineer at ScanBon (fintech)", "stack": "OCR pipeline and analytics API. Node.js, GCP." }
+        {
+          "date": "2023 to now",
+          "role": "Software Engineer at Inovaa (Dutch agritech)",
+          "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
+        },
+        {
+          "date": "2022 to 2023",
+          "role": "Software Engineer at AppiStadium (sportstech startup)",
+          "stack": "React Native app with Unity, plus React/Next.js back-office and public website."
+        }
       ]
     },
     "credentials": {
-      "label": "03 — EDUCATION & LANGUAGES",
+      "label": "02 · EDUCATION & LANGUAGES",
       "title": "Education and languages",
       "educationLabel": "EDUCATION",
       "languagesLabel": "LANGUAGES & LOCATION",
       "education": [
-        { "label": "MASTER", "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019–2021)" },
-        { "label": "BACHELOR", "value": "B.Sc. Big Data & Massive Data Management · FST Settat (2018–2019)" }
+        {
+          "label": "MASTER",
+          "value": "M.Sc. Big Data & IoT · ENSAM Casablanca (2019 to 2021)"
+        }
       ],
       "languages": [
-        { "label": "LANGUAGES", "value": "Arabic (native) · English & French (professional)" },
-        { "label": "LOCATION", "value": "IJlst, Friesland · works remote and on-site across NL" }
+        {
+          "label": "LANGUAGES",
+          "value": "Arabic (native) · English & French (professional)"
+        },
+        {
+          "label": "LOCATION",
+          "value": "IJlst, Friesland · works remote and on-site across NL"
+        }
       ],
       "kvkLabel": "KVK",
-      "kvkValue": "Jaize (eenmanszaak) · KvK 12345678 · BTW NL000000000B01"
-    },
-    "stack": {
-      "label": "04 — TOOLS & TECH",
-      "title": "Tools and technology",
-      "groups": [
-        { "label": "BACKEND", "items": ["NestJS", "Node.js", "TypeScript", "Python", "FastAPI", "Flask", "Express", "PostgreSQL", "MongoDB", "MySQL", "REST", "OAuth2", "JWT", "RBAC"] },
-        { "label": "FRONTEND", "items": ["Next.js", "React", "Vue", "Nuxt 3", "React Native", "Tailwind", "Radix UI", "Framer Motion", "i18n"] },
-        { "label": "AI / AGENTS", "items": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "ReAct Agents", "Multi-Agent Systems", "RAG", "Pinecone", "Weaviate", "OpenAI", "Anthropic", "Gemini", "GPT-4", "Claude", "LLaMA", "Fine-tuning", "LoRA", "Prompt Engineering", "RLHF", "LiveKit", "N8N"] },
-        { "label": "ML / DEEP LEARNING", "items": ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-learn", "NVIDIA Triton", "ResNet", "YOLO", "OCR", "Distributed Training", "Multi-GPU", "DeepSpeed", "MLflow", "Weights & Biases"] },
-        { "label": "CLOUD / DEVOPS", "items": ["AWS", "AWS Amplify", "AWS SageMaker", "AWS Lambda", "GCP", "Vertex AI", "BigQuery", "Azure ML", "Cloudflare", "Docker", "Kubernetes", "GitLab CI/CD", "GitHub Actions", "Nginx", "Linux", "Bash"] }
-      ]
+      "kvkValue": "Jaize Tech (sole proprietorship) · KvK 42051769"
     },
     "cta": {
       "title": "Want to work together?",
@@ -473,15 +284,15 @@
     }
   },
   "contact": {
-    "title": "Contact · Jaize",
-    "description": "Book a 15-minute call or send a message. Reply within 24 hours on business days.",
+    "title": "Contact and book a call",
+    "description": "Book a free 15-minute intro call to talk about AI agents, RAG, or production engineering work. Or send a message. Reply within 24 hours on business days.",
     "hero": {
       "headline": "Let's talk.",
       "lead": "A short call is usually the fastest way to know if we're a fit. Fifteen minutes, no pressure."
     },
     "options": {
       "scheduleTitle": "Book directly",
-      "scheduleLead": "Pick a time slot — confirmation in your inbox immediately.",
+      "scheduleLead": "Pick a time slot. Confirmation lands in your inbox right away.",
       "scheduleIntro": "Intro call (15 min)",
       "scheduleDeeper": "In-depth call (30 min)",
       "messageTitle": "Send a message",
@@ -495,14 +306,17 @@
       "messagePlaceholder": "A few sentences about what you're trying to build or solve...",
       "submit": "Send message",
       "successTitle": "Message received",
-      "successText": "Thanks. I'll reply within 24 hours on business days."
+      "successText": "Thanks. I'll reply within 24 hours on business days.",
+      "errorText": "The message could not be sent. Please email me directly at abdellah@jaizetech.nl.",
+      "requiredMark": "required",
+      "requiredHint": "Required fields are marked with an asterisk."
     },
-    "trust": "Reply within 24 hours on business days · KvK registering · IJlst, Netherlands",
+    "trust": "Reply within 24 hours on business days · KvK 42051769 · IJlst, Netherlands",
     "directMailPrefix": "Or email directly:",
     "directMailAddress": "abdellah@jaizetech.nl"
   },
   "blog": {
-    "title": "Blog · Jaize",
+    "title": "Notes on AI engineering and freelance work",
     "description": "Short pieces on senior engineering, AI integration in production, and running a freelance practice in the Netherlands.",
     "breadcrumb": "Blog",
     "hero": {
@@ -515,19 +329,24 @@
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
-    "tagline": "Production AI for Dutch scale-ups.",
+    "tagline": "Independent software engineering.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elsewhere",
     "based": "Based in IJlst, Netherlands",
-    "kvk": "KvK registering · June 2026",
+    "kvk": "KvK 42051769",
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "emailAbdellahAria": "Email Abdellah directly",
+    "emailInfoAria": "Email general inbox",
+    "linkedinAria": "Abdellah Jaize on LinkedIn (opens in new tab)",
+    "githubAria": "Abdellah Jaize on GitHub (opens in new tab)",
+    "twitterAria": "Abdellah Jaize on Twitter (opens in new tab)"
   },
   "terms": {
-    "title": "Terms · Jaize",
-    "description": "Terms of engagement for working with Jaize (sole proprietorship of Abdellah Jaize, based in IJlst, Netherlands).",
+    "title": "Terms of engagement",
+    "description": "Terms of engagement for working with Jaize Tech, a sole proprietorship of Abdellah Jaize based in IJlst, Netherlands.",
     "breadcrumb": "Terms",
     "headline": "Terms",
     "lastUpdated": "Last updated: May 2026",
@@ -535,7 +354,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "I'm Abdellah Jaize, software engineer trading as Jaize (sole proprietorship). Based in IJlst, Friesland. KvK and VAT numbers will be added here as soon as registration completes (June 2026)."
+        "p": "I'm Abdellah Jaize, software engineer trading as Jaize Tech (sole proprietorship). Based in IJlst, Friesland. KvK 42051769."
       },
       {
         "h": "2. What I deliver",
@@ -576,8 +395,8 @@
     ]
   },
   "privacy": {
-    "title": "Privacy policy · Jaize",
-    "description": "How Jaize handles personal data from visitors and clients. Short, honest explanation.",
+    "title": "Privacy policy",
+    "description": "How Jaize Tech handles personal data from visitors and clients. A short, honest explanation. No tracking, no analytics.",
     "breadcrumb": "Privacy policy",
     "headline": "Privacy policy",
     "lastUpdated": "Last updated: May 2026",
@@ -585,7 +404,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "Abdellah Jaize, sole proprietorship Jaize, based in IJlst, Netherlands. For questions about your data: abdellah@jaizetech.nl."
+        "p": "Abdellah Jaize, sole proprietorship Jaize Tech, based in IJlst, Netherlands. KvK 42051769. For questions about your data: abdellah@jaizetech.nl."
       },
       {
         "h": "2. What data I collect",
@@ -616,5 +435,12 @@
         "p": "If I update this policy, the date at the top changes. Significant changes get announced on my site."
       }
     ]
+  },
+  "notFound": {
+    "title": "Page not found.",
+    "lead": "The page you were looking for does not exist. Try one of these instead.",
+    "backHome": "Back to home",
+    "tryThese": "Or jump to one of these pages:",
+    "helpLinksAria": "Helpful links"
   }
 }

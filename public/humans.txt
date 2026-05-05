@@ -1,0 +1,13 @@
+/* TEAM */
+Founder, engineer: Abdellah Jaize
+Site: https://jaizetech.nl
+Contact: abdellah [at] jaizetech.nl
+LinkedIn: https://www.linkedin.com/in/abdellah-jaize
+GitHub: https://github.com/AbdellahJAIZE
+Location: IJlst, Friesland, Netherlands
+
+/* SITE */
+Last update: 2026/05
+Language: English, Dutch
+Doctype: HTML5
+Stack: Next.js, next-intl, Cloudflare Pages
