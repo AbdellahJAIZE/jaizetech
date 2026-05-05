@@ -226,7 +226,7 @@
     "photoInitials": "AJ",
     "photoMeta": {
       "name": "ABDELLAH JAIZE",
-      "status": "AVAILABLE FROM JUNE 2026"
+      "status": "AVAILABLE PART-TIME"
     },
     "hero": {
       "kicker": "About",
@@ -281,6 +281,10 @@
       "title": "Want to work together?",
       "lead": "Easiest way to start is a short call. Fifteen minutes is usually enough to know if I can help. If you'd rather write, the contact form works too.",
       "primary": "Get in touch"
+    },
+    "availability": {
+      "label": "Availability:",
+      "body": "Currently taking on part-time freelance engagements outside business hours. Full-time roles available with a one month notice period."
     }
   },
   "contact": {

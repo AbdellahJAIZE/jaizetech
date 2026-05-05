@@ -226,7 +226,7 @@
     "photoInitials": "AJ",
     "photoMeta": {
       "name": "ABDELLAH JAIZE",
-      "status": "BESCHIKBAAR VANAF JUNI 2026"
+      "status": "PART-TIME BESCHIKBAAR"
     },
     "hero": {
       "kicker": "Over",
@@ -281,6 +281,10 @@
       "title": "Zin om samen te werken?",
       "lead": "De makkelijkste start is een kort gesprek. Vijftien minuten is meestal genoeg om te weten of ik kan helpen. Liever schrijven? Dan werkt het contactformulier ook prima.",
       "primary": "Neem contact op"
+    },
+    "availability": {
+      "label": "Beschikbaarheid:",
+      "body": "Op dit moment beschikbaar voor part-time freelance opdrachten buiten kantooruren. Voltijdrollen beschikbaar met een opzegtermijn van één maand."
     }
   },
   "contact": {

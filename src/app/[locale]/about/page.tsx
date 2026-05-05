@@ -103,6 +103,7 @@ function About() {
             <h1>{t('hero.name')}</h1>
             <div className="bio">
               {bio.map((p, i) => <p key={i}>{p}</p>)}
+              <p className="availability"><strong>{t('availability.label')}</strong> {t('availability.body')}</p>
             </div>
           </div>
         </div>
