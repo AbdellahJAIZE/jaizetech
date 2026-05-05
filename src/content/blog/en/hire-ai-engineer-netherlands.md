@@ -1,7 +1,7 @@
 ---
 title: "How to hire an AI engineer in the Netherlands"
 description: "Three options to get senior AI engineering into a Dutch scale-up in 2026. The real cost of each, when each fits, and the red flags to avoid."
-published: "2026-05-04"
+published: "2026-04-15"
 tags: ["hiring", "fractional CTO", "Netherlands", "AI engineering"]
 ogImage: "/og-image.png"
 primaryService: "fractional-cto"

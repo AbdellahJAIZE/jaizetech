@@ -159,11 +159,11 @@
             "label": "AI inference op schaal"
           },
           {
-            "value": "Solo eng.",
+            "value": "Enige engineer",
             "label": "End-to-end ownership"
           },
           {
-            "value": "2.5y+",
+            "value": "2,5+ jaar",
             "label": "In productie"
           }
         ],
@@ -197,7 +197,7 @@
             "label": "Uitgebracht op"
           },
           {
-            "value": "1y 7mo",
+            "value": "1 jaar 7 maanden",
             "label": "In de rol"
           }
         ],
@@ -284,8 +284,8 @@
     }
   },
   "contact": {
-    "title": "Contact en plan een gesprek",
-    "description": "Plan een kennismakingsgesprek van 15 minuten of stuur een bericht. Reactie binnen 24 uur op werkdagen.",
+    "title": "Neem contact op",
+    "description": "Stuur een kort bericht over je project, of plan een gesprek van 15 minuten. Reactie binnen een dag op werkdagen.",
     "hero": {
       "headline": "Laten we praten.",
       "lead": "Een kort gesprek is vaak de snelste manier om te weten of we passen. Vijftien minuten, geen druk."
@@ -358,7 +358,7 @@
       },
       {
         "h": "2. Wat ik lever",
-        "p": "Software engineering, AI-integratie, RAG-systemen, agents, dashboards en aanverwante technische diensten. Per opdracht spreken we vooraf de scope af. Wat ik niet lever staat ook in de offerte, zodat er geen ruimte voor verwarring is."
+        "p": "Software engineering, AI-features, infrastructuurwerk en aanverwante technische diensten. Per opdracht spreken we vooraf de scope af. Wat ik niet lever staat ook in de offerte, zodat er geen ruimte voor verwarring is."
       },
       {
         "h": "3. Prijzen en betaling",
@@ -378,7 +378,7 @@
       },
       {
         "h": "7. Aansprakelijkheid",
-        "p": "Mijn aansprakelijkheid is beperkt tot het bedrag van de specifieke opdracht. Ik doe mijn werk zo zorgvuldig mogelijk, maar geef geen garantie op resultaten van derden zoals AI-modellen, externe APIs of cloudproviders."
+        "p": "Mijn aansprakelijkheid is beperkt tot het bedrag van de specifieke opdracht. Ik doe mijn werk zo zorgvuldig mogelijk, maar geef geen garantie op resultaten van derden zoals AI-modellen, externe API's of cloudproviders."
       },
       {
         "h": "8. Annulering",

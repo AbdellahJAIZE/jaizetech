@@ -1,7 +1,7 @@
 ---
 title: "EU AI Act checklist for Dutch software teams"
 description: "Most Dutch SaaS teams overestimate their risk tier under the EU AI Act. A working engineer's checklist for the August 2026 deadline. Not legal advice."
-published: "2026-05-06"
+published: "2026-04-22"
 tags: ["EU AI Act", "compliance", "Netherlands", "regulation"]
 ogImage: "/og-image.png"
 primaryService: "ai-audit"

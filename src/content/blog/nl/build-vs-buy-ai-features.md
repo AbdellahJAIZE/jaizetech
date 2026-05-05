@@ -1,7 +1,7 @@
 ---
 title: "Build vs buy AI features: de math voor je CTO"
 description: "Drie echte patronen voor de build vs buy keuze rond AI, met ruwe cijfers en een oefening van twee uur. De ene vraag die 80% van de discussies oplost."
-published: "2026-05-05"
+published: "2026-05-02"
 tags: ["build vs buy", "AI strategie", "CTO", "product"]
 ogImage: "/og-image.png"
 primaryService: "ai-audit"
@@ -39,7 +39,7 @@ Vendor route. Een OpenAI of Anthropic API call per ticket, met een structured-ou
 
 Build route. Verzamel een gelabelde dataset (of betaal iemand om te labelen), fine-tune een kleine open-source classifier, deploy hem achter je eigen inference service, zet monitoring op, hertrain als categorieën verschuiven. Realistische upfront kosten in de Nederlandse markt zijn 15k tot 25k euro aan engineering tijd, plus 200 tot 500 euro per maand aan compute en iemands aandacht elke keer dat het support team een nieuwe ticket categorie toevoegt.
 
-Niet bouwen. De vendor wint op elke as, inclusief accuracy, omdat hun model groter is dan wat jij ooit zou trainen. De enige reden om hier te bouwen is als je een harde data-residency eis hebt die US APIs uitsluit, en dan kies je niet op kosten maar op compliance.
+Niet bouwen. De vendor wint op elke as, inclusief accuracy, omdat hun model groter is dan wat jij ooit zou trainen. De enige reden om hier te bouwen is als je een harde data-residency eis hebt die US API's uitsluit, en dan kies je niet op kosten maar op compliance.
 
 ### Patroon 2: BUILD. RAG over je proprietary corpus
 
@@ -53,9 +53,9 @@ Build. Het hele punt is dat het tuning werk het product is. Als een vendor het n
 
 ### Patroon 3: HYBRID. De AI agent
 
-De meeste B2B AI producten in 2026 landen hier, en met goede reden. Je bouwt een agent die je gebruikers helpt iets specifieks te doen in jouw product. Hij moet kunnen redeneren (een LLM aanroepen), retrieven (jouw data), en acties ondernemen (jouw APIs en de gekoppelde tools van je klant).
+De meeste B2B AI producten in 2026 landen hier, en met goede reden. Je bouwt een agent die je gebruikers helpt iets specifieks te doen in jouw product. Hij moet kunnen redeneren (een LLM aanroepen), retrieven (jouw data), en acties ondernemen (jouw API's en de gekoppelde tools van je klant).
 
-Buy de model laag. Gebruik GPT-class of Claude-class modellen via hun APIs. Je gaat OpenAI of Anthropic niet verslaan op general reasoning, en de prijs per token blijft toch dalen. Hier je eigen LLM omheen wrappen is bijna altijd een fout, tenzij je een hele specifieke privacy of cost-at-scale reden hebt.
+Buy de model laag. Gebruik GPT-class of Claude-class modellen via hun API's. Je gaat OpenAI of Anthropic niet verslaan op general reasoning, en de prijs per token blijft toch dalen. Hier je eigen LLM omheen wrappen is bijna altijd een fout, tenzij je een hele specifieke privacy of cost-at-scale reden hebt.
 
 Build de orchestration. De tool definities, de retrieval, de guardrails, het eval harnas, de human-in-the-loop fallbacks, de manier waarop de agent beslist wanneer hij de gebruiker om bevestiging vraagt. Hier woont de persoonlijkheid van je product. Hier lockken vendor "agent platforms" je ook in voor capabilities die je in twee sprints zelf had kunnen bouwen.
 

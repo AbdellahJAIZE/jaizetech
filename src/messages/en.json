@@ -159,7 +159,7 @@
             "label": "AI inference at scale"
           },
           {
-            "value": "Sole eng.",
+            "value": "Sole engineer",
             "label": "End-to-end ownership"
           },
           {
@@ -284,8 +284,8 @@
     }
   },
   "contact": {
-    "title": "Contact and book a call",
-    "description": "Book a free 15-minute intro call to talk about AI agents, RAG, or production engineering work. Or send a message. Reply within 24 hours on business days.",
+    "title": "Get in touch",
+    "description": "Send a short message about your project, or book a 15-minute call. Reply within a day on business days.",
     "hero": {
       "headline": "Let's talk.",
       "lead": "A short call is usually the fastest way to know if we're a fit. Fifteen minutes, no pressure."
@@ -358,7 +358,7 @@
       },
       {
         "h": "2. What I deliver",
-        "p": "Software engineering, AI integration, RAG systems, agents, dashboards, and related technical services. We agree the scope of each engagement up front. What I'm not delivering goes in the proposal too, so there's no room for confusion."
+        "p": "Software engineering, AI features, infrastructure work, and related technical services. We agree the scope of each engagement up front. What I'm not delivering goes in the proposal too, so there's no room for confusion."
       },
       {
         "h": "3. Pricing and payment",

@@ -1,7 +1,7 @@
 ---
 title: "Een AI engineer aannemen in Nederland"
 description: "Drie manieren om senior AI engineering binnen te halen bij een Nederlandse scale-up in 2026. Wat elke optie echt kost, en welke red flags je moet vermijden."
-published: "2026-05-04"
+published: "2026-04-15"
 tags: ["werving", "fractional CTO", "Nederland", "AI engineering"]
 ogImage: "/og-image.png"
 primaryService: "fractional-cto"
@@ -9,7 +9,7 @@ primaryService: "fractional-cto"
 
 Je hebt AI engineering nodig in je product. De board wil een roadmap voor Q3, je concurrenten shippen features die op magie lijken, en die ene engineer in je team die de OpenAI changelog leest is per ongeluk "de AI persoon" geworden. Dus open je LinkedIn Recruiter en begin je de zoektocht.
 
-Zes maanden later heb je een recruiter betaald, iemand met een geweldig CV aangenomen, gezien hoe diegene een interne demo bouwde die niemand gebruikt, en sta je weer op af. Ik zie dit patroon vaak genoeg bij Nederlandse scale-ups om er een post over te schrijven.
+Zes maanden later heb je een recruiter betaald, iemand met een geweldig CV aangenomen, gezien hoe diegene een interne demo bouwde die niemand gebruikt, en ben je weer terug bij af. Ik zie dit patroon vaak genoeg bij Nederlandse scale-ups om er een post over te schrijven.
 
 Er zijn drie echte manieren om senior AI engineering binnen te halen bij een bedrijf van 5 tot 50 mensen in Nederland in 2026. Een fulltime hire, een agency engagement, of een fractional advisor. De meeste teams kiezen optie één zonder de andere twee te vergelijken. Dit is wat elke optie echt kost, wanneer welke past, en hoe je de verkeerde vermijdt.
 
@@ -19,7 +19,7 @@ Er zijn drie echte manieren om senior AI engineering binnen te halen bij een bed
 
 **Agency engagement.** Nederlandse AI consultancies factureren tussen 950 en 1500 euro per dag voor een senior, meer voor de named-partner shops in de Zuidas. Een typische scope (één feature, end to end, acht tot twaalf weken) landt tussen 60k en 130k. Je krijgt snelheid en een team achter één persoon. Je krijgt ook iemand wiens incentive het is om het project draaiend te houden.
 
-**Fractional CTO of AI advisor.** Twee tot drie dagen per week, embedded in je team, meestal 800 tot 1400 per dag afhankelijk van senioriteit en scope. Maandelijkse burn landt tussen 6k en 20k. Geen recruiter fee, geen exposure op ontslagvergoeding, geen onboarding ramp. De afspraak stopt wanneer je het niet meer nodig hebt. Ik ben hier biased omdat dit is wat ik vanaf juni 2026 ga aanbieden, maar de rekensom is de rekensom.
+**Fractional CTO of AI advisor.** Twee tot drie dagen per week, embedded in je team, meestal 800 tot 1400 per dag afhankelijk van senioriteit en scope. Maandelijkse burn landt tussen 6k en 20k. Geen recruiter fee, geen exposure op ontslagvergoeding, geen onboarding ramp. De afspraak stopt wanneer je het niet meer nodig hebt. Ik ben hier bevooroordeeld omdat dit is wat ik vanaf juni 2026 ga aanbieden, maar de rekensom blijft de rekensom.
 
 Je kunt meer lezen over hoe ik dit structureer op mijn [services pagina](/services). De eerlijke versie is dat alle drie de opties een plek hebben. De fout is kiezen zonder de rekensom te maken.
 
@@ -45,7 +45,7 @@ Dit is geen argument tegen fulltime aannemen. Zodra je twee of meer actieve AI p
 
 Fractional past wanneer minimaal drie van deze waar zijn.
 
-Je hebt minder dan 30 uur per week senior AI aandacht nodig. Je hebt één of twee AI projecten, geen vijf. Je hebt nog geen team van AI engineers om te managen, alleen één of twee engineers die er met de juiste begeleiding in kunnen groeien. Je zit nog in de exploratiefase, beslissend wat je gaat bouwen voordat je een jaar bouwen committeert. Je CTO is sterk in backend of product maar heeft nog nooit een model naar production geshipt.
+Je hebt minder dan 30 uur per week senior AI aandacht nodig. Je hebt één of twee AI projecten, geen vijf. Je hebt nog geen team van AI engineers om te managen, alleen één of twee engineers die er met de juiste begeleiding in kunnen groeien. Je zit nog in de exploratiefase, en je bent aan het beslissen wat je gaat bouwen voordat je je een jaar lang aan bouwen verbindt. Je CTO is sterk in backend of product maar heeft nog nooit een model naar production geshipt.
 
 Fractional past NIET wanneer je over minder dan drie maanden launcht en iemand nodig hebt die om 9 uur 's ochtends dagelijkse productbeslissingen neemt in de team Slack. Het past ook niet wanneer het werk echt fulltime is, zoals een recommendation system from scratch herbouwen met een team van vier. Op dat punt heb je een fulltime tech lead nodig, geen advisor.
 
@@ -63,13 +63,13 @@ Wat beter werkt.
 
 **De broken-thing vraag.** "Wat was het laatste AI ding dat je geshipt hebt dat brak in production, en hoe heb je het opgelost?" Als ze deze niet kunnen beantwoorden met een specifiek verhaal, hebben ze niet echt geshipt. Ze hebben demo's gebouwd. Er is een verschil. Echte engineers vertellen je over het embedding model dat NaN teruggaf voor lege strings, de Pinecone index die om 3 uur 's nachts zijn quota raakte, de LLM call die JSON met een leading newline begon terug te geven na een model update.
 
-**Cost trade-off vraag.** "Loop me door hoe je zou beslissen tussen fine-tuning, RAG, en een langere prompt voor dit probleem." Luister of ze grijpen naar evals, dollars, en latency, of gewoon "RAG is flexibeler" zeggen.
+**Cost trade-off vraag.** "Leg uit hoe je zou kiezen tussen fine-tuning, RAG, en een langere prompt voor dit probleem." Luister of ze grijpen naar evals, dollars, en latency, of gewoon "RAG is flexibeler" zeggen.
 
 Als je interview twee coding rondes en een culture chat is, filter je op het verkeerde. Je kunt meer lezen over hoe ik hier over denk op mijn [about pagina](/about), waar ik mijn eigen production achtergrond uiteenzet.
 
 ## Red flags in CV's en agency pitches
 
-Een paar patronen die je moeten laten vertragen.
+Een paar patronen waar je voor moet uitkijken.
 
 **Buzzword salade.** Een CV dat LangChain, RAG, AI Agents, LLM, Vector DB, Multi-Modal, Fine-Tuning, RLHF, en MLOps opsomt maar niet linkt naar één live URL of production credit. Iedereen kan deze opsommen. Weinigen hebben ze geshipt.
 
@@ -79,7 +79,7 @@ Een paar patronen die je moeten laten vertragen.
 
 **Kan kosten niet verwoorden.** Vraag elke senior AI engineer wat hun laatste systeem per 1000 requests kostte om te draaien. Ze zouden het binnen een orde van grootte moeten weten. Als ze hun schouders ophalen, hebben ze gewerkt in omgevingen waar iemand anders de rekening betaalde.
 
-**Demo-kwaliteit portfolio zonder live URL's.** Mooie Streamlit apps, screenshots van indrukwekkende notebooks, een Medium post per maand. Geen live systeem dat je kunt aanroepen. Dit is het meest voorkomende patroon in 2026 omdat LLMs demo's goedkoop maken. Production is nog steeds moeilijk.
+**Demo-kwaliteit portfolio zonder live URL's.** Mooie Streamlit apps, screenshots van indrukwekkende notebooks, een Medium post per maand. Geen live systeem dat je kunt aanroepen. Dit is het meest voorkomende patroon in 2026 omdat LLM's demo's goedkoop maken. Production is nog steeds moeilijk.
 
 De agency versie van deze red flags ziet er zo uit. Een deck met logo's van klanten waar ze discovery werk voor deden maar nooit naar production shipten, case studies die het probleem in detail beschrijven en de uitkomst in vage percentages, en een weigering om de specifieke engineer te noemen die jouw werk gaat doen.
 
@@ -91,11 +91,11 @@ Vijf vragen om te stellen aan elke AI engineering hire, agency, of fractional vo
 
 1. **Laat me een systeem zien dat je geshipt hebt en dat nog draait.** Geen demo. Een live URL of een klant login. Als ze er geen kunnen produceren, stop hier.
 
-2. **Wat is de duurste AI fout die je in production hebt gemaakt, en wat heeft die gekost?** Je wilt een specifiek bedrag of een specifiek incident. Vage antwoorden betekenen dat ze geen skin in the game hebben gehad.
+2. **Wat is de duurste AI fout die je in production hebt gemaakt, en wat heeft die gekost?** Je wilt een specifiek bedrag of een specifiek incident. Vage antwoorden betekenen dat ze niets te verliezen hadden.
 
-3. **Loop me door je evals strategie voor een RAG systeem.** Luister of ze het hebben over golden datasets, regression suites, en human-in-the-loop review, of gewoon "we testen het handmatig".
+3. **Leg je evals-strategie uit voor een RAG-systeem.** Luister of ze het hebben over golden datasets, regression suites, en human-in-the-loop review, of gewoon "we testen het handmatig".
 
-4. **Waar zou je een LLM NIET voor gebruiken in ons product?** Sterke kandidaten hebben een lijst. Zwakke kandidaten denken dat LLMs alles oplossen.
+4. **Waar zou je een LLM NIET voor gebruiken in ons product?** Sterke kandidaten hebben een lijst. Zwakke kandidaten denken dat LLM's alles oplossen.
 
 5. **Hoe ga je om met een model vendor die zijn gedrag van de ene op de andere dag verandert?** Dit gebeurde twee keer in 2025 en al één keer in 2026. Hun antwoord vertelt je of ze het hebben meegemaakt.
 
@@ -109,7 +109,7 @@ Een verkeerde fulltime AI hire in Nederland kost je 140k en 8 maanden. Een goede
 
 De meeste Nederlandse scale-ups die ik nu zie zitten in de derde bucket en nemen aan alsof ze in de eerste zaten.
 
-Als je één van deze drie opties voor je team afweegt, is een gesprek van 15 minuten meestal de snelste manier om te weten welke past bij jouw situatie. Je kunt er [hier eentje boeken](/contact). Geen pitch, gewoon een rechte lezing op welk pad zinnig is voor waar je bent.
+Als je één van deze drie opties voor je team afweegt, is een gesprek van 15 minuten meestal de snelste manier om te weten welke past bij jouw situatie. Je kunt er [hier eentje boeken](/contact). Geen pitch, gewoon een eerlijk oordeel over welk pad zinnig is voor waar je nu staat.
 
 ## Verder lezen
 

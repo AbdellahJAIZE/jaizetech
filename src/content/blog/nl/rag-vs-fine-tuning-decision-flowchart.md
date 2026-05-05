@@ -1,7 +1,7 @@
 ---
 title: "RAG of fine-tuning: een 20-minuten beslissing"
 description: "Hoe je kiest tussen RAG en fine-tuning. Een beslisstroom van 20 minuten, drie gevallen waarin fine-tuning fout is, en hoe hybride er echt uitziet."
-published: "2026-05-07"
+published: "2026-04-29"
 tags: ["RAG", "fine-tuning", "LLM", "architectuur"]
 ogImage: "/og-image.png"
 primaryService: "rag-assistant"
@@ -123,7 +123,7 @@ Als je twijfelt tussen de twee, is RAG de veiligere gok voor een eerste versie. 
 
 De omgekeerde volgorde is veel duurder. Als je begint met fine-tuning, ben je weken bezig met dataprep, je geeft geld uit aan trainruns, je shipt iets, en dan ontdek je dat het echte probleem versheid van kennis of citatie was, geen van beide opgelost door fine-tuning. Vervolgens bouw je alsnog RAG, bovenop een fine-tuned model dat al wegdrijft van je live data. Je hebt twee keer betaald.
 
-Dus de regel, met alle nuances die hierboven al staan, is simpel. Standaard kies je RAG. Gebruik de flowchart om te bevestigen. Grijp pas naar fine-tuning als de flowchart daar duidelijk naar wijst, en overweeg pas hybride als je gelive RAG plus je echte eval je vertelt dat dat de volgende stap is.
+Dus de regel, met alle nuances die hierboven al staan, is simpel. Standaard kies je RAG. Gebruik de flowchart om te bevestigen. Grijp pas naar fine-tuning als de flowchart daar duidelijk naar wijst, en overweeg pas hybride als je RAG die live staat plus je echte eval je vertellen dat dat de volgende stap is.
 
 Wil je zien hoe productie-RAG er in de praktijk uitziet, dan heb ik geschreven over mijn [eerdere werk](/work) en de [services](/services) die ik aanbied rond RAG en LLM-architectuur audits.
 

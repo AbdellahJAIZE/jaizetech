@@ -1,7 +1,7 @@
 ---
 title: "Van CrewAI naar LangGraph: een migratiehandleiding"
 description: "CrewAI is top om te prototypen. LangGraph breng je naar productie. Vijf stukken die je moet toevoegen, plus de failure modes die in productie opduiken."
-published: "2026-05-08"
+published: "2026-05-04"
 tags: ["LangGraph", "CrewAI", "AI agents", "productie"]
 ogImage: "/og-image.png"
 primaryService: "ai-agent"
@@ -33,7 +33,7 @@ Voor je ook maar een regel migratiecode aanraakt, zorg dat deze vijf dingen best
 
 **2. Observability met gestructureerde traces op node niveau.** Je wilt elke node entry zien, elke node exit, elke tool call, elke state diff. LangSmith is de weg van de minste weerstand omdat het door hetzelfde team is gebouwd. OpenTelemetry met een custom exporter werkt als je al een tracing stack hebt. Hoe dan ook, gestructureerde traces op node niveau zijn niet onderhandelbaar.
 
-**3. Retry policy en idempotentie op node niveau.** Netwerkcalls falen. Model APIs geven 429s terug. Tools timen out. Elke node heeft een duidelijk beleid nodig voor wat er bij falen gebeurt, en elke node moet veilig zijn om te retryen. Als je "stuur Slack notificatie" node twee berichten stuurt bij een retry, heb je een bug die op een klant zit te wachten.
+**3. Retry policy en idempotentie op node niveau.** Netwerkcalls falen. Model API's geven 429s terug. Tools timen out. Elke node heeft een duidelijk beleid nodig voor wat er bij falen gebeurt, en elke node moet veilig zijn om te retryen. Als je "stuur Slack notificatie" node twee berichten stuurt bij een retry, heb je een bug die op een klant zit te wachten.
 
 **4. Een eval suite.** Golden conversations met verwachte outputs op final-answer niveau, plus assertions op stap niveau over intermediate state. Zonder dit is elke framework upgrade en elke prompt aanpassing een sprong in het diepe. Met deze suite kun je daadwerkelijk meten of je migratie een regressie is.
 

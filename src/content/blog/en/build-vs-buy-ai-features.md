@@ -1,7 +1,7 @@
 ---
 title: "Build vs buy AI features: math for your CTO"
 description: "Three real patterns for the build vs buy AI decision, with rough numbers and a two-hour team exercise. The one question that resolves 80% of debates."
-published: "2026-05-05"
+published: "2026-05-02"
 tags: ["build vs buy", "AI strategy", "CTO", "product"]
 ogImage: "/og-image.png"
 primaryService: "ai-audit"

@@ -1,7 +1,7 @@
 ---
 title: "EU AI Act-checklist voor Nederlandse softwareteams"
 description: "Nederlandse SaaS-teams overschatten hun risicocategorie onder de EU AI Act. Een werkbare checklist voor de deadline van augustus 2026. Geen juridisch advies."
-published: "2026-05-06"
+published: "2026-04-22"
 tags: ["EU AI Act", "compliance", "Nederland", "regulering"]
 ogImage: "/og-image.png"
 primaryService: "ai-audit"

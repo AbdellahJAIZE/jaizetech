@@ -1,7 +1,7 @@
 ---
 title: "CrewAI to LangGraph: a migration playbook"
 description: "CrewAI is great for prototyping. LangGraph is what you ship. Five pieces to add before migrating, plus the failure modes that show up in production."
-published: "2026-05-08"
+published: "2026-05-04"
 tags: ["LangGraph", "CrewAI", "AI agents", "production"]
 ogImage: "/og-image.png"
 primaryService: "ai-agent"

@@ -1,7 +1,7 @@
 ---
 title: "RAG vs fine-tuning: a 20-minute decision"
 description: "How to choose between RAG and fine-tuning. A 20-minute decision flow, three cases where fine-tuning is wrong, and what hybrid really looks like."
-published: "2026-05-07"
+published: "2026-04-29"
 tags: ["RAG", "fine-tuning", "LLM", "architecture"]
 ogImage: "/og-image.png"
 primaryService: "rag-assistant"
