@@ -1,0 +1,55 @@
+# Jaize Tech
+
+> Independent software engineering by Abdellah Jaize. Five years building production software, including hard AI like computer vision. Based in IJlst, Friesland, Netherlands. Available part-time now, full-time with a one month notice period.
+
+Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer based in the Netherlands. Currently sole engineer on a production AI computer-vision platform for Dutch agritech, after building mobile and web product at an early-stage sportstech startup. Now taking on independent engagements via Jaize Tech (KvK 42051769).
+
+## What I do
+
+- [Services overview](https://jaizetech.nl/en/services): Three things I help with. Send a message and we figure out the rest.
+- [Software builds](https://jaizetech.nl/en/services#software): Web apps, mobile apps, back-end systems. Idea to working product, or extra senior on a stretched team.
+- [AI in your product](https://jaizetech.nl/en/services#ai): Computer vision, language models, OCR, workflow agents. Real AI in production, not slideware demos.
+- [Infrastructure and DevOps](https://jaizetech.nl/en/services#infra): Cloud, CI/CD, on-prem, hybrid. Reliable stack without paying for a full ops team.
+
+## Work
+
+- [AI computer-vision platform for Dutch agritech](https://jaizetech.nl/en/work#agritech): Sole engineer on AI quality control system. ResNet, YOLO on NVIDIA Triton, NestJS API, Vue.js annotation interface, hybrid on-prem and cloud. In production since Q3 2023.
+- [Sportstech startup mobile and web product](https://jaizetech.nl/en/work#appistadium): React Native app with Unity game features, plus React and Next.js back-office and public website. NestJS backend, AWS, OAuth2 with RBAC. Released on App Store and Google Play.
+
+## Blog
+
+- [How to hire an AI engineer in the Netherlands](https://jaizetech.nl/en/blog/hire-ai-engineer-netherlands): Three options to get senior AI engineering into a Dutch scale-up. Real cost of each, when each fits, red flags to avoid.
+- [Build vs buy AI features: math for your CTO](https://jaizetech.nl/en/blog/build-vs-buy-ai-features): A four-quadrant model for deciding whether to build, buy, or wrap AI features.
+- [EU AI Act checklist for Dutch software teams](https://jaizetech.nl/en/blog/eu-ai-act-checklist-dutch-software-teams): Practical engineering steps for limited-risk and high-risk AI systems under the EU AI Act.
+- [RAG vs fine-tuning: a 20-minute decision](https://jaizetech.nl/en/blog/rag-vs-fine-tuning-decision-flowchart): Five-question flowchart, three cases where fine-tuning is the wrong answer, two where RAG alone is not enough.
+- [CrewAI to LangGraph: a migration playbook](https://jaizetech.nl/en/blog/crewai-to-langgraph-migration-playbook): Production-grade migration steps for moving an agent prototype to a graph runtime.
+
+## About
+
+- [About Abdellah](https://jaizetech.nl/en/about): Bio, work history, education, languages, current availability.
+- [Contact](https://jaizetech.nl/en/contact): Send a message or book a 15-minute call.
+
+## Stack
+
+- Backend: NestJS, Node.js, TypeScript, Python, FastAPI, REST, PostgreSQL, MongoDB, Redis, OAuth2, JWT, RBAC.
+- Frontend and mobile: React, Next.js, Vue, Nuxt 3, React Native, Tailwind, Radix UI.
+- Cloud and DevOps: AWS, GCP, Cloudflare, GitLab CI/CD, GitHub Actions, Docker, Nginx, Linux.
+- AI and ML: LangGraph, LangChain, RAG, OpenAI, Anthropic, NVIDIA Triton, ResNet, YOLO, OCR, vector DBs (Pinecone, Weaviate, pgvector).
+
+## Profile
+
+- Name: Abdellah Jaize
+- Role: AI Software Engineer
+- Based: IJlst, Friesland, Netherlands
+- Languages: English (full professional), French (professional working), Arabic (native)
+- Business: Jaize Tech (KvK 42051769)
+- Education: M.Sc. Big Data and Internet of Things, ENSAM Casablanca (2019 to 2021)
+- Availability: Part-time freelance now, outside business hours. Full-time engagements with a one month notice period.
+- Contact: abdellah@jaizetech.nl
+
+## Optional
+
+- [Privacy policy](https://jaizetech.nl/en/privacy)
+- [Terms of engagement](https://jaizetech.nl/en/terms)
+- [Sitemap](https://jaizetech.nl/sitemap.xml)
+- [Full content for LLMs](https://jaizetech.nl/llms-full.txt)

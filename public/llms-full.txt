@@ -1,0 +1,963 @@
+# Jaize Tech — Full Content
+
+_Generated 2026-05-07 from https://jaizetech.nl. This file aggregates the body content of every public English-language page on the site, in plain Markdown, for LLM ingestion. The Dutch version of the site mirrors this content one-to-one._
+
+---
+
+## About Abdellah Jaize
+
+**Role:** AI Software Engineer  
+**Based:** IJlst, Friesland, Netherlands  
+**Availability:** Currently taking on part-time freelance engagements outside business hours. Full-time roles available with a one month notice period.
+
+Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.
+
+For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure, all in production. Before that I built mobile and web product at an early-stage sportstech startup across React Native, Next.js, and AWS.
+
+### Work history
+
+**2023 to now** — Software Engineer (AI computer-vision platform for a Dutch agritech company)
+_AI computer-vision platform. NestJS, Vue, Triton, OCR._
+
+**2022 to 2023** — Software Engineer at AppiStadium (sportstech startup)
+_React Native app with Unity, plus React/Next.js back-office and public website._
+
+### Education and languages
+
+- **MASTER:** M.Sc. Big Data & IoT · ENSAM Casablanca (2019 to 2021)
+- **LANGUAGES:** Arabic (native) · English & French (professional)
+- **LOCATION:** IJlst, Friesland · works remote and on-site across NL
+- **KVK:** Jaize Tech (sole proprietorship) · KvK 42051769
+
+---
+
+## What I do.
+
+Three things I help with. If your need looks close to one of them, send a message and we figure out the rest together.
+
+### Software builds
+
+Web apps, mobile apps, back-end systems. I help you take an idea from sketch to a working product, or fill in for a team that needs an extra senior pair of hands.
+
+### AI in your product
+
+Computer vision, language models, OCR, or workflow agents. I help you add real AI features to a product, not slideware demos.
+
+### Infrastructure and DevOps
+
+Cloud setup, CI/CD, on-prem, or hybrid. I help you get your stack to run reliably without paying for a full ops team.
+
+---
+
+## What I've built.
+
+A few projects in detail. The challenge, how I tackled it, and what came out.
+
+### AI computer-vision platform for Dutch agritech
+
+**Sector:** Agritech · Industrial quality control  
+**Period:** 2023 to Present  
+**Role:** Software Engineer
+
+**Summary.** Designed and operated an AI-driven system that classifies product images for industrial quality control. Sole engineer, end-to-end across application, ML, and infrastructure.
+
+**Approach.** Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.
+
+**Stats:**
+- Production: AI inference at scale
+- Sole engineer: End-to-end ownership
+- 2.5y+: In production
+
+**Stack:** NestJS, Vue.js, PostgreSQL, NVIDIA Triton, ResNet, YOLO, Docker, GitLab CI/CD
+
+_Production since Q3 2023_
+
+### Sportstech startup mobile and web product
+
+**Sector:** Sportstech · Early-stage startup  
+**Period:** 2022 to 2023  
+**Role:** Software Engineer
+
+**Summary.** Mobile and web engineer at an early-stage sportstech startup. Built React Native app with Unity game features plus React and Next.js back-office and public website end-to-end.
+
+**Approach.** React Native app with embedded Unity game scenes. React and Next.js back-office and public website on a NestJS backend. AWS CI/CD, OAuth2 and Firebase Auth with RBAC across mobile and web.
+
+**Stats:**
+- Mobile + Web: Platforms shipped
+- App Store + GP: Released on
+- 1y 7mo: In the role
+
+**Stack:** React Native, Next.js, Unity, AWS, Firebase, OAuth2
+
+_Software Engineer 2022 to 2023_
+
+---
+
+## Blog posts
+
+### How to hire an AI engineer in the Netherlands
+
+_Published: 2026-04-15. URL: https://jaizetech.nl/en/blog/hire-ai-engineer-netherlands_
+
+> Three options to get senior AI engineering into a Dutch scale-up in 2026. The real cost of each, when each fits, and the red flags to avoid.
+
+You need AI engineering in your product. The board wants a roadmap by Q3, your competitors are shipping features that look like magic, and the one engineer on your team who reads the OpenAI changelog has now become "the AI person" by accident. So you open LinkedIn Recruiter and start the search.
+
+Six months later you have paid a recruiter, hired someone with a great CV, watched them build an internal demo nobody uses, and you are back where you started. I have seen this pattern in Dutch scale-ups often enough that it deserves a post.
+
+There are three real ways to get senior AI engineering into a 5 to 50 person company in the Netherlands in 2026. Full-time hire, agency engagement, or fractional advisor. Most teams default to option one without comparing the other two. Here is what each actually costs, when each fits, and how to avoid the wrong one.
+
+## The three options, with honest market numbers
+
+**Full-time hire.** A mid-to-senior AI engineer in the Netherlands lands somewhere between 75k and 110k base, with senior specialists in Amsterdam pushing past 130k once you add the schaarstetoeslag pressure on AI roles. Add 30 percent for employer costs (pension, holiday pay, vakantiegeld, sick leave reserves) and you are paying 100k to 170k all-in. Add a recruiter fee of 15 to 25 percent of first-year salary and you are out another 15k to 30k before the person writes a line of code.
+
+**Agency engagement.** Dutch AI consultancies bill anywhere from 950 to 1500 euro per day for a senior, more for the named-partner shops in the Zuidas. A typical scope (one feature, end to end, eight to twelve weeks) lands between 60k and 130k. You get speed and a team behind one person. You also get someone whose incentive is to keep the engagement running.
+
+**Fractional CTO or AI advisor.** Two to three days a week, embedded in your team, usually 800 to 1400 per day depending on seniority and scope. Monthly burn lands between 6k and 20k. No recruiter fee, no severance exposure, no onboarding ramp. The arrangement ends when you do not need it anymore. I am biased here because this is what I will be offering from June 2026, but the math is the math.
+
+You can read more about how I structure these on my [services page](/services). The honest version is that all three options have a place. The mistake is choosing without doing the math.
+
+## The hidden cost of a wrong full-time hire
+
+The published salary is the smallest part of the bill.
+
+A senior engineer in the Netherlands needs roughly 8 months to be fully productive in a non-trivial codebase. That is not a slow-onboarding problem, that is a normal problem. Half-productive for the first 4 months, three-quarters productive by month 6, fully shipping by month 8. If you hired the wrong person, you usually do not know it until month 5 or 6. By then they have written code your team will maintain for years.
+
+Run the numbers on a wrong hire at 95k base.
+
+Recruiter fee at 20 percent. 19k.
+Employer overhead for 8 months. Around 50k.
+Salary for 8 months. Around 63k.
+Severance under Dutch law (transitievergoeding plus negotiated exit). 5k to 15k for someone under two years.
+Opportunity cost of the roadmap that did not ship. This is the big one and nobody puts it in the spreadsheet.
+
+You are at 140k to 160k of cash spent and a team that is now skeptical of the next AI hire. If your runway is 18 months, you just spent 7 percent of it on a hire that did not work.
+
+This is not an argument against hiring full-time. Once you have two or more active AI projects, a clear product direction, and an existing engineer who can mentor, full-time is correct. The argument is against defaulting to it.
+
+## When fractional beats full-time
+
+Fractional fits when at least three of these are true.
+
+You need less than 30 hours a week of senior AI attention. You have one or two AI projects, not five. You do not yet have a team of AI engineers to manage, just one or two engineers who could grow into it with the right guidance. You are still in the exploration phase, deciding what to build before you commit to a year of building it. Your CTO is strong on backend or product but has never shipped a model to production.
+
+Fractional does NOT fit when you are shipping a launch in under three months and need someone making daily product decisions inside the team Slack at 9am. It also does not fit when the work is genuinely full-time, like rebuilding a recommendation system from scratch with a team of four. At that point you need a full-time tech lead, not an advisor.
+
+The signal I look for: are you trying to figure out *what* to build, or are you trying to *build* a thing that is already specified? Fractional is excellent for the first. Full-time or agency wins the second.
+
+## What a good AI engineering interview looks like
+
+Most Dutch tech interviews still over-index on academic ML. The candidate gets asked to derive backpropagation, explain attention from scratch, or solve a leetcode hard. None of this predicts whether they can ship a RAG system that does not hallucinate in production.
+
+Here is what works better.
+
+**System design on your actual problem.** Forty-five minutes. Bring a real problem your team is stuck on. Watch how they think. Do they ask about your data first, or do they jump to model selection? Do they cost out the inference, or do they assume GPT-4 for everything? Do they think about evals before they think about the model? Strong candidates ask boring infrastructure questions early.
+
+**Code review of your existing AI feature.** Show them 200 lines of your own code (sanitised). Ask what they would change. This is the single best signal you can get. Senior engineers will spot the prompt injection risk, the missing retry logic, the silent token budget overrun. Junior engineers will compliment your variable naming.
+
+**The broken-thing question.** "What was the last AI thing you shipped that broke in production, and how did you fix it?" If they cannot answer this with a specific story, they have not actually shipped. They have built demos. There is a difference. Real engineers tell you about the embedding model that returned NaN for empty strings, the Pinecone index that hit its quota at 3am, the LLM call that started returning JSON with a leading newline after a model update.
+
+**Cost trade-off question.** "Walk me through how you would decide between fine-tuning, RAG, and a longer prompt for this problem." Listen for whether they reach for evals, dollars, and latency, or just say "RAG is more flexible".
+
+If your interview is two coding rounds and a culture chat, you are filtering for the wrong thing. You can read more about how I think about this on my [about page](/about), where I lay out my own production background.
+
+## Red flags in CVs and agency pitches
+
+Some patterns that should slow you down.
+
+**Buzzword salad.** A CV that lists LangChain, RAG, AI Agents, LLM, Vector DB, Multi-Modal, Fine-Tuning, RLHF, and MLOps but does not link to a single live URL or production credit. Anyone can list these. Few have shipped them.
+
+**No production credentials.** "Built an AI assistant" with no link, no company name, no user count, no uptime story. The person may be brilliant. They may also have never had a real user complain at 11pm.
+
+**Never been on-call.** AI features fail in interesting ways. Models drift, prompts regress after vendor updates, vector indexes get corrupted, third-party APIs throttle without warning. If your candidate has never been woken up by a production AI bug, they have not learned the lessons that matter.
+
+**Cannot articulate cost.** Ask any senior AI engineer what their last system cost to run per 1000 requests. They should know within an order of magnitude. If they shrug, they have been working in environments where someone else paid the bill.
+
+**Demo-quality portfolio with no live URLs.** Beautiful Streamlit apps, screenshots of impressive notebooks, a Medium post per month. No live system you can hit. This is the most common pattern in 2026 because LLMs make demos cheap. Production is still hard.
+
+The agency version of these red flags looks like: a deck with logos of clients they did discovery work for but never shipped to production, case studies that describe the problem in detail and the outcome in vague percentages, and a refusal to name the specific engineer who will do your work.
+
+For the fractional version, the red flag is someone who has only ever consulted, never had a payroll job. They may be a great consultant. They probably do not know what it feels like to maintain code for three years.
+
+## A practical checklist before you sign anything
+
+Five questions to ask any AI engineering hire, agency, or fractional before you commit. Use them in the final conversation, not the first.
+
+1. **Show me a system you shipped that is still running.** Not a demo. A live URL or a customer login. If they cannot produce one, stop here.
+
+2. **What is the most expensive AI mistake you have made in production, and what did it cost?** You want a specific dollar figure or a specific incident. Vague answers mean they have not had skin in the game.
+
+3. **Walk me through your evals strategy for a RAG system.** Listen for whether they talk about golden datasets, regression suites, and human-in-the-loop review, or just "we test it manually".
+
+4. **What would you NOT use an LLM for in our product?** Strong candidates have a list. Weak candidates think LLMs solve everything.
+
+5. **How do you handle a model vendor changing behaviour overnight?** This happened twice in 2025 and once already in 2026. Their answer tells you whether they have lived through it.
+
+6. **What is your stop-loss?** When would you tell us this engagement is not working and we should stop? A senior engineer or advisor who cannot answer this is selling you a permanent retainer.
+
+7. **Who else is on this with you?** For agencies, get the named engineer on the call. For fractional, ask what happens if they get sick for two weeks. For full-time, ask who they would call for help if they got stuck on something outside their expertise.
+
+## The short version
+
+A wrong full-time AI hire in the Netherlands costs you 140k and 8 months. A right one is the best money you can spend, but only when the work is genuinely full-time and the direction is set. An agency is good for delivering a defined scope on a deadline. A fractional advisor is good for figuring out what to hire, what to build, and what to stop building, before you spend the 140k.
+
+Most Dutch scale-ups I see right now are in the third bucket and hiring as if they were in the first.
+
+If you are weighing one of these three options for your team, a 15-minute call is usually the fastest way to know which one fits your situation. You can [book one here](/contact). No pitch, just a straight read on which path makes sense for where you are.
+
+## Related reading
+
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). Before you hire, decide whether to build at all.
+- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams). The compliance work your new hire will need to handle.
+
+---
+
+### EU AI Act checklist for Dutch software teams
+
+_Published: 2026-04-22. URL: https://jaizetech.nl/en/blog/eu-ai-act-checklist-dutch-software-teams_
+
+> Most Dutch SaaS teams overestimate their risk tier under the EU AI Act. A working engineer's checklist for the August 2026 deadline. Not legal advice.
+
+The August 2026 deadline is three months away, and every Dutch CTO I talk to has the same look on their face. They have read three checklists from compliance vendors, sat through a webinar, and come out of it more confused than before. The vendors want to sell them a platform. The lawyers want a retainer. Nobody wants to just say what a normal 20-person SaaS team needs to do on a Tuesday morning.
+
+So that is what this post tries to do. It is written from the perspective of a working engineer who reads regulation because he has to ship features that touch it, not because he enjoys it. **This is not legal advice.** If you are a high-risk provider, you need a real lawyer. If you are not, you probably need an afternoon and a good checklist. Most of you are the second group, and you do not know it yet.
+
+## Are you even in scope?
+
+Before you panic about conformity assessments and EU databases, find out which tier you are in. Most Dutch B2B SaaS teams I have talked to think they are high-risk because they "use AI". They are not. The Act is more specific than that.
+
+### What counts as an "AI system"
+
+The Act defines an AI system in Article 3(1). The short version is that it has to be a machine-based system that infers, from the input it receives, how to generate outputs like predictions, recommendations, or decisions, with some degree of autonomy and adaptiveness.
+
+In plain language. If you have a rules engine that says `if customer.country == "NL" then show_dutch_terms`, that is not AI under the Act. If you have a regex that pulls invoice numbers out of PDFs, also not AI. If you have a logistic regression that predicts churn, that is AI. If you wrap GPT-4 to summarise tickets, that is AI.
+
+The line that matters. Inference and adaptiveness. A deterministic rule is not in scope. A learned model is.
+
+### Provider, deployer, or general-purpose AI
+
+Once you know you have an AI system, figure out what role you play. The Act splits this three ways and your obligations are very different for each.
+
+A **provider** is whoever puts the AI system on the market under their own name. If you train a model and ship it inside your product, you are the provider of that system.
+
+A **deployer** is whoever uses an AI system in a professional context. If you call the OpenAI API to summarise support tickets, you are a deployer of OpenAI's model and a provider of the support-summarisation feature you built on top.
+
+A **general-purpose AI (GPAI) model provider** is OpenAI, Anthropic, Mistral, Meta. Not you. Unless you are training foundation models, this category is not your problem directly. You inherit some obligations through your provider contracts.
+
+Most Dutch SaaS teams are deployers of GPAI models and providers of small task-specific systems built on top. That puts you in a reasonable place.
+
+### The four risk tiers
+
+The Act sorts AI systems into four buckets.
+
+**Prohibited.** Social scoring, real-time biometric ID in public spaces (with narrow exceptions), emotion recognition in workplaces and schools, manipulative dark patterns that exploit vulnerabilities. If you are doing any of this, stop. The ban took effect February 2, 2025. Penalties go up to 35 million euro or 7 percent of global turnover.
+
+**High-risk.** Listed in Annex III. We will get into specifics in the next section. These come with the heavy obligations everyone is scared of.
+
+**Limited-risk.** Mostly transparency obligations. Tell users they are talking to AI. Label AI-generated content. That is most of it.
+
+**Minimal-risk.** No specific obligations under the Act, beyond general product safety and existing laws. Think spam filters, recommendation engines for movies, in-game NPCs.
+
+My honest take. Around 80 to 90 percent of Dutch B2B SaaS teams I have looked at land in limited-risk or minimal-risk. The transparency stuff is genuinely easy to implement. A weekend, maybe two. The high-risk obligations are a different conversation entirely, and if you are actually high-risk you should know it by now.
+
+## What "high-risk" actually means in 2026
+
+Annex III lists the use cases. If your product touches one of these, you are high-risk and the August 2, 2026 deadline applies to you in full force.
+
+### The Annex III categories that matter for Dutch SaaS
+
+**Employment, workers management, and access to self-employment.** AI used to recruit, screen CVs, evaluate candidates, allocate tasks, monitor performance, or terminate contracts. If you are building HR tech with any kind of scoring or ranking, you are in.
+
+**Education and vocational training.** AI that determines access to education, evaluates learning outcomes, assigns people to programmes, or detects exam cheating. Edtech with grading or admissions decisions, in scope.
+
+**Access to essential private and public services.** AI used for credit scoring, life and health insurance pricing, eligibility for public benefits, and emergency dispatch. Fintech doing creditworthiness, in scope. A buy-now-pay-later flow that uses ML to decide approval, in scope.
+
+**Law enforcement, migration, asylum, border control, justice.** Probably not your product unless you sell to government. If you do, you know.
+
+**Biometric categorisation and emotion recognition** (outside the prohibited contexts). Limited use cases, but in scope.
+
+**Critical infrastructure management.** Energy grid, water, gas, traffic, digital infrastructure. If your AI helps run any of these, in scope.
+
+**Safety components of regulated products.** Medical devices, vehicles, machinery. If your model is part of a CE-marked safety chain, in scope.
+
+### What is NOT high-risk under Annex III
+
+This is the part nobody emphasises. Customer support automation. Sales agents and SDRs. Internal RAG over company docs. Marketing copy generation. Translation. Code completion. Meeting summarisation. Sentiment analysis on reviews. Internal analytics dashboards with predictive features. Fraud detection on payments (this is more nuanced, but generally yes, not Annex III).
+
+Most B2B SaaS in the Netherlands is in this second list. You have transparency obligations. You do not have a conformity assessment to file.
+
+## The five things you need documented before August 2026
+
+Assume you are limited-risk or general-purpose. Here is the practical checklist.
+
+### 1. A transparency notice when users interact with AI
+
+Article 50 says when a person interacts with an AI system, they must be informed of that, unless it is obvious. A chatbot has to tell the user it is a chatbot. An AI voice agent has to disclose it is AI. The disclosure has to be at the start of the interaction.
+
+What this looks like in your product. The first message in your chat widget says something like "Hi, I'm an AI assistant. I can help with X, Y, Z. For anything else I will hand you to a human." That is enough. You do not need a 2000-word policy. You need one sentence in the right place.
+
+### 2. AI-generated content labelling
+
+Same article. If your system generates synthetic audio, image, video, or text that looks like real content, that output has to be machine-readable as AI-generated. For text, the obligation kicks in when the text is published to inform the public on matters of public interest, with some exceptions.
+
+Practical version for most SaaS. If you generate marketing copy or summaries that stay inside the user's account, low priority. If you publish AI-generated content to the public web on behalf of users, you need watermarking or metadata tags. C2PA is the emerging standard. Most major model providers are adding this at the API level.
+
+### 3. Data governance basics
+
+Write down, in one document. What data trains or fine-tunes your models. Where it comes from. Whether users can opt out. How long you keep it. Whether it goes to a third-party model provider and under what terms.
+
+This is not a 50-page policy. It is one page. If you cannot write it on one page, you do not understand your own data flows, which is a different problem.
+
+### 4. Provider information
+
+If you use OpenAI, Anthropic, Mistral, or any other GPAI provider, document which models you use, link to their model cards or system cards, and note your contract terms around data usage. When auditors or customers ask "what AI is in this product", you should have a one-page answer ready.
+
+### 5. An internal AI use register
+
+A simple table. Where AI runs in your product. What model. What it does. Who owns it internally. When it was last reviewed. This is not required by the Act in this specific form for limited-risk systems, but it makes everything else easier and your enterprise customers will start asking for it in their procurement questionnaires from late 2026.
+
+### For high-risk systems, add
+
+If you are actually in Annex III, you also need.
+
+A risk management system, documented and maintained across the model's lifecycle (Article 9). Data governance with quality criteria for training, validation, and test sets (Article 10). Technical documentation that lets a regulator understand how the system works (Article 11). Automatic logging of events while the system is in use (Article 12). Transparency and instructions for use for the deployer (Article 13). Human oversight measures, the famous Article 14. Accuracy, robustness, and cybersecurity baselines (Article 15). A conformity assessment before going to market. Registration in the EU AI database. Post-market monitoring once deployed.
+
+This is real work. If you are high-risk and have not started, you are late. Talk to a lawyer this week.
+
+## What changes in your CI/CD if you ship a high-risk system
+
+Assume you are in Annex III and have to actually do all of the above. Here is what it looks like in code, not in a policy PDF.
+
+### Risk assessment artefacts in the repo
+
+Your risk management documentation lives in the repo, version-controlled, next to the code. Not in Confluence. Not in Notion. In Git. Every model release has a corresponding risk assessment update, reviewed in the PR. If the model changes meaningfully, the risk doc changes with it.
+
+A reasonable folder layout.
+
+```
+/compliance
+  /models
+    /ticket-classifier-v2.3
+      model_card.md
+      risk_assessment.md
+      data_governance.md
+      eval_results.json
+      training_data_summary.md
+```
+
+### Model cards as build artefacts
+
+Every model your CI builds also produces a model card. Auto-generated where possible (intended use, training data summary, eval metrics, known limitations). Human-edited for the parts that need judgement. The model card ships alongside the model weights. It is not an afterthought.
+
+### Transparency notices rendered automatically
+
+Any UI element that is touched by AI gets a marker. In React, this might be a `<AIBadge reason="..." />` component that wraps any AI-generated content. The component is not optional. If a backend response comes back with a flag indicating AI-generated content and the frontend forgets to render the badge, a lint rule or visual regression test catches it. You do not want a sales engineer demoing your product to a German auditor without the disclosure rendering.
+
+### Audit logs that survive deletion
+
+Article 12 logging. Inputs, outputs, decisions, timestamps, model version. Stored in append-only storage. Even if a customer deletes their data under GDPR, the high-risk system logging requirement may require you to retain certain technical logs for a defined period. This tension between GDPR and the AI Act is real. Get a lawyer involved on retention policy.
+
+### Article 14 human-in-the-loop checkpoints
+
+For high-risk systems, a human must be able to intervene, override, or stop the system. In code, this means. No fully automated decisions on high-risk paths without an explicit human approval step. The approval step is logged. The human's identity is logged. The override option is always visible in the UI, not hidden behind three menus.
+
+### A pre-deployment checklist as a CI gate
+
+Before a model can be promoted to production, the pipeline checks. Model card present and updated. Risk assessment within the last X months. Eval metrics above threshold. Data governance doc reviewed in the last release. If any of these fail, the deployment is blocked. This sounds like overhead. It is overhead. It is also the entire point of the Act.
+
+## When you need a lawyer vs. when you need an engineer who reads regulation
+
+This is the question I get most often, and I want to be direct about it.
+
+A lawyer interprets your specific liability exposure. They look at your contracts, your customer base, the jurisdictions you sell into, the worst-case scenarios for your specific product, and they tell you what your legal risk looks like. They do not write your model cards. They do not refactor your CI pipeline.
+
+An engineer who reads regulation translates the Act into shipped code. They figure out where the transparency notice goes in the React component tree. They write the audit log schema. They set up the CI gate. They do not interpret your liability exposure.
+
+For limited-risk systems, you mostly need the engineer side. The legal interpretation is straightforward enough that any decent privacy lawyer can sign off in an hour.
+
+For high-risk systems, you need both. A lawyer to scope your obligations and exposure, plus engineering work to actually meet them. Skipping either is expensive.
+
+**To repeat. This post is engineer's guidance. It is not legal advice.** I am a software engineer, not a lawyer. I read the Act because I ship AI features and I need to know what I am building against. If your case is anything other than vanilla limited-risk, talk to a real lawyer.
+
+You can read more about my background on the [about page](/about). The short version is five years of production engineering, two and a half on a Dutch agritech computer vision platform, and a stack that lives close to the AI parts of the Act. Not a law degree.
+
+## A copy-paste compliance starter
+
+Take this to your next standup. One sprint of work for a 20-person team that is not in Annex III.
+
+1. Map every place AI runs in your product. One row in a spreadsheet per place. Model name, what it does, owner. (Half a day.)
+2. For each row, decide. Is this user-facing? If yes, does the user know they are interacting with AI? If no, add a disclosure. (One day to spec, one day to ship.)
+3. If your product generates content that gets published outside your platform, add C2PA metadata at the generation step. (One to three days depending on stack.)
+4. Write your data governance one-pager. Sources of training data, retention, opt-out, third-party providers. (Half a day if you know your system, two days if you do not.)
+5. List your model providers and link their system cards. (One hour.)
+6. Decide which Annex III categories your roadmap might touch in the next 12 months. If any, escalate to leadership now, because the lead time for high-risk compliance is months, not weeks.
+7. Add a paragraph to your terms of service and your privacy policy that mentions AI use. Run it past a privacy lawyer. (One to two weeks of back and forth.)
+8. Brief your sales team on what to say when enterprise prospects ask about AI Act compliance. They will ask. The answer "we are limited-risk under the Act and our transparency obligations are met, here is our one-pager" is a lot more reassuring than a blank stare.
+
+For Annex III high-risk systems, this list is the start of the work, not the finish. You are also looking at a conformity assessment, EU database registration, formal risk management documentation, and a post-market monitoring plan. That is a multi-month engagement with both legal and engineering involved.
+
+## The dates you actually need to remember
+
+Pinned to your wall.
+
+- **August 1, 2024.** The Act entered into force.
+- **February 2, 2025.** Prohibited practices banned. (Past.)
+- **May 2, 2025.** Codes of practice for general-purpose AI. (Past.)
+- **August 2, 2025.** Rules for general-purpose AI models. (Past.)
+- **August 2, 2026.** Most other rules including high-risk system requirements. (This is the big one. Three months away.)
+- **August 2, 2027.** Deadline for high-risk systems already on the market before August 2026 to come into compliance.
+
+Penalties. Up to 35 million euro or 7 percent of global turnover for prohibited practices. Up to 15 million euro or 3 percent for most other violations. Smaller fines for supplying incorrect information to authorities. Member states get some discretion on enforcement, and the Dutch authorities have signalled a pragmatic approach for SMEs that show good faith effort, but do not bet your company on regulator goodwill.
+
+## Where most teams are right now
+
+Honest snapshot of what I see in Dutch SaaS right now.
+
+A few teams have done the work. Their model cards are in Git. Their disclosures render automatically. They sleep fine.
+
+Most teams know the deadline is coming and have not started. They are hoping their existing privacy and security work covers it. Some of it does. The transparency obligations do not get done by accident.
+
+A small number of teams are genuinely high-risk and either know it (and are scrambling) or do not know it (and will find out the hard way when an enterprise customer asks for their conformity assessment in Q4).
+
+If you are not sure which group you are in, that uncertainty is the actual problem to solve. The Act is annoying but not actually that complicated for most products. The expensive mistake is treating it as either irrelevant or as a four-quarter compliance project when it is neither.
+
+## A short closing
+
+If you want a working engineer to walk through the Act with your team and figure out which tier you are actually in, a fifteen minute call usually narrows it down. From there, a half-day [audit](/services) tells you exactly what to ship before August. [Book a call](/contact) and we can take a look.
+
+**One last time. This post is engineer's guidance, not legal advice.** For anything beyond vanilla limited-risk, talk to a lawyer who knows the Act. Then talk to an engineer who can build against it. You need both.
+
+## Related reading
+
+- [How to hire an AI engineer in the Netherlands](/blog/hire-ai-engineer-netherlands). Who to bring in to handle the August 2026 deadline.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). Compliance changes which side of the line you fall on.
+
+---
+
+### RAG vs fine-tuning: a 20-minute decision
+
+_Published: 2026-04-29. URL: https://jaizetech.nl/en/blog/rag-vs-fine-tuning-decision-flowchart_
+
+> How to choose between RAG and fine-tuning. A 20-minute decision flow, three cases where fine-tuning is wrong, and what hybrid really looks like.
+
+Most "RAG vs fine-tuning" articles read like a Wikipedia diff. Two columns, pros and cons, no opinion, you walk away knowing the definitions and still not knowing what to build. This post is the opposite. I am going to give you a 20-minute decision flow with three confident outcomes, and I am going to tell you exactly when fine-tuning is the wrong answer (it usually is) and when RAG alone will not cut it.
+
+I have built RAG systems in production for the last two and a half years on a hybrid Triton plus cloud platform, and a non-trivial part of my job has been talking clients out of fine-tuning when they did not need it. The pattern repeats often enough that a flowchart fits.
+
+## Quick definitions, one paragraph each
+
+**RAG** (retrieval-augmented generation) leaves the model alone. At inference time, you fetch relevant chunks of your data from a vector store (or a hybrid keyword plus vector store), stuff them into the prompt, and let the model reason over them. The model weights never change. You change what you put in front of it.
+
+**Fine-tuning** updates the model weights on your data. You take a base model, feed it thousands of input-output examples, and the model learns to behave differently. After fine-tuning, the model itself is different. It does not need your data in the prompt to produce the new behaviour, because the behaviour is baked in.
+
+That is the whole distinction. Most readers know this already. The interesting question is not "what are they", it is "which one, for what, and when".
+
+## The 20-minute flowchart that decides for 90% of cases
+
+Run through these five questions in order. Stop at the first one that gives you an answer.
+
+```
+Q1. Does your knowledge change more than once a quarter?
+    YES  -> RAG. Stop here.
+    NO   -> continue.
+
+Q2. Is the desired output format or style the actual problem,
+    not the knowledge?
+    YES  -> Fine-tuning is on the table. Continue to Q3.
+    NO   -> continue.
+
+Q3. Do you have 10,000+ high-quality, labelled examples
+    of the desired behaviour?
+    NO   -> Do not fine-tune yet. Go back to RAG plus prompt engineering.
+    YES  -> continue.
+
+Q4. Is hallucination on facts unacceptable
+    (legal, medical, finance, support over real customer data)?
+    YES  -> RAG, with a real eval harness. Stop here.
+    NO   -> continue.
+
+Q5. Is the use case narrow and repetitive
+    (classification, extraction, format-locked generation)?
+    YES  -> Fine-tune a small model. This is one of the few good cases.
+    NO   -> Default back to RAG. You probably do not need fine-tuning.
+```
+
+That is it. Five questions, twenty minutes if you are honest with yourself. The honesty part is where most teams stumble, because Q3 in particular has a high "we have data" failure rate. Having data is not the same as having 10,000 clean, labelled examples of the exact behaviour you want.
+
+The reason this flow works is that the two techniques solve genuinely different problems. RAG is for "the model does not know my stuff". Fine-tuning is for "the model does not behave the way I need it to". When teams confuse these, they reach for the wrong tool, and they pay for it twice (once in money, once in months).
+
+## Three use cases where fine-tuning is the wrong answer (and people still try)
+
+### 1. Internal documentation Q&A
+
+This one comes up almost every week. A team has a Confluence wiki, a few hundred PDFs, some Notion pages, and they want a chatbot that answers questions over all of it. Someone in the room says "we should fine-tune a model on our docs".
+
+No, you should not. Three reasons.
+
+First, your documentation changes. Someone updates the onboarding doc next Tuesday, and your fine-tuned model does not know. You would need to re-train every time, which is absurd. RAG picks up the new doc the moment it is indexed.
+
+Second, you need citations. When the bot says "the deployment process is X", an engineer wants to click through to the source page. Fine-tuned models cannot cite. RAG can, because the source chunks are right there in the prompt.
+
+Third, hallucination on internal facts is corrosive. If the bot confidently invents a deployment step, trust dies in a week. RAG with grounded answers and a "I do not know" fallback is much safer.
+
+### 2. Customer support chatbot
+
+Same shape, different domain. The team wants a support bot that handles tier-1 tickets. Someone proposes fine-tuning a foundation model on the historical ticket archive.
+
+The knowledge in those tickets (product behaviour, known issues, refund policies) belongs in RAG, full stop. It changes constantly. The only thing that might justify a small fine-tune is **tone and format**, for example forcing the model to always reply in the brand voice with a specific opening and closing structure. Even that, in my experience, is solvable with a good system prompt and few-shot examples 80% of the time. Fine-tuning a foundation model on your tickets is expensive, slow, and gives you a model that is stale the day you ship it.
+
+### 3. "We want our LLM to know about our company"
+
+This is the version that comes from non-technical stakeholders, and it always means RAG. The intuition behind it is "the model should feel like it works for us", which is a product feeling, not a technical requirement. Put your company knowledge in a vector store, retrieve it on every query, and the model will feel like it knows you. It will also stay accurate, citable, and updatable.
+
+If anyone in the room is still pushing for fine-tuning at this point, the question to ask is: "what specifically will the fine-tuned model do that RAG plus a strong system prompt cannot do?" If they cannot answer, the answer is RAG.
+
+## Two cases where RAG alone is not enough
+
+I am not anti fine-tuning. There are real cases. Here are two I have actually run into.
+
+### 1. Output format is the product
+
+Some outputs have a hard structure that the model must follow every single time. Legal contract clauses with specific numbering and cross-references. Medical report sections that map to a regulated template. Code generation in a niche internal DSL where the grammar matters and "almost right" is wrong.
+
+For these, prompt engineering will get you to maybe 90% format adherence, which is not good enough when the consumer is another machine or a regulator. A small fine-tune on a few thousand correctly-formatted outputs gets you to 99-plus. The pattern is **fine-tune for format, RAG for facts**. The model learns the shape of the output. The facts that fill the shape come from retrieval.
+
+### 2. Domain language so specialised that off-the-shelf embeddings retrieve nonsense
+
+Standard embedding models are trained on general web text. They are great for most domains. They fall over in narrow technical domains where the same word means very different things, or where the domain vocabulary barely appears in the training data. Rare medical sub-specialties, specific patent law areas, certain industrial engineering domains.
+
+If you index your docs and your top-5 retrievals are consistently irrelevant despite the query being clearly answered somewhere in the corpus, your embeddings are the bottleneck. The fix is either a fine-tuned embedding model or a domain-adapted base model, not fine-tuning the generator. Most teams never hit this. If you do, you will know, because retrieval quality will be visibly bad in your eval.
+
+## What hybrid actually looks like (and why most teams should not bother)
+
+Hybrid means: RAG for the knowledge, plus a small fine-tuned model for the format or tone of the output. In a clean implementation, the retrieval pipeline is unchanged, and the generator is your fine-tuned model instead of a base model.
+
+It works. I have seen it work. I will also tell you that 80% of teams who think they need hybrid do not. The maintenance cost is the killer. You now have two systems to keep healthy: a retrieval pipeline (embeddings, index, chunking strategy, reranker) and a fine-tuning pipeline (training data curation, eval, re-training cadence, model versioning). Each one is a real engineering commitment. Doing both well is roughly double the work of doing one well.
+
+The honest test for hybrid is this. You have shipped RAG. You have an eval harness with at least 100 representative cases. You can point at specific failure modes in the eval that are clearly format or tone problems, not knowledge problems. You have tried prompt engineering and few-shot to fix them and hit a ceiling. **Then** you consider hybrid. Not before.
+
+If you have not shipped RAG yet and you are already planning the hybrid architecture, you are over-engineering. Stop.
+
+## The eval question
+
+Neither RAG nor fine-tuning works without evals. This is the unsexy part nobody wants to hear.
+
+An eval is a set of representative inputs with expected behaviours, run on every change, scored automatically (or semi-automatically with an LLM judge that you have spot-checked). Without it, you are flying blind. You think your system got better, you ship, a user finds the regression, you roll back, repeat.
+
+The order matters. Build the eval **before** you choose between RAG and fine-tuning. The eval will tell you what "good" looks like for your use case, and that definition is what makes the RAG vs fine-tuning question answerable. Without an eval, "is RAG good enough?" is unanswerable, because nobody can agree on what "good enough" means.
+
+I will write a separate post on building a minimum-viable RAG eval. For now, the short version is: 30 to 100 real questions, expected answers or expected sources, run on every prompt change, fail loudly when scores drop.
+
+## A practical first move
+
+Start with RAG. Always.
+
+If you are between the two and unsure, RAG is the safer bet for a first version. The reasons are concrete. RAG is faster to ship (days to a useful prototype, not weeks). RAG is cheaper to iterate (change the prompt, re-index, you are done). RAG fails in legible ways (you can read the retrieved chunks and see why the answer was wrong). And critically, if RAG turns out to be insufficient, your eval will tell you exactly which failure modes remain, and **that** is when you have a real basis for choosing fine-tuning.
+
+The reverse order is much more expensive. If you start with fine-tuning, you spend weeks on data prep, you spend money on training runs, you ship something, and then you discover that the actual problem was knowledge freshness or citation, neither of which fine-tuning solves. You then build RAG anyway, on top of a fine-tuned model that is already drifting from your live data. You have paid twice.
+
+So the rule, with all the caveats above already stated, is simple. Default to RAG. Use the flowchart to confirm. Only reach for fine-tuning when the flowchart points there clearly, and only consider hybrid when your shipped RAG plus your real eval tells you it is the next step.
+
+If you want to see what production RAG looks like in practice, I have written about my [past work](/work) and the [services](/services) I offer around RAG and LLM architecture audits.
+
+## A short close
+
+If you are stuck between RAG and fine-tuning for a specific use case, a 15-minute call usually settles it. I have done this conversation enough times that the right answer tends to be obvious once we look at your actual data, your update cadence, and what "good" means for your users. Book one [here](/contact) and we can run your problem through the flowchart together.
+
+## Related reading
+
+- [CrewAI to LangGraph: a migration playbook](/blog/crewai-to-langgraph-migration-playbook). Taking your RAG agent from prototype to production.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). When RAG is a buy decision and when it is a build decision.
+
+---
+
+### Build vs buy AI features: math for your CTO
+
+_Published: 2026-05-02. URL: https://jaizetech.nl/en/blog/build-vs-buy-ai-features_
+
+> Three real patterns for the build vs buy AI decision, with rough numbers and a two-hour team exercise. The one question that resolves 80% of debates.
+
+Most articles on build vs buy AI features read like they were written by someone who has never had to ship one. You get a 2x2 matrix, a few bullet points about "core competency," and zero numbers you can actually defend in a planning meeting. So you walk back to your team with the same question you started with, just dressed up nicer.
+
+This post is the version I wish I had read before my first big call on this. Three real patterns with rough numbers, the one question that ends most debates in your head before they reach the team, the vendor lock-in trap that hits SaaS shops about eighteen months in, and a two-hour exercise you can run before the next planning meeting. I have built production AI both ways, custom and vendor-wrapped, so I will be honest about what each side actually costs you.
+
+## The one question that resolves 80% of build vs buy debates
+
+Before you spreadsheet anything, ask yourself this. Is this AI feature your product's defensibility, or is it table stakes?
+
+Table stakes means the market expects it, customers will not pay extra for it, and three of your competitors already have a version of it. Think a chat summarizer in a CRM, a "draft this email" button in a help desk tool, smart tagging for uploaded files. None of that is what people choose your product for. It is what they would notice missing.
+
+Defensibility means it is the reason customers stay, or the reason they would switch to you. Your retrieval over ten years of proprietary technical documentation. A fine-tuned model that scores leads using your specific historical conversion data. A computer-vision pipeline trained on a dataset only you have because you spent five years collecting it. This is the moat.
+
+If it is table stakes, buy. Wrap a vendor API, ship in two weeks, move on. The maintenance cost of a custom build will eat the team that should be working on your moat.
+
+If it is defensibility, build. Accept that you are signing up for ongoing maintenance, evals, retraining, and on-call for a system that does not behave deterministically. You are not buying a feature, you are starting a small product inside your product.
+
+Most teams get this exactly backwards. They build the chat summarizer (table stakes) because it feels like real engineering, then they buy a generic vendor for the part that should have been their moat because the vendor demo was slick. Two years later they have a maintenance burden on the wrong feature and a "me too" version of the part customers actually compare on.
+
+That one question kills about 80% of the debates I see. The remaining 20% are genuinely hard, and that is where the math earns its keep.
+
+## Three common patterns with the math
+
+Here are three patterns I see often. Numbers are rough market ranges, not invoices from real projects, but they are close enough to defend in front of a finance person.
+
+### Pattern 1: BUY. The support inbox classifier
+
+You have 200 customer support tickets per day. You want to auto-tag them by urgency and route to the right queue. Classic, useful, not a moat.
+
+Vendor route. An OpenAI or Anthropic API call per ticket, with a structured-output prompt and four or five categories. At current prices, 200 tickets per day with a small prompt and short response is somewhere around 20 to 40 euros per month in API spend. Integration is two to three engineering days if your support tool has a webhook (which it does). Ongoing maintenance is basically zero, you watch the eval numbers once a month and adjust the prompt if accuracy drifts.
+
+Build route. Collect a labeled dataset (or pay someone to label it), fine-tune a small open-source classifier, deploy it behind your own inference service, set up monitoring, retrain when categories drift. Realistic upfront cost in the Dutch market is 15k to 25k euros of engineering time, plus 200 to 500 euros per month in compute and someone's attention every time the support team adds a new ticket category.
+
+Don't build. The vendor wins on every axis, including accuracy, because their model is bigger than anything you would train. The only reason to build here is if you have a hard data-residency requirement that rules out US APIs, in which case you are not really choosing on cost, you are choosing on compliance.
+
+### Pattern 2: BUILD. RAG over your proprietary corpus
+
+You sell into a regulated industry. You have ten years of internal technical documentation, customer case files, and engineering reports. Your competitors do not have this corpus. Customers buy you partly because your product surfaces the right answer from this body of knowledge faster than anyone else can.
+
+Vendor route. You point a generic RAG-as-a-service product at your documents. It chunks them with default settings, embeds them with a default model, retrieves with default top-k. The answers are okay. They are also exactly as good as what your competitor would get if they fed their (worse) corpus to the same vendor. You have just commoditized your own moat.
+
+Build route. You design the chunking strategy around how your documents are actually structured (sections, tables, diagrams with captions). You pick or fine-tune an embedding model that knows your domain vocabulary. You build a retrieval layer that uses metadata filters specific to how your customers ask questions. You add evals that measure quality on your hardest real questions, not generic benchmarks. Realistic upfront cost is 25k to 50k euros depending on corpus complexity. Ongoing maintenance is one to two days per month plus inference costs.
+
+Build. The whole point is that the tuning work is the product. If a vendor could do it as well, it was not your moat to begin with.
+
+### Pattern 3: HYBRID. The AI agent
+
+Most B2B AI products in 2026 land here, and for good reason. You build an agent that helps your users do something specific in your product. It needs to reason (call an LLM), retrieve (your data), and take actions (your APIs and your customer's connected tools).
+
+Buy the model layer. Use GPT-class or Claude-class models through their APIs. You will not out-train OpenAI or Anthropic on general reasoning, and the price per token keeps dropping anyway. Wrapping your own LLM here is almost always a mistake unless you have a very specific privacy or cost-at-scale reason.
+
+Build the orchestration. The tool definitions, the retrieval, the guardrails, the eval harness, the human-in-the-loop fallbacks, the way the agent decides when to ask the user for confirmation. This is where your product personality lives. This is also where vendor "agent platforms" tend to lock you in for capabilities you could have built in two sprints.
+
+Realistic numbers vary wildly here based on how many tools the agent calls and how strict your eval bar is, but a usable v1 of a focused agent in a B2B product is typically 40k to 80k euros of engineering, plus model inference costs that scale with usage. Plan for ongoing work, agents need eval and tuning attention forever, not just at launch.
+
+Hybrid is the default answer for any AI feature that sits at the center of your product. Buy what is commoditized (the base model). Build what differentiates you (everything around it).
+
+## The vendor lock-in trap nobody warns SaaS teams about
+
+Here is the part the vendor sales deck does not cover.
+
+When your AI feature depends on a single LLM provider, you have signed a contract with three terms you cannot read. The price (which they can change). The model (which they can deprecate, sometimes with 90 days of notice, sometimes less). The rate limits (which they can lower if their capacity gets tight, and you will find out at 2am).
+
+I have watched teams discover this the hard way. Their entire product feature breaks because a model version they pinned to gets retired. Or their unit economics go sideways because a price change of 30% on the model they use turns a profitable feature into a money loser. Or they cannot ship to a big new customer because the vendor's regional availability does not match the customer's compliance requirements.
+
+The fix is not to avoid vendors. The fix is to abstract them.
+
+From day one of any AI feature, build your own thin interface in front of the model call. Not a heavy framework, just a function in your codebase that takes (prompt, context) and returns (response). Behind that interface, support at least two providers in development even if only one runs in production. The cost of doing this on day one is maybe half a day of engineering. The cost of doing it later, after you have 80 prompt-engineered call sites scattered through your codebase, is weeks.
+
+Same logic for embeddings (your vector store should not care which embedding model produced the vectors, beyond a version tag). Same logic for fine-tuning (if you fine-tune on a vendor, keep the training data and the eval set, not just the resulting model checkpoint).
+
+This is plain old hexagonal architecture applied to AI. The fact that the AI ecosystem moves fast is exactly why you want the abstraction, not a reason to skip it.
+
+## The two-hour exercise your team can run before the next planning meeting
+
+Block two hours. Get the tech lead, the PM, and one senior engineer in a room (or a call). Pick the AI feature you are debating. Answer these four questions on a shared doc. Time-box each one to 25 minutes.
+
+**Question 1. Can a vendor do this 80% as well as we could?**
+
+Be honest. Demo the top two vendors against your real use case, not their canned demo. If the answer is yes, the burden of proof is on whoever wants to build. If the answer is no, write down exactly why not. "Our data is private" is not enough, vendors handle that. "Our domain vocabulary breaks generic models" is a real reason. "Our retrieval needs to filter by customer-specific metadata that would leak across tenants in a generic vendor" is a real reason.
+
+**Question 2. Will our customers care if it is a wrapper?**
+
+Some customers absolutely will. Enterprise buyers in regulated industries will ask which model you use, where it runs, and how you guarantee the data does not train it. Consumer-facing products typically will not care as long as it works. SMB B2B customers are in the middle, they care if a competitor markets "our own AI, your data stays with us" and you do not have an answer.
+
+If the answer is "they will not care," buy. If the answer is "yes, and we will lose deals over it," that is a real input to the build case.
+
+**Question 3. What does failure cost us if we use a vendor?**
+
+Map the worst case. Vendor goes down for four hours. Vendor leaks data through a logging bug (it has happened to every major one). Vendor changes their content policy and now refuses prompts that worked yesterday. For a non-critical feature, you eat it and move on. For a feature on the critical path of a regulated workflow, you cannot.
+
+Write the failure cost in money or in customers lost. If it is small, the buy case gets stronger. If it is "we lose our biggest customer and the SLA penalty is six figures," you need at least multi-vendor and probably a build path for the most sensitive part.
+
+**Question 4. What is the maintenance cost honestly going to be over 24 months?**
+
+This is the question teams lie to themselves about. Custom AI is not "build it and forget it." It is evals, retraining when data drifts, on-call when the model behaves weirdly in production, and rebuilding pieces when the underlying open-source library makes a breaking change. Budget at minimum 20% of the initial build cost per year as ongoing maintenance, often more.
+
+If you cannot honestly afford that ongoing cost, you cannot afford to build, even if the upfront math looks fine. Buy and revisit in a year.
+
+After the four questions, you will have a one-page document with a defensible answer. If three of the four point the same direction, you have your call. If they split, you have a real decision to make and at least now you are making it on inputs instead of vibes.
+
+## When to bring in someone like me to make the call
+
+Sometimes the four questions split and your team has been arguing about it for two months. Sometimes you do not have an engineer in-house who has shipped both custom AI and vendor wrappers in production, and the team is choosing based on what they have seen, not what fits the problem. Sometimes the CTO knows the answer but needs an outside voice to confirm it so the rest of the leadership team will move.
+
+That is the kind of work I do. An outside engineer who has built both ways can usually get to a defensible answer in a one-week sprint, with the math written down, the architecture sketched, and a build-or-buy recommendation that will hold up to a board question. You can see the kind of production AI work I have done at [/work](/work), and the engagement formats at [/services](/services).
+
+If your team is stuck on a specific build vs buy call right now, a fifteen-minute conversation usually unsticks it for free. Book one at [/contact](/contact). I would rather you make the right call quickly than the wrong one with a fancy framework.
+
+## Related reading
+
+- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart). When build means tuning a model vs retrieving over your own data.
+- [EU AI Act checklist for Dutch software teams](/blog/eu-ai-act-checklist-dutch-software-teams). How compliance affects the build vs buy decision.
+
+---
+
+### CrewAI to LangGraph: a migration playbook
+
+_Published: 2026-05-04. URL: https://jaizetech.nl/en/blog/crewai-to-langgraph-migration-playbook_
+
+> CrewAI is great for prototyping. LangGraph is what you ship. Five pieces to add before migrating, plus the failure modes that show up in production.
+
+Most "CrewAI vs LangGraph" articles read like a feature checklist. They miss the actual question engineers are asking. You already have a CrewAI prototype that works on your laptop and impresses the demo audience. Now your boss wants it in production by next quarter. What do you actually need to do to get there?
+
+This post is the playbook. It covers the five pieces you need before you migrate, a worked side-by-side code example, the three failure modes that show up the moment you go live, and clear rules for when to keep the prototype and when to rewrite.
+
+## Why CrewAI is great for prototyping and bad for production
+
+CrewAI is a pleasure to spin up. The agent / role / task abstraction maps cleanly to how product folks describe what they want. You write something like "a researcher agent that finds company information" and "a writer agent that drafts an outreach email" and the framework wires up the conversation between them. In a week you have something that walks and talks.
+
+The problem is everything that makes the prototype fast also makes production hard.
+
+State management is implicit. CrewAI passes context between agents through string concatenation and shared dictionaries that are mostly opaque to you. When something goes wrong you cannot easily inspect what an agent saw at step four versus step five. The framework moves fast, and that has historically meant breaking changes between minor versions, which is fine when you are iterating but painful when you have a production deployment that needs to keep working.
+
+Observability is shallow by default. You can see the final output. You can see token usage. You cannot easily see, at a glance, why a specific agent decided to call a specific tool with specific arguments at a specific step.
+
+None of this is a knock on CrewAI. It is the right tool for a one-week proof of concept. It is the wrong tool for month six in production with a paying customer on the other end.
+
+LangGraph makes the opposite trade. It asks you to be explicit about state, edges, and conditions. The first time you write a LangGraph app you will think it is verbose. The second time you debug a production incident at 11pm you will be glad it is verbose.
+
+## The five pieces you need before you migrate
+
+Before you touch a single line of migration code, make sure these five things exist. If any of them are missing you will rebuild your prototype, hit production, and discover the same problems in a more verbose framework.
+
+**1. Persistent state and checkpointing.** Your CrewAI prototype probably stores conversation history in memory. When the process restarts, that history is gone. In production you need a checkpointer. LangGraph ships with `MemorySaver` for development, `SqliteSaver` for small deployments, and `PostgresSaver` for serious workloads. Pick one before you start.
+
+**2. Observability with structured node-level traces.** You want to see every node entry, every node exit, every tool call, every state diff. LangSmith is the path of least resistance because it is built by the same team. OpenTelemetry with a custom exporter works if you already have a tracing stack. Either way, structured traces at the node level are non-negotiable.
+
+**3. Retry policy and idempotency at the node level.** Network calls fail. Model APIs return 429s. Tools time out. Each node needs a clear policy for what happens on failure, and each node needs to be safe to retry. If your "send Slack notification" node sends two messages when retried, you have a bug waiting to bite a customer.
+
+**4. An eval suite.** Golden conversations with expected outputs at the final-answer level, plus step-level assertions on intermediate state. Without this, every framework upgrade and every prompt tweak is a leap of faith. With it, you can actually measure whether your migration is a regression.
+
+**5. Cost tracking at the per-invocation level.** You need to know, for any given user request, how many tokens it consumed and across which model. This catches runaway agents before your finance team does.
+
+Notice that none of these are about LangGraph specifically. They are about being ready to run an agent in production. Building them on top of CrewAI is harder than building them on top of LangGraph, but the work is the same work.
+
+## A worked migration: same agent, both frameworks
+
+Let us pick a deliberately simple task. The agent takes a company URL, fetches the page, extracts structured information about the company, and posts a notification to Slack.
+
+Here is roughly what the CrewAI version looks like.
+
+```python
+from crewai import Agent, Task, Crew
+
+researcher = Agent(
+    role="Company researcher",
+    goal="Extract structured info from a company URL",
+    tools=[fetch_url_tool, parse_html_tool],
+    llm=llm,
+)
+
+notifier = Agent(
+    role="Slack notifier",
+    goal="Post a clean summary to Slack",
+    tools=[slack_post_tool],
+    llm=llm,
+)
+
+research_task = Task(
+    description="Fetch {url} and extract company name, industry, size",
+    agent=researcher,
+)
+
+notify_task = Task(
+    description="Post the summary to #sales-leads",
+    agent=notifier,
+)
+
+crew = Crew(agents=[researcher, notifier], tasks=[research_task, notify_task])
+result = crew.kickoff(inputs={"url": "https://example.com"})
+```
+
+That is roughly forty lines once you add imports and tool definitions. It is readable. A product manager could pattern-match it.
+
+Here is the same thing in LangGraph.
+
+```python
+from typing import TypedDict, Optional
+from langgraph.graph import StateGraph, START, END
+from langgraph.checkpoint.memory import MemorySaver
+
+class AgentState(TypedDict):
+    url: str
+    raw_html: Optional[str]
+    company_info: Optional[dict]
+    slack_message_id: Optional[str]
+    error: Optional[str]
+
+def fetch_node(state: AgentState) -> AgentState:
+    html = fetch_url(state["url"])
+    return {"raw_html": html}
+
+def extract_node(state: AgentState) -> AgentState:
+    info = llm_extract_company_info(state["raw_html"])
+    return {"company_info": info}
+
+def notify_node(state: AgentState) -> AgentState:
+    msg_id = post_to_slack(state["company_info"])
+    return {"slack_message_id": msg_id}
+
+def route_after_extract(state: AgentState) -> str:
+    if state.get("error") or not state.get("company_info"):
+        return END
+    return "notify"
+
+graph = StateGraph(AgentState)
+graph.add_node("fetch", fetch_node)
+graph.add_node("extract", extract_node)
+graph.add_node("notify", notify_node)
+graph.add_edge(START, "fetch")
+graph.add_edge("fetch", "extract")
+graph.add_conditional_edges("extract", route_after_extract, ["notify", END])
+graph.add_edge("notify", END)
+
+app = graph.compile(checkpointer=MemorySaver())
+```
+
+Roughly a hundred lines once you add the tool implementations. More verbose. But look at what you got for the extra sixty lines.
+
+You got an explicit state schema. If `company_info` ever has the wrong shape, your editor and your tests catch it before production does.
+
+You got explicit edges. There is no question about what runs after what. The graph is a graph, not a vibe.
+
+You got a conditional edge. If extraction fails, you go to END. You do not silently post a half-empty message to Slack.
+
+You got a checkpointer. Swap `MemorySaver` for `SqliteSaver` or `PostgresSaver` and your agent can resume mid-flow after a process restart.
+
+That is the migration in miniature. The skeleton stays the same. You name the nodes, you define the state, you draw the edges, you pick a checkpointer.
+
+## The three failure modes that show up the moment you go live
+
+I have seen these three keep showing up in production agent deployments. They do not care which framework you used to write the prototype. LangGraph makes them visible, and CrewAI tends to hide them until they cost you money.
+
+**Infinite loops.** An agent decides it needs to call a tool. The tool returns something the agent does not like. The agent decides to call the tool again with slightly different arguments. Repeat forever. LangGraph has a `recursion_limit` setting on the compiled graph (default 25) that exists exactly for this reason. Do not raise it without thinking. If your real workflow needs more than 25 steps, your graph probably has a structural problem, not a depth problem.
+
+**State drift.** One node mutates state in a way another node does not expect. Maybe `company_info` is sometimes a dict and sometimes a string. Maybe `error` exists but is `None` versus missing entirely. In CrewAI this kind of drift just causes weird agent behaviour two steps later. In LangGraph with a TypedDict or Pydantic state schema, you catch it the moment you write the node, because the type checker tells you.
+
+**Tool call cascades.** An agent calls a tool. The tool returns garbage (rate-limited response, partial JSON, an HTML error page that vaguely looks like data). The agent retries with adjusted arguments. The tool returns more garbage. Tokens burn. Latency spikes. Your monthly bill triples. The fix is two parts. First, validate tool outputs aggressively before they enter agent context. Second, add a circuit breaker at the node level, so a node that fails three times in a row stops trying and surfaces the error to the user.
+
+These three failure modes are the reason "it worked in dev" is not a useful statement about an agent. The interesting failures live at the joint between your agent's freedom and the real world's chaos.
+
+## Code patterns worth copying
+
+A few small snippets that pay for themselves quickly.
+
+A clean state schema. Use `TypedDict` for simple cases, Pydantic when you want validation.
+
+```python
+from typing import TypedDict, Annotated
+from operator import add
+
+class AgentState(TypedDict):
+    user_query: str
+    messages: Annotated[list, add]
+    retrieved_docs: list[dict]
+    final_answer: str
+```
+
+A conditional edge that routes based on state.
+
+```python
+def route(state: AgentState) -> str:
+    if not state.get("retrieved_docs"):
+        return "search_more"
+    if len(state["retrieved_docs"]) > 20:
+        return "rerank"
+    return "answer"
+
+graph.add_conditional_edges(
+    "retrieve",
+    route,
+    {"search_more": "search", "rerank": "rerank", "answer": "answer"},
+)
+```
+
+Adding a checkpointer. Use `MemorySaver` in dev, real storage in prod.
+
+```python
+from langgraph.checkpoint.sqlite import SqliteSaver
+
+checkpointer = SqliteSaver.from_conn_string("agent_state.db")
+app = graph.compile(checkpointer=checkpointer)
+
+config = {"configurable": {"thread_id": user_session_id}}
+result = app.invoke({"user_query": "..."}, config=config)
+```
+
+Wrapping a tool call with retry and structured logging.
+
+```python
+import logging
+from tenacity import retry, stop_after_attempt, wait_exponential
+
+logger = logging.getLogger(__name__)
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(min=1, max=10))
+def call_external_api(payload: dict) -> dict:
+    logger.info("api_call_start", extra={"payload_keys": list(payload.keys())})
+    response = http_client.post("/endpoint", json=payload, timeout=30)
+    response.raise_for_status()
+    result = response.json()
+    logger.info("api_call_done", extra={"status": response.status_code})
+    return result
+```
+
+None of these are clever. That is the point. Production agent code should be boring code with one interesting bit (the LLM call) sitting inside a lot of boring scaffolding.
+
+## When to keep the prototype and when to rewrite
+
+You do not always need to migrate. Here are the rules I use.
+
+Keep CrewAI if all of the following are true.
+
+- Fewer than 100 invocations per day.
+- Internal users only, no external customers depend on it.
+- A nightly restart or an occasional crash is acceptable.
+- No compliance or audit requirement.
+- Workflow has fewer than 5 steps and minimal branching.
+
+Migrate to LangGraph (or a similar explicit graph framework) if any of the following are true.
+
+- Customer-facing, even soft-launch.
+- More than roughly 1000 invocations per day.
+- You need an audit trail of what the agent did and why.
+- Workflow has more than 5 nodes or non-trivial branching.
+- Cost matters and you need per-step token tracking.
+- You need to resume a workflow after a process restart.
+
+The reason these rules work is that the cost of LangGraph is mostly upfront verbosity. The cost of CrewAI in production is mostly debugging time and uptime risk. At low volume, the upfront cost dominates and CrewAI wins. At high volume or external exposure, the operational cost dominates and LangGraph wins.
+
+## A small migration checklist
+
+If you decide to migrate, work through these in order. Do not skip ahead.
+
+1. Write the eval suite first, against the existing CrewAI version. Pick five to ten golden inputs with expected outputs. This is your regression net.
+2. Define the state schema as a TypedDict or Pydantic model. Map every piece of context the CrewAI agents pass to each other into one explicit field.
+3. Draw the graph on paper before you write code. Nodes are functions, edges are decisions. If you cannot draw it, your workflow is not as clear as you think it is.
+4. Implement the nodes one at a time, with retry and logging on every external call.
+5. Add the checkpointer. Use `MemorySaver` to start, swap to SQLite or Postgres before you ship.
+6. Run the eval suite against the new version. Diff the outputs against the CrewAI version. Investigate every difference, even the ones that look like improvements.
+7. Add cost tracking and tracing. Set a hard `recursion_limit`. Set a per-invocation token budget alarm.
+
+Most teams I have worked with can get through this list in two to three weeks for a small agent. Larger agents with more tools take longer, mostly because the eval suite takes longer to write honestly.
+
+## Closing thought
+
+CrewAI did its job if it convinced your stakeholders the idea was real. LangGraph does its job if it lets you keep that promise without waking up at 3am. They are not competitors. They are stages of the same project.
+
+If you have a CrewAI prototype that needs to ship and you are not sure where the production gaps are, a short call is usually enough to map out the next two to three weeks of work. You can see the kind of [AI agent work](/services) I focus on, browse some [recent production projects](/work), or just [book a 15-minute call](/contact) and we can look at your graph together.
+
+## Related reading
+
+- [RAG vs fine-tuning: a 20-minute decision](/blog/rag-vs-fine-tuning-decision-flowchart). The architectural choice your agent needs to make first.
+- [Build vs buy AI features: math for your CTO](/blog/build-vs-buy-ai-features). When to use a managed agent platform vs ship your own.
+
+---
+
+## Contact
+
+- Email: abdellah@jaizetech.nl
+- Site: https://jaizetech.nl
+- LinkedIn: https://www.linkedin.com/in/abdellah-jaize/
+- GitHub: https://github.com/AbdellahJAIZE
+- KvK: 42051769
