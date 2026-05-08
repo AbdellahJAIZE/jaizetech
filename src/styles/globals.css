@@ -696,6 +696,63 @@ a.accent-link:hover { color: var(--ink); }
 .diag-arr { stroke: var(--ink); stroke-width: 1.2; fill: none; }
 .diag-arr-soft { stroke: var(--line-strong); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
 
+/* Home posts grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.post-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px 28px 24px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 200ms ease;
+}
+.post-card:hover { border-color: var(--ink); }
+.post-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--ink);
+}
+.post-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+  flex: 1;
+}
+.post-card .post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.post-card .post-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: var(--hover-bg);
+  padding: 3px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.post-card .read-more {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+.post-card:hover .read-more { color: var(--accent); }
+
 .case-thumb .thumb-label {
   font-family: var(--font-mono);
   font-size: 11px;

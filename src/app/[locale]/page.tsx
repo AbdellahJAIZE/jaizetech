@@ -151,6 +151,32 @@ function Home() {
 
       <hr className="hr-rule" />
 
+      <section className="section container" aria-labelledby="posts-title">
+        <div className="section-head reveal">
+          <span className="eyebrow">{t('posts.kicker')}</span>
+          <h2 id="posts-title">{t('posts.title')}</h2>
+        </div>
+        <div className="posts-grid reveal">
+          {(t.raw('posts.items') as Array<{ slug: string; title: string; hook: string; tags: string[] }>).map((post) => (
+            <Link key={post.slug} className="post-card" href={`/blog/${post.slug}`} aria-label={`${t('posts.readPost')}: ${post.title}`}>
+              <h3>{post.title}</h3>
+              <p>{post.hook}</p>
+              <div className="post-tags">
+                {post.tags.map((tag) => <span key={tag} className="post-tag">{tag}</span>)}
+              </div>
+              <span className="read-more">{t('posts.readPost')} <span aria-hidden="true">→</span></span>
+            </Link>
+          ))}
+        </div>
+        <div className="show-all-services reveal">
+          <Link className="btn btn-secondary" href="/blog">
+            {t('posts.viewAll')}<span className="arrow">→</span>
+          </Link>
+        </div>
+      </section>
+
+      <hr className="hr-rule" />
+
       <section className="section" aria-labelledby="faq-title">
         <div className="container-narrow">
           <div className="section-head reveal" style={{ marginBottom: 24 }}>

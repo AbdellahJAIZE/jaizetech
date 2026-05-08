@@ -109,6 +109,44 @@
           "label": "three domains, one engineer"
         }
       ]
+    },
+    "posts": {
+      "kicker": "Notes",
+      "title": "Notes from production.",
+      "readPost": "Read post",
+      "viewAll": "All notes",
+      "items": [
+        {
+          "slug": "hire-ai-engineer-netherlands",
+          "title": "How to hire an AI engineer in the Netherlands",
+          "hook": "A wrong full-time AI hire costs 140k and 8 months. Here are three options, real cost of each, and the red flags to avoid.",
+          "tags": [
+            "Hiring",
+            "Fractional CTO",
+            "Netherlands"
+          ]
+        },
+        {
+          "slug": "build-vs-buy-ai-features",
+          "title": "Build vs buy AI features: math for your CTO",
+          "hook": "Three real patterns for the build-vs-buy decision, with rough numbers and a two-hour team exercise. One question resolves 80% of debates.",
+          "tags": [
+            "Build vs buy",
+            "AI strategy",
+            "Product"
+          ]
+        },
+        {
+          "slug": "rag-vs-fine-tuning-decision-flowchart",
+          "title": "RAG vs fine-tuning: a 20-minute decision",
+          "hook": "Five-question flowchart that decides 90% of cases. Three places fine-tuning is wrong (and people try anyway). Two where RAG alone is not enough.",
+          "tags": [
+            "RAG",
+            "Fine-tuning",
+            "LLM"
+          ]
+        }
+      ]
     }
   },
   "services": {
