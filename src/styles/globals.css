@@ -695,6 +695,7 @@ a.accent-link:hover { color: var(--ink); }
 .diag-label-soft { font-family: var(--font-mono); font-size: 10px; fill: var(--muted); }
 .diag-arr { stroke: var(--ink); stroke-width: 1.2; fill: none; }
 .diag-arr-soft { stroke: var(--line-strong); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
+.diag-zone { font-family: var(--font-mono); font-size: 9px; fill: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; }
 
 /* Home posts grid */
 .posts-grid {

@@ -23,112 +23,201 @@ const arrowMarker = (id: string) => (
 
 function AgritechSmall() {
   return (
-    <svg viewBox="0 0 420 130" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="System architecture diagram: camera input flowing through Triton inference, NestJS API, Vue annotation UI and PostgreSQL labels">
+    <svg viewBox="0 0 420 140" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="Hybrid architecture: edge cameras send images via cloud sync to on-prem GPU inference and annotation UI, with PostgreSQL label store">
       {arrowMarker('a-arr-1')}
-      <rect className="diag-soft" x="2" y="42" width="60" height="44" rx="4" />
-      <text className="diag-label-soft" x="32" y="69" textAnchor="middle">Camera</text>
-      <rect className="diag-box" x="82" y="42" width="80" height="44" rx="4" />
-      <text className="diag-label" x="122" y="60" textAnchor="middle">Triton</text>
-      <text className="diag-label-soft" x="122" y="76" textAnchor="middle">ResNet · YOLO</text>
-      <rect className="diag-box" x="182" y="42" width="80" height="44" rx="4" />
-      <text className="diag-label" x="222" y="60" textAnchor="middle">NestJS</text>
-      <text className="diag-label-soft" x="222" y="76" textAnchor="middle">API</text>
-      <rect className="diag-box" x="282" y="22" width="120" height="32" rx="4" />
-      <text className="diag-label" x="342" y="42" textAnchor="middle">Vue annotation UI</text>
-      <rect className="diag-soft" x="282" y="74" width="120" height="32" rx="4" />
-      <text className="diag-label-soft" x="342" y="94" textAnchor="middle">PostgreSQL labels</text>
-      <path className="diag-arr" d="M 62 64 L 80 64" markerEnd="url(#a-arr-1)" />
-      <path className="diag-arr" d="M 162 64 L 180 64" markerEnd="url(#a-arr-1)" />
-      <path className="diag-arr" d="M 262 60 L 282 38" markerEnd="url(#a-arr-1)" />
-      <path className="diag-arr-soft" d="M 262 70 L 282 90" />
+
+      {/* Top section labels */}
+      <text className="diag-zone" x="50" y="14" textAnchor="middle">EDGE</text>
+      <text className="diag-zone" x="148" y="14" textAnchor="middle">CLOUD</text>
+      <text className="diag-zone" x="270" y="14" textAnchor="middle">ON-PREM</text>
+      <text className="diag-zone" x="370" y="14" textAnchor="middle">UI</text>
+
+      {/* Edge */}
+      <rect className="diag-soft" x="10" y="46" width="80" height="42" rx="4" />
+      <text className="diag-label" x="50" y="64" textAnchor="middle">Edge cams</text>
+      <text className="diag-label-soft" x="50" y="78" textAnchor="middle">field input</text>
+
+      {/* Cloud */}
+      <rect className="diag-box" x="108" y="46" width="80" height="42" rx="4" />
+      <text className="diag-label" x="148" y="64" textAnchor="middle">Cloud API</text>
+      <text className="diag-label-soft" x="148" y="78" textAnchor="middle">sync</text>
+
+      {/* On-prem GPU + API combined */}
+      <rect className="diag-box" x="206" y="46" width="128" height="42" rx="4" />
+      <text className="diag-label" x="270" y="64" textAnchor="middle">Triton + NestJS</text>
+      <text className="diag-label-soft" x="270" y="78" textAnchor="middle">GPU inference · API</text>
+
+      {/* UI */}
+      <rect className="diag-box" x="338" y="46" width="78" height="42" rx="4" />
+      <text className="diag-label" x="377" y="64" textAnchor="middle">Vue UI</text>
+      <text className="diag-label-soft" x="377" y="78" textAnchor="middle">annotation</text>
+
+      {/* PostgreSQL under on-prem */}
+      <rect className="diag-soft" x="226" y="100" width="88" height="26" rx="4" />
+      <text className="diag-label-soft" x="270" y="117" textAnchor="middle">PostgreSQL</text>
+
+      {/* Arrows */}
+      <path className="diag-arr" d="M 90 67 L 106 67" markerEnd="url(#a-arr-1)" />
+      <path className="diag-arr" d="M 188 67 L 204 67" markerEnd="url(#a-arr-1)" />
+      <path className="diag-arr" d="M 334 67 L 338 67" markerEnd="url(#a-arr-1)" />
+      <path className="diag-arr-soft" d="M 270 88 L 270 100" />
     </svg>
   );
 }
 
 function AgritechLarge() {
   return (
-    <svg viewBox="0 0 680 220" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="Detailed system architecture: camera input, model registry feeding NVIDIA Triton GPU inference, NestJS API orchestration, Vue annotation UI and PostgreSQL label store, on hybrid on-prem and cloud infrastructure">
+    <svg viewBox="0 0 720 260" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="Hybrid distributed architecture: edge devices capture images, cloud orchestration syncs to on-prem GPU inference (Triton with ResNet and YOLO models) and NestJS API, feeding Vue annotation UI and PostgreSQL label store, deployed across hybrid on-prem and cloud infrastructure">
       {arrowMarker('a-arr-2')}
-      <rect className="diag-soft" x="20" y="86" width="100" height="48" rx="4" />
-      <text className="diag-label-soft" x="70" y="116" textAnchor="middle">Camera input</text>
-      <rect className="diag-soft" x="160" y="20" width="120" height="40" rx="4" />
-      <text className="diag-label" x="220" y="38" textAnchor="middle">Model registry</text>
-      <text className="diag-label-soft" x="220" y="52" textAnchor="middle">ResNet · YOLO</text>
-      <rect className="diag-box" x="160" y="86" width="120" height="48" rx="4" />
-      <text className="diag-label" x="220" y="108" textAnchor="middle">NVIDIA Triton</text>
-      <text className="diag-label-soft" x="220" y="122" textAnchor="middle">GPU inference</text>
-      <rect className="diag-box" x="320" y="86" width="120" height="48" rx="4" />
-      <text className="diag-label" x="380" y="108" textAnchor="middle">NestJS API</text>
-      <text className="diag-label-soft" x="380" y="122" textAnchor="middle">Orchestration</text>
-      <rect className="diag-box" x="480" y="40" width="180" height="42" rx="4" />
-      <text className="diag-label" x="570" y="58" textAnchor="middle">Vue annotation UI</text>
-      <text className="diag-label-soft" x="570" y="73" textAnchor="middle">Operator workflow</text>
-      <rect className="diag-soft" x="480" y="138" width="180" height="42" rx="4" />
-      <text className="diag-label" x="570" y="156" textAnchor="middle">PostgreSQL</text>
-      <text className="diag-label-soft" x="570" y="171" textAnchor="middle">Label store · audit</text>
-      <path className="diag-arr" d="M 120 110 L 158 110" markerEnd="url(#a-arr-2)" />
-      <path className="diag-arr-soft" d="M 220 60 L 220 86" />
-      <path className="diag-arr" d="M 280 110 L 318 110" markerEnd="url(#a-arr-2)" />
-      <path className="diag-arr" d="M 440 100 L 478 64" markerEnd="url(#a-arr-2)" />
-      <path className="diag-arr-soft" d="M 440 120 L 478 158" />
-      <path className="diag-arr-soft" d="M 480 64 L 480 158" />
-      <text className="diag-label-soft" x="340" y="210" textAnchor="middle">Hybrid on-prem + cloud · GitLab CI/CD · Docker · Nginx</text>
+
+      {/* Zone labels */}
+      <text className="diag-zone" x="80" y="20" textAnchor="middle">EDGE</text>
+      <text className="diag-zone" x="240" y="20" textAnchor="middle">CLOUD</text>
+      <text className="diag-zone" x="450" y="20" textAnchor="middle">ON-PREM</text>
+      <text className="diag-zone" x="640" y="20" textAnchor="middle">CLIENT</text>
+
+      {/* Edge */}
+      <rect className="diag-soft" x="20" y="110" width="120" height="56" rx="4" />
+      <text className="diag-label" x="80" y="135" textAnchor="middle">Edge devices</text>
+      <text className="diag-label-soft" x="80" y="152" textAnchor="middle">field cameras</text>
+
+      {/* Cloud */}
+      <rect className="diag-box" x="180" y="110" width="120" height="56" rx="4" />
+      <text className="diag-label" x="240" y="135" textAnchor="middle">Cloud API</text>
+      <text className="diag-label-soft" x="240" y="152" textAnchor="middle">sync · WebSocket</text>
+
+      {/* Model registry */}
+      <rect className="diag-soft" x="340" y="40" width="140" height="40" rx="4" />
+      <text className="diag-label" x="410" y="58" textAnchor="middle">Model registry</text>
+      <text className="diag-label-soft" x="410" y="72" textAnchor="middle">ResNet · YOLO</text>
+
+      {/* Triton */}
+      <rect className="diag-box" x="340" y="110" width="140" height="56" rx="4" />
+      <text className="diag-label" x="410" y="135" textAnchor="middle">NVIDIA Triton</text>
+      <text className="diag-label-soft" x="410" y="152" textAnchor="middle">GPU inference</text>
+
+      {/* NestJS API (slightly to the right and below to indicate coordination) */}
+      <rect className="diag-box" x="340" y="186" width="140" height="44" rx="4" />
+      <text className="diag-label" x="410" y="206" textAnchor="middle">NestJS API</text>
+      <text className="diag-label-soft" x="410" y="220" textAnchor="middle">Orchestration · auth</text>
+
+      {/* Vue UI */}
+      <rect className="diag-box" x="540" y="92" width="160" height="50" rx="4" />
+      <text className="diag-label" x="620" y="114" textAnchor="middle">Vue annotation UI</text>
+      <text className="diag-label-soft" x="620" y="130" textAnchor="middle">Operator workflow</text>
+
+      {/* PostgreSQL */}
+      <rect className="diag-soft" x="540" y="162" width="160" height="50" rx="4" />
+      <text className="diag-label" x="620" y="184" textAnchor="middle">PostgreSQL</text>
+      <text className="diag-label-soft" x="620" y="200" textAnchor="middle">Label store · audit</text>
+
+      {/* Arrows */}
+      <path className="diag-arr" d="M 140 138 L 178 138" markerEnd="url(#a-arr-2)" />
+      <path className="diag-arr" d="M 300 138 L 338 138" markerEnd="url(#a-arr-2)" />
+      <path className="diag-arr-soft" d="M 410 80 L 410 110" />
+      <path className="diag-arr-soft" d="M 410 166 L 410 186" />
+      <path className="diag-arr" d="M 480 130 L 538 117" markerEnd="url(#a-arr-2)" />
+      <path className="diag-arr-soft" d="M 480 208 L 538 187" />
+
+      {/* Footer */}
+      <text className="diag-label-soft" x="360" y="252" textAnchor="middle">Hybrid on-prem + cloud · GitLab CI/CD · Docker · Nginx · Synology backups</text>
     </svg>
   );
 }
 
 function AppistadiumSmall() {
   return (
-    <svg viewBox="0 0 420 130" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="System architecture: React Native mobile app with Unity scenes and Next.js back-office both connecting to NestJS API with MongoDB and AWS OAuth2">
+    <svg viewBox="0 0 420 140" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="System architecture: React Native with Unity scenes and Next.js back-office connecting to NestJS API backed by MongoDB, AWS, and OAuth2">
       {arrowMarker('b-arr-1')}
-      <rect className="diag-box" x="20" y="14" width="120" height="34" rx="4" />
-      <text className="diag-label" x="80" y="30" textAnchor="middle">React Native</text>
-      <text className="diag-label-soft" x="80" y="42" textAnchor="middle">+ Unity scenes</text>
-      <rect className="diag-box" x="280" y="14" width="120" height="34" rx="4" />
-      <text className="diag-label" x="340" y="30" textAnchor="middle">Next.js</text>
-      <text className="diag-label-soft" x="340" y="42" textAnchor="middle">back-office</text>
-      <rect className="diag-box" x="160" y="58" width="100" height="32" rx="4" />
-      <text className="diag-label" x="210" y="78" textAnchor="middle">NestJS API</text>
-      <rect className="diag-soft" x="100" y="100" width="100" height="22" rx="4" />
-      <text className="diag-label-soft" x="150" y="115" textAnchor="middle">MongoDB</text>
-      <rect className="diag-soft" x="220" y="100" width="100" height="22" rx="4" />
-      <text className="diag-label-soft" x="270" y="115" textAnchor="middle">AWS · OAuth2</text>
-      <path className="diag-arr" d="M 80 48 L 175 60" markerEnd="url(#b-arr-1)" />
-      <path className="diag-arr" d="M 340 48 L 245 60" markerEnd="url(#b-arr-1)" />
-      <path className="diag-arr-soft" d="M 200 90 L 150 100" />
-      <path className="diag-arr-soft" d="M 230 90 L 280 100" />
+
+      {/* Zone labels */}
+      <text className="diag-zone" x="210" y="14" textAnchor="middle">CLIENT SURFACES</text>
+
+      {/* Mobile */}
+      <rect className="diag-box" x="20" y="22" width="120" height="40" rx="4" />
+      <text className="diag-label" x="80" y="42" textAnchor="middle">React Native</text>
+      <text className="diag-label-soft" x="80" y="56" textAnchor="middle">+ Unity scenes</text>
+
+      {/* Web admin */}
+      <rect className="diag-box" x="280" y="22" width="120" height="40" rx="4" />
+      <text className="diag-label" x="340" y="42" textAnchor="middle">Next.js</text>
+      <text className="diag-label-soft" x="340" y="56" textAnchor="middle">back-office</text>
+
+      {/* API */}
+      <rect className="diag-box" x="155" y="76" width="110" height="34" rx="4" />
+      <text className="diag-label" x="210" y="96" textAnchor="middle">NestJS API</text>
+
+      {/* Data layer */}
+      <rect className="diag-soft" x="80" y="118" width="80" height="20" rx="4" />
+      <text className="diag-label-soft" x="120" y="131" textAnchor="middle">MongoDB</text>
+      <rect className="diag-soft" x="170" y="118" width="80" height="20" rx="4" />
+      <text className="diag-label-soft" x="210" y="131" textAnchor="middle">OAuth2 · RBAC</text>
+      <rect className="diag-soft" x="260" y="118" width="80" height="20" rx="4" />
+      <text className="diag-label-soft" x="300" y="131" textAnchor="middle">AWS CI/CD</text>
+
+      {/* Arrows */}
+      <path className="diag-arr" d="M 80 62 L 180 76" markerEnd="url(#b-arr-1)" />
+      <path className="diag-arr" d="M 340 62 L 240 76" markerEnd="url(#b-arr-1)" />
+      <path className="diag-arr-soft" d="M 180 110 L 130 118" />
+      <path className="diag-arr-soft" d="M 210 110 L 210 118" />
+      <path className="diag-arr-soft" d="M 240 110 L 290 118" />
     </svg>
   );
 }
 
 function AppistadiumLarge() {
   return (
-    <svg viewBox="0 0 680 220" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="Detailed system architecture: React Native with Unity, Next.js back-office and public website on NestJS API with MongoDB, AWS CI/CD and Firebase OAuth2">
+    <svg viewBox="0 0 720 260" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-label="Detailed system architecture: React Native with Unity scenes, Next.js back-office and public website connecting to NestJS API, with MongoDB, Firebase Auth and AWS CI/CD as supporting services">
       {arrowMarker('b-arr-2')}
-      <rect className="diag-box" x="40" y="30" width="160" height="56" rx="4" />
-      <text className="diag-label" x="120" y="54" textAnchor="middle">React Native</text>
-      <text className="diag-label-soft" x="120" y="70" textAnchor="middle">+ Unity scenes</text>
-      <rect className="diag-box" x="260" y="30" width="160" height="56" rx="4" />
-      <text className="diag-label" x="340" y="54" textAnchor="middle">Next.js</text>
-      <text className="diag-label-soft" x="340" y="70" textAnchor="middle">back-office</text>
-      <rect className="diag-box" x="480" y="30" width="160" height="56" rx="4" />
-      <text className="diag-label" x="560" y="54" textAnchor="middle">Public website</text>
-      <text className="diag-label-soft" x="560" y="70" textAnchor="middle">React + Next.js</text>
-      <rect className="diag-box" x="240" y="116" width="200" height="48" rx="4" />
-      <text className="diag-label" x="340" y="138" textAnchor="middle">NestJS API</text>
-      <text className="diag-label-soft" x="340" y="152" textAnchor="middle">REST · OAuth2 · RBAC</text>
-      <rect className="diag-soft" x="80" y="174" width="160" height="34" rx="4" />
-      <text className="diag-label-soft" x="160" y="195" textAnchor="middle">MongoDB</text>
-      <rect className="diag-soft" x="260" y="174" width="160" height="34" rx="4" />
-      <text className="diag-label-soft" x="340" y="195" textAnchor="middle">Firebase Auth</text>
-      <rect className="diag-soft" x="440" y="174" width="160" height="34" rx="4" />
-      <text className="diag-label-soft" x="520" y="195" textAnchor="middle">AWS CI/CD</text>
-      <path className="diag-arr" d="M 120 86 L 290 116" markerEnd="url(#b-arr-2)" />
-      <path className="diag-arr" d="M 340 86 L 340 116" markerEnd="url(#b-arr-2)" />
-      <path className="diag-arr" d="M 560 86 L 390 116" markerEnd="url(#b-arr-2)" />
-      <path className="diag-arr-soft" d="M 280 164 L 200 174" />
-      <path className="diag-arr-soft" d="M 340 164 L 340 174" />
-      <path className="diag-arr-soft" d="M 400 164 L 480 174" />
+
+      {/* Zone labels */}
+      <text className="diag-zone" x="120" y="20" textAnchor="middle">MOBILE</text>
+      <text className="diag-zone" x="360" y="20" textAnchor="middle">WEB</text>
+      <text className="diag-zone" x="600" y="20" textAnchor="middle">PUBLIC</text>
+
+      {/* Top row: clients */}
+      <rect className="diag-box" x="40" y="40" width="160" height="60" rx="4" />
+      <text className="diag-label" x="120" y="66" textAnchor="middle">React Native</text>
+      <text className="diag-label-soft" x="120" y="84" textAnchor="middle">+ Unity scenes</text>
+
+      <rect className="diag-box" x="280" y="40" width="160" height="60" rx="4" />
+      <text className="diag-label" x="360" y="66" textAnchor="middle">Next.js</text>
+      <text className="diag-label-soft" x="360" y="84" textAnchor="middle">back-office (RBAC)</text>
+
+      <rect className="diag-box" x="520" y="40" width="160" height="60" rx="4" />
+      <text className="diag-label" x="600" y="66" textAnchor="middle">Public website</text>
+      <text className="diag-label-soft" x="600" y="84" textAnchor="middle">React + Next.js</text>
+
+      {/* Mid: API */}
+      <rect className="diag-box" x="240" y="130" width="240" height="54" rx="4" />
+      <text className="diag-label" x="360" y="154" textAnchor="middle">NestJS API</text>
+      <text className="diag-label-soft" x="360" y="170" textAnchor="middle">REST · OAuth2 · multi-platform auth</text>
+
+      {/* Bottom: data + infra */}
+      <rect className="diag-soft" x="80" y="200" width="170" height="38" rx="4" />
+      <text className="diag-label" x="165" y="220" textAnchor="middle">MongoDB</text>
+      <text className="diag-label-soft" x="165" y="232" textAnchor="middle">application data</text>
+
+      <rect className="diag-soft" x="275" y="200" width="170" height="38" rx="4" />
+      <text className="diag-label" x="360" y="220" textAnchor="middle">Firebase Auth</text>
+      <text className="diag-label-soft" x="360" y="232" textAnchor="middle">identity</text>
+
+      <rect className="diag-soft" x="470" y="200" width="170" height="38" rx="4" />
+      <text className="diag-label" x="555" y="220" textAnchor="middle">AWS CI/CD</text>
+      <text className="diag-label-soft" x="555" y="232" textAnchor="middle">build · deploy</text>
+
+      {/* Arrows: client → API */}
+      <path className="diag-arr" d="M 120 100 L 295 130" markerEnd="url(#b-arr-2)" />
+      <path className="diag-arr" d="M 360 100 L 360 130" markerEnd="url(#b-arr-2)" />
+      <path className="diag-arr" d="M 600 100 L 425 130" markerEnd="url(#b-arr-2)" />
+
+      {/* Arrows: API → data layer */}
+      <path className="diag-arr-soft" d="M 280 184 L 195 200" />
+      <path className="diag-arr-soft" d="M 360 184 L 360 200" />
+      <path className="diag-arr-soft" d="M 440 184 L 525 200" />
+
+      {/* Footer */}
+      <text className="diag-label-soft" x="360" y="254" textAnchor="middle">App Store + Google Play release · Hired and managed mobile + backend + cloud team</text>
     </svg>
   );
 }
