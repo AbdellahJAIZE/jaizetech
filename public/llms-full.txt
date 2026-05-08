@@ -7,8 +7,7 @@ _Generated 2026-05-08 from https://jaizetech.nl. This file aggregates the body c
 ## About Abdellah Jaize
 
 **Role:** AI Software Engineer  
-**Based:** IJlst, Friesland, Netherlands  
-**Availability:** Currently taking on part-time freelance engagements outside business hours. Full-time roles available with a one month notice period.
+**Based:** IJlst, Friesland, Netherlands
 
 Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.
 

@@ -25,10 +25,10 @@
   },
   "home": {
     "title": "Jaize Tech · AI-demo's halen productie zelden. Daar help ik mee.",
-    "description": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech. Nu beschikbaar voor AI-engineering en production-hardening via Jaize Tech.",
+    "description": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech.",
     "hero": {
       "headline": "AI-demo's halen productie zelden. Daar help ik mee.",
-      "lead": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech. Nu beschikbaar voor AI-engineering en production-hardening via Jaize Tech.",
+      "lead": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech.",
       "ctaPrimary": "Neem contact op",
       "ctaSecondary": "Bekijk hoe ik werk"
     },
@@ -285,8 +285,7 @@
     "photoAlt": "Abdellah Jaize, AI software engineer gevestigd in IJlst, Nederland",
     "photoInitials": "AJ",
     "photoMeta": {
-      "name": "ABDELLAH JAIZE",
-      "status": "PART-TIME BESCHIKBAAR"
+      "name": "ABDELLAH JAIZE"
     },
     "hero": {
       "kicker": "Over",
@@ -341,10 +340,6 @@
       "title": "Zin om samen te werken?",
       "lead": "De makkelijkste start is een kort gesprek. Vijftien minuten is meestal genoeg om te weten of ik kan helpen. Liever schrijven? Dan werkt het contactformulier ook prima.",
       "primary": "Neem contact op"
-    },
-    "availability": {
-      "label": "Beschikbaarheid:",
-      "body": "Op dit moment beschikbaar voor part-time freelance opdrachten buiten kantooruren. Voltijdrollen beschikbaar met een opzegtermijn van één maand."
     }
   },
   "contact": {

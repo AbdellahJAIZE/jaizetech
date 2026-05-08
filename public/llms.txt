@@ -1,6 +1,6 @@
 # Jaize Tech
 
-> AI demos don't ship. I fix that. Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech (KvK 42051769). Based in IJlst, Friesland, Netherlands. Available part-time now, full-time with a one month notice period.
+> AI demos don't ship. I fix that. Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Engineering work delivered via Jaize Tech (KvK 42051769). Based in IJlst, Friesland, Netherlands.
 
 Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer based in the Netherlands. Currently sole engineer on a production AI computer-vision platform for Dutch agritech, after building mobile and web product at an early-stage sportstech startup. The pitch is engineering, not models: I take AI features from POC to working production, end-to-end.
 
@@ -44,7 +44,6 @@ Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer ba
 - Languages: English (full professional), French (professional working), Arabic (native)
 - Business: Jaize Tech (KvK 42051769)
 - Education: M.Sc. Big Data and Internet of Things, ENSAM Casablanca (2019 to 2021)
-- Availability: Part-time freelance now, outside business hours. Full-time engagements with a one month notice period.
 - Contact: abdellah@jaizetech.nl
 
 ## Optional

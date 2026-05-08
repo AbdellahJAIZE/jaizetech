@@ -65,7 +65,7 @@ function About() {
   const experience = t.raw('experience.items') as Array<{ date: string; role: string; stack: string }>;
   const education = t.raw('credentials.education') as Array<{ label: string; value: string }>;
   const languages = t.raw('credentials.languages') as Array<{ label: string; value: string }>;
-  const photoMeta = t.raw('photoMeta') as { name: string; status: string };
+  const photoMeta = t.raw('photoMeta') as { name: string };
   const photoAlt = t('photoAlt');
 
   return (
@@ -95,7 +95,7 @@ function About() {
               />
             </div>
             <div className="photo-meta">
-              <div><span>{photoMeta.name}</span><span>· {photoMeta.status}</span></div>
+              <div><span>{photoMeta.name}</span></div>
             </div>
           </div>
           <div>
@@ -103,7 +103,6 @@ function About() {
             <h1>{t('hero.name')}</h1>
             <div className="bio">
               {bio.map((p, i) => <p key={i}>{p}</p>)}
-              <p className="availability"><strong>{t('availability.label')}</strong> {t('availability.body')}</p>
             </div>
           </div>
         </div>

@@ -1663,15 +1663,6 @@ a.accent-link:hover { color: var(--ink); }
   max-width: 64ch;
 }
 .about-hero .bio p:last-child { margin-bottom: 0; }
-.about-hero .bio p.availability {
-  margin-top: 24px;
-  padding: 12px 16px;
-  background: rgba(0, 0, 0, 0.03);
-  border-left: 2px solid var(--accent);
-  border-radius: 2px;
-  font-size: 0.95em;
-}
-.about-hero .bio p.availability strong { color: var(--text); margin-right: 6px; }
 
 /* Numbered section pattern */
 .numbered-section {

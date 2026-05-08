@@ -25,10 +25,10 @@
   },
   "home": {
     "title": "Jaize Tech · AI demos don't ship. I fix that.",
-    "description": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech.",
+    "description": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
     "hero": {
       "headline": "AI demos don't ship. I fix that.",
-      "lead": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech.",
+      "lead": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
       "ctaPrimary": "Get in touch",
       "ctaSecondary": "See how I work"
     },
@@ -285,8 +285,7 @@
     "photoAlt": "Abdellah Jaize, AI software engineer based in IJlst, Netherlands",
     "photoInitials": "AJ",
     "photoMeta": {
-      "name": "ABDELLAH JAIZE",
-      "status": "AVAILABLE PART-TIME"
+      "name": "ABDELLAH JAIZE"
     },
     "hero": {
       "kicker": "About",
@@ -341,10 +340,6 @@
       "title": "Want to work together?",
       "lead": "Easiest way to start is a short call. Fifteen minutes is usually enough to know if I can help. If you'd rather write, the contact form works too.",
       "primary": "Get in touch"
-    },
-    "availability": {
-      "label": "Availability:",
-      "body": "Currently taking on part-time freelance engagements outside business hours. Full-time roles available with a one month notice period."
     }
   },
   "contact": {
