@@ -87,6 +87,28 @@
       "lead": "Een gesprek van 15 minuten is genoeg om te weten of er een match is.",
       "primary": "Neem contact op",
       "secondary": "Of mail direct naar abdellah@jaizetech.nl"
+    },
+    "stats": {
+      "label": "In cijfers",
+      "eyebrow": "— IN CIJFERS —",
+      "items": [
+        {
+          "value": "5+ jaar",
+          "label": "productiesoftware leveren"
+        },
+        {
+          "value": "2,5+ jaar",
+          "label": "AI 24/7 in industriële productie"
+        },
+        {
+          "value": "Enige engineer",
+          "label": "end-to-end (model, API, frontend, infra)"
+        },
+        {
+          "value": "Mobiel + Web + AI",
+          "label": "drie domeinen, één engineer"
+        }
+      ]
     }
   },
   "services": {

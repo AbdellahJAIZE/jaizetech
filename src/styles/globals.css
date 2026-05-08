@@ -402,8 +402,60 @@ a.accent-link:hover { color: var(--ink); }
   padding-bottom: clamp(64px, 8vw, 96px);
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+}
+@media (max-width: 880px) {
+  .hero-grid { grid-template-columns: 1fr; }
+}
+
 .hero h1 {
   max-width: 22ch;
+}
+
+/* Hero stats card (right column on desktop) */
+.hero-stats {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 28px 28px 24px;
+  background: rgba(0, 0, 0, 0.015);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-stats-eyebrow {
+  font: 12px/1.4 var(--font-mono);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.hero-stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.hero-stats-list li { display: flex; flex-direction: column; gap: 4px; }
+.hero-stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.hero-stat-label {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+@media (max-width: 880px) {
+  .hero-stats { margin-top: 32px; }
 }
 
 .hero .lead {

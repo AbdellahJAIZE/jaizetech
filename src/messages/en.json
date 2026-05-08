@@ -87,6 +87,28 @@
       "lead": "A 15-minute call is enough for both of us to know if there's a fit.",
       "primary": "Get in touch",
       "secondary": "Or email directly: abdellah@jaizetech.nl"
+    },
+    "stats": {
+      "label": "By the numbers",
+      "eyebrow": "— BY THE NUMBERS —",
+      "items": [
+        {
+          "value": "5+ years",
+          "label": "shipping production software"
+        },
+        {
+          "value": "2.5+ years",
+          "label": "AI running 24/7 in industrial production"
+        },
+        {
+          "value": "Sole engineer",
+          "label": "end-to-end (model, API, frontend, infra)"
+        },
+        {
+          "value": "Mobile + Web + AI",
+          "label": "three domains, one engineer"
+        }
+      ]
     }
   },
   "services": {

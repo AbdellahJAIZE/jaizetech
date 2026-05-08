@@ -58,23 +58,40 @@ function Home() {
   const t = useTranslations('home');
   const locale = useLocale();
   const faqItems = t.raw('faq.items') as Array<{ q: string; a: string }>;
+  const statsItems = t.raw('stats.items') as Array<{ value: string; label: string }>;
 
   return (
     <>
       <WebPageSchema locale={locale} path="/" name={t('title')} description={t('description')} />
       <section className="hero container">
-        <h1 className="reveal">{t('hero.headline')}</h1>
-        <p className="lead reveal">{t('hero.lead')}</p>
+        <div className="hero-grid">
+          <div className="hero-content">
+            <h1 className="reveal">{t('hero.headline')}</h1>
+            <p className="lead reveal">{t('hero.lead')}</p>
 
-        <div className="hero-actions reveal">
-          <Link className="btn btn-primary" href="/contact">
-            {t('hero.ctaPrimary')}
-            <span className="arrow">→</span>
-          </Link>
-          <Link className="btn btn-secondary" href="/services">
-            {t('hero.ctaSecondary')}
-            <span className="arrow">→</span>
-          </Link>
+            <div className="hero-actions reveal">
+              <Link className="btn btn-primary" href="/contact">
+                {t('hero.ctaPrimary')}
+                <span className="arrow">→</span>
+              </Link>
+              <Link className="btn btn-secondary" href="/services">
+                {t('hero.ctaSecondary')}
+                <span className="arrow">→</span>
+              </Link>
+            </div>
+          </div>
+
+          <aside className="hero-stats reveal" aria-label={t('stats.label')}>
+            <div className="hero-stats-eyebrow">{t('stats.eyebrow')}</div>
+            <ul className="hero-stats-list">
+              {statsItems.map((s, i) => (
+                <li key={i}>
+                  <span className="hero-stat-value">{s.value}</span>
+                  <span className="hero-stat-label">{s.label}</span>
+                </li>
+              ))}
+            </ul>
+          </aside>
         </div>
 
         <div className="readme reveal" aria-label={t('readme.label')}>
