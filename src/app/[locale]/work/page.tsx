@@ -5,6 +5,7 @@ import { Link } from '@/i18n/routing';
 import Breadcrumb from '@/components/Breadcrumb';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WebPageSchema from '@/components/WebPageSchema';
+import CaseDiagram from '@/components/CaseDiagram';
 import { pageAlternates, absoluteUrl } from '@/lib/seo';
 
 export async function generateMetadata({
@@ -90,6 +91,9 @@ function Work() {
         <div className="cases-list">
           {cases.map((c) => (
             <article key={c.id} id={c.id} className="case-section">
+              <div className="case-diagram-area">
+                <CaseDiagram type={c.id} size="large" />
+              </div>
               <div className="case-header">
                 <div>
                   <h2>{c.client}</h2>

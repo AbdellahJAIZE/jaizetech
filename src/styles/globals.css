@@ -667,6 +667,35 @@ a.accent-link:hover { color: var(--ink); }
   padding: 16px;
 }
 
+.case-thumb.has-diagram {
+  background: var(--hover-bg);
+  align-items: center;
+  justify-content: center;
+  padding: 20px 28px;
+}
+.case-thumb.has-diagram svg { max-width: 100%; height: auto; }
+
+/* Case detail diagram (on /work page) */
+.case-diagram-area {
+  background: var(--hover-bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.case-diagram-area svg { max-width: 100%; height: auto; }
+
+/* Diagram primitives — used inside CaseDiagram SVGs */
+.diag-box { fill: var(--bg); stroke: var(--ink); stroke-width: 1.2; }
+.diag-soft { fill: var(--hover-bg); stroke: var(--line-strong); stroke-width: 1; }
+.diag-label { font-family: var(--font-mono); font-size: 11px; fill: var(--ink); }
+.diag-label-soft { font-family: var(--font-mono); font-size: 10px; fill: var(--muted); }
+.diag-arr { stroke: var(--ink); stroke-width: 1.2; fill: none; }
+.diag-arr-soft { stroke: var(--line-strong); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
+
 .case-thumb .thumb-label {
   font-family: var(--font-mono);
   font-size: 11px;

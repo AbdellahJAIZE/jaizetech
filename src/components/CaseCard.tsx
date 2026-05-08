@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import CaseDiagram from '@/components/CaseDiagram';
 
 type Props = {
   index: number;
@@ -28,8 +29,8 @@ export default function CaseCard({ index }: Props) {
       href={{ pathname: '/work', hash: c.id }}
       aria-label={`${readCase}: ${c.client}`}
     >
-      <div className="case-thumb">
-        <span className="thumb-label">case-0{index + 1} · {c.sector.split('·')[0].trim().toLowerCase()}</span>
+      <div className="case-thumb has-diagram">
+        <CaseDiagram type={c.id} size="small" />
       </div>
       <div className="body">
         <div className="meta">
