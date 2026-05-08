@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="col-brand">
             <Link className="wordmark" href="/" aria-label={t('nav.homeAria')}>
-              Jaize Tech<span className="dot" aria-hidden="true" />
+              Jaize Tech
             </Link>
             <p>{t('footer.tagline')}</p>
             <p className="legal-line">

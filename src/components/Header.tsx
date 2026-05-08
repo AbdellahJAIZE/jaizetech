@@ -42,7 +42,7 @@ export default function Header() {
       <div className="container">
         <div className="nav">
           <Link className="wordmark" href="/" aria-label={t('homeAria')} onClick={closeMenu}>
-            Jaize Tech<span className="dot" aria-hidden="true" />
+            Jaize Tech
           </Link>
 
           <nav className="nav-links" aria-label={t('primaryNavAria')}>

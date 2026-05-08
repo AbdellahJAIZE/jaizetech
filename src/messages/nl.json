@@ -47,8 +47,8 @@
     },
     "services": {
       "kicker": "Hoe ik werk",
-      "title": "Drie opdrachten die passen bij hoe teams echt kopen.",
-      "lead": "Elke opdracht is scoped, vast in doorlooptijd, en geprijsd na een kort gesprek.",
+      "title": "Drie manieren om het naar productie te krijgen.",
+      "lead": "Vaste scope, vaste doorlooptijd. Geoffreerd na een kort gesprek.",
       "viewAll": "Bekijk alle drie"
     },
     "work": {
@@ -117,8 +117,8 @@
     "breadcrumb": "Diensten",
     "hero": {
       "kicker": "Opdrachten",
-      "headline": "Drie opdrachten. Kies degene die past.",
-      "lead": "Ik verkoop engineering, geen modellen. Elke opdracht is scoped, vast in doorlooptijd, en geoffreerd na een kort gesprek."
+      "headline": "Drie opdrachten. Kies waar je staat.",
+      "lead": "Van AI-audit tot volledige build. Vaste scope, vaste doorlooptijd, geoffreerd na een kort gesprek."
     },
     "labels": {
       "discussCta": "Hierover sparren",

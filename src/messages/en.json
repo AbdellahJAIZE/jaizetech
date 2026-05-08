@@ -47,8 +47,8 @@
     },
     "services": {
       "kicker": "How I work",
-      "title": "Three engagements that fit how teams actually buy.",
-      "lead": "Each one is scoped, time-boxed, and priced after a short call.",
+      "title": "Three ways to ship it.",
+      "lead": "Fixed scope, fixed timeline. Quoted after a short call.",
       "viewAll": "See all three"
     },
     "work": {
@@ -117,8 +117,8 @@
     "breadcrumb": "Services",
     "hero": {
       "kicker": "Engagements",
-      "headline": "Three engagements. Pick the one that fits.",
-      "lead": "I sell engineering, not models. Each engagement is scoped, time-boxed, and quoted after a short call."
+      "headline": "Three engagements. Pick where you are.",
+      "lead": "From AI audit to full build. Fixed scope, fixed timeline, quoted after a short call."
     },
     "labels": {
       "discussCta": "Talk about this",
