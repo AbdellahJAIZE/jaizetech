@@ -403,7 +403,7 @@ a.accent-link:hover { color: var(--ink); }
 }
 
 .hero h1 {
-  max-width: 16ch;
+  max-width: 22ch;
 }
 
 .hero .lead {
