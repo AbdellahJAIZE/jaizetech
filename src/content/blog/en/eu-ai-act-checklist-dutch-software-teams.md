@@ -212,7 +212,7 @@ If you are not sure which group you are in, that uncertainty is the actual probl
 
 ## A short closing
 
-If you want a working engineer to walk through the Act with your team and figure out which tier you are actually in, a fifteen minute call usually narrows it down. From there, a half-day [audit](/services) tells you exactly what to ship before August. [Book a call](/contact) and we can take a look.
+If you want a working engineer to walk through the Act with your team and figure out which tier you are actually in, a fifteen minute call usually narrows it down. From there, a half-day [audit](/services) tells you exactly what to ship before August. [Send a short message](/contact) and we can take a look.
 
 **One last time. This post is engineer's guidance, not legal advice.** For anything beyond vanilla limited-risk, talk to a lawyer who knows the Act. Then talk to an engineer who can build against it. You need both.
 

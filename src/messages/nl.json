@@ -90,7 +90,7 @@
     },
     "stats": {
       "label": "In cijfers",
-      "eyebrow": "— IN CIJFERS —",
+      "eyebrow": "IN CIJFERS",
       "items": [
         {
           "value": "5+ jaar",
@@ -150,7 +150,7 @@
     }
   },
   "services": {
-    "title": "AI-engineering, scoped en vast in doorlooptijd",
+    "title": "AI-engineering met vaste scope en doorlooptijd",
     "description": "Drie opdrachten voor Nederlandse teams die AI-features in productie nodig hebben. Audit, hardening of volledige build. Flexibele stack.",
     "breadcrumb": "Diensten",
     "hero": {
@@ -172,7 +172,7 @@
       {
         "id": "hardening",
         "name": "Production Hardening",
-        "summary": "Drie tot zes weken. Je AI-feature werkt in dev. Daarna breekt-ie onder echte gebruikers, kost te veel, of hallucineert op het verkeerde moment. Ik voeg evals, monitoring, prompt-versioning, latency- en cost-controls toe, en hardden de deploy. Je houdt een feature over die je niet 's nachts wakker maakt."
+        "summary": "Drie tot zes weken. Je AI-feature werkt in dev. Daarna breekt-ie onder echte gebruikers, kost te veel, of hallucineert op het verkeerde moment. Ik voeg evals, monitoring, prompt-versioning, latency- en cost-controls toe, en maken de deploy robuust. Je houdt een feature over die je niet 's nachts wakker maakt."
       },
       {
         "id": "build",
@@ -240,7 +240,7 @@
         "production": "Productie sinds Q3 2023"
       },
       {
-        "id": "appistadium",
+        "id": "sportstech",
         "client": "Sportstech-startup mobile en web product",
         "sector": "Sportstech · Vroege-fase startup",
         "year": "2022 tot 2023",
@@ -307,7 +307,7 @@
         },
         {
           "date": "2022 tot 2023",
-          "role": "Software Engineer bij AppiStadium (sportstech-startup)",
+          "role": "Software Engineer bij een early-stage sportstech-startup",
           "stack": "React Native app met Unity, plus React/Next.js back-office en publieke website."
         }
       ]

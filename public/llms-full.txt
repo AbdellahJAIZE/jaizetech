@@ -1,4 +1,4 @@
-# Jaize Tech — Full Content
+# Jaize Tech: Full Content
 
 _Generated 2026-05-08 from https://jaizetech.nl. This file aggregates the body content of every public English-language page on the site, in plain Markdown, for LLM ingestion. The Dutch version of the site mirrors this content one-to-one._
 
@@ -15,10 +15,10 @@ For the last two and a half years I've been the only engineer on a computer-visi
 
 ### Work history
 
-**2023 to now** — Software Engineer (AI computer-vision platform for a Dutch agritech company)
+**2023 to now** · Software Engineer (AI computer-vision platform for a Dutch agritech company)
 _AI computer-vision platform. NestJS, Vue, Triton, OCR._
 
-**2022 to 2023** — Software Engineer at AppiStadium (sportstech startup)
+**2022 to 2023** · Software Engineer at an early-stage sportstech startup
 _React Native app with Unity, plus React/Next.js back-office and public website._
 
 ### Education and languages
@@ -422,7 +422,7 @@ If you are not sure which group you are in, that uncertainty is the actual probl
 
 ## A short closing
 
-If you want a working engineer to walk through the Act with your team and figure out which tier you are actually in, a fifteen minute call usually narrows it down. From there, a half-day [audit](/services) tells you exactly what to ship before August. [Book a call](/contact) and we can take a look.
+If you want a working engineer to walk through the Act with your team and figure out which tier you are actually in, a fifteen minute call usually narrows it down. From there, a half-day [audit](/services) tells you exactly what to ship before August. [Send a short message](/contact) and we can take a look.
 
 **One last time. This post is engineer's guidance, not legal advice.** For anything beyond vanilla limited-risk, talk to a lawyer who knows the Act. Then talk to an engineer who can build against it. You need both.
 

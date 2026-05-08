@@ -14,10 +14,11 @@ Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer ba
 ## Work
 
 - [AI computer-vision platform for Dutch agritech](https://jaizetech.nl/en/work#agritech): Sole engineer on AI quality control system. ResNet, YOLO on NVIDIA Triton, NestJS API, Vue.js annotation interface, hybrid on-prem and cloud. In production since Q3 2023.
-- [Sportstech startup mobile and web product](https://jaizetech.nl/en/work#appistadium): React Native app with Unity game features, plus React and Next.js back-office and public website. NestJS backend, AWS, OAuth2 with RBAC. Released on App Store and Google Play.
+- [Sportstech startup mobile and web product](https://jaizetech.nl/en/work#sportstech): React Native app with Unity game features, plus React and Next.js back-office and public website. NestJS backend, AWS, OAuth2 with RBAC. Released on App Store and Google Play.
 
 ## Blog
 
+- [What actually breaks when AI hits production](https://jaizetech.nl/en/blog/what-breaks-in-ai-production): Seven failure modes I see most often when AI features go from working in dev to running 24/7 in production. Concrete fixes, no theory.
 - [How to hire an AI engineer in the Netherlands](https://jaizetech.nl/en/blog/hire-ai-engineer-netherlands): Three options to get senior AI engineering into a Dutch scale-up. Real cost of each, when each fits, red flags to avoid.
 - [Build vs buy AI features: math for your CTO](https://jaizetech.nl/en/blog/build-vs-buy-ai-features): A four-quadrant model for deciding whether to build, buy, or wrap AI features.
 - [EU AI Act checklist for Dutch software teams](https://jaizetech.nl/en/blog/eu-ai-act-checklist-dutch-software-teams): Practical engineering steps for limited-risk and high-risk AI systems under the EU AI Act.
@@ -26,7 +27,7 @@ Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer ba
 
 ## About
 
-- [About Abdellah](https://jaizetech.nl/en/about): Bio, work history, education, languages, current availability.
+- [About Abdellah](https://jaizetech.nl/en/about): Bio, work history, education, languages.
 - [Contact](https://jaizetech.nl/en/contact): Send a message or book a 15-minute call.
 
 ## Stack
@@ -41,7 +42,7 @@ Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer ba
 - Name: Abdellah Jaize
 - Role: AI Software Engineer
 - Based: IJlst, Friesland, Netherlands
-- Languages: English (full professional), French (professional working), Arabic (native)
+- Languages: Arabic (native), English (professional), French (professional)
 - Business: Jaize Tech (KvK 42051769)
 - Education: M.Sc. Big Data and Internet of Things, ENSAM Casablanca (2019 to 2021)
 - Contact: abdellah@jaizetech.nl

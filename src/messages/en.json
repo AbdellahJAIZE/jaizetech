@@ -90,7 +90,7 @@
     },
     "stats": {
       "label": "By the numbers",
-      "eyebrow": "— BY THE NUMBERS —",
+      "eyebrow": "BY THE NUMBERS",
       "items": [
         {
           "value": "5+ years",
@@ -240,7 +240,7 @@
         "production": "Production since Q3 2023"
       },
       {
-        "id": "appistadium",
+        "id": "sportstech",
         "client": "Sportstech startup mobile and web product",
         "sector": "Sportstech · Early-stage startup",
         "year": "2022 to 2023",
@@ -307,7 +307,7 @@
         },
         {
           "date": "2022 to 2023",
-          "role": "Software Engineer at AppiStadium (sportstech startup)",
+          "role": "Software Engineer at an early-stage sportstech startup",
           "stack": "React Native app with Unity, plus React/Next.js back-office and public website."
         }
       ]
