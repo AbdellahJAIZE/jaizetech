@@ -24,13 +24,13 @@
     "newTabSuffix": "(opens in new tab)"
   },
   "home": {
-    "title": "Jaize Tech · Independent software engineering",
-    "description": "Software builds, AI features, and infrastructure work. Independent engineering by Abdellah Jaize, based in the Netherlands.",
+    "title": "Jaize Tech · AI demos don't ship. I fix that.",
+    "description": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech.",
     "hero": {
-      "headline": "Software, built end to end.",
-      "lead": "Web, mobile, AI features, infrastructure. I work with teams in the Netherlands and beyond, on whatever needs shipping.",
+      "headline": "AI demos don't ship. I fix that.",
+      "lead": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech.",
       "ctaPrimary": "Get in touch",
-      "ctaSecondary": "See what I do"
+      "ctaSecondary": "See how I work"
     },
     "readme": {
       "label": "profile",
@@ -46,10 +46,10 @@
       "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "What I do",
-      "title": "Three things I help with.",
-      "lead": "Software builds, AI features, infrastructure. Get in touch and we figure out the rest.",
-      "viewAll": "Talk it through"
+      "kicker": "How I work",
+      "title": "Three engagements that fit how teams actually buy.",
+      "lead": "Each one is scoped, time-boxed, and priced after a short call.",
+      "viewAll": "See all three"
     },
     "work": {
       "kicker": "Work",
@@ -90,13 +90,13 @@
     }
   },
   "services": {
-    "title": "What I do",
-    "description": "Software builds, AI features, and infrastructure work. Independent engineering for teams in the Netherlands and beyond.",
+    "title": "AI engineering, scoped and time-boxed",
+    "description": "Three engagements for Dutch teams that need AI features in production. Audit, hardening, or full build. Stack-flexible.",
     "breadcrumb": "Services",
     "hero": {
-      "kicker": "Services",
-      "headline": "What I do.",
-      "lead": "Three things I help with. If your need looks close to one of them, send a message and we figure out the rest together."
+      "kicker": "Engagements",
+      "headline": "Three engagements. Pick the one that fits.",
+      "lead": "I sell engineering, not models. Each engagement is scoped, time-boxed, and quoted after a short call."
     },
     "labels": {
       "discussCta": "Talk about this",
@@ -105,24 +105,24 @@
     },
     "items": [
       {
-        "id": "software",
-        "name": "Software builds",
-        "summary": "Web apps, mobile apps, back-end systems. I help you take an idea from sketch to a working product, or fill in for a team that needs an extra senior pair of hands."
+        "id": "audit",
+        "name": "POC Audit",
+        "summary": "One-week sprint. You have an AI demo that works on your laptop. I tell you exactly what breaks at scale, what to fix first, and a 90-day plan to ship. Includes a written report and a 60-minute readout call with your team."
       },
       {
-        "id": "ai",
-        "name": "AI in your product",
-        "summary": "Computer vision, language models, OCR, or workflow agents. I help you add real AI features to a product, not slideware demos."
+        "id": "hardening",
+        "name": "Production Hardening",
+        "summary": "Three to six weeks. Your AI feature works in dev. Then it breaks under real users, costs too much, or hallucinates at the wrong moment. I add evals, monitoring, prompt versioning, latency and cost controls, and harden the deploy. You leave with a feature that doesn't wake you up at night."
       },
       {
-        "id": "infra",
-        "name": "Infrastructure and DevOps",
-        "summary": "Cloud setup, CI/CD, on-prem, or hybrid. I help you get your stack to run reliably without paying for a full ops team."
+        "id": "build",
+        "name": "Full Build",
+        "summary": "Six to twelve weeks. You need the AI feature and the product around it built end-to-end. Backend, frontend, model integration, infra, deploy. I work as the senior engineer who owns the whole thing. Handover includes clean code, real docs, and a walkthrough call."
       }
     ],
     "cta": {
-      "title": "Got something in mind?",
-      "lead": "Send a short message describing what you need. I reply within a day.",
+      "title": "Got an AI feature that needs to ship?",
+      "lead": "Send a short message describing where you are. I reply within a day.",
       "primary": "Send a message"
     }
   },
@@ -151,7 +151,7 @@
         "sector": "Agritech · Industrial quality control",
         "year": "2023 to Present",
         "role": "Software Engineer",
-        "summary": "Designed and operated an AI-driven system that classifies product images for industrial quality control. Sole engineer, end-to-end across application, ML, and infrastructure.",
+        "summary": "Sole engineer on an AI quality control platform running 24/7 in production. Built and operated the full stack around computer-vision inference: NestJS API, Vue.js annotation interface, PostgreSQL, GitLab CI/CD, hybrid on-prem and cloud deployment. Migrated production services and large image datasets to new hardware with zero data loss.",
         "approach": "Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.",
         "stats": [
           {

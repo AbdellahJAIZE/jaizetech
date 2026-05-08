@@ -24,13 +24,13 @@
     "newTabSuffix": "(opent in nieuw tabblad)"
   },
   "home": {
-    "title": "Jaize Tech · Onafhankelijke software-engineering",
-    "description": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering door Abdellah Jaize, gevestigd in Nederland.",
+    "title": "Jaize Tech · AI-demo's halen productie zelden. Daar help ik mee.",
+    "description": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech. Nu beschikbaar voor AI-engineering en production-hardening via Jaize Tech.",
     "hero": {
-      "headline": "Software, van begin tot eind gebouwd.",
-      "lead": "Web, mobiel, AI-features, infrastructuur. Ik werk samen met teams in Nederland en daarbuiten, aan wat er gebouwd moet worden.",
+      "headline": "AI-demo's halen productie zelden. Daar help ik mee.",
+      "lead": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech. Nu beschikbaar voor AI-engineering en production-hardening via Jaize Tech.",
       "ctaPrimary": "Neem contact op",
-      "ctaSecondary": "Bekijk wat ik doe"
+      "ctaSecondary": "Bekijk hoe ik werk"
     },
     "readme": {
       "label": "profiel",
@@ -46,10 +46,10 @@
       "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "Wat ik doe",
-      "title": "Drie dingen waar ik mee help.",
-      "lead": "Software bouwen, AI-features, infrastructuur. Stuur een bericht en we zoeken samen de rest uit.",
-      "viewAll": "Even sparren"
+      "kicker": "Hoe ik werk",
+      "title": "Drie opdrachten die passen bij hoe teams echt kopen.",
+      "lead": "Elke opdracht is scoped, vast in doorlooptijd, en geprijsd na een kort gesprek.",
+      "viewAll": "Bekijk alle drie"
     },
     "work": {
       "kicker": "Werk",
@@ -90,13 +90,13 @@
     }
   },
   "services": {
-    "title": "Wat ik doe",
-    "description": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering voor teams in Nederland en daarbuiten.",
+    "title": "AI-engineering, scoped en vast in doorlooptijd",
+    "description": "Drie opdrachten voor Nederlandse teams die AI-features in productie nodig hebben. Audit, hardening of volledige build. Flexibele stack.",
     "breadcrumb": "Diensten",
     "hero": {
-      "kicker": "Diensten",
-      "headline": "Wat ik doe.",
-      "lead": "Drie dingen waar ik mee help. Lijkt jouw vraag op een ervan? Stuur een bericht en we zoeken samen de rest uit."
+      "kicker": "Opdrachten",
+      "headline": "Drie opdrachten. Kies degene die past.",
+      "lead": "Ik verkoop engineering, geen modellen. Elke opdracht is scoped, vast in doorlooptijd, en geoffreerd na een kort gesprek."
     },
     "labels": {
       "discussCta": "Hierover sparren",
@@ -105,24 +105,24 @@
     },
     "items": [
       {
-        "id": "software",
-        "name": "Software bouwen",
-        "summary": "Web-apps, mobiele apps, backend-systemen. Ik help je om van een idee een werkend product te maken, of vul aan in een team dat een extra senior nodig heeft."
+        "id": "audit",
+        "name": "POC Audit",
+        "summary": "Sprint van één week. Je hebt een AI-demo die werkt op je laptop. Ik vertel je precies wat er stuk gaat onder schaal, wat je eerst moet repareren, en een plan van 90 dagen om naar productie te gaan. Inclusief schriftelijk rapport en een readout-gesprek van 60 minuten met je team."
       },
       {
-        "id": "ai",
-        "name": "AI in je product",
-        "summary": "Computer vision, taalmodellen, OCR of workflow-agents. Ik help je echte AI-features toevoegen aan een product, geen demo-slides."
+        "id": "hardening",
+        "name": "Production Hardening",
+        "summary": "Drie tot zes weken. Je AI-feature werkt in dev. Daarna breekt-ie onder echte gebruikers, kost te veel, of hallucineert op het verkeerde moment. Ik voeg evals, monitoring, prompt-versioning, latency- en cost-controls toe, en hardden de deploy. Je houdt een feature over die je niet 's nachts wakker maakt."
       },
       {
-        "id": "infra",
-        "name": "Infrastructuur en DevOps",
-        "summary": "Cloud-setup, CI/CD, on-premise of hybride. Ik help je je stack betrouwbaar laten draaien zonder dat je een volledig ops-team hoeft te betalen."
+        "id": "build",
+        "name": "Full Build",
+        "summary": "Zes tot twaalf weken. Je hebt de AI-feature én het product eromheen end-to-end nodig. Backend, frontend, modelintegratie, infra, deploy. Ik werk als de senior engineer die het geheel bezit. Overdracht inclusief schone code, echte documentatie en een walkthrough-gesprek."
       }
     ],
     "cta": {
-      "title": "Iets in gedachten?",
-      "lead": "Stuur een kort bericht met wat je nodig hebt. Ik reageer binnen een dag.",
+      "title": "AI-feature die naar productie moet?",
+      "lead": "Stuur een kort bericht over waar je staat. Ik reageer binnen een dag.",
       "primary": "Stuur een bericht"
     }
   },
@@ -151,7 +151,7 @@
         "sector": "Agritech · Industriële kwaliteitscontrole",
         "year": "2023 tot heden",
         "role": "Software Engineer",
-        "summary": "Ontwierp en draait een AI-gedreven systeem dat productafbeeldingen classificeert voor industriële kwaliteitscontrole. Enige engineer, end-to-end over applicatie, ML en infrastructuur.",
+        "summary": "Enige engineer op een AI-kwaliteitscontroleplatform dat 24/7 in productie draait. Bouwde en draaide de volledige stack rond computer-vision inference: NestJS API, Vue.js annotatie-interface, PostgreSQL, GitLab CI/CD, hybride on-premise en cloud-deployment. Migreerde productieservices en grote beeldsets naar nieuwe hardware zonder dataverlies.",
         "approach": "Hybride architectuur die NVIDIA Triton voor model serving combineert met een modulaire NestJS API en een data-pipeline met OCR en validatie-agents. Ontworpen voor productie-throughput met aandacht voor kosten en betrouwbaarheid.",
         "stats": [
           {

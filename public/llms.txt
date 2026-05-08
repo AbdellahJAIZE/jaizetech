@@ -1,15 +1,15 @@
 # Jaize Tech
 
-> Independent software engineering by Abdellah Jaize. Five years building production software, including hard AI like computer vision. Based in IJlst, Friesland, Netherlands. Available part-time now, full-time with a one month notice period.
+> AI demos don't ship. I fix that. Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech. Now taking on AI engineering and production-hardening work via Jaize Tech (KvK 42051769). Based in IJlst, Friesland, Netherlands. Available part-time now, full-time with a one month notice period.
 
-Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer based in the Netherlands. Currently sole engineer on a production AI computer-vision platform for Dutch agritech, after building mobile and web product at an early-stage sportstech startup. Now taking on independent engagements via Jaize Tech (KvK 42051769).
+Jaize Tech is the consultancy of Abdellah Jaize, a Moroccan software engineer based in the Netherlands. Currently sole engineer on a production AI computer-vision platform for Dutch agritech, after building mobile and web product at an early-stage sportstech startup. The pitch is engineering, not models: I take AI features from POC to working production, end-to-end.
 
-## What I do
+## How I work
 
-- [Services overview](https://jaizetech.nl/en/services): Three things I help with. Send a message and we figure out the rest.
-- [Software builds](https://jaizetech.nl/en/services#software): Web apps, mobile apps, back-end systems. Idea to working product, or extra senior on a stretched team.
-- [AI in your product](https://jaizetech.nl/en/services#ai): Computer vision, language models, OCR, workflow agents. Real AI in production, not slideware demos.
-- [Infrastructure and DevOps](https://jaizetech.nl/en/services#infra): Cloud, CI/CD, on-prem, hybrid. Reliable stack without paying for a full ops team.
+- [Engagements overview](https://jaizetech.nl/en/services): Three time-boxed engagements. Pick the one that fits where you are.
+- [POC Audit](https://jaizetech.nl/en/services#audit): One-week sprint. You have a working AI demo. I tell you exactly what breaks at scale, what to fix first, and a 90-day plan to ship. Written report and 60-minute readout.
+- [Production Hardening](https://jaizetech.nl/en/services#hardening): Three to six weeks. Your AI feature works in dev but breaks under real users, costs too much, or hallucinates wrong. I add evals, monitoring, prompt versioning, latency and cost controls, and harden the deploy.
+- [Full Build](https://jaizetech.nl/en/services#build): Six to twelve weeks. The AI feature plus the product around it, end-to-end. Backend, frontend, model integration, infra, deploy. Senior engineer who owns the whole thing.
 
 ## Work
 

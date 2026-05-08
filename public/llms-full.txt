@@ -1,6 +1,6 @@
 # Jaize Tech — Full Content
 
-_Generated 2026-05-07 from https://jaizetech.nl. This file aggregates the body content of every public English-language page on the site, in plain Markdown, for LLM ingestion. The Dutch version of the site mirrors this content one-to-one._
+_Generated 2026-05-08 from https://jaizetech.nl. This file aggregates the body content of every public English-language page on the site, in plain Markdown, for LLM ingestion. The Dutch version of the site mirrors this content one-to-one._
 
 ---
 
@@ -31,21 +31,21 @@ _React Native app with Unity, plus React/Next.js back-office and public website.
 
 ---
 
-## What I do.
+## Three engagements. Pick the one that fits.
 
-Three things I help with. If your need looks close to one of them, send a message and we figure out the rest together.
+I sell engineering, not models. Each engagement is scoped, time-boxed, and quoted after a short call.
 
-### Software builds
+### POC Audit
 
-Web apps, mobile apps, back-end systems. I help you take an idea from sketch to a working product, or fill in for a team that needs an extra senior pair of hands.
+One-week sprint. You have an AI demo that works on your laptop. I tell you exactly what breaks at scale, what to fix first, and a 90-day plan to ship. Includes a written report and a 60-minute readout call with your team.
 
-### AI in your product
+### Production Hardening
 
-Computer vision, language models, OCR, or workflow agents. I help you add real AI features to a product, not slideware demos.
+Three to six weeks. Your AI feature works in dev. Then it breaks under real users, costs too much, or hallucinates at the wrong moment. I add evals, monitoring, prompt versioning, latency and cost controls, and harden the deploy. You leave with a feature that doesn't wake you up at night.
 
-### Infrastructure and DevOps
+### Full Build
 
-Cloud setup, CI/CD, on-prem, or hybrid. I help you get your stack to run reliably without paying for a full ops team.
+Six to twelve weeks. You need the AI feature and the product around it built end-to-end. Backend, frontend, model integration, infra, deploy. I work as the senior engineer who owns the whole thing. Handover includes clean code, real docs, and a walkthrough call.
 
 ---
 
@@ -59,7 +59,7 @@ A few projects in detail. The challenge, how I tackled it, and what came out.
 **Period:** 2023 to Present  
 **Role:** Software Engineer
 
-**Summary.** Designed and operated an AI-driven system that classifies product images for industrial quality control. Sole engineer, end-to-end across application, ML, and infrastructure.
+**Summary.** Sole engineer on an AI quality control platform running 24/7 in production. Built and operated the full stack around computer-vision inference: NestJS API, Vue.js annotation interface, PostgreSQL, GitLab CI/CD, hybrid on-prem and cloud deployment. Migrated production services and large image datasets to new hardware with zero data loss.
 
 **Approach.** Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.
 
@@ -955,7 +955,6 @@ If you have a CrewAI prototype that needs to ship and you are not sure where the
 ---
 
 ## Contact
-
 - Email: abdellah@jaizetech.nl
 - Site: https://jaizetech.nl
 - LinkedIn: https://www.linkedin.com/in/abdellah-jaize/
