@@ -697,10 +697,10 @@ a.accent-link:hover { color: var(--ink); }
 .diag-arr-soft { stroke: var(--line-strong); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
 .diag-zone { font-family: var(--font-mono); font-size: 9px; fill: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; }
 
-/* Home posts grid */
+/* Posts grid (used on home + /blog index) */
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 24px;
   margin-bottom: 32px;
 }
