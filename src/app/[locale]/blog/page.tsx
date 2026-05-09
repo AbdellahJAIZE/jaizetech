@@ -62,6 +62,7 @@ type PostListItem = {
   description: string;
   published: string;
   minutes: number;
+  tags: string[];
 };
 
 function Blog({ posts }: { posts: ReturnType<typeof getAllPosts> }) {
@@ -69,13 +70,15 @@ function Blog({ posts }: { posts: ReturnType<typeof getAllPosts> }) {
   const tNav = useTranslations('nav');
   const locale = useLocale();
   const dateLocale = locale === 'nl' ? 'nl-NL' : 'en-GB';
+  const readPost = locale === 'nl' ? 'Lees post' : 'Read post';
 
   const items: PostListItem[] = posts.map((p) => ({
     slug: p.slug,
     title: p.frontmatter.title,
     description: p.frontmatter.description,
     published: p.frontmatter.published,
-    minutes: p.frontmatter.readingMinutes ?? estimateReadingMinutes(p.contentMarkdown)
+    minutes: p.frontmatter.readingMinutes ?? estimateReadingMinutes(p.contentMarkdown),
+    tags: (p.frontmatter.tags ?? []).slice(0, 3)
   }));
 
   return (
@@ -103,24 +106,27 @@ function Blog({ posts }: { posts: ReturnType<typeof getAllPosts> }) {
             </div>
           </div>
         ) : (
-          <ul className="post-list" style={{ listStyle: 'none', padding: 0, margin: 0, maxWidth: 760 }}>
+          <div className="posts-grid">
             {items.map((p) => (
-              <li key={p.slug} style={{ borderBottom: '1px solid var(--line)', padding: '24px 0' }}>
-                <Link href={`/blog/${p.slug}`} style={{ display: 'block' }}>
-                  <h2 style={{ fontSize: 24, marginBottom: 8 }}>{p.title}</h2>
-                  <p style={{ color: 'var(--muted)', marginBottom: 8 }}>{p.description}</p>
-                  <p className="muted-line" style={{ fontSize: 13 }}>
-                    {new Date(p.published).toLocaleDateString(dateLocale, {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric'
-                    })}{' '}
-                    · {p.minutes} min
-                  </p>
-                </Link>
-              </li>
+              <Link
+                key={p.slug}
+                className="post-card"
+                href={`/blog/${p.slug}`}
+                aria-label={`${readPost}: ${p.title}`}
+              >
+                <h3>{p.title}</h3>
+                <p>{p.description}</p>
+                <div className="post-tags">
+                  {p.tags.map((tag) => <span key={tag} className="post-tag">{tag}</span>)}
+                </div>
+                <span className="post-meta">
+                  {new Date(p.published).toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' })}
+                  {' · '}{p.minutes} min
+                </span>
+                <span className="read-more">{readPost} <span aria-hidden="true">→</span></span>
+              </Link>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </section>

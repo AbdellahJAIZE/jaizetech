@@ -746,6 +746,12 @@ a.accent-link:hover { color: var(--ink); }
   border-radius: 3px;
   text-transform: uppercase;
 }
+.post-card .post-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
 .post-card .read-more {
   font-family: var(--font-mono);
   font-size: 12px;
