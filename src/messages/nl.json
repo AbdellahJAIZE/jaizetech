@@ -455,10 +455,10 @@
   },
   "privacy": {
     "title": "Privacybeleid",
-    "description": "Hoe Jaize Tech omgaat met persoonsgegevens van bezoekers en klanten. Een korte, eerlijke uitleg. Geen tracking, geen analytics.",
+    "description": "Hoe Jaize Tech omgaat met persoonsgegevens van bezoekers en klanten. Een korte, eerlijke uitleg. Analytics alleen met jouw toestemming.",
     "breadcrumb": "Privacybeleid",
     "headline": "Privacybeleid",
-    "lastUpdated": "Laatst bijgewerkt: mei 2026",
+    "lastUpdated": "Laatst bijgewerkt: september 2026",
     "intro": "Korte uitleg over welke gegevens ik verwerk en waarom. Geen pagina's juridische tekst, alleen wat je echt moet weten.",
     "sections": [
       {
@@ -467,7 +467,7 @@
       },
       {
         "h": "2. Welke gegevens ik verwerk",
-        "p": "Alleen wat je zelf invult op het contactformulier: naam, e-mailadres, eventueel bedrijfsnaam, en je bericht. Verder gebruikt deze website geen tracking-cookies en geen analytics die jou persoonlijk identificeren."
+        "p": "Wat je zelf invult op het contactformulier: naam, e-mailadres, eventueel bedrijfsnaam, en je bericht. Voor statistieken gebruik ik PostHog (servers in de EU). Zonder jouw toestemming werkt dat cookievrij: geen cookies, geen lokale opslag, en je IP-adres wordt gehasht, niet bewaard. Accepteer je cookies in de banner, dan maakt PostHog ook een opname van je bezoek (klikken, scrollen, paginawissels; alles wat je typt blijft verborgen) en plaatst het een cookie waarmee het je browser een jaar herkent. Bedacht? Wis de cookies en sitegegevens van deze site in je browser en de banner vraagt het opnieuw."
       },
       {
         "h": "3. Waarom ik die gegevens nodig heb",
@@ -479,7 +479,7 @@
       },
       {
         "h": "5. Met wie ik ze deel",
-        "p": "Met Brevo voor het e-mailverkeer (zij sturen mijn antwoord), en met Cloudflare voor de hosting van deze website. Verder met niemand. Geen advertentienetwerken, geen data-brokers, geen verkoop van gegevens."
+        "p": "Met Brevo voor het e-mailverkeer (zij sturen mijn antwoord), met Cloudflare voor de hosting van deze website, en met PostHog (EU) voor statistieken en, alleen na jouw toestemming, sessie-opnames. Verder met niemand. Geen advertentienetwerken, geen data-brokers, geen verkoop van gegevens."
       },
       {
         "h": "6. Jouw rechten onder de AVG",
@@ -501,5 +501,12 @@
     "backHome": "Terug naar home",
     "tryThese": "Of spring direct naar een van deze pagina's:",
     "helpLinksAria": "Handige links"
+  },
+  "cookies": {
+    "text": "Deze site gebruikt PostHog voor statistieken. Als je accepteert, wordt ook een opname van je bezoek gemaakt (klikken en scrollen, wat je typt blijft verborgen) en een cookie voor een jaar geplaatst. Weigeren houdt de site cookievrij.",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "privacy": "Privacyverklaring",
+    "aria": "Cookietoestemming"
   }
 }

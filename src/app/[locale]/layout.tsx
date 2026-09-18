@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RevealOnScroll from '@/components/RevealOnScroll';
+import CookieConsent from '@/components/CookieConsent';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
 import '@/styles/globals.css';
 
@@ -160,6 +161,7 @@ export default async function LocaleLayout({
           <main id="main" tabIndex={-1}>{children}</main>
           <Footer />
           <RevealOnScroll />
+          <CookieConsent />
         </NextIntlClientProvider>
         <SchemaJsonLd locale={locale} />
       </body>

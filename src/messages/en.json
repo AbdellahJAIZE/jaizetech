@@ -455,10 +455,10 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "description": "How Jaize Tech handles personal data from visitors and clients. A short, honest explanation. No tracking, no analytics.",
+    "description": "How Jaize Tech handles personal data from visitors and clients. A short, honest explanation. Analytics only with your consent.",
     "breadcrumb": "Privacy policy",
     "headline": "Privacy policy",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: September 2026",
     "intro": "Short explanation of what data I process and why. No pages of legal text. Just what you actually need to know.",
     "sections": [
       {
@@ -467,7 +467,7 @@
       },
       {
         "h": "2. What data I collect",
-        "p": "Only what you fill in on the contact form: name, email address, optionally company name, and your message. This site uses no tracking cookies and no analytics that personally identify you."
+        "p": "What you fill in on the contact form: name, email address, optionally company name, and your message. For site statistics I use PostHog (servers in the EU). Without your consent it runs cookie-free: no cookies, no local storage, and your IP address is hashed, not stored. If you accept cookies in the banner, PostHog also records a replay of your visit (clicks, scrolling, page changes; everything you type is masked) and sets a cookie so it recognises your browser for a year. Changed your mind? Clear this site's cookies and site data in your browser and the banner asks again."
       },
       {
         "h": "3. Why I need it",
@@ -479,7 +479,7 @@
       },
       {
         "h": "5. Who I share it with",
-        "p": "With Brevo for sending emails (they deliver my reply), and with Cloudflare for hosting this site. That's it. No advertising networks, no data brokers, no selling of data."
+        "p": "With Brevo for sending emails (they deliver my reply), with Cloudflare for hosting this site, and with PostHog (EU) for statistics and, only after your consent, session replays. That's it. No advertising networks, no data brokers, no selling of data."
       },
       {
         "h": "6. Your GDPR rights",
@@ -501,5 +501,12 @@
     "backHome": "Back to home",
     "tryThese": "Or jump to one of these pages:",
     "helpLinksAria": "Helpful links"
+  },
+  "cookies": {
+    "text": "This site uses PostHog for statistics. If you accept, it also records a replay of your visit (clicks and scrolling, anything you type stays hidden) and sets a cookie for a year. Decline keeps the site cookie-free.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "privacy": "Privacy policy",
+    "aria": "Cookie consent"
   }
 }
