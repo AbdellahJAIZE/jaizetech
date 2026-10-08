@@ -5,6 +5,8 @@ published: "2026-04-26"
 tags: ["LLM-infrastructuur", "on-prem AI", "AVG", "AI Act", "Nederland"]
 ogImage: "/og-image.png"
 primaryService: "infrastructure"
+seoTitle: "On-prem LLM-hosting in Nederland: wat het in 2026 echt kost"
+seoDescription: "Privacy, AVG, EU AI Act en kosten. Wanneer on-prem LLM-hosting zinvol is, met echte cijfers van vLLM en Ollama tegenover AWS Bedrock en OpenAI."
 ---
 
 Elk Nederlands bedrijf dat ik de afgelopen zes maanden geadviseerd heb, heeft een variant van dezelfde vraag gesteld. Kunnen we deze LLM zelf hosten? Ze vragen het niet uit nieuwsgierigheid. Ze vragen het omdat hun juridische team AVG-zorgen heeft aangekaart, of hun klantdata gevoelig is, of de AI Act ze nerveus maakt over US-vendors.

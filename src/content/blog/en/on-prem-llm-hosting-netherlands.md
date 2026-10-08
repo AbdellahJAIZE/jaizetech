@@ -5,6 +5,8 @@ published: "2026-04-26"
 tags: ["LLM infrastructure", "on-prem AI", "GDPR", "AI Act", "Netherlands"]
 ogImage: "/og-image.png"
 primaryService: "infrastructure"
+seoTitle: "On-prem LLM hosting in the Netherlands: the real 2026 costs"
+seoDescription: "Privacy, GDPR, EU AI Act and cost. When on-prem LLM hosting makes sense for Dutch companies, with real vLLM and Ollama numbers vs Bedrock and OpenAI."
 ---
 
 Every Dutch company I have advised in the last six months has asked some version of the same question. Can we host this LLM ourselves? They are not asking out of curiosity. They are asking because their legal team has flagged GDPR concerns, or their customer data is sensitive, or the AI Act is making them nervous about US vendors.

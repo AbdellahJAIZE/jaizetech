@@ -5,6 +5,7 @@ published: "2026-10-05"
 tags: ["AI pilot purgatory", "AI governance", "POC audit", "AI implementation", "proof of concept"]
 ogImage: "/images/blog/ai-pilot-purgatory-why-pocs-stall/cover.jpg"
 primaryService: "ai-audit"
+seoTitle: "AI pilot purgatory is a governance gap, not a model problem"
 ---
 Which of your stalled pilots has a named person who can decide to put it in front of real customers without asking anyone else first? If answering that takes more than a few seconds, you have probably just found the real blocker, and it is not the model. **AI pilot purgatory** is rarely a modelling problem. It is the state where nothing fails loudly enough to kill and nothing works convincingly enough to fund.
 

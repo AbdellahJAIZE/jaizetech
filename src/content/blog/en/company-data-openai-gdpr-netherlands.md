@@ -5,6 +5,8 @@ published: "2026-06-07"
 tags: ["GDPR", "data privacy", "AI infrastructure", "compliance"]
 ogImage: "/og-image.png"
 primaryService: "infrastructure"
+seoTitle: "Sending company data to OpenAI: a GDPR read for Dutch teams"
+seoDescription: "Usually yes, with conditions, sometimes no. How to decide, what a data processing agreement must cover, and when to keep data on your own infra."
 ---
 
 This is the question that stalls more Dutch AI projects than any technical problem. Someone in legal asks "are we allowed to send this to OpenAI", nobody is sure, and the project sits for a month while everyone waits for a clear answer that never quite arrives.

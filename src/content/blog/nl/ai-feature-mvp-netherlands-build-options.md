@@ -5,6 +5,7 @@ published: "2026-09-14"
 tags: ["AI-feature MVP", "MVP bouwen", "AI-engineer inhuren", "Nederland", "fractional engineer"]
 ogImage: "/images/blog/ai-feature-mvp-netherlands-build-options/cover.jpg"
 primaryService: "ai-features"
+seoTitle: "AI-feature MVP in Nederland: bureau, freelancer of senior?"
 ---
 Zoek op "AI-feature MVP bouwen Nederland" en je krijgt vooral framework-vergelijkingen. LangGraph tegenover iets anders, welke vector database, welk model. Dat is de verkeerde pagina voor de beslissing die je deze maand neemt. Je hebt een demo of een spreadsheet die bewijst dat het idee signaal heeft. De vraag is niet welke tool. Het is wie het echte ding bouwt, en wat dat eerlijk gaat kosten.
 

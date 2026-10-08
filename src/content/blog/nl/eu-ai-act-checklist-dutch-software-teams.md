@@ -5,6 +5,7 @@ published: "2026-04-22"
 tags: ["EU AI Act", "compliance", "Nederland", "regulering"]
 ogImage: "/og-image.png"
 primaryService: "ai-audit"
+seoDescription: "Nederlandse SaaS-teams overschatten hun risicocategorie onder de EU AI Act. Een werkbare checklist voor de deadline van augustus 2026."
 ---
 
 De deadline van augustus 2026 is over drie maanden, en elke Nederlandse CTO met wie ik praat heeft dezelfde blik op zijn gezicht. Ze hebben drie checklists van compliance-leveranciers gelezen, een webinar uitgezeten en kwamen er verwarder uit dan ze erin gingen. De leveranciers willen ze een platform verkopen. De advocaten willen een retainer. Niemand wil gewoon zeggen wat een normaal SaaS-team van twintig mensen op een dinsdagochtend moet doen.

@@ -5,6 +5,7 @@ published: "2026-10-08"
 tags: ["AI demo diagnose", "AI productierijpheid", "LLM hardening", "POC audit", "AI feature build"]
 ogImage: "/images/blog/ai-demo-diagnostic-audit-harden-rebuild/cover.jpg"
 primaryService: "ai-audit"
+seoTitle: "AI-demo diagnose: audit, hardening of volledige build?"
 ---
 Meestal is het eerlijke antwoord: je hebt een week diagnose nodig, geen offerte. De drie opties die voor je liggen (audit, hardening-sprint, volledige build) lossen echt verschillende problemen op, en het symptoom dat je nu voelt vertelt je niet betrouwbaar welke je hebt. Een **AI demo diagnose** gaat vooral over het scheiden van "dit is onaf" van "dit is stuk" van "dit had nooit deze vorm moeten hebben".
 

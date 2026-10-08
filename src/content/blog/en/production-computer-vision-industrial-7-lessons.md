@@ -5,6 +5,8 @@ published: "2026-04-19"
 tags: ["computer vision", "industrial AI", "production ML", "agritech"]
 ogImage: "/og-image.png"
 primaryService: "cv"
+seoTitle: "Industrial computer vision: 7 things papers never tell you"
+seoDescription: "Lessons from running a graded-severity vision system 24/7 on a sorting conveyor: annotation cost, label noise and the research-to-production gap."
 ---
 
 Most computer vision research is built on ImageNet, COCO, or one of the medical or scientific benchmarks. Curated images. Clean labels. One score per image. Real industrial computer vision is none of those things.

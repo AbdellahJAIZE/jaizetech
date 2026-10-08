@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["AI-feature failover strategie", "LLM betrouwbaarheid", "circuit breaker", "production hardening", "degraded mode"]
 ogImage: "/images/blog/llm-provider-outage-failover-strategy/cover.jpg"
 primaryService: "hardening"
+seoTitle: "AI-feature failover: val niet uit door één provider"
 ---
 Een provider geeft HTTP 503 terug op het chat completions-endpoint. Je client heeft een timeout van 60 seconden en drie retries met een backoff van één seconde, dus elke falende request bezet nu zo'n drie minuten een worker. Je connection pool loopt binnen een minuut vol, en requests die niets met AI te maken hebben lopen erachter in een timeout omdat ze dezelfde pool delen. De provider heeft een gedeeltelijke storing in één regio. Jouw product ligt overal plat. Het verschil tussen die twee zinnen is je **AI-feature failover strategie**, of het ontbreken daarvan.
 

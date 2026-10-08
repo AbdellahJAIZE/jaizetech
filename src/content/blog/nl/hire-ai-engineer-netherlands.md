@@ -5,6 +5,7 @@ published: "2026-04-15"
 tags: ["werving", "fractional CTO", "Nederland", "AI engineering"]
 ogImage: "/og-image.png"
 primaryService: "fractional-cto"
+seoDescription: "Drie manieren om senior AI-engineering binnen te halen bij een Nederlandse scale-up in 2026, wat elke optie kost en welke red flags je vermijdt."
 ---
 
 Je hebt AI engineering nodig in je product. De board wil een roadmap voor Q3, je concurrenten shippen features die op magie lijken, en die ene engineer in je team die de OpenAI changelog leest is per ongeluk "de AI persoon" geworden. Dus open je LinkedIn Recruiter en begin je de zoektocht.

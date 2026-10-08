@@ -5,6 +5,7 @@ published: "2026-05-08"
 tags: ["production AI", "AI engineering", "operations", "reliability"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "What actually breaks when AI hits production: a punchlist"
 ---
 
 Two thirds of organisations have AI in development. Fewer than one in four have it running reliably in production. That gap is the most expensive thing in the AI engineering market right now, and almost nobody writes about what actually closes it.

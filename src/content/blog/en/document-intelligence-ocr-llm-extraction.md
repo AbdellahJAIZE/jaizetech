@@ -5,6 +5,7 @@ published: "2026-05-17"
 tags: ["document AI", "OCR", "LLM extraction", "production AI"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoTitle: "OCR plus LLM extraction patterns for document intelligence"
 ---
 
 Document intelligence in 2026 is one of those AI use cases that is genuinely solved. Receipts, invoices, contracts, application forms, lab reports, regulatory filings. If you have a stack of documents and you need the data out of them in a structured way, the technology exists and works. The question is which pattern to use.

@@ -5,6 +5,8 @@ published: "2026-05-17"
 tags: ["document AI", "OCR", "LLM-extractie", "productie-AI"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoTitle: "OCR plus LLM-extractiepatronen voor document intelligence"
+seoDescription: "Zes patronen om gestructureerde data uit documenten te halen met OCR en LLM's, met de tradeoffs die bepalen welk patroon bij jouw use case past."
 ---
 
 Document intelligence in 2026 is een van die AI use cases die daadwerkelijk opgelost is. Bonnen, facturen, contracten, aanvraagformulieren, lab-rapporten, regelgevende ingediende stukken. Als je een stapel documenten hebt en je hebt de data eruit nodig op een gestructureerde manier, bestaat de technologie en werkt hij. De vraag is welk patroon te gebruiken.

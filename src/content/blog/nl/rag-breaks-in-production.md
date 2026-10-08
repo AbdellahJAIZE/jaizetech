@@ -5,6 +5,7 @@ published: "2026-05-01"
 tags: ["RAG", "retrieval", "context engineering", "productie-AI"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoDescription: "Een RAG-diagnose in vijf vragen: de vier plekken waar retrieval breekt onder echte gebruikers en wat context engineering echt betekent."
 ---
 
 Je RAG-demo beantwoordde elke vraag perfect. Je shipte. Twee weken later staat dezelfde klacht drie keer in je support-inbox. "Het zei me X maar het juiste antwoord is Y." Je checkt de docs. Het juiste antwoord staat in de docs. Je draait je testset opnieuw. Testset slaagt nog steeds.

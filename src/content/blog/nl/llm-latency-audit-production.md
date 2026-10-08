@@ -5,6 +5,7 @@ published: "2026-09-18"
 tags: ["AI latency", "productie", "LLM performance", "observability", "AI engineering"]
 ogImage: "/images/blog/llm-latency-audit-production/cover.jpg"
 primaryService: "hardening"
+seoTitle: "AI-latency in productie: van 'voelt traag' naar een p95-fix"
 ---
 Je AI-feature haalt de evals. De antwoorden kloppen. En het ticket voor je zegt "het voelt traag", zonder getal erbij, van een klant die geen ongelijk heeft. Vraag je het team waar de tijd zit, dan krijg je drie gokken: het model, retrieval, "waarschijnlijk het framework". Niemand heeft het gemeten, want niemand heeft een plek om te kijken.
 

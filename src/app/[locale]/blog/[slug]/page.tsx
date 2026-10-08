@@ -30,10 +30,14 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const post = getPost(locale, slug);
   if (!post) return {};
-  const { title, description, published, updated, ogImage } = post.frontmatter;
+  const { published, updated, ogImage, seoTitle, seoDescription } = post.frontmatter;
+  const title = seoTitle || post.frontmatter.title;
+  const description = seoDescription || post.frontmatter.description;
   const url = absoluteUrl(locale, `/blog/${slug}`);
+  // Keep the <title> under 60 characters: drop the ' · Jaize Tech' suffix when it would not fit.
+  const titleMeta = title.length + 13 <= 60 ? title : { absolute: title };
   return {
-    title,
+    title: titleMeta,
     description,
     alternates: pageAlternates(locale, `/blog/${slug}`),
     openGraph: {
@@ -45,7 +49,7 @@ export async function generateMetadata({
       locale: locale === 'nl' ? 'nl_NL' : 'en_US',
       publishedTime: published,
       modifiedTime: updated || published,
-      authors: ['Abdellah Jaize'],
+      authors: ['A. Jaize'],
       images: [{ url: ogImage || '/og-image.png', width: 1200, height: 630, alt: title }]
     },
     twitter: {

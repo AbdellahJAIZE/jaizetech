@@ -5,6 +5,8 @@ published: "2026-04-19"
 tags: ["computer vision", "industriële AI", "productie-ML", "agritech"]
 ogImage: "/og-image.png"
 primaryService: "cv"
+seoTitle: "Industriële computer vision: 7 dingen die papers verzwijgen"
+seoDescription: "Lessen uit een CV-systeem dat 24/7 producten gradeert op een sorteerband: annotatiekosten, label-ruis en het gat tussen research en productie."
 ---
 
 Het meeste computer vision-onderzoek is gebouwd op ImageNet, COCO of een van de medische of wetenschappelijke benchmarks. Gecureerde beelden. Schone labels. Eén score per beeld. Echte industriële computer vision is geen van die dingen.

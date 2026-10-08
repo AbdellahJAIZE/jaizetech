@@ -5,6 +5,8 @@ published: "2026-05-26"
 tags: ["AI strategy", "production AI", "AI pilot", "scoping"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoTitle: "How to scope an AI pilot that actually ships"
+seoDescription: "The demo works, then nothing ships for six months. The fix is rarely technical. The scoping checklist we use before writing code."
 ---
 
 The pattern is so common it is almost a ritual. A team builds an AI demo in two weeks. It works. Everyone in the room is impressed. The CEO mentions it to the board. And then six months later it is still a demo, quietly parked behind a feature flag nobody dares to turn on.

@@ -5,6 +5,7 @@ published: "2026-09-26"
 tags: ["AI-feature acceptatiecriteria", "AI-oplevering", "software-acceptatietest", "AI-projectmanagement", "eval suite"]
 ogImage: "/images/blog/ai-feature-definition-of-done/cover.jpg"
 primaryService: "ai-features"
+seoTitle: "AI-feature acceptatiecriteria: een demo is niet genoeg"
 ---
 Een extern team heeft je net verteld dat de AI-feature klaar is. Er staat een overdrachtscall in de agenda, er hangt een eindfactuur aan, en er komt een demo die vrijwel zeker vlekkeloos gaat. Je hebt misschien twee dagen om te beslissen of je aftekent. En niemand — zij niet, jij niet — heeft ooit opgeschreven wat de **AI-feature acceptatiecriteria** voor deze build eigenlijk zijn.
 

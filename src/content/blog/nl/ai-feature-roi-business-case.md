@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["AI-feature ROI", "business case", "SaaS", "AI-implementatie", "kostenraming"]
 ogImage: "/images/blog/ai-feature-roi-business-case/cover.jpg"
 primaryService: "ai-features"
+seoDescription: "Zo bereken je AI-feature ROI vóór de eerste regel code: vier waardehefbomen, een eerlijke kostenstack en de korting op elke demo-score."
 ---
 Het budget is goedgekeurd. Iemand boven je heeft in een planningssessie ja gezegd tegen "een AI-feature", en nu moet jij de one-pager schrijven die het onderbouwt — voordat er één regel code bestaat, voordat er een leverancier is gekozen, voordat iemand je kan vertellen wat het per maand kost om te draaien. En de vraag die je nog niet kunt beantwoorden is precies de enige die finance interesseert: wat is de **AI-feature ROI**, en hoe zeker ben je van dat getal?
 

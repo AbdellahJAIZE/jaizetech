@@ -5,6 +5,7 @@ published: "2026-07-14"
 tags: ["AI-functies", "over-engineering", "LLM", "product engineering"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoDescription: "Een veldgids voor over-engineerde AI: wanneer je echt een LLM nodig hebt, en wanneer gewone code het probleem allang goedkoper oploste."
 ---
 
 Mij wordt gevraagd om veel AI-functies te bouwen. Een flink deel daarvan zou niet moeten bestaan. Niet omdat AI nutteloos is, maar omdat het specifieke probleem voor ons al was opgelost door een databasequery, een rules engine, of vijftig regels gewone code. Iemand greep naar een taalmodel omdat het de spannende tool was, en nu staat er op de roadmap een onbetrouwbare, dure functie waar een saaie betrouwbare weken eerder klaar was geweest.

@@ -5,6 +5,8 @@ published: "2026-09-24"
 tags: ["AI monitoring", "productie", "LLM observability", "AI operations", "dashboards"]
 ogImage: "/images/blog/llm-observability-production-monitoring/cover.jpg"
 primaryService: "hardening"
+seoTitle: "AI-monitoring: zie kwaliteitsverlies vóór de klant het doet"
+seoDescription: "AI-monitoring voorkomt dat verslechterde antwoorden pas via klachten opvallen. Vijf signalen, drempels en een bouwplan met tooling die je al hebt."
 ---
 Je AI-feature staat vijf weken live. Hij is niet omgevallen. Support heeft niets geëscaleerd. Het dashboard dat je openslaat is hetzelfde dashboard als vóór de feature bestond: uptime, error rate, p95 op de HTTP-laag — alles groen. En ergens achter in je hoofd zit de vraag waarmee je deze pagina opende: als de antwoorden vorige dinsdag slechter werden, hoe zou ik dat dan weten?
 

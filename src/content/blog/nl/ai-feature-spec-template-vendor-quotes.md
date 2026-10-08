@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["AI-feature spec sjabloon", "AI-project scoping", "leveranciersofferte", "RFP AI", "AI-project budget"]
 ogImage: "/images/blog/ai-feature-spec-template-vendor-quotes/cover.jpg"
 primaryService: "ai-features"
+seoDescription: "Een AI-feature spec sjabloon dat scope vastlegt vóór leveranciers offreren, zodat je offertes eerlijk vergelijkt en dure verrassingen voorkomt."
 ---
 Een goedgekeurd budget is het gevaarlijkste moment in een AI-project. Het geld is er, je hebt vijf leveranciers op een lijstje, en wat je ze zo gaat sturen zijn twee alinea's in een mail die begint met "we willen een AI-assistent die…". Er komen zes offertes terug tussen €18k en €210k en je hebt geen enkele manier om te bepalen of de goedkope efficiënt is of de dure eerlijk. Wat je eerst nodig had was een **AI-feature spec sjabloon** dat de scope vastzet voordat iemand er een prijs op plakt.
 

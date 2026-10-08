@@ -5,6 +5,7 @@ published: "2026-05-08"
 tags: ["productie-AI", "AI-engineering", "operations", "betrouwbaarheid"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "Wat er echt breekt als AI in productie komt: een lijst"
 ---
 
 Tweederde van de organisaties heeft AI in ontwikkeling. Minder dan een op de vier heeft het betrouwbaar in productie draaien. Dat gat is op dit moment het duurste in de AI-engineering markt, en bijna niemand schrijft over wat het echt dicht.
