@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Logo from './Logo';
 import CtaLink from '@/components/CtaLink';
 
 export default function Footer() {
@@ -11,9 +12,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="col-brand">
-            <Link className="wordmark" href="/" aria-label={t('nav.homeAria')}>
-              Jaize Tech
-            </Link>
+            <Link className="wordmark" href="/" aria-label={t('nav.homeAria')}><Logo /></Link>
             <p>{t('footer.tagline')}</p>
             <p className="legal-line">
               {t('footer.kvk')} · {t('footer.based')}

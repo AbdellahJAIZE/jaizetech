@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Logo from './Logo';
 import LangSwitcher from './LangSwitcher';
 import { trackCta } from '@/lib/track';
 
@@ -42,9 +43,7 @@ export default function Header() {
     <header className="site-header" data-scrolled={scrolled ? 'true' : 'false'}>
       <div className="container">
         <div className="nav">
-          <Link className="wordmark" href="/" aria-label={t('homeAria')} onClick={closeMenu}>
-            Jaize Tech
-          </Link>
+          <Link className="wordmark" href="/" aria-label={t('homeAria')} onClick={closeMenu}><Logo /></Link>
 
           <nav className="nav-links" aria-label={t('primaryNavAria')}>
             <Link href="/services">{t('services')}</Link>

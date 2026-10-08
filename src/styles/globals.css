@@ -222,7 +222,14 @@ small, .small { font-size: 14px; color: var(--muted); }
   letter-spacing: -0.04em;
   color: var(--ink);
   user-select: none;
+  display: inline-flex;
+  align-items: center;
 }
+
+/* mark + wordmark (the favicon shapes, see Logo.tsx) */
+.logo { display: inline-flex; align-items: center; gap: 10px; }
+.logo-mark { flex: 0 0 auto; border-radius: 6px; }
+.logo-text { line-height: 1; }
 
 .wordmark .dot {
   display: inline-block;
