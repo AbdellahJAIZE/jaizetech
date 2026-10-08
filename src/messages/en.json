@@ -598,8 +598,8 @@
         "approach": "Nuxt 3 with Tailwind on the front, NestJS and MongoDB behind it, hierarchy-aware role-based access, OpenAI for report text and fill suggestions. Playwright end-to-end and visual regression tests, deployed on AWS.",
         "stats": [
           {
-            "value": "6 languages",
-            "label": "in the interface"
+            "value": "AI reports",
+            "label": "assistant writes and fills the client report"
           },
           {
             "value": "Live",
@@ -651,7 +651,7 @@
               "id": "dash",
               "zone": 2,
               "label": "Nuxt dashboards",
-              "sub": "6 languages"
+              "sub": "branded · live"
             },
             {
               "id": "link",

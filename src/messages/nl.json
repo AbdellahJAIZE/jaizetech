@@ -598,8 +598,8 @@
         "approach": "Nuxt 3 met Tailwind aan de voorkant, NestJS en MongoDB erachter, hiërarchische rolgebaseerde toegang, OpenAI voor rapportteksten en invulsuggesties. Playwright end-to-end en visuele regressietests, deploy op AWS.",
         "stats": [
           {
-            "value": "6 talen",
-            "label": "in de interface"
+            "value": "AI-rapporten",
+            "label": "assistent schrijft en vult het klantrapport"
           },
           {
             "value": "Live",
@@ -651,7 +651,7 @@
               "id": "dash",
               "zone": 2,
               "label": "Nuxt dashboards",
-              "sub": "6 languages"
+              "sub": "branded · live"
             },
             {
               "id": "link",
