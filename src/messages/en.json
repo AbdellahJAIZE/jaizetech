@@ -93,16 +93,16 @@
       "eyebrow": "BY THE NUMBERS",
       "items": [
         {
+          "value": "5+ years",
+          "label": "building and running production software, from data science to AI platforms"
+        },
+        {
+          "value": "10+ products",
+          "label": "live in production: AI platforms, SaaS, mobile apps, marketplaces"
+        },
+        {
           "value": "Millions of images",
-          "label": "processed by our inference pipelines in production"
-        },
-        {
-          "value": "8+ environments",
-          "label": "enterprise client environments on one AI platform"
-        },
-        {
-          "value": "2.5+ years",
-          "label": "AI running 24/7 in industrial production"
+          "label": "processed by our inference pipelines, 24/7 in production since 2023"
         }
       ]
     },

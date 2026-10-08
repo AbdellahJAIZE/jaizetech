@@ -93,16 +93,16 @@
       "eyebrow": "IN CIJFERS",
       "items": [
         {
+          "value": "5+ jaar",
+          "label": "productiesoftware bouwen en draaien, van data science tot AI-platforms"
+        },
+        {
+          "value": "10+ producten",
+          "label": "live in productie: AI-platforms, SaaS, mobile apps, marktplaatsen"
+        },
+        {
           "value": "Miljoenen beelden",
-          "label": "verwerkt door onze inference-pipelines in productie"
-        },
-        {
-          "value": "8+ omgevingen",
-          "label": "enterprise-klantomgevingen op één AI-platform"
-        },
-        {
-          "value": "2,5+ jaar",
-          "label": "AI 24/7 in industriële productie"
+          "label": "verwerkt door onze inference-pipelines, 24/7 in productie sinds 2023"
         }
       ]
     },
