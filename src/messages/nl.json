@@ -220,12 +220,12 @@
   },
   "work": {
     "title": "Case studies",
-    "description": "Acht cases: AI-kwaliteitscontrole, een vacatureplatform, SaaS-dashboards, een bonnetjes-app, developer tools, lokale websites en een architectuur-audit.",
+    "description": "Zeven cases: AI-kwaliteitscontrole, een vacatureplatform, SaaS-dashboards, een bonnetjes-app, developer tools, lokale websites en een architectuur-audit.",
     "breadcrumb": "Werk",
     "hero": {
       "kicker": "Werk",
       "headline": "Wat we hebben gebouwd.",
-      "lead": "Acht projecten in detail. Het probleem, wat we bouwden, en de cijfers."
+      "lead": "Zeven projecten in detail. Het probleem, wat we bouwden, en de cijfers."
     },
     "labels": {
       "approach": "Aanpak",
@@ -590,11 +590,11 @@
       },
       {
         "id": "saas-dashboards",
-        "client": "SaaS-dashboards voor digitale marketingbureaus",
+        "client": "Screebl: SaaS-dashboards voor digitale marketingbureaus",
         "sector": "Martech · B2B SaaS",
         "year": "2025 tot 2026",
         "role": "Full-stack engineer, van nul tot live",
-        "summary": "Probleem: bureaus rapporteerden campagnes aan klanten via spreadsheets en losse pdf's. Wat we bouwden: een SaaS waarin een campagnespreadsheet een live, gebrand klantdashboard wordt dat via een beveiligde link gedeeld wordt. Met rollen per bureau en per klant, een AI-rapportassistent en zes talen.",
+        "summary": "Probleem: bureaus rapporteerden campagnes aan klanten via spreadsheets en losse pdf's. Wat we bouwden: Screebl, een SaaS waarin een campagnespreadsheet een live, gebrand klantdashboard wordt dat via een beveiligde link gedeeld wordt. Met rollen per bureau en per klant, een AI-rapportassistent en zes talen.",
         "approach": "Nuxt 3 met Tailwind aan de voorkant, NestJS en MongoDB erachter, hiërarchische rolgebaseerde toegang, OpenAI voor rapportteksten en invulsuggesties. Playwright end-to-end en visuele regressietests, deploy op AWS.",
         "stats": [
           {
@@ -907,128 +907,12 @@
         }
       },
       {
-        "id": "localpages",
-        "client": "LocalPages: demo-first websites voor lokale ondernemers",
-        "sector": "Lokale diensten · Eigen venture",
-        "year": "2026 tot heden",
-        "role": "Eigen venture onder Jaize Tech",
-        "summary": "Probleem: veel lokale bedrijven hebben geen website en reageren niet op een offerte. Wat we bouwden: een pijplijn die ondernemers zonder site vindt, hun gegevens verrijkt, een unieke site ontwerpt, die door een kwaliteitspoort haalt en live zet als demo. De ondernemer ziet eerst het resultaat, dan pas het gesprek. Afmelden haalt de demo met één klik offline.",
-        "approach": "Node-pijplijn: leads oogsten, data verrijken, AI-ontwerp per bedrijf, kwaliteitspoort op inhoud en links, deploy via tunnel, outreach-console voor opvolging en opt-out.",
-        "stats": [
-          {
-            "value": "100",
-            "label": "live demo-sites"
-          },
-          {
-            "value": "3 plaatsen",
-            "label": "in Friesland"
-          },
-          {
-            "value": "Opt-out",
-            "label": "demo offline met één klik"
-          }
-        ],
-        "stack": [
-          "Node.js",
-          "AI design",
-          "Static sites",
-          "Cloudflare Tunnel",
-          "Playwright"
-        ],
-        "production": "100 demo's live · 2026",
-        "diagram": {
-          "zones": [
-            "LEADS",
-            "ENRICH",
-            "DESIGN",
-            "DEPLOY",
-            "OUTREACH"
-          ],
-          "nodes": [
-            {
-              "id": "leads",
-              "zone": 0,
-              "label": "Lead harvesting",
-              "sub": "businesses, no site"
-            },
-            {
-              "id": "enrich",
-              "zone": 1,
-              "label": "Data enrichment",
-              "sub": "hours · services"
-            },
-            {
-              "id": "design",
-              "zone": 2,
-              "label": "AI design",
-              "sub": "unique per business"
-            },
-            {
-              "id": "gate",
-              "zone": 2,
-              "label": "Quality gate",
-              "sub": "content · links",
-              "soft": true
-            },
-            {
-              "id": "deploy",
-              "zone": 3,
-              "label": "Tunnel deploy",
-              "sub": "live demo"
-            },
-            {
-              "id": "optout",
-              "zone": 3,
-              "label": "Opt-out takedown",
-              "sub": "one click",
-              "soft": true
-            },
-            {
-              "id": "out",
-              "zone": 4,
-              "label": "Outreach console",
-              "sub": "replies · status"
-            }
-          ],
-          "edges": [
-            [
-              "leads",
-              "enrich"
-            ],
-            [
-              "enrich",
-              "design"
-            ],
-            [
-              "design",
-              "gate",
-              "soft"
-            ],
-            [
-              "gate",
-              "deploy"
-            ],
-            [
-              "deploy",
-              "out"
-            ],
-            [
-              "out",
-              "optout",
-              "soft"
-            ]
-          ],
-          "footer": "100 live demos · 3 towns · Node pipeline",
-          "aria": "Leads for businesses without a website are enriched, get an AI-designed unique site that passes a quality gate, are deployed as live demos through a tunnel and followed up from an outreach console with opt-out takedown"
-        }
-      },
-      {
         "id": "compliance-audit",
-        "client": "Architectuur-audit voor een AI-complianceplatform",
+        "client": "Regulaitor: architectuur-audit voor een AI-complianceplatform",
         "sector": "Regtech · Advies",
         "year": "2025",
         "role": "Technisch adviseur",
-        "summary": "Probleem: een founding team met een AI-platform voor het screenen van klantgesprekken wilde weten wat er moest gebeuren voor een betrouwbare productie-release. Wat we deden: de Node.js en React codebase doorgelicht op architectuur, beveiliging en AI-pijplijn, en een geprioriteerde lijst aanbevelingen opgeleverd. Dit is het type werk dat nu ons pakket Production Readiness Audit is.",
+        "summary": "Probleem: een founding team met Regulaitor, een AI-platform voor het screenen van klantgesprekken wilde weten wat er moest gebeuren voor een betrouwbare productie-release. Wat we deden: de Node.js en React codebase doorgelicht op architectuur, beveiliging en AI-pijplijn, en een geprioriteerde lijst aanbevelingen opgeleverd. Dit is het type werk dat nu ons pakket Production Readiness Audit is.",
         "approach": "Code review per dienst en per dataflow, transcriptie- en LLM-pijplijn beoordeeld op betrouwbaarheid en kosten, risicoregister met ernst en eigenaar, een plan voor de eerste 30 dagen en voor 90 dagen.",
         "stats": [
           {
