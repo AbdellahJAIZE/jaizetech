@@ -232,7 +232,7 @@
         "client": "AI quality control platform for a Dutch agritech company",
         "sector": "Agritech · Industrial quality control",
         "year": "2023 to present",
-        "role": "Sole engineer, end to end",
+        "role": "One senior engineer, end to end",
         "summary": "Problem: industrial clients needed automated, 24/7 quality control on image data, in environments that each had their own security requirements. What we built: the full stack around computer-vision inference. NestJS API, Vue.js annotation interface, PostgreSQL, CI/CD and a hybrid deployment across Azure and on-premise. Production services and large image datasets were migrated to new hardware with zero data loss.",
         "approach": "NVIDIA Triton for model serving (ResNet and YOLO), a modular NestJS API and a data pipeline with OCR and validation agents. Designed for high throughput with cost and reliability in mind.",
         "stats": [
@@ -326,7 +326,7 @@
         {
           "date": "2023 to now",
           "role": "AI computer-vision platform for a Dutch agritech company",
-          "stack": "Sole engineer. NVIDIA Triton, NestJS, Vue, Azure and on-premise. Millions of images, 8+ client environments."
+          "stack": "One senior engineer. NVIDIA Triton, NestJS, Vue, Azure and on-premise. Millions of images, 8+ client environments."
         },
         {
           "date": "2025 to 2026",
