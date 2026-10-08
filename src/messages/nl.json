@@ -220,12 +220,12 @@
   },
   "work": {
     "title": "Case studies",
-    "description": "Zeven cases: AI-kwaliteitscontrole, een vacatureplatform, SaaS-dashboards, een bonnetjes-app, developer tools, lokale websites en een architectuur-audit.",
+    "description": "Acht cases: AI-kwaliteitscontrole, een vacatureplatform, SaaS-dashboards, een bonnetjes-app, developer tools, lokale websites en een architectuur-audit.",
     "breadcrumb": "Werk",
     "hero": {
       "kicker": "Werk",
       "headline": "Wat we hebben gebouwd.",
-      "lead": "Zeven projecten in detail. Het probleem, wat we bouwden, en de cijfers."
+      "lead": "Acht projecten in detail. Het probleem, wat we bouwden, en de cijfers."
     },
     "labels": {
       "approach": "Aanpak",
@@ -904,6 +904,137 @@
           ],
           "footer": "Linux · macOS · Windows · integration and browser tests",
           "aria": "An open-source CLI encrypts a project's AI context on the client and pushes it with the git repository to the platform, which stores versions in PostgreSQL and supports revocable sharing and public repos"
+        }
+      },
+      {
+        "id": "community-portal",
+        "client": "Arabische Taal Portal en Assalaam Moskee: inschrijfportaal en website voor een moskee-gemeenschap",
+        "sector": "Onderwijs · Gemeenschap",
+        "year": "2024 tot heden",
+        "role": "Ontwerp, bouw en beheer",
+        "summary": "Probleem: een moskee-gemeenschap regelde inschrijvingen voor Arabische lessen voor kinderen en vrouwen via losse formulieren en twee aparte portalen. Wat we bouwden: één portaal waar ouders een kind inschrijven en vrouwen vanaf 13 jaar zichzelf, met inschrijvingen per schooljaar, een agenda, betaalstatus per inschrijving en een beheeromgeving. Plus de publieke website van de moskee.",
+        "approach": "Next.js 15 met Firebase Auth en Firestore, rollen voor ouders, leerlingen en beheerders. Een beheerder start een nieuw schooljaar met één klik: inschrijvingen worden aangemaakt en ouders krijgen automatisch een e-mail via Brevo. Hosting gemigreerd zonder onderbreking.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "arabischetaal.com en assalaammoskee.nl"
+          },
+          {
+            "value": "2 portalen",
+            "label": "samengevoegd tot één"
+          },
+          {
+            "value": "Per schooljaar",
+            "label": "inschrijvingen, betalingen en e-mails"
+          }
+        ],
+        "stack": [
+          "Next.js 15",
+          "Firebase Auth",
+          "Firestore",
+          "Brevo",
+          "Railway"
+        ],
+        "production": "Live op arabischetaal.com en assalaammoskee.nl",
+        "diagram": {
+          "zones": [
+            "USERS",
+            "PORTAL",
+            "DATA",
+            "ADMIN",
+            "EMAIL"
+          ],
+          "nodes": [
+            {
+              "id": "parents",
+              "zone": 0,
+              "label": "Parents",
+              "sub": "register a child"
+            },
+            {
+              "id": "self",
+              "zone": 0,
+              "label": "Students 13+",
+              "sub": "self-registration"
+            },
+            {
+              "id": "app",
+              "zone": 1,
+              "label": "Next.js 15 portal",
+              "sub": "roles · agenda"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "Firestore",
+              "sub": "enrolment per year"
+            },
+            {
+              "id": "year",
+              "zone": 3,
+              "label": "School-year rollover",
+              "sub": "one click"
+            },
+            {
+              "id": "pay",
+              "zone": 3,
+              "label": "Payment status",
+              "sub": "per enrolment",
+              "soft": true
+            },
+            {
+              "id": "mail",
+              "zone": 4,
+              "label": "Brevo emails",
+              "sub": "confirm · new year"
+            }
+          ],
+          "edges": [
+            [
+              "parents",
+              "app"
+            ],
+            [
+              "self",
+              "app"
+            ],
+            [
+              "app",
+              "db"
+            ],
+            [
+              "auth",
+              "app",
+              "soft"
+            ],
+            [
+              "db",
+              "year"
+            ],
+            [
+              "db",
+              "pay",
+              "soft"
+            ],
+            [
+              "year",
+              "mail"
+            ],
+            [
+              "app",
+              "mail",
+              "soft"
+            ]
+          ],
+          "footer": "Two sites: registration portal + public website · Firebase · Railway",
+          "aria": "Parents and students register through a Next.js portal backed by Firebase Auth and Firestore enrolments per school year; admins roll over the year and track payments; Brevo sends confirmations"
         }
       },
       {
