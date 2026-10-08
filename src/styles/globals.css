@@ -2007,3 +2007,34 @@ a.accent-link:hover { color: var(--ink); }
 }
 .cookie-consent__btn--ghost { background: transparent; border-color: rgba(255, 255, 255, 0.4); }
 .cookie-consent__btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* Services: outcome line, deliverables list, timeline in the rail (rebrand 2026-10) */
+.service-outcome { color: var(--text); }
+.service-outcome strong { font-weight: 600; }
+.service-deliverables-title {
+  margin-top: 20px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.service-deliverables {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  max-width: 60ch;
+}
+.service-deliverables li { margin: 4px 0; }
+.service-duration {
+  margin: 0 0 14px;
+  font-size: 15px;
+  color: var(--text);
+}
+.service-duration .label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

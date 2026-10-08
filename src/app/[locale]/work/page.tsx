@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
-import { Link } from '@/i18n/routing';
+import CtaLink from '@/components/CtaLink';
 import Breadcrumb from '@/components/Breadcrumb';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WebPageSchema from '@/components/WebPageSchema';
@@ -143,9 +143,9 @@ function Work() {
         <section className="numbered-section" style={{ marginTop: 32 }}>
           <h2>{t('cta.title')}</h2>
           <p className="lead" style={{ marginBottom: 24, maxWidth: 600 }}>{t('cta.lead')}</p>
-          <Link className="btn btn-primary" href="/contact">
+          <CtaLink cta="work_cta" className="btn btn-primary" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
             {t('cta.primary')}<span className="arrow">→</span>
-          </Link>
+          </CtaLink>
         </section>
       </div>
     </section>

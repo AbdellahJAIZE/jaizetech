@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import CtaLink from '@/components/CtaLink';
 
 export default function Footer() {
   const t = useTranslations();
@@ -34,14 +35,14 @@ export default function Footer() {
             <h4>{t('footer.contactTitle')}</h4>
             <ul>
               <li>
-                <a href="mailto:abdellah@jaizetech.nl" aria-label={t('footer.emailAbdellahAria')}>
+                <CtaLink cta="footer" href="mailto:abdellah@jaizetech.nl" ariaLabel={t('footer.emailAbdellahAria')}>
                   abdellah@jaizetech.nl
-                </a>
+                </CtaLink>
               </li>
               <li>
-                <a href="mailto:info@jaizetech.nl" aria-label={t('footer.emailInfoAria')}>
+                <CtaLink cta="footer" href="mailto:info@jaizetech.nl" ariaLabel={t('footer.emailInfoAria')}>
                   info@jaizetech.nl
-                </a>
+                </CtaLink>
               </li>
             </ul>
           </div>

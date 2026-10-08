@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
+import { track } from '@/lib/track';
 
 export default function ContactForm() {
   const t = useTranslations('contact.form');
@@ -35,6 +36,7 @@ export default function ContactForm() {
         body: JSON.stringify(payload)
       });
       if (!res.ok) throw new Error('Request failed');
+      track('contact_submit', { has_company: payload.company.trim().length > 0 });
       setSubmitted(true);
     } catch (err) {
       setError(t('errorText'));

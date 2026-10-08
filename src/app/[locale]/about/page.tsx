@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
-import { Link } from '@/i18n/routing';
+import CtaLink from '@/components/CtaLink';
 import Breadcrumb from '@/components/Breadcrumb';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WebPageSchema from '@/components/WebPageSchema';
@@ -24,7 +24,7 @@ export async function generateMetadata({
     alternates: pageAlternates(locale, '/about'),
     openGraph: {
       type: 'profile',
-      firstName: 'Abdellah',
+      firstName: 'A.',
       lastName: 'Jaize',
       url,
       title,
@@ -32,7 +32,7 @@ export async function generateMetadata({
       siteName: 'Jaize Tech',
       locale: locale === 'nl' ? 'nl_NL' : 'en_US',
       images: [
-        { url: '/abdellah.jpg', width: 600, height: 600, alt: 'Abdellah Jaize, AI software engineer based in IJlst, Netherlands' }
+        { url: '/abdellah.jpg', width: 600, height: 600, alt: 'A. Jaize, founder of Jaize Tech, AI studio in IJlst, Netherlands' }
       ]
     },
     twitter: {
@@ -160,9 +160,9 @@ function About() {
         <section className="numbered-section" style={{ borderTop: '1px solid var(--line)', paddingBottom: 0 }}>
           <h2>{t('cta.title')}</h2>
           <p className="lead" style={{ marginBottom: 24, maxWidth: 600 }}>{t('cta.lead')}</p>
-          <Link className="btn btn-primary" href="/contact">
+          <CtaLink cta="about_cta" className="btn btn-primary" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
             {t('cta.primary')}<span className="arrow">→</span>
-          </Link>
+          </CtaLink>
         </section>
       </div>
     </section>

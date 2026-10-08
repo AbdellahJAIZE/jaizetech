@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import LangSwitcher from './LangSwitcher';
+import { trackCta } from '@/lib/track';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -55,7 +56,7 @@ export default function Header() {
 
           <div className="nav-right">
             <LangSwitcher />
-            <Link className="btn btn-primary btn-sm desktop-only" href="/contact">
+            <Link className="btn btn-primary btn-sm desktop-only" href="/contact" onClick={() => trackCta('header')}>
               {t('bookCall')}
               <span className="arrow" aria-hidden="true">→</span>
             </Link>
@@ -86,7 +87,7 @@ export default function Header() {
           <Link href="/about" onClick={closeMenu}>{t('about')}</Link>
           <Link href="/blog" onClick={closeMenu}>{t('blog')}</Link>
           <Link href="/contact" onClick={closeMenu}>{t('contact')}</Link>
-          <Link className="btn btn-primary menu-cta" href="/contact" onClick={closeMenu}>
+          <Link className="btn btn-primary menu-cta" href="/contact" onClick={() => { trackCta('header'); closeMenu(); }}>
             {t('bookCall')} <span aria-hidden="true">→</span>
           </Link>
         </nav>
