@@ -103,4 +103,4 @@ Over wie het schrijft: heb je een senior engineer die al eens een LLM-feature do
 
 ## Waar dit een opdracht wordt
 
-De POC Audit is precies dit: een sprint van een week op je werkende demo waarin ik de twaalf punten hierboven langs je echte code en data leg, je vertel wat breekt op schaal en wat je als eerste fixt, en je het 90-dagenplan geef om te shippen. De scope staat op de [dienstenpagina](/services); heb je een demo die net een budgetregel kreeg, [neem contact op](/contact) en we beginnen met de concurrency-test.
+De Production Readiness Audit is precies dit: een sprint van een week op je werkende demo waarin ik de twaalf punten hierboven langs je echte code en data leg, je vertel wat breekt op schaal en wat je als eerste fixt, en je het 90-dagenplan geef om te shippen. De scope staat op de [dienstenpagina](/services); heb je een demo die net een budgetregel kreeg, [neem contact op](/contact) en we beginnen met de concurrency-test.

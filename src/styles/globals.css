@@ -2038,3 +2038,17 @@ a.accent-link:hover { color: var(--ink); }
   text-transform: uppercase;
   color: var(--muted);
 }
+
+/* package price in the services meta rail */
+.service-price strong {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.service-price .price-note {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}

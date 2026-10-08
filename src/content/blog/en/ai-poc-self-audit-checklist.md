@@ -10,7 +10,7 @@ You have a demo that works. Somebody on your team built it, it does the thing in
 
 So here is the **AI POC self-audit** I would hand you if you called me and I did not want your money yet. Fifteen checks, honestly tiered: five you can run this week with no tools, five that need tooling most product teams do not have lying around, five that need a security or compliance background nobody on a four-person product team has. Run tier one yourself. Attempt tier two. Know that tier three is where you are guessing.
 
-At the end I will be specific about what a paid POC Audit adds on top of the free version, and it is not "finds more problems." It is sequencing.
+At the end I will be specific about what a paid Production Readiness Audit adds on top of the free version, and it is not "finds more problems." It is sequencing.
 
 ## The moment: you want to know what you can check before anyone else touches it
 
@@ -89,6 +89,6 @@ And the honest disqualifier: if you ran this self-audit and scored well across t
 
 ## Where this becomes an engagement
 
-The [POC Audit](/en/services) is a one-week sprint: I run the tier-two and tier-three checks on your actual codebase, score them against what I have seen ship, and hand you a written report plus a prioritised 90-day plan to production — what to fix first, what to fix later, what to leave alone. It works best when you have already run tier one yourself, because then we spend the week on the things you cannot answer instead of the things you can.
+The [Production Readiness Audit](/en/services) is a one-week sprint: I run the tier-two and tier-three checks on your actual codebase, score them against what I have seen ship, and hand you a written report plus a prioritised 90-day plan to production — what to fix first, what to fix later, what to leave alone. It works best when you have already run tier one yourself, because then we spend the week on the things you cannot answer instead of the things you can.
 
 If your unknown column is longer than your pass column, [send me the short version of your score](/en/contact) and I will tell you whether a week is what you need.

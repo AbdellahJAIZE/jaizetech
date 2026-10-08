@@ -93,8 +93,8 @@ export default function SchemaJsonLd({ locale }: Props) {
     legalName: 'Jaize Tech',
     alternateName: 'Jaize',
     description: isNL
-      ? 'Compacte AI-studio in Nederland. Brengt AI-features van demo naar productie met vaste scope en vaste doorlooptijd: POC Audit, Production Hardening en Full Build.'
-      : 'Compact AI studio in the Netherlands. Takes AI features from demo to production with fixed scope and a fixed timeline: POC Audit, Production Hardening and Full Build.',
+      ? 'Compacte AI-studio in Nederland. Brengt AI-features van demo naar productie met vaste scope, vaste doorlooptijd en prijs vooraf bekend: Production Readiness Audit, Production Hardening en Full Build.'
+      : 'Compact AI studio in the Netherlands. Takes AI features from demo to production with fixed scope, a fixed timeline and prices known up front: Production Readiness Audit, Production Hardening and Full Build.',
     url: SITE,
     logo: {
       '@type': 'ImageObject',
@@ -150,9 +150,15 @@ export default function SchemaJsonLd({ locale }: Props) {
       'https://twitter.com/JaizeAbdellah'
     ],
     makesOffer: [
-      { '@type': 'Offer', name: 'POC Audit', url: `${SITE}/services#audit` },
-      { '@type': 'Offer', name: 'Production Hardening', url: `${SITE}/services#hardening` },
-      { '@type': 'Offer', name: 'Full Build', url: `${SITE}/services#build` }
+      { '@type': 'Offer', name: 'Production Readiness Audit', url: `${SITE}/services#audit`, price: '2450', priceCurrency: 'EUR' },
+      {
+        '@type': 'Offer', name: 'Production Hardening', url: `${SITE}/services#hardening`,
+        priceSpecification: { '@type': 'PriceSpecification', minPrice: '9500', priceCurrency: 'EUR' }
+      },
+      {
+        '@type': 'Offer', name: 'Full Build', url: `${SITE}/services#build`,
+        priceSpecification: { '@type': 'PriceSpecification', minPrice: '29500', priceCurrency: 'EUR' }
+      }
     ]
   };
 

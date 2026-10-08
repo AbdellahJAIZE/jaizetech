@@ -103,4 +103,4 @@ On who writes it: if you have a senior engineer who has taken an LLM feature thr
 
 ## Where this becomes an engagement
 
-The POC Audit is exactly this: a one-week sprint on your working demo that runs the twelve points above against your actual code and data, tells you what breaks at scale and what to fix first, and hands you the 90-day plan to ship. The scope is on the [services page](/en/services); if you have a demo that just got a budget line, [get in touch](/en/contact) and we start with the concurrency test.
+The Production Readiness Audit is exactly this: a one-week sprint on your working demo that runs the twelve points above against your actual code and data, tells you what breaks at scale and what to fix first, and hands you the 90-day plan to ship. The scope is on the [services page](/en/services); if you have a demo that just got a budget line, [get in touch](/en/contact) and we start with the concurrency test.

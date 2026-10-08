@@ -10,7 +10,7 @@ Je hebt een demo die werkt. Iemand in je team heeft hem gebouwd, hij doet het di
 
 Dus hier is de **AI POC zelfaudit** die ik je zou geven als je me belde en ik je geld nog niet wilde. Vijftien checks, eerlijk gelaagd: vijf die je deze week draait zonder tooling, vijf die tooling vragen die de meeste productteams niet hebben liggen, vijf die een security- of compliance-achtergrond vragen die niemand in een vierkoppig productteam heeft. Tier één doe je zelf. Tier twee probeer je. Tier drie: daar gok je, en dat mag je weten.
 
-Aan het eind ben ik specifiek over wat een betaalde POC Audit toevoegt bovenop de gratis versie, en dat is níet "vindt meer problemen". Het is volgorde.
+Aan het eind ben ik specifiek over wat een betaalde Production Readiness Audit toevoegt bovenop de gratis versie, en dat is níet "vindt meer problemen". Het is volgorde.
 
 ## Het moment: je wilt weten wat je kunt checken voordat iemand anders eraan zit
 
@@ -89,6 +89,6 @@ En de eerlijke diskwalificatie: heb je deze zelfaudit gedraaid en scoor je goed 
 
 ## Waar dit een opdracht wordt
 
-De [POC Audit](/services) is een sprint van één week: ik draai de tier-twee- en tier-drie-checks op je echte codebase, scoor ze tegen wat ik in productie heb zien staan, en lever een geschreven rapport plus een geprioriteerd 90-dagenplan naar productie — wat eerst, wat later, wat je met rust laat. Het werkt het best als je tier één zelf al hebt gedraaid, want dan besteden we de week aan de dingen die je niet kunt beantwoorden in plaats van aan de dingen die je wel kunt.
+De [Production Readiness Audit](/services) is een sprint van één week: ik draai de tier-twee- en tier-drie-checks op je echte codebase, scoor ze tegen wat ik in productie heb zien staan, en lever een geschreven rapport plus een geprioriteerd 90-dagenplan naar productie — wat eerst, wat later, wat je met rust laat. Het werkt het best als je tier één zelf al hebt gedraaid, want dan besteden we de week aan de dingen die je niet kunt beantwoorden in plaats van aan de dingen die je wel kunt.
 
 Is je onbekend-kolom langer dan je pass-kolom, [stuur me dan de korte versie van je score](/contact) en ik vertel je of een week is wat je nodig hebt.

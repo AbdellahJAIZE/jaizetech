@@ -63,11 +63,14 @@ function Services() {
     outcome: string;
     deliverables: string;
     duration: string;
+    price: string;
   };
   const items = t.raw('items') as Array<{
     id: string;
     name: string;
     duration: string;
+    price?: string;
+    priceNote?: string;
     outcome: string;
     summary: string;
     deliverables: string[];
@@ -108,7 +111,14 @@ function Services() {
 
                 <aside className="meta-rail">
                   <p className="service-duration"><span className="label">{labels.duration}</span><br />{s.duration}</p>
-                  <CtaLink cta={`services_${s.id}`} className="btn btn-secondary btn-sm" href="/contact">
+                  {s.price && (
+                    <p className="service-duration service-price">
+                      <span className="label">{labels.price}</span><br />
+                      <strong>{s.price}</strong>
+                      {s.priceNote && <><br /><span className="price-note">{s.priceNote}</span></>}
+                    </p>
+                  )}
+                  <CtaLink cta={`services_${s.id}`} className="btn btn-secondary btn-sm" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
                     {labels.discussCta}<span className="arrow">→</span>
                   </CtaLink>
                 </aside>

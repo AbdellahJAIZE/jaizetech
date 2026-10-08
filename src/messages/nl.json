@@ -47,8 +47,8 @@
     },
     "services": {
       "kicker": "Pakketten",
-      "title": "Drie pakketten. Vaste scope, duidelijke uitkomst.",
-      "lead": "Je kiest het pakket dat past bij waar je staat. Offerte na een gesprek van 15 minuten.",
+      "title": "Drie pakketten. Vaste scope, prijs vooraf bekend.",
+      "lead": "Elke demo-shop bouwt een POC. Wij zorgen dat hij in productie blijft draaien. Kies het pakket dat past bij waar je staat.",
       "viewAll": "Bekijk de pakketten"
     },
     "work": {
@@ -66,7 +66,7 @@
         },
         {
           "q": "Hoe werkt de prijs?",
-          "a": "Per pakket. We spreken de prijs vooraf af, na een kort scopinggesprek. Geen uurtje-factuurtje en geen verrassingen achteraf."
+          "a": "De Production Readiness Audit kost € 2.450, vast. Production Hardening begint bij € 9.500 en Full Build bij € 29.500; de definitieve prijs spreken we af na een gesprek van 15 minuten. Volgt Hardening binnen 60 dagen op de audit, dan verrekenen we de audit. Geen uurtje-factuurtje en geen verrassingen achteraf."
         },
         {
           "q": "Werken jullie op afstand of op locatie?",
@@ -146,44 +146,52 @@
     }
   },
   "services": {
-    "title": "AI-pakketten met vaste scope",
-    "description": "Drie pakketten voor productteams die een AI-feature in productie nodig hebben. Audit, hardening of volledige build. Vaste scope, vaste doorlooptijd.",
+    "title": "AI-pakketten met vaste scope en vaste prijs",
+    "description": "Drie pakketten voor productteams die een AI-feature in productie nodig hebben. Production Readiness Audit vanaf een vaste prijs, Production Hardening en Full Build vanaf-prijzen.",
     "breadcrumb": "Diensten",
     "hero": {
       "kicker": "Pakketten",
       "headline": "Drie pakketten. Kies waar je staat.",
-      "lead": "Van audit van je demo tot volledige build. Vaste scope, vaste doorlooptijd, één senior team. Offerte na een kort gesprek."
+      "lead": "Elke demo-shop bouwt een POC. Wij zorgen dat hij in productie blijft draaien. Vaste scope, vaste doorlooptijd, prijs vooraf bekend."
     },
     "labels": {
-      "discussCta": "Bespreek dit pakket",
+      "discussCta": "Plan een gesprek van 15 minuten",
       "serviceLabel": "PAKKET",
       "readMore": "Lees meer",
       "outcome": "Uitkomst",
       "deliverables": "Wat je krijgt",
-      "duration": "Doorlooptijd"
+      "duration": "Doorlooptijd",
+      "price": "Prijs"
     },
     "items": [
       {
         "id": "audit",
-        "name": "POC Audit",
+        "name": "Production Readiness Audit",
         "duration": "1 week",
-        "outcome": "Je weet precies wat je demo tegenhoudt en wat de weg naar productie is.",
-        "summary": "Je hebt een AI-demo die werkt op een laptop. Wij nemen hem uit elkaar: data, prompts, modelkeuze, kosten, latency, beveiliging. Je krijgt een eerlijk oordeel en een plan dat je team direct kan uitvoeren.",
+        "price": "€ 2.450",
+        "priceNote": "Vaste prijs, inclusief readout.",
+        "outcome": "Je weet binnen een week waarom je pilot vastzit en wat er nodig is om hem live te krijgen.",
+        "summary": "Je AI-pilot of POC werkt op een laptop en komt niet verder. Wij testen hem tegen echte data en echt gebruik: data, prompts, modelkeuze, kosten, latency, beveiliging. Je krijgt een eerlijk oordeel en een plan dat je team direct kan uitvoeren.",
         "deliverables": [
-          "Schriftelijk rapport met risico's op volgorde van impact",
+          "Schriftelijk rapport: wat breekt onder echte gebruikers en echte data",
+          "Fixlijst op volgorde van impact",
           "Plan van 90 dagen naar productie",
-          "Readout van 60 minuten met je team"
+          "Readout van 60 minuten met je team",
+          "Duidelijke go of no-go"
         ]
       },
       {
         "id": "hardening",
         "name": "Production Hardening",
         "duration": "3 tot 6 weken",
+        "price": "vanaf € 9.500",
+        "priceNote": "De audit wordt verrekend als Hardening binnen 60 dagen volgt.",
         "outcome": "Een AI-feature die onder echte gebruikers blijft werken en je 's nachts niet wakker maakt.",
-        "summary": "Je feature werkt in dev, maar breekt onder belasting, kost te veel of hallucineert op het verkeerde moment. Wij voegen evals, monitoring, prompt-versiebeheer en kosten- en latencycontroles toe en maken de deploy robuust.",
+        "summary": "Je feature werkt in dev, maar breekt onder belasting, kost te veel of hallucineert op het verkeerde moment. Wij voegen evals, monitoring, prompt- en modelversiebeheer en kosten- en latencycontroles toe en maken de deploy robuust.",
         "deliverables": [
           "Evaluatieset en geautomatiseerde evals",
           "Monitoring, alerts en kostenbewaking",
+          "Prompt- en modelversiebeheer",
           "Robuuste deploy met rollback",
           "Overdrachtsdocument voor je team"
         ]
@@ -192,6 +200,8 @@
         "id": "build",
         "name": "Full Build",
         "duration": "6 tot 12 weken",
+        "price": "vanaf € 29.500",
+        "priceNote": "Definitieve prijs na een scopinggesprek van 15 minuten.",
         "outcome": "Een complete AI-feature in productie, met het product eromheen, in handen van je team.",
         "summary": "Je hebt de AI-feature én het product eromheen nodig. Backend, frontend, modelintegratie, infrastructuur, deploy. Wij bouwen het end-to-end en dragen het over als iets dat je team zelf kan onderhouden.",
         "deliverables": [
@@ -203,9 +213,9 @@
       }
     ],
     "cta": {
-      "title": "AI-feature die naar productie moet?",
-      "lead": "Stuur een kort bericht over waar je staat. We reageren binnen een werkdag.",
-      "primary": "Stuur een bericht"
+      "title": "AI-pilot die naar productie moet?",
+      "lead": "Plan een gesprek van 15 minuten. Daarna weet je welk pakket past en wat het kost.",
+      "primary": "Plan een gesprek van 15 minuten"
     }
   },
   "work": {

@@ -47,8 +47,8 @@
     },
     "services": {
       "kicker": "Packages",
-      "title": "Three packages. Fixed scope, clear outcome.",
-      "lead": "Pick the package that matches where you are. Quoted after a 15-minute call.",
+      "title": "Three packages. Fixed scope, price known up front.",
+      "lead": "Any demo shop builds a POC. We make it survive production. Pick the package that matches where you are.",
       "viewAll": "See the packages"
     },
     "work": {
@@ -66,7 +66,7 @@
         },
         {
           "q": "How does pricing work?",
-          "a": "Per package. We agree the price up front, after a short scoping call. No hourly billing and no surprises afterwards."
+          "a": "The Production Readiness Audit is €2,450, fixed. Production Hardening starts at €9,500 and Full Build at €29,500; we agree the final price after a 15-minute call. If Hardening follows the audit within 60 days, the audit is credited. No hourly billing and no surprises afterwards."
         },
         {
           "q": "Do you work remote or on-site?",
@@ -146,44 +146,52 @@
     }
   },
   "services": {
-    "title": "AI packages with fixed scope",
-    "description": "Three packages for product teams that need an AI feature in production. Audit, hardening or full build. Fixed scope, fixed timeline.",
+    "title": "AI packages with fixed scope and fixed price",
+    "description": "Three packages for product teams that need an AI feature in production. Production Readiness Audit at a fixed price, Production Hardening and Full Build from a starting price.",
     "breadcrumb": "Services",
     "hero": {
       "kicker": "Packages",
       "headline": "Three packages. Pick where you are.",
-      "lead": "From an audit of your demo to a full build. Fixed scope, fixed timeline, one senior team. Quoted after a short call."
+      "lead": "Any demo shop builds a POC. We make it survive production. Fixed scope, fixed timeline, price known up front."
     },
     "labels": {
-      "discussCta": "Discuss this package",
+      "discussCta": "Book a 15-minute call",
       "serviceLabel": "PACKAGE",
       "readMore": "Read more",
       "outcome": "Outcome",
       "deliverables": "What you get",
-      "duration": "Timeline"
+      "duration": "Timeline",
+      "price": "Price"
     },
     "items": [
       {
         "id": "audit",
-        "name": "POC Audit",
+        "name": "Production Readiness Audit",
         "duration": "1 week",
-        "outcome": "You know exactly what is holding your demo back and what the path to production is.",
-        "summary": "You have an AI demo that works on a laptop. We take it apart: data, prompts, model choice, cost, latency, security. You get an honest verdict and a plan your team can execute right away.",
+        "price": "€2,450",
+        "priceNote": "Fixed price, readout included.",
+        "outcome": "Within a week you know why your pilot is stuck and what it takes to get it live.",
+        "summary": "Your AI pilot or POC works on a laptop and goes no further. We test it against real data and real use: data, prompts, model choice, cost, latency, security. You get an honest verdict and a plan your team can execute right away.",
         "deliverables": [
-          "Written report with risks ordered by impact",
+          "Written report: what breaks under real users and real data",
+          "Fix list ordered by impact",
           "90-day plan to production",
-          "60-minute readout with your team"
+          "60-minute readout with your team",
+          "A clear go or no-go"
         ]
       },
       {
         "id": "hardening",
         "name": "Production Hardening",
         "duration": "3 to 6 weeks",
+        "price": "from €9,500",
+        "priceNote": "The audit is credited when Hardening follows within 60 days.",
         "outcome": "An AI feature that keeps working under real users and does not wake you up at night.",
-        "summary": "Your feature works in dev, then breaks under load, costs too much or hallucinates at the wrong moment. We add evals, monitoring, prompt versioning, cost and latency controls, and harden the deploy.",
+        "summary": "Your feature works in dev, then breaks under load, costs too much or hallucinates at the wrong moment. We add evals, monitoring, prompt and model versioning, cost and latency controls, and harden the deploy.",
         "deliverables": [
           "Evaluation set and automated evals",
           "Monitoring, alerts and cost tracking",
+          "Prompt and model versioning",
           "Hardened deploy with rollback",
           "Handover document for your team"
         ]
@@ -192,6 +200,8 @@
         "id": "build",
         "name": "Full Build",
         "duration": "6 to 12 weeks",
+        "price": "from €29,500",
+        "priceNote": "Final price after a 15-minute scoping call.",
         "outcome": "A complete AI feature in production, with the product around it, owned by your team.",
         "summary": "You need the AI feature and the product around it. Backend, frontend, model integration, infrastructure, deploy. We build it end to end and hand it over as something your team can maintain.",
         "deliverables": [
@@ -203,9 +213,9 @@
       }
     ],
     "cta": {
-      "title": "Got an AI feature that needs to ship?",
-      "lead": "Send a short message about where you are. We reply within one working day.",
-      "primary": "Send a message"
+      "title": "Got an AI pilot that needs to ship?",
+      "lead": "Book a 15-minute call. Afterwards you know which package fits and what it costs.",
+      "primary": "Book a 15-minute call"
     }
   },
   "work": {

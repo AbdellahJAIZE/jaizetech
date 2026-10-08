@@ -115,6 +115,6 @@ What must never ship behind monitoring: anything on the irreversible side of the
 
 ## Where this becomes an engagement
 
-If you have the punchlist but not the confidence to sequence it — or you have the symptoms and no punchlist at all — that is what a **POC Audit** is for: a one-week sprint where I go through the codebase, infrastructure, data flow, prompts and costs, and hand back the findings *plus* the 90-day plan with the order, the dependencies and the week-one/month-two split already decided.
+If you have the punchlist but not the confidence to sequence it — or you have the symptoms and no punchlist at all — that is what a **Production Readiness Audit** is for: a one-week sprint where I go through the codebase, infrastructure, data flow, prompts and costs, and hand back the findings *plus* the 90-day plan with the order, the dependencies and the week-one/month-two split already decided.
 
 You get the framework above applied to your actual system by someone who has sequenced these lists before, so your engineer spends the three weeks building instead of arguing about what to build. The scope is on the [services page](/en/services), and if you want to walk through your current list first, [tell me what is on it](/en/contact).

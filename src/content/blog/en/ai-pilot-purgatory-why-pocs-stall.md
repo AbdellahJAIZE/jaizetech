@@ -70,7 +70,7 @@ If you get crisp answers to all four and the pilot is still stuck, your problem 
 
 ## What one week can fix, and what it cannot
 
-A one-week POC Audit resolves the technical half with real confidence. I go through the pilot's code, prompts, retrieval setup, data path and cost profile, run it against inputs it has not seen, and come back with a prioritised punchlist and a 90-day AI plan: what to fix first, what can wait, what should be thrown away, and what it will realistically take in engineering weeks. That turns "we are still piloting" into a sequence with a date at the end of it.
+A one-week Production Readiness Audit resolves the technical half with real confidence. I go through the pilot's code, prompts, retrieval setup, data path and cost profile, run it against inputs it has not seen, and come back with a prioritised punchlist and a 90-day AI plan: what to fix first, what can wait, what should be thrown away, and what it will realistically take in engineering weeks. That turns "we are still piloting" into a sequence with a date at the end of it.
 
 What an audit cannot do is pick your decision-owner. It can, though, make the absence of one impossible to ignore. A written readout that says "the technical blockers are 15 engineering days, and the remaining blocker is that no one has accepted the residual risk on automated pricing" tends to do more in one meeting than another quarter of iteration. In my experience that sentence is the single highest-leverage output of the week, and it is uncomfortable enough that nobody writes it from the inside.
 
@@ -78,4 +78,4 @@ The economics are not subtle either. Compare a week of diagnosis against [what a
 
 ## If you do one thing this month
 
-Pick the pilot with the clearest business case, ask the four questions above, and write the answers down. If they come back sharp and the engineering path is what you are unsure about, a [POC Audit](/en/services) is a one-week fixed-scope sprint that tells you what breaks at scale, what to fix first, and gives you a 90-day plan with a ship date attached. If you want a second opinion on which of your stalled pilots is worth that week, [send me the short version](/en/contact) and I will tell you straight.
+Pick the pilot with the clearest business case, ask the four questions above, and write the answers down. If they come back sharp and the engineering path is what you are unsure about, a [Production Readiness Audit](/en/services) is a one-week fixed-scope sprint that tells you what breaks at scale, what to fix first, and gives you a 90-day plan with a ship date attached. If you want a second opinion on which of your stalled pilots is worth that week, [send me the short version](/en/contact) and I will tell you straight.

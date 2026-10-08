@@ -1,5 +1,5 @@
 ---
-title: "AI POC Audit Report: What a Real One Actually Contains"
+title: "AI Production Readiness Audit Report: What a Real One Actually Contains"
 description: "A buyer's guide to the AI POC audit report: what belongs in it, what the 90-day plan needs, and five signs the audit is theater."
 published: "2026-09-16"
 tags: ["AI audit", "AI POC", "production readiness", "AI engineering", "technical due diligence"]
@@ -30,7 +30,7 @@ Everything else is a tour. If the quote does not commit to a written answer to t
 
 A report I would put my name on has eight parts, and the order matters because it is the order in which your CTO will read it: scope first, evidence second, plan last.
 
-![AI POC Audit Report: What a Real One Actually Contains](/images/blog/ai-poc-audit-report-checklist/1.jpg)
+![AI Production Readiness Audit Report: What a Real One Actually Contains](/images/blog/ai-poc-audit-report-checklist/1.jpg)
 
 **1. Scope: what was actually examined.** The commit hash. The environment (laptop, staging, whatever it was). The data that was used. And, more important, what was *not* looked at. An honest report says "the ingestion pipeline was out of scope; I looked at the query path only". A report with no exclusions looked at nothing deeply.
 
@@ -122,8 +122,8 @@ A real one-week audit has a shape. Day one is access and interviews: repo, envir
 
 "Done" means four things exist in your hands. The written report with numbered, reproducible findings. The 90-day plan with owners, dependencies, and definitions of done. The readout, recorded. And the scripts, left in your repository, so every number can be re-run by your team next month without calling anyone.
 
-The real test of done is simpler: could your team execute the plan if the auditor disappeared? If the answer is no, the audit created a dependency instead of removing one. The best audit I can deliver is one that makes me unnecessary for the next ninety days, and that is how the [POC Audit is scoped on the services page](/en/services).
+The real test of done is simpler: could your team execute the plan if the auditor disappeared? If the answer is no, the audit created a dependency instead of removing one. The best audit I can deliver is one that makes me unnecessary for the next ninety days, and that is how the [Production Readiness Audit is scoped on the services page](/en/services).
 
 ## Where this becomes an engagement
 
-If you have a working demo and a quote in front of you, the POC Audit is a one-week sprint that ends with exactly the deliverables above: a written report on what breaks at scale, a prioritised 90-day plan to ship, and a readout call to defend every finding in it. The scope is on the [services page](/en/services). If you want to compare it against whatever quote you are holding, [get in touch](/en/contact) and we will tell you honestly whether you need it.
+If you have a working demo and a quote in front of you, the Production Readiness Audit is a one-week sprint that ends with exactly the deliverables above: a written report on what breaks at scale, a prioritised 90-day plan to ship, and a readout call to defend every finding in it. The scope is on the [services page](/en/services). If you want to compare it against whatever quote you are holding, [get in touch](/en/contact) and we will tell you honestly whether you need it.
