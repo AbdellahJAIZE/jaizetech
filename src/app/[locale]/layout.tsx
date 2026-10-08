@@ -48,14 +48,15 @@ export async function generateMetadata({
     },
     description: t('defaultDescription'),
     applicationName: 'Jaize Tech',
-    authors: [{ name: 'Abdellah Jaize', url: 'https://jaizetech.nl/about' }],
-    creator: 'Abdellah Jaize',
+    authors: [{ name: 'A. Jaize', url: 'https://jaizetech.nl/about' }],
+    creator: 'A. Jaize',
     publisher: 'Jaize Tech',
     keywords:
       locale === 'nl'
         ? [
+            'AI-studio Nederland',
+            'AI-bureau Nederland',
             'AI software engineer Nederland',
-            'freelance AI engineer',
             'productie AI',
             'AI-agenten',
             'RAG-assistent',
@@ -67,8 +68,9 @@ export async function generateMetadata({
             'Friesland'
           ]
         : [
+            'AI studio Netherlands',
+            'AI agency Netherlands',
             'AI software engineer Netherlands',
-            'freelance AI engineer NL',
             'production AI',
             'AI agents',
             'RAG assistant',

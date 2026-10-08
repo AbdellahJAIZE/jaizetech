@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["AI failover", "LLM reliability", "circuit breaker", "production engineering", "AI infrastructure"]
 ogImage: "/images/blog/llm-provider-outage-failover-strategy/cover.jpg"
 primaryService: "hardening"
+seoDescription: "Most outages are self-inflicted. A failover strategy with provider, model and degraded-mode layers that survives a provider incident."
 ---
 A provider returns HTTP 503 on the chat completions endpoint. Your client has a 60 second timeout and three retries with a one second backoff, so each failing request now occupies a worker for roughly three minutes. Your connection pool fills in under a minute, and requests that have nothing to do with AI start timing out behind it, because they share the same pool. The provider is having a partial outage in one region. Your product is down everywhere. The distance between those two sentences is your **AI feature failover strategy**, or the absence of one.
 

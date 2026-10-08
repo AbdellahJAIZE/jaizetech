@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize Tech · Independent software engineering",
-    "defaultDescription": "Software builds, AI features, and infrastructure work. Independent engineering by Abdellah Jaize, based in the Netherlands."
+    "defaultTitle": "Jaize Tech · AI studio for production",
+    "defaultDescription": "Compact AI studio in the Netherlands. We take AI features from demo to production, with fixed scope and a fixed timeline."
   },
   "nav": {
     "home": "Home",
@@ -12,7 +12,7 @@
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "bookCall": "Get in touch",
+    "bookCall": "Book a call",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "homeAria": "Jaize Tech home",
@@ -24,36 +24,36 @@
     "newTabSuffix": "(opens in new tab)"
   },
   "home": {
-    "title": "Jaize Tech · AI demos don't ship. I fix that.",
-    "description": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
+    "title": "Jaize Tech · AI features that reach production",
+    "description": "Compact AI studio in the Netherlands. We take your AI feature from demo to production and make sure it keeps running under real users.",
     "hero": {
-      "headline": "AI demos don't ship. I fix that.",
-      "lead": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
-      "ctaPrimary": "Get in touch",
-      "ctaSecondary": "See how I work"
+      "headline": "AI features that reach production. And stay there.",
+      "lead": "Jaize Tech is a compact AI studio in the Netherlands. We take a working demo or a sharp idea and deliver an AI feature that holds up under real users. Fixed scope, fixed timeline, one senior team from kickoff to handover.",
+      "ctaPrimary": "Book a 15-minute call",
+      "ctaSecondary": "Or email us"
     },
     "readme": {
-      "label": "profile",
-      "name": "name",
-      "nameValue": "Abdellah Jaize",
-      "role": "role",
-      "roleValue": "AI software engineer",
+      "label": "studio",
+      "name": "studio",
+      "nameValue": "Jaize Tech · A. Jaize",
+      "role": "does",
+      "roleValue": "AI engineering, from demo to production",
       "based": "based",
       "basedValue": "IJlst, Netherlands",
       "lang": "languages",
-      "langValue": "English · French · Arabic",
+      "langValue": "English · Dutch · French",
       "kvk": "kvk",
       "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "How I work",
-      "title": "Three ways to ship it.",
-      "lead": "Fixed scope, fixed timeline. Quoted after a short call.",
-      "viewAll": "See all three"
+      "kicker": "Packages",
+      "title": "Three packages. Fixed scope, price known up front.",
+      "lead": "Any demo shop builds a POC. We make it survive production. Pick the package that matches where you are.",
+      "viewAll": "See the packages"
     },
     "work": {
       "kicker": "Work",
-      "title": "What I've built recently.",
+      "title": "What we have built.",
       "viewAll": "All case studies"
     },
     "faq": {
@@ -61,32 +61,32 @@
       "title": "Practical answers.",
       "items": [
         {
-          "q": "Do you work remote or on-site?",
-          "a": "Both. Mostly remote, with visits to Amsterdam, Utrecht or Eindhoven when it helps the project."
+          "q": "Who is Jaize Tech for?",
+          "a": "Product teams in the Netherlands and the EU that need an AI feature in production. Scale-ups, software companies and industrial companies that want to get past the demo."
         },
         {
           "q": "How does pricing work?",
-          "a": "Per project, after a short scoping call. No fixed packages, no surprise quotes. We agree the price up front."
+          "a": "The Production Readiness Audit is €2,450, fixed. Production Hardening starts at €9,500 and Full Build at €29,500; we agree the final price after a 15-minute call. If Hardening follows the audit within 60 days, the audit is credited. No hourly billing and no surprises afterwards."
         },
         {
-          "q": "Do you work with one client at a time?",
-          "a": "No. I work with a few clients in parallel, usually a couple of days per week per engagement. That keeps me independent and focused."
+          "q": "Do you work remote or on-site?",
+          "a": "Both. Mostly remote, with visits to your team when the project is better for it."
         },
         {
           "q": "What if the scope changes?",
-          "a": "We talk it through and adjust together. Most changes are minor and just shift the timeline a little."
+          "a": "We talk it through and adjust the package together. Most changes are small and only shift the timeline."
         },
         {
           "q": "What language do you work in?",
-          "a": "English. Documentation, code, meetings, email. Standard for tech teams in the Netherlands."
+          "a": "English or Dutch, whichever your team prefers. Code and documentation in English."
         }
       ]
     },
     "cta": {
-      "title": "Ready to build something?",
-      "lead": "A 15-minute call is enough for both of us to know if there's a fit.",
-      "primary": "Get in touch",
-      "secondary": "Or email directly: abdellah@jaizetech.nl"
+      "title": "Ready to take your AI feature to production?",
+      "lead": "A 15-minute call is enough to know whether we can help.",
+      "primary": "Book a call",
+      "secondary": "Or email info@jaizetech.nl"
     },
     "stats": {
       "label": "By the numbers",
@@ -94,19 +94,15 @@
       "items": [
         {
           "value": "5+ years",
-          "label": "shipping production software"
+          "label": "building and running production software, from data science to AI platforms"
         },
         {
-          "value": "2.5+ years",
-          "label": "AI running 24/7 in industrial production"
+          "value": "10+ products",
+          "label": "live in production: AI platforms, SaaS, mobile apps, marketplaces"
         },
         {
-          "value": "Sole engineer",
-          "label": "end-to-end (model, API, frontend, infra)"
-        },
-        {
-          "value": "Mobile + Web + AI",
-          "label": "three domains, one engineer"
+          "value": "Millions of images",
+          "label": "processed by our inference pipelines, 24/7 in production since 2023"
         }
       ]
     },
@@ -150,50 +146,86 @@
     }
   },
   "services": {
-    "title": "AI engineering, scoped and time-boxed",
-    "description": "Three engagements for Dutch teams that need AI features in production. Audit, hardening, or full build. Stack-flexible.",
+    "title": "AI packages with fixed scope and fixed price",
+    "description": "Three packages for product teams that need an AI feature in production. Production Readiness Audit at a fixed price, Production Hardening and Full Build from a starting price.",
     "breadcrumb": "Services",
     "hero": {
-      "kicker": "Engagements",
-      "headline": "Three engagements. Pick where you are.",
-      "lead": "From AI audit to full build. Fixed scope, fixed timeline, quoted after a short call."
+      "kicker": "Packages",
+      "headline": "Three packages. Pick where you are.",
+      "lead": "Any demo shop builds a POC. We make it survive production. Fixed scope, fixed timeline, price known up front."
     },
     "labels": {
-      "discussCta": "Talk about this",
-      "serviceLabel": "WHAT I DO",
-      "readMore": "Read more"
+      "discussCta": "Book a 15-minute call",
+      "serviceLabel": "PACKAGE",
+      "readMore": "Read more",
+      "outcome": "Outcome",
+      "deliverables": "What you get",
+      "duration": "Timeline",
+      "price": "Price"
     },
     "items": [
       {
         "id": "audit",
-        "name": "POC Audit",
-        "summary": "One-week sprint. You have an AI demo that works on your laptop. I tell you exactly what breaks at scale, what to fix first, and a 90-day plan to ship. Includes a written report and a 60-minute readout call with your team."
+        "name": "Production Readiness Audit",
+        "duration": "1 week",
+        "price": "€2,450",
+        "priceNote": "Fixed price, readout included.",
+        "outcome": "Within a week you know why your pilot is stuck and what it takes to get it live.",
+        "summary": "Your AI pilot or POC works on a laptop and goes no further. We test it against real data and real use: data, prompts, model choice, cost, latency, security. You get an honest verdict and a plan your team can execute right away.",
+        "deliverables": [
+          "Written report: what breaks under real users and real data",
+          "Fix list ordered by impact",
+          "90-day plan to production",
+          "60-minute readout with your team",
+          "A clear go or no-go"
+        ]
       },
       {
         "id": "hardening",
         "name": "Production Hardening",
-        "summary": "Three to six weeks. Your AI feature works in dev. Then it breaks under real users, costs too much, or hallucinates at the wrong moment. I add evals, monitoring, prompt versioning, latency and cost controls, and harden the deploy. You leave with a feature that doesn't wake you up at night."
+        "duration": "3 to 6 weeks",
+        "price": "from €9,500",
+        "priceNote": "The audit is credited when Hardening follows within 60 days.",
+        "outcome": "An AI feature that keeps working under real users and does not wake you up at night.",
+        "summary": "Your feature works in dev, then breaks under load, costs too much or hallucinates at the wrong moment. We add evals, monitoring, prompt and model versioning, cost and latency controls, and harden the deploy.",
+        "deliverables": [
+          "Evaluation set and automated evals",
+          "Monitoring, alerts and cost tracking",
+          "Prompt and model versioning",
+          "Hardened deploy with rollback",
+          "Handover document for your team"
+        ]
       },
       {
         "id": "build",
         "name": "Full Build",
-        "summary": "Six to twelve weeks. You need the AI feature and the product around it built end-to-end. Backend, frontend, model integration, infra, deploy. I work as the senior engineer who owns the whole thing. Handover includes clean code, real docs, and a walkthrough call."
+        "duration": "6 to 12 weeks",
+        "price": "from €29,500",
+        "priceNote": "Final price after a 15-minute scoping call.",
+        "outcome": "A complete AI feature in production, with the product around it, owned by your team.",
+        "summary": "You need the AI feature and the product around it. Backend, frontend, model integration, infrastructure, deploy. We build it end to end and hand it over as something your team can maintain.",
+        "deliverables": [
+          "Working feature in your production environment",
+          "Clean code and real documentation",
+          "CI/CD and monitoring in place",
+          "Walkthrough and handover to your team"
+        ]
       }
     ],
     "cta": {
-      "title": "Got an AI feature that needs to ship?",
-      "lead": "Send a short message describing where you are. I reply within a day.",
-      "primary": "Send a message"
+      "title": "Got an AI pilot that needs to ship?",
+      "lead": "Book a 15-minute call. Afterwards you know which package fits and what it costs.",
+      "primary": "Book a 15-minute call"
     }
   },
   "work": {
-    "title": "Selected work",
-    "description": "Selected case studies. Computer-vision platform in Dutch agritech, and mobile and web product at a sportstech startup.",
+    "title": "Case studies",
+    "description": "Eight cases: an AI quality control platform, a job platform, SaaS dashboards, a receipt app, developer tools, local websites and an architecture audit.",
     "breadcrumb": "Work",
     "hero": {
       "kicker": "Work",
-      "headline": "What I've built.",
-      "lead": "A few projects in detail. The challenge, how I tackled it, and what came out."
+      "headline": "What we have built.",
+      "lead": "Eight projects in detail. The problem, what we built, and the numbers."
     },
     "labels": {
       "approach": "Approach",
@@ -207,24 +239,24 @@
     "cases": [
       {
         "id": "agritech",
-        "client": "AI computer-vision platform for Dutch agritech",
+        "client": "AI quality control platform for a Dutch agritech company",
         "sector": "Agritech · Industrial quality control",
-        "year": "2023 to Present",
-        "role": "Software Engineer",
-        "summary": "Sole engineer on an AI quality control platform running 24/7 in production. Built and operated the full stack around computer-vision inference: NestJS API, Vue.js annotation interface, PostgreSQL, GitLab CI/CD, hybrid on-prem and cloud deployment. Migrated production services and large image datasets to new hardware with zero data loss.",
-        "approach": "Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.",
+        "year": "2023 to present",
+        "role": "One senior engineer, end to end",
+        "summary": "Problem: industrial clients needed automated, 24/7 quality control on image data, in environments that each had their own security requirements. What we built: the full stack around computer-vision inference. NestJS API, Vue.js annotation interface, PostgreSQL, CI/CD and a hybrid deployment across Azure and on-premise. Production services and large image datasets were migrated to new hardware with zero data loss.",
+        "approach": "NVIDIA Triton for model serving (ResNet and YOLO), a modular NestJS API and a data pipeline with OCR and validation agents. Designed for high throughput with cost and reliability in mind.",
         "stats": [
           {
-            "value": "Production",
-            "label": "AI inference at scale"
+            "value": "Millions",
+            "label": "of images processed for quality control"
           },
           {
-            "value": "Sole engineer",
-            "label": "End-to-end ownership"
+            "value": "8+",
+            "label": "enterprise client environments on one platform"
           },
           {
-            "value": "2.5y+",
-            "label": "In production"
+            "value": "Since 2023",
+            "label": "24/7 in production, every day"
           }
         ],
         "stack": [
@@ -235,80 +267,949 @@
           "ResNet",
           "YOLO",
           "Docker",
-          "GitLab CI/CD"
+          "Azure DevOps"
         ],
-        "production": "Production since Q3 2023"
+        "production": "In production since Q3 2023 · zero-downtime deployments",
+        "diagram": {
+          "zones": [
+            "EDGE",
+            "CLOUD",
+            "ON-PREM",
+            "CLIENT"
+          ],
+          "nodes": [
+            {
+              "id": "cams",
+              "zone": 0,
+              "label": "Edge devices",
+              "sub": "field cameras"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "Cloud API",
+              "sub": "sync · WebSocket"
+            },
+            {
+              "id": "reg",
+              "zone": 2,
+              "label": "Model registry",
+              "sub": "ResNet · YOLO",
+              "soft": true
+            },
+            {
+              "id": "triton",
+              "zone": 2,
+              "label": "NVIDIA Triton",
+              "sub": "GPU inference"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "orchestration · auth"
+            },
+            {
+              "id": "ui",
+              "zone": 3,
+              "label": "Vue annotation UI",
+              "sub": "operator workflow"
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "label store · audit"
+            }
+          ],
+          "edges": [
+            [
+              "cams",
+              "api"
+            ],
+            [
+              "api",
+              "triton"
+            ],
+            [
+              "reg",
+              "triton",
+              "soft"
+            ],
+            [
+              "triton",
+              "nest"
+            ],
+            [
+              "nest",
+              "ui"
+            ],
+            [
+              "nest",
+              "db"
+            ]
+          ],
+          "footer": "Hybrid on-prem + cloud · CI/CD · Docker · GPU inference 24/7",
+          "aria": "Edge cameras send images through a cloud API to on-premise GPU inference with NVIDIA Triton and a NestJS API, feeding a Vue annotation UI and a PostgreSQL label store"
+        }
+      },
+      {
+        "id": "arrowlancer",
+        "client": "ArrowLancer: job platform for skilled migrants and sponsoring employers",
+        "sector": "HR tech · Own product",
+        "year": "2024 to present",
+        "role": "Own product, built by the studio",
+        "summary": "Problem: international professionals apply to jobs that will never sponsor a visa, and the job ad rarely says so. What we built: a platform that reads the career pages of Dutch companies itself, gives every job a sponsorship score, matches CVs and emails the matches. With a Moroccan edition, Stripe subscriptions and autonomous writers that publish daily SEO articles and social posts for five sites.",
+        "approach": "An LLM crawler with parallel workers and sponsorship scoring, a NestJS API on MongoDB, a Next.js frontend, all on Azure Container Apps. PostHog monitoring and an hourly watchdog keep the pipelines honest.",
+        "stats": [
+          {
+            "value": "4,900+",
+            "label": "jobs indexed from company sites"
+          },
+          {
+            "value": "1,300+",
+            "label": "companies in the index"
+          },
+          {
+            "value": "5 sites",
+            "label": "served daily by the writers"
+          }
+        ],
+        "stack": [
+          "NestJS",
+          "MongoDB",
+          "Next.js",
+          "Azure Container Apps",
+          "Stripe",
+          "OpenAI",
+          "PostHog",
+          "Python"
+        ],
+        "production": "Live on arrowlancer.com and arrowlancer.ma · since 2024",
+        "diagram": {
+          "zones": [
+            "SOURCES",
+            "CRAWLER",
+            "PLATFORM",
+            "USERS"
+          ],
+          "nodes": [
+            {
+              "id": "pages",
+              "zone": 0,
+              "label": "Career pages",
+              "sub": "1,300+ companies"
+            },
+            {
+              "id": "crawl",
+              "zone": 1,
+              "label": "LLM crawler",
+              "sub": "parallel workers"
+            },
+            {
+              "id": "score",
+              "zone": 1,
+              "label": "Sponsorship score",
+              "sub": "per job",
+              "soft": true
+            },
+            {
+              "id": "api",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "MongoDB · Stripe"
+            },
+            {
+              "id": "writers",
+              "zone": 2,
+              "label": "Daily writers",
+              "sub": "SEO · social",
+              "soft": true
+            },
+            {
+              "id": "site",
+              "zone": 3,
+              "label": "Next.js site",
+              "sub": "search · visa badge"
+            },
+            {
+              "id": "match",
+              "zone": 3,
+              "label": "CV matching",
+              "sub": "email digests"
+            }
+          ],
+          "edges": [
+            [
+              "pages",
+              "crawl"
+            ],
+            [
+              "crawl",
+              "score",
+              "soft"
+            ],
+            [
+              "crawl",
+              "api"
+            ],
+            [
+              "api",
+              "site"
+            ],
+            [
+              "api",
+              "match"
+            ],
+            [
+              "writers",
+              "api",
+              "soft"
+            ]
+          ],
+          "footer": "Azure Container Apps · PostHog monitoring · hourly watchdog",
+          "aria": "Company career pages are crawled by an LLM crawler with sponsorship scoring into a NestJS API with MongoDB and Stripe, serving a Next.js site, CV matching with email digests and daily SEO and social writers"
+        }
       },
       {
         "id": "sportstech",
-        "client": "Sportstech startup mobile and web product",
+        "client": "Mobile app, back office and website for a sportstech startup",
         "sector": "Sportstech · Early-stage startup",
         "year": "2022 to 2023",
-        "role": "Software Engineer",
-        "summary": "Mobile and web engineer at an early-stage sportstech startup. Built React Native app with Unity game features plus React and Next.js back-office and public website end-to-end.",
-        "approach": "React Native app with embedded Unity game scenes. React and Next.js back-office and public website on a NestJS backend. AWS CI/CD, OAuth2 and Firebase Auth with RBAC across mobile and web.",
+        "role": "Tech lead",
+        "summary": "Problem: an early-stage startup had to launch a mobile app, a back office and a public website at the same time, with a team that still had to be built. What we built: the React Native app with Unity game features, the React and Next.js back office and the website, on a NestJS backend with OAuth2 and Firebase Auth.",
+        "approach": "Architecture, sprint planning and code reviews for a team of 7 to 12 engineers. CI/CD on AWS and role-based access across mobile and web.",
         "stats": [
           {
-            "value": "Mobile + Web",
-            "label": "Platforms shipped"
+            "value": "3",
+            "label": "product streams shipped to production"
           },
           {
-            "value": "App Store + GP",
-            "label": "Released on"
+            "value": "7 to 12",
+            "label": "engineers on the team"
           },
           {
-            "value": "1y 7mo",
-            "label": "In the role"
+            "value": "App Store + Google Play",
+            "label": "released on"
           }
         ],
         "stack": [
           "React Native",
           "Next.js",
           "Unity",
+          "NestJS",
           "AWS",
           "Firebase",
           "OAuth2"
         ],
-        "production": "Software Engineer 2022 to 2023"
+        "production": "Live on the App Store and Google Play · 2022 to 2023",
+        "diagram": {
+          "zones": [
+            "MOBILE",
+            "WEB",
+            "API",
+            "DATA"
+          ],
+          "nodes": [
+            {
+              "id": "rn",
+              "zone": 0,
+              "label": "React Native app",
+              "sub": "+ Unity scenes"
+            },
+            {
+              "id": "bo",
+              "zone": 1,
+              "label": "Next.js backoffice",
+              "sub": "roles · RBAC"
+            },
+            {
+              "id": "site",
+              "zone": 1,
+              "label": "Public website",
+              "sub": "React · Next.js"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "REST · OAuth2"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "MongoDB",
+              "sub": "application data"
+            },
+            {
+              "id": "ci",
+              "zone": 3,
+              "label": "AWS CI/CD",
+              "sub": "build · deploy",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "rn",
+              "nest"
+            ],
+            [
+              "bo",
+              "nest"
+            ],
+            [
+              "site",
+              "nest"
+            ],
+            [
+              "auth",
+              "nest",
+              "soft"
+            ],
+            [
+              "nest",
+              "db"
+            ],
+            [
+              "ci",
+              "nest",
+              "soft"
+            ]
+          ],
+          "footer": "Three product streams on one backend · OAuth2 · AWS",
+          "aria": "A React Native app with Unity scenes, a Next.js back-office and a public website share one NestJS API with OAuth2 and Firebase Auth, MongoDB and AWS CI/CD"
+        }
+      },
+      {
+        "id": "saas-dashboards",
+        "client": "Screebl: SaaS dashboards for digital marketing agencies",
+        "sector": "Martech · B2B SaaS",
+        "year": "2025 to 2026",
+        "role": "Full-stack engineer, from zero to live",
+        "summary": "Problem: agencies reported campaigns to clients through spreadsheets and loose PDFs. What we built: Screebl, a SaaS where a campaign spreadsheet becomes a live, branded client dashboard shared by secure link. With roles per agency and per client and an AI report assistant that writes the client report.",
+        "approach": "Nuxt 3 with Tailwind on the front, NestJS and MongoDB behind it, hierarchy-aware role-based access, OpenAI for report text and fill suggestions. Playwright end-to-end and visual regression tests, deployed on AWS.",
+        "stats": [
+          {
+            "value": "AI reports",
+            "label": "assistant writes and fills the client report"
+          },
+          {
+            "value": "Live",
+            "label": "in production at agencies"
+          },
+          {
+            "value": "From zero",
+            "label": "built and delivered"
+          }
+        ],
+        "stack": [
+          "Nuxt 3",
+          "NestJS",
+          "MongoDB",
+          "OpenAI",
+          "AWS",
+          "Playwright",
+          "Tailwind"
+        ],
+        "production": "Live since 2025 · end-to-end tested on every release",
+        "diagram": {
+          "zones": [
+            "IMPORT",
+            "API",
+            "DASHBOARDS",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "sheet",
+              "zone": 0,
+              "label": "Spreadsheet upload",
+              "sub": "campaign data"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS API",
+              "sub": "roles · MongoDB"
+            },
+            {
+              "id": "ai",
+              "zone": 1,
+              "label": "Report assistant",
+              "sub": "OpenAI",
+              "soft": true
+            },
+            {
+              "id": "dash",
+              "zone": 2,
+              "label": "Nuxt dashboards",
+              "sub": "branded · live"
+            },
+            {
+              "id": "link",
+              "zone": 3,
+              "label": "Secure link",
+              "sub": "client view"
+            }
+          ],
+          "edges": [
+            [
+              "sheet",
+              "api"
+            ],
+            [
+              "ai",
+              "api",
+              "soft"
+            ],
+            [
+              "api",
+              "dash"
+            ],
+            [
+              "dash",
+              "link"
+            ]
+          ],
+          "footer": "AWS · Playwright end-to-end and visual tests",
+          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards and shared by secure link"
+        }
+      },
+      {
+        "id": "receipt-ocr",
+        "client": "Backend for a receipt-scanning app",
+        "sector": "Fintech · Consumer app",
+        "year": "2025 to 2026",
+        "role": "Backend and mobile engineer",
+        "summary": "Problem: an app had to photograph receipts, read them, categorise them and analyse spending, with a separate OCR service that must be called securely. What we built: the full NestJS 11 backend with OCR integration, authentication, a categorisation engine and an analytics API, on Google Cloud with separate dev and production environments.",
+        "approach": "NestJS 11 with TypeORM on managed PostgreSQL, Cloud Run with CI/CD, service-to-service authentication to the OCR microservice, Firebase auth for users and object storage for the images.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "in production with CI/CD"
+          },
+          {
+            "value": "2 environments",
+            "label": "dev and production, separated"
+          },
+          {
+            "value": "Service auth",
+            "label": "between API and OCR service"
+          }
+        ],
+        "stack": [
+          "NestJS 11",
+          "PostgreSQL",
+          "TypeORM",
+          "Cloud Run",
+          "Firebase Auth",
+          "OCR"
+        ],
+        "production": "Live on Google Cloud · 2025 to 2026",
+        "diagram": {
+          "zones": [
+            "APP",
+            "API",
+            "OCR",
+            "DATA",
+            "ANALYTICS"
+          ],
+          "nodes": [
+            {
+              "id": "app",
+              "zone": 0,
+              "label": "Mobile app",
+              "sub": "Firebase auth"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS 11 API",
+              "sub": "Cloud Run · CI/CD"
+            },
+            {
+              "id": "ocr",
+              "zone": 2,
+              "label": "OCR service",
+              "sub": "service auth",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "managed"
+            },
+            {
+              "id": "store",
+              "zone": 3,
+              "label": "Object storage",
+              "sub": "receipt images",
+              "soft": true
+            },
+            {
+              "id": "ana",
+              "zone": 4,
+              "label": "Spending analytics",
+              "sub": "categories · API"
+            }
+          ],
+          "edges": [
+            [
+              "app",
+              "api"
+            ],
+            [
+              "api",
+              "ocr",
+              "soft"
+            ],
+            [
+              "api",
+              "db"
+            ],
+            [
+              "api",
+              "store",
+              "soft"
+            ],
+            [
+              "db",
+              "ana"
+            ]
+          ],
+          "footer": "Google Cloud · separate dev and prod environments",
+          "aria": "A mobile app with Firebase auth calls a NestJS API on Cloud Run, which uses a separate OCR microservice with service-to-service auth, stores data in managed PostgreSQL and object storage, and serves spending analytics"
+        }
+      },
+      {
+        "id": "prjlab",
+        "client": "PrjLab: a home for projects and their AI context",
+        "sector": "Developer tools · Own product",
+        "year": "2026 to present",
+        "role": "Own product, built by the studio",
+        "summary": "Problem: code travels with git, but a project's AI context (instructions, memory, sessions) stays behind on one machine. What we built: a GitHub-like platform plus an open-source CLI that pushes, pulls and clones repositories together with their AI context. Private context is encrypted, sharing works and can be revoked.",
+        "approach": "Open-source CLI on npm, client-side encrypted storage, versioned context, public repositories and profiles. 150+ CLI tests, integration tests on PostgreSQL and browser tests for the platform.",
+        "stats": [
+          {
+            "value": "Open source",
+            "label": "CLI on npm, MIT licence"
+          },
+          {
+            "value": "150+",
+            "label": "CLI tests on Linux, macOS, Windows"
+          },
+          {
+            "value": "Live",
+            "label": "on prjlab.com since 2026"
+          }
+        ],
+        "stack": [
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Git",
+          "Encryption",
+          "Playwright"
+        ],
+        "production": "Live on prjlab.com · since October 2026",
+        "diagram": {
+          "zones": [
+            "CLI",
+            "ENCRYPTION",
+            "PLATFORM",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "cli",
+              "zone": 0,
+              "label": "Open-source CLI",
+              "sub": "npm · 150+ tests"
+            },
+            {
+              "id": "enc",
+              "zone": 1,
+              "label": "Client encryption",
+              "sub": "private context"
+            },
+            {
+              "id": "repos",
+              "zone": 2,
+              "label": "Git repositories",
+              "sub": "push · pull · clone"
+            },
+            {
+              "id": "ctx",
+              "zone": 2,
+              "label": "AI context store",
+              "sub": "memories · sessions"
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "PostgreSQL",
+              "sub": "versioned",
+              "soft": true
+            },
+            {
+              "id": "share",
+              "zone": 3,
+              "label": "Sharing",
+              "sub": "revocable access"
+            },
+            {
+              "id": "pub",
+              "zone": 3,
+              "label": "Public repos",
+              "sub": "profiles",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "cli",
+              "enc"
+            ],
+            [
+              "enc",
+              "repos"
+            ],
+            [
+              "enc",
+              "ctx"
+            ],
+            [
+              "ctx",
+              "db",
+              "soft"
+            ],
+            [
+              "ctx",
+              "share"
+            ],
+            [
+              "repos",
+              "pub",
+              "soft"
+            ]
+          ],
+          "footer": "Linux · macOS · Windows · integration and browser tests",
+          "aria": "An open-source CLI encrypts a project's AI context on the client and pushes it with the git repository to the platform, which stores versions in PostgreSQL and supports revocable sharing and public repos"
+        }
+      },
+      {
+        "id": "community-portal",
+        "client": "Arabic language portal and mosque website for a community in the Netherlands",
+        "sector": "Education · Community",
+        "year": "2024 to present",
+        "role": "Design, build and run",
+        "summary": "Problem: a mosque community handled registrations for Arabic classes for children and women through loose forms and two separate portals. What we built: one portal where parents register a child and women from 13 register themselves, with enrolments per school year, an agenda, payment status per enrolment and an admin area. Plus the mosque's public website.",
+        "approach": "Next.js 15 with Firebase Auth and Firestore, roles for parents, students and admins. An admin starts a new school year with one click: enrolments are created and parents get an email through Brevo. Hosting migrated without downtime.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "arabischetaal.com and assalaammoskee.nl"
+          },
+          {
+            "value": "2 portals",
+            "label": "merged into one"
+          },
+          {
+            "value": "Per school year",
+            "label": "enrolments, payments and emails"
+          }
+        ],
+        "stack": [
+          "Next.js 15",
+          "Firebase Auth",
+          "Firestore",
+          "Brevo",
+          "Railway"
+        ],
+        "production": "Live at arabischetaal.com and assalaammoskee.nl",
+        "diagram": {
+          "zones": [
+            "USERS",
+            "PORTAL",
+            "DATA",
+            "ADMIN",
+            "EMAIL"
+          ],
+          "nodes": [
+            {
+              "id": "parents",
+              "zone": 0,
+              "label": "Parents",
+              "sub": "register a child"
+            },
+            {
+              "id": "self",
+              "zone": 0,
+              "label": "Students 13+",
+              "sub": "self-registration"
+            },
+            {
+              "id": "app",
+              "zone": 1,
+              "label": "Next.js 15 portal",
+              "sub": "roles · agenda"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "Firestore",
+              "sub": "enrolment per year"
+            },
+            {
+              "id": "year",
+              "zone": 3,
+              "label": "School-year rollover",
+              "sub": "one click"
+            },
+            {
+              "id": "pay",
+              "zone": 3,
+              "label": "Payment status",
+              "sub": "per enrolment",
+              "soft": true
+            },
+            {
+              "id": "mail",
+              "zone": 4,
+              "label": "Brevo emails",
+              "sub": "confirm · new year"
+            }
+          ],
+          "edges": [
+            [
+              "parents",
+              "app"
+            ],
+            [
+              "self",
+              "app"
+            ],
+            [
+              "app",
+              "db"
+            ],
+            [
+              "auth",
+              "app",
+              "soft"
+            ],
+            [
+              "db",
+              "year"
+            ],
+            [
+              "db",
+              "pay",
+              "soft"
+            ],
+            [
+              "year",
+              "mail"
+            ],
+            [
+              "app",
+              "mail",
+              "soft"
+            ]
+          ],
+          "footer": "Two sites: registration portal + public website · Firebase · Railway",
+          "aria": "Parents and students register through a Next.js portal backed by Firebase Auth and Firestore enrolments per school year; admins roll over the year and track payments; Brevo sends confirmations"
+        }
+      },
+      {
+        "id": "compliance-audit",
+        "client": "Regulaitor: architecture audit for an AI compliance platform",
+        "sector": "Regtech · Advisory",
+        "year": "2025",
+        "role": "Technical advisor",
+        "summary": "Problem: a founding team with Regulaitor, an AI platform for screening customer calls wanted to know what had to happen before a reliable production release. What we did: reviewed the Node.js and React codebase on architecture, security and AI pipeline, and delivered a prioritised list of recommendations. This is the kind of work that is now our Production Readiness Audit package.",
+        "approach": "Code review per service and per data flow, transcription and LLM pipeline assessed on reliability and cost, a risk register with severity and owner, a plan for the first 30 days and for 90 days.",
+        "stats": [
+          {
+            "value": "Advisory",
+            "label": "for the founding team"
+          },
+          {
+            "value": "Report",
+            "label": "written, with a readout"
+          },
+          {
+            "value": "Roadmap",
+            "label": "prioritised, 90 days"
+          }
+        ],
+        "stack": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Transcription",
+          "LLM pipeline",
+          "Security review"
+        ],
+        "production": "Recommendations delivered to the founding team · 2025",
+        "diagram": {
+          "zones": [
+            "CODEBASE",
+            "REVIEW",
+            "RISK",
+            "ROADMAP"
+          ],
+          "nodes": [
+            {
+              "id": "code",
+              "zone": 0,
+              "label": "Node.js + React",
+              "sub": "call screening"
+            },
+            {
+              "id": "arch",
+              "zone": 1,
+              "label": "Architecture",
+              "sub": "services · data flow"
+            },
+            {
+              "id": "sec",
+              "zone": 1,
+              "label": "Security",
+              "sub": "auth · secrets"
+            },
+            {
+              "id": "pipe",
+              "zone": 1,
+              "label": "AI pipeline",
+              "sub": "transcription · LLM"
+            },
+            {
+              "id": "risk",
+              "zone": 2,
+              "label": "Risk register",
+              "sub": "severity · owner"
+            },
+            {
+              "id": "fix",
+              "zone": 3,
+              "label": "Prioritised fixes",
+              "sub": "first 30 days"
+            },
+            {
+              "id": "plan",
+              "zone": 3,
+              "label": "90-day plan",
+              "sub": "to production"
+            }
+          ],
+          "edges": [
+            [
+              "code",
+              "arch"
+            ],
+            [
+              "code",
+              "sec"
+            ],
+            [
+              "code",
+              "pipe"
+            ],
+            [
+              "arch",
+              "risk"
+            ],
+            [
+              "sec",
+              "risk"
+            ],
+            [
+              "pipe",
+              "risk"
+            ],
+            [
+              "risk",
+              "fix"
+            ],
+            [
+              "risk",
+              "plan"
+            ]
+          ],
+          "footer": "Written report · readout with the founding team",
+          "aria": "A Node.js and React codebase for AI call screening is reviewed on architecture, security and AI pipeline, producing a risk register, prioritised fixes and a 90-day plan"
+        }
       }
     ],
     "cta": {
       "title": "Similar engagement in mind?",
-      "lead": "Let's talk. I'll tell you in 15 minutes whether I can add value.",
-      "primary": "Get in touch"
+      "lead": "In 15 minutes we will know whether we can add value.",
+      "primary": "Book a call"
     }
   },
   "about": {
-    "title": "About Abdellah Jaize",
-    "description": "Independent software engineer based in IJlst, Netherlands. Five years building production software, including AI features.",
+    "title": "About Jaize Tech",
+    "description": "Compact AI studio in IJlst, the Netherlands, founded by A. Jaize. Five years of production software, including 2.5 years of AI running 24/7 in industry.",
     "breadcrumb": "About",
-    "photoAlt": "Abdellah Jaize, AI software engineer based in IJlst, Netherlands",
+    "photoAlt": "A. Jaize, founder of Jaize Tech, AI studio in IJlst, Netherlands",
     "photoInitials": "AJ",
     "photoMeta": {
-      "name": "ABDELLAH JAIZE"
+      "name": "A. JAIZE"
     },
     "hero": {
       "kicker": "About",
-      "name": "Abdellah Jaize",
-      "role": "AI Software Engineer"
+      "name": "Jaize Tech",
+      "role": "Compact AI studio · founded by A. Jaize"
     },
     "bio": [
-      "Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.",
-      "For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure, all in production. Before that I built mobile and web product at an early-stage sportstech startup across React Native, Next.js, and AWS."
+      "Jaize Tech is a compact AI studio in IJlst, Friesland. We build AI features that reach production and stay there. Small enough to move fast, senior enough to own the whole system: model, API, frontend and infrastructure.",
+      "The studio was founded by A. Jaize, an engineer with five years of production software behind him. The last 2.5 years as the sole engineer on an AI computer-vision platform at a Dutch agritech company, before that as tech lead of a team of 7 to 12 engineers at a sportstech startup. He leads every package himself."
     ],
     "experience": {
-      "label": "01 · EXPERIENCE",
-      "title": "Work history",
+      "label": "01 · TRACK RECORD",
+      "title": "Track record",
       "items": [
         {
           "date": "2023 to now",
-          "role": "Software Engineer (AI computer-vision platform for a Dutch agritech company)",
-          "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
+          "role": "AI computer-vision platform for a Dutch agritech company",
+          "stack": "One senior engineer. NVIDIA Triton, NestJS, Vue, Azure and on-premise. Millions of images, 8+ client environments."
+        },
+        {
+          "date": "2025 to 2026",
+          "role": "Receipt-scanning app with OCR pipeline (contract)",
+          "stack": "NestJS backend, OCR, JWT, analytics API. Production on GCP with CI/CD."
+        },
+        {
+          "date": "2025 to 2026",
+          "role": "B2B SaaS dashboard, built from scratch (contract)",
+          "stack": "Nuxt 3, NestJS 11, MongoDB, Playwright E2E. Deployed on AWS."
+        },
+        {
+          "date": "2025",
+          "role": "Architecture audit for an AI compliance platform",
+          "stack": "Node.js and React codebase reviewed, recommendations delivered to the founding team."
         },
         {
           "date": "2022 to 2023",
-          "role": "Software Engineer at an early-stage sportstech startup",
-          "stack": "React Native app with Unity, plus React/Next.js back-office and public website."
+          "role": "Tech lead at a sportstech startup",
+          "stack": "React Native with Unity, React and Next.js back office, NestJS, AWS. Team of 7 to 12 engineers."
         }
       ]
     },
@@ -326,11 +1227,11 @@
       "languages": [
         {
           "label": "LANGUAGES",
-          "value": "Arabic (native) · English & French (professional)"
+          "value": "English and Dutch (working languages) · French · Arabic"
         },
         {
           "label": "LOCATION",
-          "value": "IJlst, Friesland · works remote and on-site across NL"
+          "value": "IJlst, Friesland · remote and on-site across the Netherlands and the EU"
         }
       ],
       "kvkLabel": "KVK",
@@ -338,16 +1239,16 @@
     },
     "cta": {
       "title": "Want to work together?",
-      "lead": "Easiest way to start is a short call. Fifteen minutes is usually enough to know if I can help. If you'd rather write, the contact form works too.",
-      "primary": "Get in touch"
+      "lead": "The easiest start is a short call. Fifteen minutes is usually enough to know whether we can help. Prefer writing? The contact form works too.",
+      "primary": "Book a call"
     }
   },
   "contact": {
     "title": "Get in touch",
-    "description": "Send a short message about your project, or book a 15-minute call. Reply within a day on business days.",
+    "description": "Book a 15-minute call or send a short message about your project. Reply within one working day.",
     "hero": {
       "headline": "Let's talk.",
-      "lead": "A short call is usually the fastest way to know if we're a fit. Fifteen minutes, no pressure."
+      "lead": "A short call is the fastest way to know whether we are a fit. Fifteen minutes, no pressure."
     },
     "options": {
       "scheduleTitle": "Book directly",
@@ -355,7 +1256,7 @@
       "scheduleIntro": "Intro call (15 min)",
       "scheduleDeeper": "In-depth call (30 min)",
       "messageTitle": "Send a message",
-      "messageLead": "Tell me briefly what you're working on. I reply within 24 hours."
+      "messageLead": "Tell us briefly where you are. We reply within 24 hours."
     },
     "form": {
       "name": "Name",
@@ -365,14 +1266,14 @@
       "messagePlaceholder": "A few sentences about what you're trying to build or solve...",
       "submit": "Send message",
       "successTitle": "Message received",
-      "successText": "Thanks. I'll reply within 24 hours on business days.",
-      "errorText": "The message could not be sent. Please email me directly at abdellah@jaizetech.nl.",
+      "successText": "Thanks. We reply within 24 hours on working days.",
+      "errorText": "The message could not be sent. Email us directly at info@jaizetech.nl.",
       "requiredMark": "required",
       "requiredHint": "Required fields are marked with an asterisk."
     },
     "trust": "Reply within 24 hours on business days · KvK 42051769 · IJlst, Netherlands",
     "directMailPrefix": "Or email directly:",
-    "directMailAddress": "abdellah@jaizetech.nl"
+    "directMailAddress": "info@jaizetech.nl"
   },
   "blog": {
     "title": "Notes on AI engineering and freelance work",
@@ -384,11 +1285,11 @@
       "lead": "Short pieces on senior engineering, AI in production, and running a freelance practice in the Netherlands."
     },
     "subscribeTitle": "No posts yet. The first one is on the way.",
-    "subscribeLink": "Drop me a line and I'll let you know",
+    "subscribeLink": "Drop us a line and we'll let you know",
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
-    "tagline": "Independent software engineering.",
+    "tagline": "Compact AI studio. From demo to production.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elsewhere",
@@ -396,16 +1297,16 @@
     "kvk": "KvK 42051769",
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
-    "terms": "Terms",
-    "emailAbdellahAria": "Email Abdellah directly",
-    "emailInfoAria": "Email general inbox",
-    "linkedinAria": "Abdellah Jaize on LinkedIn (opens in new tab)",
-    "githubAria": "Abdellah Jaize on GitHub (opens in new tab)",
-    "twitterAria": "Abdellah Jaize on Twitter (opens in new tab)"
+    "terms": "Terms of service",
+    "emailAbdellahAria": "Email A. Jaize directly",
+    "emailInfoAria": "Email the studio",
+    "linkedinAria": "A. Jaize on LinkedIn (opens in new tab)",
+    "githubAria": "A. Jaize on GitHub (opens in new tab)",
+    "twitterAria": "A. Jaize on Twitter (opens in new tab)"
   },
   "terms": {
     "title": "Terms of engagement",
-    "description": "Terms of engagement for working with Jaize Tech, a sole proprietorship of Abdellah Jaize based in IJlst, Netherlands.",
+    "description": "Terms of engagement for working with Jaize Tech, a sole proprietorship of A. Jaize based in IJlst, Netherlands.",
     "breadcrumb": "Terms",
     "headline": "Terms",
     "lastUpdated": "Last updated: May 2026",
@@ -413,7 +1314,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "I'm Abdellah Jaize, software engineer trading as Jaize Tech (sole proprietorship). Based in IJlst, Friesland. KvK 42051769."
+        "p": "Jaize Tech is a sole proprietorship of A. Jaize, software engineer. Based in IJlst, Friesland. KvK 42051769."
       },
       {
         "h": "2. What I deliver",
@@ -463,7 +1364,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "Abdellah Jaize, sole proprietorship Jaize Tech, based in IJlst, Netherlands. KvK 42051769. For questions about your data: abdellah@jaizetech.nl."
+        "p": "A. Jaize, sole proprietorship Jaize Tech, based in IJlst, Netherlands. KvK 42051769. For questions about your data: abdellah@jaizetech.nl."
       },
       {
         "h": "2. What data I collect",

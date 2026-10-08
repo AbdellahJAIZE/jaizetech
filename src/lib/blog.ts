@@ -8,6 +8,8 @@ const BLOG_DIR = path.join(process.cwd(), 'src', 'content', 'blog');
 export type PostFrontmatter = {
   title: string;
   description: string;
+  seoTitle?: string; // optional short <title> (<= 60 chars); the H1 keeps `title`
+  seoDescription?: string; // optional short meta description (<= 155 chars)
   published: string; // YYYY-MM-DD
   updated?: string;
   tags?: string[];

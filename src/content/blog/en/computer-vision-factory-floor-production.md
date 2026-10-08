@@ -5,6 +5,8 @@ published: "2026-06-02"
 tags: ["computer vision", "industrial AI", "production AI", "quality control"]
 ogImage: "/og-image.png"
 primaryService: "cv"
+seoTitle: "Computer vision on the factory floor: demo vs the real line"
+seoDescription: "A model at 98 percent on a clean test set can be useless on a real line. Lighting, timing, drift and the cost of a wrong call change everything."
 ---
 
 A vision model that scores 98 percent on a clean test set tells you almost nothing about whether it will work on a production line. I have watched a model with beautiful validation numbers fall apart the day it was bolted above a real conveyor, and I have watched a plainer model with worse paper numbers run for years. The difference was never the architecture. It was everything around the camera.

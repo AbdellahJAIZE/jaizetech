@@ -5,6 +5,8 @@ published: "2026-05-12"
 tags: ["LLM-evaluatie", "productie-AI", "AI-engineering", "regressie-testen"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "LLM-evaluatie die productie overleeft: continuous evals"
+seoDescription: "De meeste teams draaien een eval-suite één keer. Dit is de continuous eval-workflow die regressies vangt voordat klanten ze zien."
 ---
 
 De meeste AI-teams draaien een eval een keer en shippen. Misschien draaien ze hem opnieuw als een vendor een nieuw model uitbrengt. Dan klaagt zes maanden later een klant over een regressie en heeft het team geen manier om te bepalen of zij het geïntroduceerd hebben, wanneer, of welke wijziging dingen brak.

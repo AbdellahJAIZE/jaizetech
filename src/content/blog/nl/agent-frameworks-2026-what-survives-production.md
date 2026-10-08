@@ -5,6 +5,7 @@ published: "2026-07-16"
 tags: ["AI-agents", "LangGraph", "agent-frameworks", "productie-AI"]
 ogImage: "/og-image.png"
 primaryService: "ai-agent"
+seoDescription: "LangGraph, CrewAI en de nieuwe SDK's: welke agent-abstracties standhouden onder echte belasting, en wanneer je het framework beter overslaat."
 ---
 
 Om de paar maanden is er een nieuw agent-framework dat belooft het vorige er primitief te laten uitzien. Ik heb er inmiddels een aantal in productie gebracht en onderhouden, en het patroon is saai voorspelbaar: de demo is altijd geweldig, en het framework waar je in week een verliefd op bent, is het framework waar je in maand drie tegen vecht.

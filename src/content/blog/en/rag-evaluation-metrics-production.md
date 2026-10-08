@@ -5,6 +5,7 @@ published: "2026-09-21"
 tags: ["RAG", "LLM evaluation", "retrieval", "AI engineering", "CI/CD"]
 ogImage: "/images/blog/rag-evaluation-metrics-production/cover.jpg"
 primaryService: "hardening"
+seoTitle: "RAG evaluation metrics: retrieval, faithfulness, ship gates"
 ---
 Your RAG assistant answers fluently. The founder demoed it to the board, the first twenty users said "wow", and Slack has a screenshot of it summarising a 40-page policy document in three sentences. Then somebody asks the question that stops the room: "How do we know it's right?" Nobody has a number, because nobody picked RAG evaluation metrics before building.
 

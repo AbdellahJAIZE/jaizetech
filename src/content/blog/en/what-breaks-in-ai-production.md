@@ -5,6 +5,7 @@ published: "2026-05-08"
 tags: ["production AI", "AI engineering", "operations", "reliability"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "What actually breaks when AI hits production: a punchlist"
 ---
 
 Two thirds of organisations have AI in development. Fewer than one in four have it running reliably in production. That gap is the most expensive thing in the AI engineering market right now, and almost nobody writes about what actually closes it.
@@ -81,7 +82,7 @@ If three or more of these failure modes match where you are, that is not bad luc
 
 Two of my engagements are built specifically for this:
 
-- **POC Audit** (one week, fixed price). I look at your stack and map exactly which of these seven (or others) are about to bite you. You leave with a written report and a 90-day plan.
+- **Production Readiness Audit** (one week, fixed price). I look at your stack and map exactly which of these seven (or others) are about to bite you. You leave with a written report and a 90-day plan.
 - **Production Hardening** (3 to 6 weeks). I work alongside your team to actually fix the failure modes. Eval suite, monitoring, cost controls, prompt versioning, retrieval freshness, the lot.
 
 If you are reading this and recognise three or more, [let us talk](/contact). A 15-minute call is usually enough for both of us to know which of the seven you are standing on.

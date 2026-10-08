@@ -5,6 +5,8 @@ published: "2026-05-06"
 tags: ["voice AI", "LiveKit", "OpenAI Realtime", "AssemblyAI", "Cartesia", "productie-AI"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoTitle: "Voice AI voor B2B in 2026: LiveKit, OpenAI Realtime en meer"
+seoDescription: "Hands-on benchmarks voor een productie voice AI-stack: kosten per minuut, end-to-end latency, taalondersteuning en de tradeoffs na lancering."
 ---
 
 Voice AI in 2026 is eindelijk werkbaar voor B2B use cases. Twee jaar geleden had elke demo een seconde pauze tussen het einde van gebruikersspraak en het begin van AI-spraak, en de stem zelf was robotisch genoeg om vertrouwen te breken. Nu kun je een voice-gedreven productflow shippen die je niet schaamt voor een klant.

@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["gestructureerde output", "LLM productie", "JSON validatie", "AI observability", "function calling"]
 ogImage: "/images/blog/llm-structured-output-failures-production/cover.jpg"
 primaryService: "hardening"
+seoDescription: "Fouten in gestructureerde output corrumperen data in stilte. Zo bouw je de validatielaag, repair-logica en metrieken die dat voorkomen."
 ---
 De storing lijkt op geen van de dingen waar je je op hebt voorbereid. Geen hallucinatie, geen timeout, geen onverwachte rekening. Alleen een Sentry-alert om 03:12 die zegt `Unexpected token 'a', ..."amount": NaN...` en een supportticket van een klant wiens factuur is weggeschreven met een lege regel. **Gestructureerde output fouten** — het model geeft JSON of een tool call terug die je code niet kan parsen of niet kan vertrouwen — zijn de slechtst geïnstrumenteerde breukklasse in productie-AI, en het zijn de enige die data corrumpeert in plaats van alleen gebruikers irriteert.
 

@@ -5,6 +5,7 @@ published: "2026-10-06"
 tags: ["multi-tenant AI", "data isolation", "RAG security", "LLM observability", "SaaS architecture"]
 ogImage: "/images/blog/multi-tenant-ai-feature-data-leaks/cover.jpg"
 primaryService: "hardening"
+seoDescription: "Row-level security does not cover your AI stack. Where multi-tenant AI isolation breaks: vector stores, caches, prompts, traces."
 ---
 The database has row-level security. Every API handler checks `tenant_id`. Someone reviewed it, signed it off, and moved on. Then the team shipped an AI assistant on top of that same data, and at least two of the new paths customer content can travel now bypass the database layer entirely. **Multi-tenant AI data isolation** is not the problem you already solved in your ORM. It is a separate problem with its own surfaces: a vector index, a cache, a system prompt, a trace viewer, and a training set.
 

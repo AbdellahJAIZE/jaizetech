@@ -5,6 +5,7 @@ published: "2026-07-16"
 tags: ["AI agents", "LangGraph", "agent frameworks", "production AI"]
 ogImage: "/og-image.png"
 primaryService: "ai-agent"
+seoDescription: "LangGraph, CrewAI and the new SDKs: which agent abstractions hold up under real load, and when to skip the framework."
 ---
 
 Every few months there is a new agent framework that promises to make the last one look primitive. I have now shipped and maintained agents built on several of them, and the pattern is boringly consistent: the demo is always great, and the framework you love in week one is the one you are fighting in month three.

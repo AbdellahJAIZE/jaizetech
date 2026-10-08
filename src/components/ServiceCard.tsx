@@ -13,6 +13,7 @@ export default function ServiceCard({ index }: Props) {
     name: string;
     duration: string;
     summary: string;
+    price?: string;
   }>)[index];
 
   const readMore = t('labels.readMore');
@@ -25,6 +26,12 @@ export default function ServiceCard({ index }: Props) {
     >
       <div className="top">
         <h3>{item.name}</h3>
+        {item.price && (
+          <span className="price-block">
+            <span className="price">{item.price}</span>
+            {item.duration}
+          </span>
+        )}
       </div>
       <p>{item.summary}</p>
       <span className="read-more">{readMore} <span aria-hidden="true">→</span></span>

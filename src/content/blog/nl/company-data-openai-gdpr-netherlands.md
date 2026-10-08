@@ -5,6 +5,8 @@ published: "2026-06-07"
 tags: ["AVG", "dataprivacy", "AI-infrastructuur", "compliance"]
 ogImage: "/og-image.png"
 primaryService: "infrastructure"
+seoTitle: "Bedrijfsdata naar OpenAI: een praktische AVG-lezing"
+seoDescription: "Meestal ja, onder voorwaarden, soms nee. Hoe je beslist, wat een verwerkersovereenkomst moet dekken en wanneer je data op eigen infra houdt."
 ---
 
 Dit is de vraag die meer Nederlandse AI-projecten stillegt dan welk technisch probleem ook. Iemand van juridische zaken vraagt "mogen we dit naar OpenAI sturen", niemand weet het zeker, en het project blijft een maand liggen terwijl iedereen wacht op een helder antwoord dat nooit helemaal komt.

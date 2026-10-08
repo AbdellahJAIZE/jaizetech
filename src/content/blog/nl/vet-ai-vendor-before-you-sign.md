@@ -5,6 +5,8 @@ published: "2026-09-20"
 tags: ["AI-leverancier beoordelen", "AI-implementatie", "LLM in productie", "leverancierselectie", "RFP"]
 ogImage: "/images/blog/vet-ai-vendor-before-you-sign/cover.jpg"
 primaryService: "ai-features"
+seoTitle: "7 vragen die AI-wrapper-shops ontmaskeren"
+seoDescription: "Een AI-leverancier beoordeel je niet op prijs of model. Dit script van 30 minuten en de scorekaart onthullen wie echt productie-ervaring heeft."
 ---
 Je hebt drie offertes op tafel. Eén van een bureau met een mooi deck, één van een tweemansstudio die "gespecialiseerd is in LLM-apps", één van een senior freelancer die je RFP beantwoordde met een e-mail van twee pagina's. De prijzen verschillen een factor drie. De doorlooptijden een factor twee. En de technische secties van alle drie de voorstellen zeggen ongeveer hetzelfde: "we integreren een state-of-the-art LLM met jullie data via RAG".
 

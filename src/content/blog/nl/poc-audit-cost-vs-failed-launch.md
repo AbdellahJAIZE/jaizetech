@@ -22,7 +22,7 @@ Het eerlijke antwoord is bijna altijd: minder dan wat we de afgelopen twee weken
 
 ## Wat de POC-audit kosten echt dekken: één week, vaste prijs, vaste scope
 
-Een POC Audit is een sprint van één week tegen een werkende demo. De prijs staat vast en is afgesproken voordat ik begin; er loopt geen uurteller en er is geen "fase twee"-verrassing. Je interne kosten zijn een paar uur van één engineer voor repository-toegang, een datasample en twee calls. Dat is de hele exposure: één week, één bekend bedrag, en het project loopt parallel gewoon door als je dat wilt.
+Een Production Readiness Audit is een sprint van één week tegen een werkende demo. De prijs staat vast en is afgesproken voordat ik begin; er loopt geen uurteller en er is geen "fase twee"-verrassing. Je interne kosten zijn een paar uur van één engineer voor repository-toegang, een datasample en twee calls. Dat is de hele exposure: één week, één bekend bedrag, en het project loopt parallel gewoon door als je dat wilt.
 
 ![POC-audit kosten vs. een gebroken AI-launch: de rekensom](/images/blog/poc-audit-cost-vs-failed-launch/1.jpg)
 
@@ -90,4 +90,4 @@ De derde regel is degene die het sluit. Boards financieren geen audits; ze finan
 
 ## Waar dit een opdracht wordt
 
-De POC Audit is een sprint van één week: ik neem je werkende demo, test hem tegen je echte data, echte load en echte input, en lever op wat er breekt op schaal, wat je eerst fixt, en een 90-dagenplan om te shippen, tegen een vaste prijs die we vooraf afspreken. De scope staat op de [dienstenpagina](/services). Heb je een demo en een boarddatum, [neem dan contact op](/contact) en we vertellen je binnen één call of een week genoeg is om de vraag te beantwoorden.
+De Production Readiness Audit is een sprint van één week: ik neem je werkende demo, test hem tegen je echte data, echte load en echte input, en lever op wat er breekt op schaal, wat je eerst fixt, en een 90-dagenplan om te shippen, tegen een vaste prijs die we vooraf afspreken. De scope staat op de [dienstenpagina](/services). Heb je een demo en een boarddatum, [neem dan contact op](/contact) en we vertellen je binnen één call of een week genoeg is om de vraag te beantwoorden.

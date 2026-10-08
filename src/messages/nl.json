@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize Tech · Onafhankelijke software-engineering",
-    "defaultDescription": "Software bouwen, AI-features en infrastructuurwerk. Onafhankelijke engineering door Abdellah Jaize, gevestigd in Nederland."
+    "defaultTitle": "Jaize Tech · AI-studio voor productie",
+    "defaultDescription": "Compacte AI-studio in Nederland. We brengen AI-features van demo naar productie, met vaste scope en vaste doorlooptijd."
   },
   "nav": {
     "home": "Home",
@@ -12,7 +12,7 @@
     "about": "Over",
     "blog": "Blog",
     "contact": "Contact",
-    "bookCall": "Neem contact op",
+    "bookCall": "Plan een gesprek",
     "openMenu": "Open menu",
     "closeMenu": "Sluit menu",
     "homeAria": "Jaize Tech home",
@@ -24,36 +24,36 @@
     "newTabSuffix": "(opent in nieuw tabblad)"
   },
   "home": {
-    "title": "Jaize Tech · AI-demo's halen productie zelden. Daar help ik mee.",
-    "description": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech.",
+    "title": "Jaize Tech · AI-features die productie halen",
+    "description": "Compacte AI-studio in Nederland. We brengen je AI-feature van demo naar productie, en zorgen dat hij onder echte gebruikers blijft draaien.",
     "hero": {
-      "headline": "AI-demo's halen productie zelden. Daar help ik mee.",
-      "lead": "Tweeënhalf jaar AI in industriële productie laten draaien. Enige engineer op een computer-vision platform dat 24/7 inference levert voor Nederlandse agritech.",
-      "ctaPrimary": "Neem contact op",
-      "ctaSecondary": "Bekijk hoe ik werk"
+      "headline": "AI-features die productie halen. En blijven draaien.",
+      "lead": "Jaize Tech is een compacte AI-studio in Nederland. We nemen een werkende demo of een scherp idee en leveren een AI-feature die onder echte gebruikers overeind blijft. Vaste scope, vaste doorlooptijd, één senior team van kick-off tot overdracht.",
+      "ctaPrimary": "Plan een gesprek van 15 minuten",
+      "ctaSecondary": "Of mail ons"
     },
     "readme": {
-      "label": "profiel",
-      "name": "naam",
-      "nameValue": "Abdellah Jaize",
-      "role": "rol",
-      "roleValue": "AI software engineer",
+      "label": "studio",
+      "name": "studio",
+      "nameValue": "Jaize Tech · A. Jaize",
+      "role": "doet",
+      "roleValue": "AI-engineering, van demo tot productie",
       "based": "gevestigd",
       "basedValue": "IJlst, Nederland",
-      "lang": "talen",
-      "langValue": "Engels · Frans · Arabisch",
+      "lang": "werktaal",
+      "langValue": "Engels · Nederlands · Frans",
       "kvk": "kvk",
       "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "Hoe ik werk",
-      "title": "Drie manieren om het naar productie te krijgen.",
-      "lead": "Vaste scope, vaste doorlooptijd. Geoffreerd na een kort gesprek.",
-      "viewAll": "Bekijk alle drie"
+      "kicker": "Pakketten",
+      "title": "Drie pakketten. Vaste scope, prijs vooraf bekend.",
+      "lead": "Elke demo-shop bouwt een POC. Wij zorgen dat hij in productie blijft draaien. Kies het pakket dat past bij waar je staat.",
+      "viewAll": "Bekijk de pakketten"
     },
     "work": {
       "kicker": "Werk",
-      "title": "Wat ik recent heb gebouwd.",
+      "title": "Wat we hebben gebouwd.",
       "viewAll": "Alle case studies"
     },
     "faq": {
@@ -61,32 +61,32 @@
       "title": "Praktische antwoorden.",
       "items": [
         {
-          "q": "Werk je op afstand of op locatie?",
-          "a": "Beide. Meestal op afstand, met af en toe een bezoek aan Amsterdam, Utrecht of Eindhoven als dat het project helpt."
+          "q": "Voor wie is Jaize Tech?",
+          "a": "Voor productteams in Nederland en de EU die een AI-feature in productie nodig hebben. Scale-ups, software-bedrijven en industriële bedrijven die verder willen dan een demo."
         },
         {
           "q": "Hoe werkt de prijs?",
-          "a": "Per project, na een kort scoping-gesprek. Geen vaste pakketten, geen verrassende offertes. We spreken de prijs vooraf af."
+          "a": "De Production Readiness Audit kost € 2.450, vast. Production Hardening begint bij € 9.500 en Full Build bij € 29.500; de definitieve prijs spreken we af na een gesprek van 15 minuten. Volgt Hardening binnen 60 dagen op de audit, dan verrekenen we de audit. Geen uurtje-factuurtje en geen verrassingen achteraf."
         },
         {
-          "q": "Werk je met één klant tegelijk?",
-          "a": "Nee. Ik werk met meerdere klanten parallel, meestal een paar dagen per week per opdracht. Zo blijf ik onafhankelijk en gefocust."
+          "q": "Werken jullie op afstand of op locatie?",
+          "a": "Beide. Meestal op afstand, met bezoeken aan je team wanneer het project daar beter van wordt."
         },
         {
           "q": "Wat als de scope verandert?",
-          "a": "We praten het door en passen samen aan. De meeste wijzigingen zijn klein en verschuiven alleen de planning iets."
+          "a": "Dan bespreken we het en passen we het pakket samen aan. De meeste wijzigingen zijn klein en verschuiven alleen de planning."
         },
         {
-          "q": "In welke taal werk je?",
-          "a": "Engels. Documentatie, code, vergaderingen, e-mail. Gangbaar voor techteams in Nederland."
+          "q": "In welke taal werken jullie?",
+          "a": "Engels of Nederlands, wat je team prettig vindt. Code en documentatie in het Engels."
         }
       ]
     },
     "cta": {
-      "title": "Klaar om iets te bouwen?",
-      "lead": "Een gesprek van 15 minuten is genoeg om te weten of er een match is.",
-      "primary": "Neem contact op",
-      "secondary": "Of mail direct naar abdellah@jaizetech.nl"
+      "title": "Klaar om je AI-feature naar productie te brengen?",
+      "lead": "Een gesprek van 15 minuten is genoeg om te weten of we kunnen helpen.",
+      "primary": "Plan een gesprek",
+      "secondary": "Of mail naar info@jaizetech.nl"
     },
     "stats": {
       "label": "In cijfers",
@@ -94,19 +94,15 @@
       "items": [
         {
           "value": "5+ jaar",
-          "label": "productiesoftware leveren"
+          "label": "productiesoftware bouwen en draaien, van data science tot AI-platforms"
         },
         {
-          "value": "2,5+ jaar",
-          "label": "AI 24/7 in industriële productie"
+          "value": "10+ producten",
+          "label": "live in productie: AI-platforms, SaaS, mobile apps, marktplaatsen"
         },
         {
-          "value": "Enige engineer",
-          "label": "end-to-end (model, API, frontend, infra)"
-        },
-        {
-          "value": "Mobiel + Web + AI",
-          "label": "drie domeinen, één engineer"
+          "value": "Miljoenen beelden",
+          "label": "verwerkt door onze inference-pipelines, 24/7 in productie sinds 2023"
         }
       ]
     },
@@ -150,50 +146,86 @@
     }
   },
   "services": {
-    "title": "AI-engineering met vaste scope en doorlooptijd",
-    "description": "Drie opdrachten voor Nederlandse teams die AI-features in productie nodig hebben. Audit, hardening of volledige build. Flexibele stack.",
+    "title": "AI-pakketten met vaste scope en vaste prijs",
+    "description": "Drie pakketten voor productteams die een AI-feature in productie nodig hebben. Production Readiness Audit vanaf een vaste prijs, Production Hardening en Full Build vanaf-prijzen.",
     "breadcrumb": "Diensten",
     "hero": {
-      "kicker": "Opdrachten",
-      "headline": "Drie opdrachten. Kies waar je staat.",
-      "lead": "Van AI-audit tot volledige build. Vaste scope, vaste doorlooptijd, geoffreerd na een kort gesprek."
+      "kicker": "Pakketten",
+      "headline": "Drie pakketten. Kies waar je staat.",
+      "lead": "Elke demo-shop bouwt een POC. Wij zorgen dat hij in productie blijft draaien. Vaste scope, vaste doorlooptijd, prijs vooraf bekend."
     },
     "labels": {
-      "discussCta": "Hierover sparren",
-      "serviceLabel": "WAT IK DOE",
-      "readMore": "Lees meer"
+      "discussCta": "Plan een gesprek van 15 minuten",
+      "serviceLabel": "PAKKET",
+      "readMore": "Lees meer",
+      "outcome": "Uitkomst",
+      "deliverables": "Wat je krijgt",
+      "duration": "Doorlooptijd",
+      "price": "Prijs"
     },
     "items": [
       {
         "id": "audit",
-        "name": "POC Audit",
-        "summary": "Sprint van één week. Je hebt een AI-demo die werkt op je laptop. Ik vertel je precies wat er stuk gaat onder schaal, wat je eerst moet repareren, en een plan van 90 dagen om naar productie te gaan. Inclusief schriftelijk rapport en een readout-gesprek van 60 minuten met je team."
+        "name": "Production Readiness Audit",
+        "duration": "1 week",
+        "price": "€ 2.450",
+        "priceNote": "Vaste prijs, inclusief readout.",
+        "outcome": "Je weet binnen een week waarom je pilot vastzit en wat er nodig is om hem live te krijgen.",
+        "summary": "Je AI-pilot of POC werkt op een laptop en komt niet verder. Wij testen hem tegen echte data en echt gebruik: data, prompts, modelkeuze, kosten, latency, beveiliging. Je krijgt een eerlijk oordeel en een plan dat je team direct kan uitvoeren.",
+        "deliverables": [
+          "Schriftelijk rapport: wat breekt onder echte gebruikers en echte data",
+          "Fixlijst op volgorde van impact",
+          "Plan van 90 dagen naar productie",
+          "Readout van 60 minuten met je team",
+          "Duidelijke go of no-go"
+        ]
       },
       {
         "id": "hardening",
         "name": "Production Hardening",
-        "summary": "Drie tot zes weken. Je AI-feature werkt in dev. Daarna breekt-ie onder echte gebruikers, kost te veel, of hallucineert op het verkeerde moment. Ik voeg evals, monitoring, prompt-versioning, latency- en cost-controls toe, en maken de deploy robuust. Je houdt een feature over die je niet 's nachts wakker maakt."
+        "duration": "3 tot 6 weken",
+        "price": "vanaf € 9.500",
+        "priceNote": "De audit wordt verrekend als Hardening binnen 60 dagen volgt.",
+        "outcome": "Een AI-feature die onder echte gebruikers blijft werken en je 's nachts niet wakker maakt.",
+        "summary": "Je feature werkt in dev, maar breekt onder belasting, kost te veel of hallucineert op het verkeerde moment. Wij voegen evals, monitoring, prompt- en modelversiebeheer en kosten- en latencycontroles toe en maken de deploy robuust.",
+        "deliverables": [
+          "Evaluatieset en geautomatiseerde evals",
+          "Monitoring, alerts en kostenbewaking",
+          "Prompt- en modelversiebeheer",
+          "Robuuste deploy met rollback",
+          "Overdrachtsdocument voor je team"
+        ]
       },
       {
         "id": "build",
         "name": "Full Build",
-        "summary": "Zes tot twaalf weken. Je hebt de AI-feature én het product eromheen end-to-end nodig. Backend, frontend, modelintegratie, infra, deploy. Ik werk als de senior engineer die het geheel bezit. Overdracht inclusief schone code, echte documentatie en een walkthrough-gesprek."
+        "duration": "6 tot 12 weken",
+        "price": "vanaf € 29.500",
+        "priceNote": "Definitieve prijs na een scopinggesprek van 15 minuten.",
+        "outcome": "Een complete AI-feature in productie, met het product eromheen, in handen van je team.",
+        "summary": "Je hebt de AI-feature én het product eromheen nodig. Backend, frontend, modelintegratie, infrastructuur, deploy. Wij bouwen het end-to-end en dragen het over als iets dat je team zelf kan onderhouden.",
+        "deliverables": [
+          "Werkende feature in jouw productieomgeving",
+          "Schone code en echte documentatie",
+          "CI/CD en monitoring ingericht",
+          "Walkthrough en overdracht aan je team"
+        ]
       }
     ],
     "cta": {
-      "title": "AI-feature die naar productie moet?",
-      "lead": "Stuur een kort bericht over waar je staat. Ik reageer binnen een dag.",
-      "primary": "Stuur een bericht"
+      "title": "AI-pilot die naar productie moet?",
+      "lead": "Plan een gesprek van 15 minuten. Daarna weet je welk pakket past en wat het kost.",
+      "primary": "Plan een gesprek van 15 minuten"
     }
   },
   "work": {
-    "title": "Geselecteerd werk",
-    "description": "Geselecteerde case studies. Computer-vision platform in Nederlandse agritech, en mobile en web product bij een sportstech-startup.",
+    "title": "Case studies",
+    "description": "Acht cases: AI-kwaliteitscontrole, een vacatureplatform, SaaS-dashboards, een bonnetjes-app, developer tools, lokale websites en een architectuur-audit.",
     "breadcrumb": "Werk",
     "hero": {
       "kicker": "Werk",
-      "headline": "Wat ik heb gebouwd.",
-      "lead": "Een paar projecten in detail. De uitdaging, hoe ik het aanpakte, en wat eruit kwam."
+      "headline": "Wat we hebben gebouwd.",
+      "lead": "Acht projecten in detail. Het probleem, wat we bouwden, en de cijfers."
     },
     "labels": {
       "approach": "Aanpak",
@@ -207,24 +239,24 @@
     "cases": [
       {
         "id": "agritech",
-        "client": "AI computer-vision platform voor Nederlandse agritech",
+        "client": "AI-kwaliteitscontroleplatform voor een Nederlands agritech-bedrijf",
         "sector": "Agritech · Industriële kwaliteitscontrole",
         "year": "2023 tot heden",
-        "role": "Software Engineer",
-        "summary": "Enige engineer op een AI-kwaliteitscontroleplatform dat 24/7 in productie draait. Bouwde en draaide de volledige stack rond computer-vision inference: NestJS API, Vue.js annotatie-interface, PostgreSQL, GitLab CI/CD, hybride on-premise en cloud-deployment. Migreerde productieservices en grote beeldsets naar nieuwe hardware zonder dataverlies.",
-        "approach": "Hybride architectuur die NVIDIA Triton voor model serving combineert met een modulaire NestJS API en een data-pipeline met OCR en validatie-agents. Ontworpen voor productie-throughput met aandacht voor kosten en betrouwbaarheid.",
+        "role": "Eén senior engineer, end-to-end",
+        "summary": "Probleem: industriële klanten hadden 24/7 geautomatiseerde kwaliteitscontrole nodig op beeldmateriaal, in omgevingen met elk hun eigen beveiligingseisen. Wat we bouwden: de volledige stack rond computer-vision inference. NestJS API, Vue.js annotatie-interface, PostgreSQL, CI/CD en een hybride deployment over Azure en on-premise. Productieservices en grote beeldsets zijn naar nieuwe hardware gemigreerd zonder dataverlies.",
+        "approach": "NVIDIA Triton voor model serving (ResNet en YOLO), een modulaire NestJS API en een datapipeline met OCR en validatie-agents. Ontworpen voor hoge doorvoer met aandacht voor kosten en betrouwbaarheid.",
         "stats": [
           {
-            "value": "Productie",
-            "label": "AI inference op schaal"
+            "value": "Miljoenen",
+            "label": "beelden verwerkt voor kwaliteitscontrole"
           },
           {
-            "value": "Enige engineer",
-            "label": "End-to-end ownership"
+            "value": "8+",
+            "label": "enterprise-klantomgevingen op één platform"
           },
           {
-            "value": "2,5+ jaar",
-            "label": "In productie"
+            "value": "Sinds 2023",
+            "label": "24/7 in productie, elke dag"
           }
         ],
         "stack": [
@@ -235,80 +267,949 @@
           "ResNet",
           "YOLO",
           "Docker",
-          "GitLab CI/CD"
+          "Azure DevOps"
         ],
-        "production": "Productie sinds Q3 2023"
+        "production": "Productie sinds Q3 2023 · zero-downtime deployments",
+        "diagram": {
+          "zones": [
+            "EDGE",
+            "CLOUD",
+            "ON-PREM",
+            "CLIENT"
+          ],
+          "nodes": [
+            {
+              "id": "cams",
+              "zone": 0,
+              "label": "Edge devices",
+              "sub": "field cameras"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "Cloud API",
+              "sub": "sync · WebSocket"
+            },
+            {
+              "id": "reg",
+              "zone": 2,
+              "label": "Model registry",
+              "sub": "ResNet · YOLO",
+              "soft": true
+            },
+            {
+              "id": "triton",
+              "zone": 2,
+              "label": "NVIDIA Triton",
+              "sub": "GPU inference"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "orchestration · auth"
+            },
+            {
+              "id": "ui",
+              "zone": 3,
+              "label": "Vue annotation UI",
+              "sub": "operator workflow"
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "label store · audit"
+            }
+          ],
+          "edges": [
+            [
+              "cams",
+              "api"
+            ],
+            [
+              "api",
+              "triton"
+            ],
+            [
+              "reg",
+              "triton",
+              "soft"
+            ],
+            [
+              "triton",
+              "nest"
+            ],
+            [
+              "nest",
+              "ui"
+            ],
+            [
+              "nest",
+              "db"
+            ]
+          ],
+          "footer": "Hybrid on-prem + cloud · CI/CD · Docker · GPU inference 24/7",
+          "aria": "Edge cameras send images through a cloud API to on-premise GPU inference with NVIDIA Triton and a NestJS API, feeding a Vue annotation UI and a PostgreSQL label store"
+        }
+      },
+      {
+        "id": "arrowlancer",
+        "client": "ArrowLancer: vacatureplatform voor kennismigranten en sponsorende werkgevers",
+        "sector": "HR-tech · Eigen product",
+        "year": "2024 tot heden",
+        "role": "Eigen product, studio-gebouwd",
+        "summary": "Probleem: internationale professionals solliciteren op vacatures die nooit een visum sponsoren, en de vacaturetekst zegt dat zelden. Wat we bouwden: een platform dat de carrièrepagina's van Nederlandse bedrijven zelf uitleest, elke vacature een sponsorscore geeft, cv's matcht en de matches per mail stuurt. Met een Marokkaanse editie, Stripe-abonnementen en autonome schrijvers die dagelijks SEO-artikelen en social posts maken voor vijf sites.",
+        "approach": "Een LLM-crawler met parallelle workers en sponsorscoring, een NestJS API op MongoDB, Next.js frontend, alles op Azure Container Apps. PostHog-monitoring en een uurlijkse watchdog houden de pijplijnen in de gaten.",
+        "stats": [
+          {
+            "value": "4.900+",
+            "label": "vacatures geïndexeerd van bedrijfssites"
+          },
+          {
+            "value": "1.300+",
+            "label": "bedrijven in de index"
+          },
+          {
+            "value": "5 sites",
+            "label": "dagelijks bediend door de schrijvers"
+          }
+        ],
+        "stack": [
+          "NestJS",
+          "MongoDB",
+          "Next.js",
+          "Azure Container Apps",
+          "Stripe",
+          "OpenAI",
+          "PostHog",
+          "Python"
+        ],
+        "production": "Live op arrowlancer.com en arrowlancer.ma · sinds 2024",
+        "diagram": {
+          "zones": [
+            "SOURCES",
+            "CRAWLER",
+            "PLATFORM",
+            "USERS"
+          ],
+          "nodes": [
+            {
+              "id": "pages",
+              "zone": 0,
+              "label": "Career pages",
+              "sub": "1,300+ companies"
+            },
+            {
+              "id": "crawl",
+              "zone": 1,
+              "label": "LLM crawler",
+              "sub": "parallel workers"
+            },
+            {
+              "id": "score",
+              "zone": 1,
+              "label": "Sponsorship score",
+              "sub": "per job",
+              "soft": true
+            },
+            {
+              "id": "api",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "MongoDB · Stripe"
+            },
+            {
+              "id": "writers",
+              "zone": 2,
+              "label": "Daily writers",
+              "sub": "SEO · social",
+              "soft": true
+            },
+            {
+              "id": "site",
+              "zone": 3,
+              "label": "Next.js site",
+              "sub": "search · visa badge"
+            },
+            {
+              "id": "match",
+              "zone": 3,
+              "label": "CV matching",
+              "sub": "email digests"
+            }
+          ],
+          "edges": [
+            [
+              "pages",
+              "crawl"
+            ],
+            [
+              "crawl",
+              "score",
+              "soft"
+            ],
+            [
+              "crawl",
+              "api"
+            ],
+            [
+              "api",
+              "site"
+            ],
+            [
+              "api",
+              "match"
+            ],
+            [
+              "writers",
+              "api",
+              "soft"
+            ]
+          ],
+          "footer": "Azure Container Apps · PostHog monitoring · hourly watchdog",
+          "aria": "Company career pages are crawled by an LLM crawler with sponsorship scoring into a NestJS API with MongoDB and Stripe, serving a Next.js site, CV matching with email digests and daily SEO and social writers"
+        }
       },
       {
         "id": "sportstech",
-        "client": "Sportstech-startup mobile en web product",
+        "client": "Mobiele app, back-office en website voor een sportstech-startup",
         "sector": "Sportstech · Vroege-fase startup",
         "year": "2022 tot 2023",
-        "role": "Software Engineer",
-        "summary": "Mobile- en web-engineer bij een early-stage sportstech-startup. Bouwde de React Native app met Unity game-features plus React en Next.js back-office en publieke website end-to-end.",
-        "approach": "React Native app met embedded Unity game-scènes. React en Next.js back-office en publieke website op een NestJS backend. AWS CI/CD, OAuth2 en Firebase Auth met RBAC over mobile en web.",
+        "role": "Tech lead",
+        "summary": "Probleem: een vroege-fase startup moest een mobiele app, een back-office en een publieke website tegelijk lanceren, met een team dat nog gebouwd moest worden. Wat we bouwden: de React Native app met Unity-spelonderdelen, de React en Next.js back-office en de website, op een NestJS backend met OAuth2 en Firebase Auth.",
+        "approach": "Architectuur, sprintplanning en code reviews voor een team van 7 tot 12 engineers. CI/CD op AWS en rolgebaseerde toegang over mobiel en web.",
         "stats": [
           {
-            "value": "Mobile + Web",
-            "label": "Geleverde platforms"
+            "value": "3",
+            "label": "productstromen naar productie"
           },
           {
-            "value": "App Store + GP",
-            "label": "Uitgebracht op"
+            "value": "7 tot 12",
+            "label": "engineers in het team"
           },
           {
-            "value": "1 jaar 7 maanden",
-            "label": "In de rol"
+            "value": "App Store + Google Play",
+            "label": "uitgebracht op"
           }
         ],
         "stack": [
           "React Native",
           "Next.js",
           "Unity",
+          "NestJS",
           "AWS",
           "Firebase",
           "OAuth2"
         ],
-        "production": "Software Engineer 2022 tot 2023"
+        "production": "Live op App Store en Google Play · 2022 tot 2023",
+        "diagram": {
+          "zones": [
+            "MOBILE",
+            "WEB",
+            "API",
+            "DATA"
+          ],
+          "nodes": [
+            {
+              "id": "rn",
+              "zone": 0,
+              "label": "React Native app",
+              "sub": "+ Unity scenes"
+            },
+            {
+              "id": "bo",
+              "zone": 1,
+              "label": "Next.js backoffice",
+              "sub": "roles · RBAC"
+            },
+            {
+              "id": "site",
+              "zone": 1,
+              "label": "Public website",
+              "sub": "React · Next.js"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "REST · OAuth2"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "MongoDB",
+              "sub": "application data"
+            },
+            {
+              "id": "ci",
+              "zone": 3,
+              "label": "AWS CI/CD",
+              "sub": "build · deploy",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "rn",
+              "nest"
+            ],
+            [
+              "bo",
+              "nest"
+            ],
+            [
+              "site",
+              "nest"
+            ],
+            [
+              "auth",
+              "nest",
+              "soft"
+            ],
+            [
+              "nest",
+              "db"
+            ],
+            [
+              "ci",
+              "nest",
+              "soft"
+            ]
+          ],
+          "footer": "Three product streams on one backend · OAuth2 · AWS",
+          "aria": "A React Native app with Unity scenes, a Next.js back-office and a public website share one NestJS API with OAuth2 and Firebase Auth, MongoDB and AWS CI/CD"
+        }
+      },
+      {
+        "id": "saas-dashboards",
+        "client": "Screebl: SaaS-dashboards voor digitale marketingbureaus",
+        "sector": "Martech · B2B SaaS",
+        "year": "2025 tot 2026",
+        "role": "Full-stack engineer, van nul tot live",
+        "summary": "Probleem: bureaus rapporteerden campagnes aan klanten via spreadsheets en losse pdf's. Wat we bouwden: Screebl, een SaaS waarin een campagnespreadsheet een live, gebrand klantdashboard wordt dat via een beveiligde link gedeeld wordt. Met rollen per bureau en per klant en een AI-rapportassistent die het klantrapport schrijft.",
+        "approach": "Nuxt 3 met Tailwind aan de voorkant, NestJS en MongoDB erachter, hiërarchische rolgebaseerde toegang, OpenAI voor rapportteksten en invulsuggesties. Playwright end-to-end en visuele regressietests, deploy op AWS.",
+        "stats": [
+          {
+            "value": "AI-rapporten",
+            "label": "assistent schrijft en vult het klantrapport"
+          },
+          {
+            "value": "Live",
+            "label": "in productie bij bureaus"
+          },
+          {
+            "value": "Van nul",
+            "label": "gebouwd en geleverd"
+          }
+        ],
+        "stack": [
+          "Nuxt 3",
+          "NestJS",
+          "MongoDB",
+          "OpenAI",
+          "AWS",
+          "Playwright",
+          "Tailwind"
+        ],
+        "production": "Live sinds 2025 · end-to-end getest bij elke release",
+        "diagram": {
+          "zones": [
+            "IMPORT",
+            "API",
+            "DASHBOARDS",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "sheet",
+              "zone": 0,
+              "label": "Spreadsheet upload",
+              "sub": "campaign data"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS API",
+              "sub": "roles · MongoDB"
+            },
+            {
+              "id": "ai",
+              "zone": 1,
+              "label": "Report assistant",
+              "sub": "OpenAI",
+              "soft": true
+            },
+            {
+              "id": "dash",
+              "zone": 2,
+              "label": "Nuxt dashboards",
+              "sub": "branded · live"
+            },
+            {
+              "id": "link",
+              "zone": 3,
+              "label": "Secure link",
+              "sub": "client view"
+            }
+          ],
+          "edges": [
+            [
+              "sheet",
+              "api"
+            ],
+            [
+              "ai",
+              "api",
+              "soft"
+            ],
+            [
+              "api",
+              "dash"
+            ],
+            [
+              "dash",
+              "link"
+            ]
+          ],
+          "footer": "AWS · Playwright end-to-end and visual tests",
+          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards and shared by secure link"
+        }
+      },
+      {
+        "id": "receipt-ocr",
+        "client": "Backend voor een bonnetjes-scan-app",
+        "sector": "Fintech · Consumer app",
+        "year": "2025 tot 2026",
+        "role": "Backend en mobile engineer",
+        "summary": "Probleem: een app moest bonnetjes fotograferen, uitlezen, categoriseren en uitgaven analyseren, met een losse OCR-dienst die veilig aangeroepen moet worden. Wat we bouwden: de volledige NestJS 11 backend met OCR-integratie, authenticatie, een categorisatie-engine en een analytics-API, op Google Cloud met aparte dev- en productieomgevingen.",
+        "approach": "NestJS 11 met TypeORM op beheerde PostgreSQL, Cloud Run met CI/CD, service-to-service authenticatie naar de OCR-microservice, Firebase-auth voor gebruikers en object storage voor de beelden.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "in productie met CI/CD"
+          },
+          {
+            "value": "2 omgevingen",
+            "label": "dev en productie, gescheiden"
+          },
+          {
+            "value": "Service-auth",
+            "label": "tussen API en OCR-dienst"
+          }
+        ],
+        "stack": [
+          "NestJS 11",
+          "PostgreSQL",
+          "TypeORM",
+          "Cloud Run",
+          "Firebase Auth",
+          "OCR"
+        ],
+        "production": "Live op Google Cloud · 2025 tot 2026",
+        "diagram": {
+          "zones": [
+            "APP",
+            "API",
+            "OCR",
+            "DATA",
+            "ANALYTICS"
+          ],
+          "nodes": [
+            {
+              "id": "app",
+              "zone": 0,
+              "label": "Mobile app",
+              "sub": "Firebase auth"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS 11 API",
+              "sub": "Cloud Run · CI/CD"
+            },
+            {
+              "id": "ocr",
+              "zone": 2,
+              "label": "OCR service",
+              "sub": "service auth",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "managed"
+            },
+            {
+              "id": "store",
+              "zone": 3,
+              "label": "Object storage",
+              "sub": "receipt images",
+              "soft": true
+            },
+            {
+              "id": "ana",
+              "zone": 4,
+              "label": "Spending analytics",
+              "sub": "categories · API"
+            }
+          ],
+          "edges": [
+            [
+              "app",
+              "api"
+            ],
+            [
+              "api",
+              "ocr",
+              "soft"
+            ],
+            [
+              "api",
+              "db"
+            ],
+            [
+              "api",
+              "store",
+              "soft"
+            ],
+            [
+              "db",
+              "ana"
+            ]
+          ],
+          "footer": "Google Cloud · separate dev and prod environments",
+          "aria": "A mobile app with Firebase auth calls a NestJS API on Cloud Run, which uses a separate OCR microservice with service-to-service auth, stores data in managed PostgreSQL and object storage, and serves spending analytics"
+        }
+      },
+      {
+        "id": "prjlab",
+        "client": "PrjLab: een thuis voor projecten én hun AI-context",
+        "sector": "Developer tools · Eigen product",
+        "year": "2026 tot heden",
+        "role": "Eigen product, studio-gebouwd",
+        "summary": "Probleem: code reist mee met git, maar de AI-context van een project (instructies, geheugen, sessies) blijft op één machine achter. Wat we bouwden: een GitHub-achtig platform plus een open-source CLI die repositories en hun AI-context samen pusht, pullt en cloont. Privé-context is versleuteld, delen kan en is weer in te trekken.",
+        "approach": "Open-source CLI op npm, versleutelde opslag aan de clientkant, versiebeheer van context, publieke repositories en profielen. 150+ CLI-tests, integratietests op PostgreSQL en browsertests voor het platform.",
+        "stats": [
+          {
+            "value": "Open source",
+            "label": "CLI op npm, MIT-licentie"
+          },
+          {
+            "value": "150+",
+            "label": "CLI-tests op Linux, macOS, Windows"
+          },
+          {
+            "value": "Live",
+            "label": "op prjlab.com sinds 2026"
+          }
+        ],
+        "stack": [
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Git",
+          "Encryption",
+          "Playwright"
+        ],
+        "production": "Live op prjlab.com · sinds oktober 2026",
+        "diagram": {
+          "zones": [
+            "CLI",
+            "ENCRYPTION",
+            "PLATFORM",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "cli",
+              "zone": 0,
+              "label": "Open-source CLI",
+              "sub": "npm · 150+ tests"
+            },
+            {
+              "id": "enc",
+              "zone": 1,
+              "label": "Client encryption",
+              "sub": "private context"
+            },
+            {
+              "id": "repos",
+              "zone": 2,
+              "label": "Git repositories",
+              "sub": "push · pull · clone"
+            },
+            {
+              "id": "ctx",
+              "zone": 2,
+              "label": "AI context store",
+              "sub": "memories · sessions"
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "PostgreSQL",
+              "sub": "versioned",
+              "soft": true
+            },
+            {
+              "id": "share",
+              "zone": 3,
+              "label": "Sharing",
+              "sub": "revocable access"
+            },
+            {
+              "id": "pub",
+              "zone": 3,
+              "label": "Public repos",
+              "sub": "profiles",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "cli",
+              "enc"
+            ],
+            [
+              "enc",
+              "repos"
+            ],
+            [
+              "enc",
+              "ctx"
+            ],
+            [
+              "ctx",
+              "db",
+              "soft"
+            ],
+            [
+              "ctx",
+              "share"
+            ],
+            [
+              "repos",
+              "pub",
+              "soft"
+            ]
+          ],
+          "footer": "Linux · macOS · Windows · integration and browser tests",
+          "aria": "An open-source CLI encrypts a project's AI context on the client and pushes it with the git repository to the platform, which stores versions in PostgreSQL and supports revocable sharing and public repos"
+        }
+      },
+      {
+        "id": "community-portal",
+        "client": "Arabische Taal Portal en Assalaam Moskee: inschrijfportaal en website voor een moskee-gemeenschap",
+        "sector": "Onderwijs · Gemeenschap",
+        "year": "2024 tot heden",
+        "role": "Ontwerp, bouw en beheer",
+        "summary": "Probleem: een moskee-gemeenschap regelde inschrijvingen voor Arabische lessen voor kinderen en vrouwen via losse formulieren en twee aparte portalen. Wat we bouwden: één portaal waar ouders een kind inschrijven en vrouwen vanaf 13 jaar zichzelf, met inschrijvingen per schooljaar, een agenda, betaalstatus per inschrijving en een beheeromgeving. Plus de publieke website van de moskee.",
+        "approach": "Next.js 15 met Firebase Auth en Firestore, rollen voor ouders, leerlingen en beheerders. Een beheerder start een nieuw schooljaar met één klik: inschrijvingen worden aangemaakt en ouders krijgen automatisch een e-mail via Brevo. Hosting gemigreerd zonder onderbreking.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "arabischetaal.com en assalaammoskee.nl"
+          },
+          {
+            "value": "2 portalen",
+            "label": "samengevoegd tot één"
+          },
+          {
+            "value": "Per schooljaar",
+            "label": "inschrijvingen, betalingen en e-mails"
+          }
+        ],
+        "stack": [
+          "Next.js 15",
+          "Firebase Auth",
+          "Firestore",
+          "Brevo",
+          "Railway"
+        ],
+        "production": "Live op arabischetaal.com en assalaammoskee.nl",
+        "diagram": {
+          "zones": [
+            "USERS",
+            "PORTAL",
+            "DATA",
+            "ADMIN",
+            "EMAIL"
+          ],
+          "nodes": [
+            {
+              "id": "parents",
+              "zone": 0,
+              "label": "Parents",
+              "sub": "register a child"
+            },
+            {
+              "id": "self",
+              "zone": 0,
+              "label": "Students 13+",
+              "sub": "self-registration"
+            },
+            {
+              "id": "app",
+              "zone": 1,
+              "label": "Next.js 15 portal",
+              "sub": "roles · agenda"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "Firestore",
+              "sub": "enrolment per year"
+            },
+            {
+              "id": "year",
+              "zone": 3,
+              "label": "School-year rollover",
+              "sub": "one click"
+            },
+            {
+              "id": "pay",
+              "zone": 3,
+              "label": "Payment status",
+              "sub": "per enrolment",
+              "soft": true
+            },
+            {
+              "id": "mail",
+              "zone": 4,
+              "label": "Brevo emails",
+              "sub": "confirm · new year"
+            }
+          ],
+          "edges": [
+            [
+              "parents",
+              "app"
+            ],
+            [
+              "self",
+              "app"
+            ],
+            [
+              "app",
+              "db"
+            ],
+            [
+              "auth",
+              "app",
+              "soft"
+            ],
+            [
+              "db",
+              "year"
+            ],
+            [
+              "db",
+              "pay",
+              "soft"
+            ],
+            [
+              "year",
+              "mail"
+            ],
+            [
+              "app",
+              "mail",
+              "soft"
+            ]
+          ],
+          "footer": "Two sites: registration portal + public website · Firebase · Railway",
+          "aria": "Parents and students register through a Next.js portal backed by Firebase Auth and Firestore enrolments per school year; admins roll over the year and track payments; Brevo sends confirmations"
+        }
+      },
+      {
+        "id": "compliance-audit",
+        "client": "Regulaitor: architectuur-audit voor een AI-complianceplatform",
+        "sector": "Regtech · Advies",
+        "year": "2025",
+        "role": "Technisch adviseur",
+        "summary": "Probleem: een founding team met Regulaitor, een AI-platform voor het screenen van klantgesprekken wilde weten wat er moest gebeuren voor een betrouwbare productie-release. Wat we deden: de Node.js en React codebase doorgelicht op architectuur, beveiliging en AI-pijplijn, en een geprioriteerde lijst aanbevelingen opgeleverd. Dit is het type werk dat nu ons pakket Production Readiness Audit is.",
+        "approach": "Code review per dienst en per dataflow, transcriptie- en LLM-pijplijn beoordeeld op betrouwbaarheid en kosten, risicoregister met ernst en eigenaar, een plan voor de eerste 30 dagen en voor 90 dagen.",
+        "stats": [
+          {
+            "value": "Advies",
+            "label": "voor het founding team"
+          },
+          {
+            "value": "Rapport",
+            "label": "schriftelijk, met readout"
+          },
+          {
+            "value": "Roadmap",
+            "label": "geprioriteerd, 90 dagen"
+          }
+        ],
+        "stack": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Transcription",
+          "LLM pipeline",
+          "Security review"
+        ],
+        "production": "Aanbevelingen opgeleverd aan het founding team · 2025",
+        "diagram": {
+          "zones": [
+            "CODEBASE",
+            "REVIEW",
+            "RISK",
+            "ROADMAP"
+          ],
+          "nodes": [
+            {
+              "id": "code",
+              "zone": 0,
+              "label": "Node.js + React",
+              "sub": "call screening"
+            },
+            {
+              "id": "arch",
+              "zone": 1,
+              "label": "Architecture",
+              "sub": "services · data flow"
+            },
+            {
+              "id": "sec",
+              "zone": 1,
+              "label": "Security",
+              "sub": "auth · secrets"
+            },
+            {
+              "id": "pipe",
+              "zone": 1,
+              "label": "AI pipeline",
+              "sub": "transcription · LLM"
+            },
+            {
+              "id": "risk",
+              "zone": 2,
+              "label": "Risk register",
+              "sub": "severity · owner"
+            },
+            {
+              "id": "fix",
+              "zone": 3,
+              "label": "Prioritised fixes",
+              "sub": "first 30 days"
+            },
+            {
+              "id": "plan",
+              "zone": 3,
+              "label": "90-day plan",
+              "sub": "to production"
+            }
+          ],
+          "edges": [
+            [
+              "code",
+              "arch"
+            ],
+            [
+              "code",
+              "sec"
+            ],
+            [
+              "code",
+              "pipe"
+            ],
+            [
+              "arch",
+              "risk"
+            ],
+            [
+              "sec",
+              "risk"
+            ],
+            [
+              "pipe",
+              "risk"
+            ],
+            [
+              "risk",
+              "fix"
+            ],
+            [
+              "risk",
+              "plan"
+            ]
+          ],
+          "footer": "Written report · readout with the founding team",
+          "aria": "A Node.js and React codebase for AI call screening is reviewed on architecture, security and AI pipeline, producing a risk register, prioritised fixes and a 90-day plan"
+        }
       }
     ],
     "cta": {
       "title": "Vergelijkbare opdracht in gedachten?",
-      "lead": "Laten we praten. Ik vertel je in 15 minuten of ik er waarde aan kan toevoegen.",
-      "primary": "Neem contact op"
+      "lead": "In 15 minuten weten we of we er waarde aan kunnen toevoegen.",
+      "primary": "Plan een gesprek"
     }
   },
   "about": {
-    "title": "Over Abdellah Jaize",
-    "description": "Onafhankelijke software engineer in IJlst, Nederland. Vijf jaar productieklare software bouwen, inclusief AI-features.",
+    "title": "Over Jaize Tech",
+    "description": "Compacte AI-studio in IJlst, Nederland, opgericht door A. Jaize. Vijf jaar productiesoftware, waarvan 2,5 jaar AI 24/7 in industriële productie.",
     "breadcrumb": "Over",
-    "photoAlt": "Abdellah Jaize, AI software engineer gevestigd in IJlst, Nederland",
+    "photoAlt": "A. Jaize, oprichter van Jaize Tech, AI-studio in IJlst, Nederland",
     "photoInitials": "AJ",
     "photoMeta": {
-      "name": "ABDELLAH JAIZE"
+      "name": "A. JAIZE"
     },
     "hero": {
       "kicker": "Over",
-      "name": "Abdellah Jaize",
-      "role": "AI Software Engineer"
+      "name": "Jaize Tech",
+      "role": "Compacte AI-studio · opgericht door A. Jaize"
     },
     "bio": [
-      "Hoi, ik ben Abdellah. Marokkaanse engineer, gevestigd in IJlst, Friesland. Vijf jaar professioneel software bouwen. De laatste tijd vooral AI-werk dat echt in productie draait.",
-      "De afgelopen 2,5 jaar ben ik de enige engineer geweest op een AI computer-vision platform bij een Nederlands agritech-bedrijf. Backend, frontend, ML-pijplijnen, infrastructuur, allemaal in productie. Daarvoor heb ik mobile en web product gebouwd bij een early-stage sportstech-startup met React Native, Next.js en AWS."
+      "Jaize Tech is een compacte AI-studio in IJlst, Friesland. We bouwen AI-features die productie halen en daar blijven. Klein genoeg om snel te zijn, senior genoeg om het hele systeem te dragen: model, API, frontend en infrastructuur.",
+      "De studio is opgericht door A. Jaize, engineer met vijf jaar productiesoftware. De afgelopen 2,5 jaar als enige engineer op een AI computer-vision platform bij een Nederlands agritech-bedrijf, daarvoor als tech lead van een team van 7 tot 12 engineers bij een sportstech-startup. Elk pakket wordt door hem zelf geleid."
     ],
     "experience": {
-      "label": "01 · WERKERVARING",
-      "title": "Werkervaring",
+      "label": "01 · TRACK RECORD",
+      "title": "Track record",
       "items": [
         {
           "date": "2023 tot nu",
-          "role": "Software Engineer (AI computer-vision platform voor een Nederlands agritech-bedrijf)",
-          "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
+          "role": "AI computer-vision platform voor een Nederlands agritech-bedrijf",
+          "stack": "Eén senior engineer. NVIDIA Triton, NestJS, Vue, Azure en on-premise. Miljoenen beelden, 8+ klantomgevingen."
+        },
+        {
+          "date": "2025 tot 2026",
+          "role": "Bonnen-scan app met OCR-pipeline (contract)",
+          "stack": "NestJS backend, OCR, JWT, analytics-API. Productie op GCP met CI/CD."
+        },
+        {
+          "date": "2025 tot 2026",
+          "role": "B2B SaaS-dashboard, van nul gebouwd (contract)",
+          "stack": "Nuxt 3, NestJS 11, MongoDB, Playwright E2E. Deploy op AWS."
+        },
+        {
+          "date": "2025",
+          "role": "Architectuuraudit voor een AI-compliance platform",
+          "stack": "Node.js en React codebase doorgelicht, aanbevelingen aan het founding team."
         },
         {
           "date": "2022 tot 2023",
-          "role": "Software Engineer bij een early-stage sportstech-startup",
-          "stack": "React Native app met Unity, plus React/Next.js back-office en publieke website."
+          "role": "Tech lead bij een sportstech-startup",
+          "stack": "React Native met Unity, React en Next.js back-office, NestJS, AWS. Team van 7 tot 12 engineers."
         }
       ]
     },
@@ -326,11 +1227,11 @@
       "languages": [
         {
           "label": "TALEN",
-          "value": "Arabisch (moedertaal) · Engels en Frans (professioneel)"
+          "value": "Engels en Nederlands (werktalen) · Frans · Arabisch"
         },
         {
           "label": "LOCATIE",
-          "value": "IJlst, Friesland · werkt remote en op locatie in heel NL"
+          "value": "IJlst, Friesland · remote en op locatie in heel Nederland en de EU"
         }
       ],
       "kvkLabel": "KVK",
@@ -338,16 +1239,16 @@
     },
     "cta": {
       "title": "Zin om samen te werken?",
-      "lead": "De makkelijkste start is een kort gesprek. Vijftien minuten is meestal genoeg om te weten of ik kan helpen. Liever schrijven? Dan werkt het contactformulier ook prima.",
-      "primary": "Neem contact op"
+      "lead": "De makkelijkste start is een kort gesprek. Vijftien minuten is meestal genoeg om te weten of we kunnen helpen. Liever schrijven? Het contactformulier werkt ook.",
+      "primary": "Plan een gesprek"
     }
   },
   "contact": {
     "title": "Neem contact op",
-    "description": "Stuur een kort bericht over je project, of plan een gesprek van 15 minuten. Reactie binnen een dag op werkdagen.",
+    "description": "Plan een gesprek van 15 minuten of stuur een kort bericht over je project. Reactie binnen een werkdag.",
     "hero": {
       "headline": "Laten we praten.",
-      "lead": "Een kort gesprek is vaak de snelste manier om te weten of we passen. Vijftien minuten, geen druk."
+      "lead": "Een kort gesprek is de snelste manier om te weten of we passen. Vijftien minuten, geen druk."
     },
     "options": {
       "scheduleTitle": "Plan direct",
@@ -355,7 +1256,7 @@
       "scheduleIntro": "Kennismakingsgesprek (15 min)",
       "scheduleDeeper": "Uitgebreid gesprek (30 min)",
       "messageTitle": "Stuur een bericht",
-      "messageLead": "Vertel me kort waar je mee bezig bent. Ik reageer binnen 24 uur."
+      "messageLead": "Vertel kort waar je staat. We reageren binnen 24 uur."
     },
     "form": {
       "name": "Naam",
@@ -365,14 +1266,14 @@
       "messagePlaceholder": "Een paar zinnen over wat je probeert te bouwen of oplossen...",
       "submit": "Verstuur bericht",
       "successTitle": "Bericht ontvangen",
-      "successText": "Bedankt. Ik reageer binnen 24 uur op werkdagen.",
-      "errorText": "Het bericht kon niet worden verstuurd. Mail me direct op abdellah@jaizetech.nl.",
+      "successText": "Bedankt. We reageren binnen 24 uur op werkdagen.",
+      "errorText": "Het bericht kon niet worden verstuurd. Mail ons direct op info@jaizetech.nl.",
       "requiredMark": "verplicht",
       "requiredHint": "Verplichte velden zijn gemarkeerd met een sterretje."
     },
     "trust": "Reactie binnen 24 uur op werkdagen · KvK 42051769 · IJlst, Nederland",
     "directMailPrefix": "Of mail direct:",
-    "directMailAddress": "abdellah@jaizetech.nl"
+    "directMailAddress": "info@jaizetech.nl"
   },
   "blog": {
     "title": "Notities over AI-engineering en freelance werk",
@@ -384,11 +1285,11 @@
       "lead": "Korte stukken over senior engineering, AI-integratie in productie, en het runnen van een ZZP-praktijk in Nederland."
     },
     "subscribeTitle": "Nog geen posts. De eerste komt binnenkort.",
-    "subscribeLink": "Stuur me een bericht zodra er één staat",
+    "subscribeLink": "Stuur ons een bericht zodra er één staat",
     "empty": "Nog geen posts gepubliceerd. De eerste verschijnt binnenkort."
   },
   "footer": {
-    "tagline": "Onafhankelijke software-engineering.",
+    "tagline": "Compacte AI-studio. Van demo tot productie.",
     "linksTitle": "Snel naar",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elders",
@@ -397,15 +1298,15 @@
     "rights": "Alle rechten voorbehouden",
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden",
-    "emailAbdellahAria": "Mail Abdellah direct",
-    "emailInfoAria": "Mail algemene inbox",
-    "linkedinAria": "Abdellah Jaize op LinkedIn (opent in nieuw tabblad)",
-    "githubAria": "Abdellah Jaize op GitHub (opent in nieuw tabblad)",
-    "twitterAria": "Abdellah Jaize op Twitter (opent in nieuw tabblad)"
+    "emailAbdellahAria": "Mail A. Jaize direct",
+    "emailInfoAria": "Mail de studio",
+    "linkedinAria": "A. Jaize op LinkedIn (opent in nieuw tabblad)",
+    "githubAria": "A. Jaize op GitHub (opent in nieuw tabblad)",
+    "twitterAria": "A. Jaize op Twitter (opent in nieuw tabblad)"
   },
   "terms": {
     "title": "Algemene voorwaarden",
-    "description": "Algemene voorwaarden voor opdrachten met Jaize Tech, eenmanszaak van Abdellah Jaize, gevestigd in IJlst, Nederland.",
+    "description": "Algemene voorwaarden voor opdrachten met Jaize Tech, eenmanszaak van A. Jaize, gevestigd in IJlst, Nederland.",
     "breadcrumb": "Algemene voorwaarden",
     "headline": "Algemene voorwaarden",
     "lastUpdated": "Laatst bijgewerkt: mei 2026",
@@ -413,7 +1314,7 @@
     "sections": [
       {
         "h": "1. Wie ik ben",
-        "p": "Ik ben Abdellah Jaize, software engineer en eenmanszaak onder de naam Jaize Tech. Gevestigd in IJlst, Friesland. KvK 42051769."
+        "p": "Jaize Tech is een eenmanszaak van A. Jaize, software engineer. Gevestigd in IJlst, Friesland. KvK 42051769."
       },
       {
         "h": "2. Wat ik lever",
@@ -463,7 +1364,7 @@
     "sections": [
       {
         "h": "1. Wie ik ben",
-        "p": "Abdellah Jaize, eenmanszaak Jaize Tech, gevestigd in IJlst, Nederland. KvK 42051769. Voor vragen over je gegevens: abdellah@jaizetech.nl."
+        "p": "A. Jaize, eenmanszaak Jaize Tech, gevestigd in IJlst, Nederland. KvK 42051769. Voor vragen over je gegevens: abdellah@jaizetech.nl."
       },
       {
         "h": "2. Welke gegevens ik verwerk",

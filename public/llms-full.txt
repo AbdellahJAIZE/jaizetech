@@ -4,12 +4,12 @@ _Generated 2026-05-08 from https://jaizetech.nl. This file aggregates the body c
 
 ---
 
-## About Abdellah Jaize
+## About A. Jaize
 
 **Role:** AI Software Engineer  
 **Based:** IJlst, Friesland, Netherlands
 
-Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.
+Jaize Tech is a compact AI studio in IJlst, Friesland, founded by A. Jaize. We build AI features that reach production and stay there: small enough to move fast, senior enough to own the whole system (model, API, frontend, infrastructure).
 
 For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure, all in production. Before that I built mobile and web product at an early-stage sportstech startup across React Native, Next.js, and AWS.
 

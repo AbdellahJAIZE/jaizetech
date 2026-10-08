@@ -5,6 +5,7 @@ published: "2026-09-24"
 tags: ["LLM observability", "AI monitoring", "production AI", "MLOps", "AI reliability"]
 ogImage: "/images/blog/llm-observability-production-monitoring/cover.jpg"
 primaryService: "hardening"
+seoTitle: "LLM observability in production: why 'it seems fine' fails"
 ---
 Your AI feature shipped five weeks ago. It has not fallen over. Support has not escalated anything. The dashboard you check is the same one you had before the feature existed: uptime, error rate, p95 on the HTTP layer — all green. And somewhere in the back of your head is the question that made you open this page: if the answers got worse last Tuesday, how would I know?
 

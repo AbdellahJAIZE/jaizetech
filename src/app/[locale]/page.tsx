@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import ServiceCard from '@/components/ServiceCard';
 import CaseCard from '@/components/CaseCard';
+import CtaLink from '@/components/CtaLink';
 import FAQSchema from '@/components/FAQSchema';
 import WebPageSchema from '@/components/WebPageSchema';
 import { pageAlternates, absoluteUrl } from '@/lib/seo';
@@ -70,14 +71,14 @@ function Home() {
             <p className="lead reveal">{t('hero.lead')}</p>
 
             <div className="hero-actions reveal">
-              <Link className="btn btn-primary" href="/contact">
+              <CtaLink cta="hero_call" className="btn btn-primary" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
                 {t('hero.ctaPrimary')}
                 <span className="arrow">→</span>
-              </Link>
-              <Link className="btn btn-secondary" href="/services">
+              </CtaLink>
+              <CtaLink cta="hero_mail" className="btn btn-secondary" href="mailto:info@jaizetech.nl">
                 {t('hero.ctaSecondary')}
                 <span className="arrow">→</span>
-              </Link>
+              </CtaLink>
             </div>
           </div>
 
@@ -138,7 +139,7 @@ function Home() {
           <h2>{t('work.title')}</h2>
         </div>
         <div className="cases-row reveal">
-          {[0, 1].map((i) => (
+          {[0, 1, 2].map((i) => (
             <CaseCard key={i} index={i} />
           ))}
         </div>
@@ -203,10 +204,10 @@ function Home() {
         <div className="container-narrow reveal">
           <h2>{t('cta.title')}</h2>
           <p className="lead">{t('cta.lead')}</p>
-          <Link className="btn btn-primary btn-lg" href="/contact">
+          <CtaLink cta="home_cta" className="btn btn-primary btn-lg" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
             {t('cta.primary')}
             <span className="arrow">→</span>
-          </Link>
+          </CtaLink>
           <p className="muted-line">{t('cta.secondary')}</p>
         </div>
       </section>

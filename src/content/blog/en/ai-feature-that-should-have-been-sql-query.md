@@ -5,6 +5,7 @@ published: "2026-07-14"
 tags: ["AI features", "over-engineering", "LLM", "product engineering"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoDescription: "A field guide to over-engineered AI: when you really need an LLM, and when plain code already solves the problem cheaper and faster."
 ---
 
 I get asked to build a lot of AI features. A good chunk of them should not exist. Not because AI is useless, but because the specific problem in front of us was already solved by a database query, a rules engine, or fifty lines of ordinary code. Someone reached for a language model because it was the exciting tool, and now the roadmap has an unreliable, expensive feature where a boring reliable one would have shipped weeks earlier.

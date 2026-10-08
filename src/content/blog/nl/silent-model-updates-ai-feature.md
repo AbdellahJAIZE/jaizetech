@@ -5,6 +5,7 @@ published: "2026-10-04"
 tags: ["stille modelupdates", "model version pinning", "AI in productie", "LLM evaluatie", "RAG"]
 ogImage: "/images/blog/silent-model-updates-ai-feature/cover.jpg"
 primaryService: "hardening"
+seoTitle: "Stille modelupdates: je AI-feature degradeert zonder deploy"
 ---
 Het eerste wat ik hoor aan het begin van een kwaliteitsincident is bijna altijd: "we hebben in twee weken niks gedeployed." Dat is doorgaans waar, en het is precies de reden waarom het team drie dagen door eigen diffs heeft gegrepeld in plaats van te kijken naar de enige dependency die ze nooit hebben gepind. Stille modelupdates laten AI-features in productie regelmatig degraderen, en omdat er niets in je repository is bewogen, begint het onderzoek vanuit een onjuiste aanname.
 

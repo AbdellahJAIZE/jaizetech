@@ -5,6 +5,7 @@ published: "2026-09-14"
 tags: ["AI feature MVP", "Netherlands", "AI development", "MVP pricing", "AI consultancy"]
 ogImage: "/images/blog/ai-feature-mvp-netherlands-build-options/cover.jpg"
 primaryService: "ai-features"
+seoTitle: "AI feature MVP in NL: agency, freelancer or full build"
 ---
 Most of what you find when you search "AI feature MVP Netherlands" is a framework comparison. LangGraph versus something else, which vector database, which model. That is the wrong page for the decision you are making this month. You have a demo or a spreadsheet that proves the idea has signal. The question is not which tool. It is who builds the real thing, and what it will honestly cost.
 

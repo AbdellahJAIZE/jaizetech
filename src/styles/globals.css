@@ -222,7 +222,14 @@ small, .small { font-size: 14px; color: var(--muted); }
   letter-spacing: -0.04em;
   color: var(--ink);
   user-select: none;
+  display: inline-flex;
+  align-items: center;
 }
+
+/* mark + wordmark (the favicon shapes, see Logo.tsx) */
+.logo { display: inline-flex; align-items: center; gap: 10px; }
+.logo-mark { flex: 0 0 auto; border-radius: 6px; }
+.logo-text { line-height: 1; }
 
 .wordmark .dot {
   display: inline-block;
@@ -2007,3 +2014,48 @@ a.accent-link:hover { color: var(--ink); }
 }
 .cookie-consent__btn--ghost { background: transparent; border-color: rgba(255, 255, 255, 0.4); }
 .cookie-consent__btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* Services: outcome line, deliverables list, timeline in the rail (rebrand 2026-10) */
+.service-outcome { color: var(--text); }
+.service-outcome strong { font-weight: 600; }
+.service-deliverables-title {
+  margin-top: 20px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.service-deliverables {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  max-width: 60ch;
+}
+.service-deliverables li { margin: 4px 0; }
+.service-duration {
+  margin: 0 0 14px;
+  font-size: 15px;
+  color: var(--text);
+}
+.service-duration .label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* package price in the services meta rail */
+.service-price strong {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.service-price .price-note {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}

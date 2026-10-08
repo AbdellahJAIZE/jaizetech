@@ -1,5 +1,5 @@
 /* TEAM */
-Founder, engineer: Abdellah Jaize
+Founder, lead engineer: A. Jaize
 Site: https://jaizetech.nl
 Contact: abdellah [at] jaizetech.nl
 LinkedIn: https://www.linkedin.com/in/abdellah-jaize

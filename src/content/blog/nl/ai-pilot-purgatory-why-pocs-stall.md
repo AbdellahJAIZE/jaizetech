@@ -69,7 +69,7 @@ Krijg je op alle vier scherpe antwoorden en zit de pilot nog steeds vast, dan is
 
 ## Wat één week kan oplossen en wat niet
 
-Een POC Audit van een week maakt de technische helft met echte zekerheid rond. Ik ga door de code, prompts, retrievalopzet, datapad en kostenprofiel van de pilot, laat hem lopen op input die hij nog niet gezien heeft, en kom terug met een geprioriteerde actielijst en een 90-dagenplan: wat eerst wordt gefixt, wat kan wachten, wat weg moet, en wat het realistisch kost in engineeringweken. Daarmee wordt "we zijn nog aan het piloten" een reeks stappen met een datum aan het eind.
+Een Production Readiness Audit van een week maakt de technische helft met echte zekerheid rond. Ik ga door de code, prompts, retrievalopzet, datapad en kostenprofiel van de pilot, laat hem lopen op input die hij nog niet gezien heeft, en kom terug met een geprioriteerde actielijst en een 90-dagenplan: wat eerst wordt gefixt, wat kan wachten, wat weg moet, en wat het realistisch kost in engineeringweken. Daarmee wordt "we zijn nog aan het piloten" een reeks stappen met een datum aan het eind.
 
 Wat een audit niet kan, is jouw beslisser kiezen. Wat hij wel kan: de afwezigheid daarvan onmogelijk maken om te negeren. Een schriftelijke readout die zegt "de technische blokkades zijn 15 engineeringdagen, en de resterende blokkade is dat niemand het restrisico op geautomatiseerde prijsvorming heeft geaccepteerd" doet in één vergadering vaak meer dan nog een kwartaal itereren. In mijn ervaring is die zin de output van de week met de grootste hefboom, en hij is ongemakkelijk genoeg dat niemand hem van binnenuit opschrijft.
 
@@ -77,4 +77,4 @@ De rekensom is ook niet subtiel. Zet een week diagnose naast [wat een vastgelope
 
 ## Als je deze maand één ding doet
 
-Pak de pilot met de helderste business case, stel de vier vragen hierboven, en schrijf de antwoorden op. Komen ze scherp terug en is het engineeringpad waar je over twijfelt, dan is een [POC Audit](/services) een sprint van één week met vaste scope die je vertelt wat er breekt op schaal, wat je eerst moet fixen, en die je een 90-dagenplan geeft met een launchdatum eraan vast. Wil je een tweede mening over welke van je vastgelopen pilots die week waard is, [stuur me de korte versie](/contact) en ik zeg je eerlijk wat ik ervan vind.
+Pak de pilot met de helderste business case, stel de vier vragen hierboven, en schrijf de antwoorden op. Komen ze scherp terug en is het engineeringpad waar je over twijfelt, dan is een [Production Readiness Audit](/services) een sprint van één week met vaste scope die je vertelt wat er breekt op schaal, wat je eerst moet fixen, en die je een 90-dagenplan geeft met een launchdatum eraan vast. Wil je een tweede mening over welke van je vastgelopen pilots die week waard is, [stuur me de korte versie](/contact) en ik zeg je eerlijk wat ik ervan vind.

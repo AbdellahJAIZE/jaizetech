@@ -5,6 +5,7 @@ published: "2026-05-08"
 tags: ["productie-AI", "AI-engineering", "operations", "betrouwbaarheid"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "Wat er echt breekt als AI in productie komt: een lijst"
 ---
 
 Tweederde van de organisaties heeft AI in ontwikkeling. Minder dan een op de vier heeft het betrouwbaar in productie draaien. Dat gat is op dit moment het duurste in de AI-engineering markt, en bijna niemand schrijft over wat het echt dicht.
@@ -81,7 +82,7 @@ Als drie of meer van deze faalmodi matchen waar jij staat, dan is dat geen pech.
 
 Twee van mijn opdrachten zijn hier specifiek voor gebouwd:
 
-- **POC Audit** (één week, vaste prijs). Ik bekijk je stack en breng exact in kaart welke van deze zeven (of andere) je gaan bijten. Je gaat naar huis met een schriftelijk rapport en een plan voor 90 dagen.
+- **Production Readiness Audit** (één week, vaste prijs). Ik bekijk je stack en breng exact in kaart welke van deze zeven (of andere) je gaan bijten. Je gaat naar huis met een schriftelijk rapport en een plan voor 90 dagen.
 - **Production Hardening** (3 tot 6 weken). Ik werk samen met je team om de faalmodi daadwerkelijk te fixen. Eval-suite, monitoring, cost controls, prompt-versioning, retrieval-freshness, het hele pakket.
 
 Lees je dit en herken je drie of meer, [laten we praten](/contact). Een gesprek van 15 minuten is meestal genoeg om voor ons beiden te weten op welke van de zeven jij staat.

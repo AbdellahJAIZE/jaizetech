@@ -1,5 +1,5 @@
 ---
-title: "POC Audit Cost vs. a Broken AI Launch: The Real Math"
+title: "Production Readiness Audit Cost vs. a Broken AI Launch: The Real Math"
 description: "A POC audit cost looks like an expense until you price a broken launch: €90K-€200K in Dutch/EU market rates versus one fixed-price week."
 published: "2026-09-19"
 tags: ["POC audit", "AI production readiness", "RAG", "AI cost", "startup engineering"]
@@ -22,9 +22,9 @@ The honest answer is almost always: less than what we spent in the last two week
 
 ## What a POC audit cost actually covers: one week, fixed price, fixed scope
 
-A POC Audit is a one-week sprint against a working demo. The price is fixed and agreed before I start; there is no hourly meter running and no "phase two" surprise. Your internal cost is a few hours of one engineer's time for repository access, a data sample, and two calls. That is the whole exposure: one week, one known number, and the project continues in parallel if you want it to.
+A Production Readiness Audit is a one-week sprint against a working demo. The price is fixed and agreed before I start; there is no hourly meter running and no "phase two" surprise. Your internal cost is a few hours of one engineer's time for repository access, a data sample, and two calls. That is the whole exposure: one week, one known number, and the project continues in parallel if you want it to.
 
-![POC Audit Cost vs. a Broken AI Launch: The Real Math](/images/blog/poc-audit-cost-vs-failed-launch/1.jpg)
+![Production Readiness Audit Cost vs. a Broken AI Launch: The Real Math](/images/blog/poc-audit-cost-vs-failed-launch/1.jpg)
 
 What you get for that week is a written answer to three questions. What breaks at scale: retrieval quality on your real corpus, latency under concurrent users, cost per request with real prompts, failure modes on real inputs. What to fix first: ranked by how much damage it does on launch day, not by how interesting it is. And a 90-day plan to ship: the realistic sequence from where the demo is now to something you can put in front of paying users without a rollback plan taped to the wall.
 
@@ -90,4 +90,4 @@ The third line is the one that closes it. Boards do not fund audits; they fund c
 
 ## Where this becomes an engagement
 
-The POC Audit is a one-week sprint: I take your working demo, test it against your real data, real load, and real inputs, and deliver what breaks at scale, what to fix first, and a 90-day plan to ship, at a fixed price agreed before we start. The scope is on the [services page](/en/services). If you have a demo and a board date, [get in touch](/en/contact) and we will tell you within a call whether a week is enough to answer the question.
+The Production Readiness Audit is a one-week sprint: I take your working demo, test it against your real data, real load, and real inputs, and deliver what breaks at scale, what to fix first, and a 90-day plan to ship, at a fixed price agreed before we start. The scope is on the [services page](/en/services). If you have a demo and a board date, [get in touch](/en/contact) and we will tell you within a call whether a week is enough to answer the question.

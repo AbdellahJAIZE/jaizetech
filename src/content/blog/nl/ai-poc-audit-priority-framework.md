@@ -115,6 +115,6 @@ Wat nooit achter monitoring mag: alles aan de onomkeerbare kant van de blast rad
 
 ## Waar dit een opdracht wordt
 
-Heb je de punchlist maar niet het vertrouwen om hem te sequencen — of heb je de symptomen en helemaal geen punchlist — dan is dat waar een **POC Audit** voor is: een sprint van één week waarin ik door de codebase, infrastructuur, dataflow, prompts en kosten ga, en de bevindingen teruggeef *plus* het 90-dagenplan met de volgorde, de afhankelijkheden en de week-één/maand-twee-splitsing al beslist.
+Heb je de punchlist maar niet het vertrouwen om hem te sequencen — of heb je de symptomen en helemaal geen punchlist — dan is dat waar een **Production Readiness Audit** voor is: een sprint van één week waarin ik door de codebase, infrastructuur, dataflow, prompts en kosten ga, en de bevindingen teruggeef *plus* het 90-dagenplan met de volgorde, de afhankelijkheden en de week-één/maand-twee-splitsing al beslist.
 
 Je krijgt het kader hierboven toegepast op jouw systeem door iemand die deze lijsten eerder heeft gesequencet, zodat je engineer die drie weken bouwt in plaats van discussieert over wat te bouwen. De scope staat op de [dienstenpagina](/services), en wil je eerst je huidige lijst doorlopen: [vertel me wat erop staat](/contact).

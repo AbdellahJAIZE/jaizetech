@@ -5,6 +5,7 @@ published: "2026-09-17"
 tags: ["AI-feature laten bouwen", "SOW checklist", "AI development", "productie-AI", "SaaS"]
 ogImage: "/images/blog/full-ai-feature-build-scope-cost/cover.jpg"
 primaryService: "ai-features"
+seoTitle: "AI-feature laten bouwen: de 7 lagen die offertes verzwijgen"
 ---
 Je hebt het budget. Je hebt de feature. Wat je niet hebt is een manier om de drie offertes op je bureau te vergelijken, want de ene is een voorstel van 40 pagina's van een bureau, de tweede een e-mail van twee alinea's van een freelancer, en de derde een fixed-price aanbod dat op de een of andere manier de helft kost van de andere twee. Ze kunnen onmogelijk hetzelfde project beschrijven. Dat doen ze ook niet.
 

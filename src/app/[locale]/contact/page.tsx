@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
+import CtaLink from '@/components/CtaLink';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WebPageSchema from '@/components/WebPageSchema';
 import { pageAlternates, absoluteUrl } from '@/lib/seo';
@@ -80,24 +81,22 @@ function Contact() {
               <h2>{t('options.scheduleTitle')}</h2>
               <p>{t('options.scheduleLead')}</p>
               <div className="cal-buttons">
-                <a
+                <CtaLink
+                  cta="contact_call_15"
                   className="btn btn-primary"
                   href="https://www.cal.eu/jaize/15min?overlayCalendar=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${t('options.scheduleIntro')} ${newTab}`}
+                  ariaLabel={`${t('options.scheduleIntro')} ${newTab}`}
                 >
                   {t('options.scheduleIntro')}<span className="arrow" aria-hidden="true">→</span>
-                </a>
-                <a
+                </CtaLink>
+                <CtaLink
+                  cta="contact_call_30"
                   className="btn btn-secondary"
                   href="https://www.cal.eu/jaize/30min?overlayCalendar=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`${t('options.scheduleDeeper')} ${newTab}`}
+                  ariaLabel={`${t('options.scheduleDeeper')} ${newTab}`}
                 >
                   {t('options.scheduleDeeper')}<span className="arrow" aria-hidden="true">→</span>
-                </a>
+                </CtaLink>
               </div>
             </div>
 
@@ -111,7 +110,7 @@ function Contact() {
           <p className="muted-line center">{t('trust')}</p>
           <p className="muted-line center">
             {t('directMailPrefix')}{' '}
-            <a href={`mailto:${t('directMailAddress')}`} style={{ borderBottom: '1px solid currentColor' }}>{t('directMailAddress')}</a>
+            <CtaLink cta="contact_mail" href={`mailto:${t('directMailAddress')}`}>{t('directMailAddress')}</CtaLink>
           </p>
         </div>
       </section>

@@ -13,10 +13,10 @@ export default function SchemaJsonLd({ locale }: Props) {
     '@context': 'https://schema.org',
     '@type': 'Person',
     '@id': personId,
-    name: 'Abdellah Jaize',
-    givenName: 'Abdellah',
+    name: 'A. Jaize',
+    givenName: 'A.',
     familyName: 'Jaize',
-    jobTitle: 'AI Software Engineer',
+    jobTitle: 'Founder and lead engineer, Jaize Tech',
     description: isNL
       ? 'AI software engineer in IJlst, Friesland. Bouwt productieklare AI-agenten, RAG-systemen en document-automatisering voor Nederlandse scale-ups en MKB.'
       : 'AI software engineer in IJlst, Friesland. Builds production-ready AI agents, RAG systems, and document automation for Dutch scale-ups and SMBs.',
@@ -26,7 +26,7 @@ export default function SchemaJsonLd({ locale }: Props) {
       url: `${SITE}/abdellah.jpg`,
       width: 600,
       height: 600,
-      caption: 'Abdellah Jaize, AI software engineer in IJlst, Netherlands'
+      caption: 'A. Jaize, founder of Jaize Tech, AI studio in IJlst, Netherlands'
     },
     address: {
       '@type': 'PostalAddress',
@@ -93,8 +93,8 @@ export default function SchemaJsonLd({ locale }: Props) {
     legalName: 'Jaize Tech',
     alternateName: 'Jaize',
     description: isNL
-      ? 'Productieklare AI-systemen voor Nederlandse scale-ups en MKB. AI-agenten, RAG-assistenten, document-automatisering en volledige stack. Vaste prijs, vaste scope.'
-      : 'Production-ready AI systems for Dutch scale-ups and SMBs. AI agents, RAG assistants, document automation, and full-stack delivery. Fixed price, fixed scope.',
+      ? 'Compacte AI-studio in Nederland. Brengt AI-features van demo naar productie met vaste scope, vaste doorlooptijd en prijs vooraf bekend: Production Readiness Audit, Production Hardening en Full Build.'
+      : 'Compact AI studio in the Netherlands. Takes AI features from demo to production with fixed scope, a fixed timeline and prices known up front: Production Readiness Audit, Production Hardening and Full Build.',
     url: SITE,
     logo: {
       '@type': 'ImageObject',
@@ -124,9 +124,9 @@ export default function SchemaJsonLd({ locale }: Props) {
     },
     areaServed: [
       { '@type': 'Country', name: 'Netherlands' },
-      { '@type': 'Country', name: 'Belgium' }
+      { '@type': 'Country', name: 'Belgium' },
+      { '@type': 'Place', name: 'European Union' }
     ],
-    priceRange: '€800-€880',
     knowsLanguage: ['nl', 'en', 'fr'],
     contactPoint: [
       {
@@ -150,12 +150,15 @@ export default function SchemaJsonLd({ locale }: Props) {
       'https://twitter.com/JaizeAbdellah'
     ],
     makesOffer: [
-      { '@type': 'Offer', name: 'AI Integration Audit' },
-      { '@type': 'Offer', name: 'RAG Knowledge Assistant' },
-      { '@type': 'Offer', name: 'AI Workflow Agent' },
-      { '@type': 'Offer', name: 'AI SaaS MVP' },
-      { '@type': 'Offer', name: 'Document Intelligence and OCR Automation' },
-      { '@type': 'Offer', name: 'Fractional CTO' }
+      { '@type': 'Offer', name: 'Production Readiness Audit', url: `${SITE}/services#audit`, price: '2450', priceCurrency: 'EUR' },
+      {
+        '@type': 'Offer', name: 'Production Hardening', url: `${SITE}/services#hardening`,
+        priceSpecification: { '@type': 'PriceSpecification', minPrice: '9500', priceCurrency: 'EUR' }
+      },
+      {
+        '@type': 'Offer', name: 'Full Build', url: `${SITE}/services#build`,
+        priceSpecification: { '@type': 'PriceSpecification', minPrice: '29500', priceCurrency: 'EUR' }
+      }
     ]
   };
 

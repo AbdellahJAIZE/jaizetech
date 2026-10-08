@@ -5,6 +5,8 @@ published: "2026-05-12"
 tags: ["LLM evaluation", "production AI", "AI engineering", "regression testing"]
 ogImage: "/og-image.png"
 primaryService: "hardening"
+seoTitle: "LLM evaluation that survives production: continuous evals"
+seoDescription: "Most teams run an eval suite once and never touch it again. The continuous eval loop that catches regressions before customers do."
 ---
 
 Most AI teams run an eval once and ship. Maybe they run it again when a vendor releases a new model. Then six months later a customer complains about a regression and the team has no way to tell whether they introduced it, when, or which change broke things.

@@ -5,6 +5,8 @@ published: "2026-05-26"
 tags: ["AI-strategie", "productie-AI", "AI-pilot", "scoping"]
 ogImage: "/og-image.png"
 primaryService: "ai-features"
+seoTitle: "Zo scope je een AI-pilot die wel productie haalt"
+seoDescription: "De demo werkt en zes maanden later staat er niets in productie. De oplossing is zelden technisch. De scoping-checklist die we vooraf gebruiken."
 ---
 
 Het patroon komt zo vaak voor dat het bijna een ritueel is. Een team bouwt in twee weken een AI-demo. Hij werkt. Iedereen in de kamer is onder de indruk. De CEO noemt het tegen de raad van bestuur. En zes maanden later is het nog steeds een demo, stilletjes geparkeerd achter een feature flag die niemand durft aan te zetten.

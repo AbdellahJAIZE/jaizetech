@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
+import CtaLink from '@/components/CtaLink';
 import Breadcrumb from '@/components/Breadcrumb';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WebPageSchema from '@/components/WebPageSchema';
@@ -59,11 +60,20 @@ function Services() {
   const labels = t.raw('labels') as {
     discussCta: string;
     serviceLabel: string;
+    outcome: string;
+    deliverables: string;
+    duration: string;
+    price: string;
   };
   const items = t.raw('items') as Array<{
     id: string;
     name: string;
+    duration: string;
+    price?: string;
+    priceNote?: string;
+    outcome: string;
     summary: string;
+    deliverables: string[];
   }>;
 
   return (
@@ -91,13 +101,26 @@ function Services() {
                 <div>
                   <div className="num">{num} · {labels.serviceLabel}</div>
                   <h2>{s.name}</h2>
+                  <p className="summary service-outcome"><strong>{labels.outcome}:</strong> {s.outcome}</p>
                   <p className="summary">{s.summary}</p>
+                  <h3 className="service-deliverables-title">{labels.deliverables}</h3>
+                  <ul className="service-deliverables">
+                    {s.deliverables.map((d) => <li key={d}>{d}</li>)}
+                  </ul>
                 </div>
 
                 <aside className="meta-rail">
-                  <Link className="btn btn-secondary btn-sm" href="/contact">
+                  <p className="service-duration"><span className="label">{labels.duration}</span><br />{s.duration}</p>
+                  {s.price && (
+                    <p className="service-duration service-price">
+                      <span className="label">{labels.price}</span><br />
+                      <strong>{s.price}</strong>
+                      {s.priceNote && <><br /><span className="price-note">{s.priceNote}</span></>}
+                    </p>
+                  )}
+                  <CtaLink cta={`services_${s.id}`} className="btn btn-secondary btn-sm" href="https://www.cal.eu/jaize/15min?overlayCalendar=true">
                     {labels.discussCta}<span className="arrow">→</span>
-                  </Link>
+                  </CtaLink>
                 </aside>
               </article>
             );
@@ -107,9 +130,9 @@ function Services() {
         <section className="numbered-section" style={{ marginTop: 32 }}>
           <h2>{t('cta.title')}</h2>
           <p className="lead" style={{ marginBottom: 24, maxWidth: 600 }}>{t('cta.lead')}</p>
-          <Link className="btn btn-primary" href="/contact">
+          <CtaLink cta="services_cta" className="btn btn-primary" href="/contact">
             {t('cta.primary')}<span className="arrow">→</span>
-          </Link>
+          </CtaLink>
         </section>
       </div>
     </section>

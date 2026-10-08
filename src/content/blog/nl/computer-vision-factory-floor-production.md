@@ -5,6 +5,8 @@ published: "2026-06-02"
 tags: ["computer vision", "industriële AI", "productie-AI", "kwaliteitscontrole"]
 ogImage: "/og-image.png"
 primaryService: "cv"
+seoTitle: "Computer vision op de fabrieksvloer: demo versus de lijn"
+seoDescription: "Een model met 98 procent op een schone testset kan op een echte lijn waardeloos zijn. Belichting, timing, drift en de kosten van een fout beslissen."
 ---
 
 Een visiemodel dat 98 procent scoort op een schone testset vertelt je bijna niets over de vraag of het op een productielijn werkt. Ik heb een model met prachtige validatiecijfers uiteen zien vallen op de dag dat het boven een echte lopende band gemonteerd werd, en ik heb een eenvoudiger model met slechtere papieren cijfers jarenlang zien draaien. Het verschil was nooit de architectuur. Het was alles rondom de camera.
