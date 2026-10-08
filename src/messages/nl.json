@@ -269,7 +269,89 @@
           "Docker",
           "Azure DevOps"
         ],
-        "production": "Productie sinds Q3 2023 · zero-downtime deployments"
+        "production": "Productie sinds Q3 2023 · zero-downtime deployments",
+        "diagram": {
+          "zones": [
+            "EDGE",
+            "CLOUD",
+            "ON-PREM",
+            "CLIENT"
+          ],
+          "nodes": [
+            {
+              "id": "cams",
+              "zone": 0,
+              "label": "Edge devices",
+              "sub": "field cameras"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "Cloud API",
+              "sub": "sync · WebSocket"
+            },
+            {
+              "id": "reg",
+              "zone": 2,
+              "label": "Model registry",
+              "sub": "ResNet · YOLO",
+              "soft": true
+            },
+            {
+              "id": "triton",
+              "zone": 2,
+              "label": "NVIDIA Triton",
+              "sub": "GPU inference"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "orchestration · auth"
+            },
+            {
+              "id": "ui",
+              "zone": 3,
+              "label": "Vue annotation UI",
+              "sub": "operator workflow"
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "label store · audit"
+            }
+          ],
+          "edges": [
+            [
+              "cams",
+              "api"
+            ],
+            [
+              "api",
+              "triton"
+            ],
+            [
+              "reg",
+              "triton",
+              "soft"
+            ],
+            [
+              "triton",
+              "nest"
+            ],
+            [
+              "nest",
+              "ui"
+            ],
+            [
+              "nest",
+              "db"
+            ]
+          ],
+          "footer": "Hybrid on-prem + cloud · CI/CD · Docker · GPU inference 24/7",
+          "aria": "Edge cameras send images through a cloud API to on-premise GPU inference with NVIDIA Triton and a NestJS API, feeding a Vue annotation UI and a PostgreSQL label store"
+        }
       },
       {
         "id": "sportstech",
@@ -302,7 +384,91 @@
           "Firebase",
           "OAuth2"
         ],
-        "production": "Live op App Store en Google Play · 2022 tot 2023"
+        "production": "Live op App Store en Google Play · 2022 tot 2023",
+        "diagram": {
+          "zones": [
+            "MOBILE",
+            "WEB",
+            "API",
+            "DATA"
+          ],
+          "nodes": [
+            {
+              "id": "rn",
+              "zone": 0,
+              "label": "React Native app",
+              "sub": "+ Unity scenes"
+            },
+            {
+              "id": "bo",
+              "zone": 1,
+              "label": "Next.js back-office",
+              "sub": "roles · RBAC"
+            },
+            {
+              "id": "site",
+              "zone": 1,
+              "label": "Public website",
+              "sub": "React · Next.js"
+            },
+            {
+              "id": "nest",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "REST · OAuth2"
+            },
+            {
+              "id": "auth",
+              "zone": 2,
+              "label": "Firebase Auth",
+              "sub": "identity",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "MongoDB",
+              "sub": "application data"
+            },
+            {
+              "id": "ci",
+              "zone": 3,
+              "label": "AWS CI/CD",
+              "sub": "build · deploy",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "rn",
+              "nest"
+            ],
+            [
+              "bo",
+              "nest"
+            ],
+            [
+              "site",
+              "nest"
+            ],
+            [
+              "auth",
+              "nest",
+              "soft"
+            ],
+            [
+              "nest",
+              "db"
+            ],
+            [
+              "ci",
+              "nest",
+              "soft"
+            ]
+          ],
+          "footer": "Three product streams on one backend · OAuth2 · AWS",
+          "aria": "A React Native app with Unity scenes, a Next.js back-office and a public website share one NestJS API with OAuth2 and Firebase Auth, MongoDB and AWS CI/CD"
+        }
       }
     ],
     "cta": {

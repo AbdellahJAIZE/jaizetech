@@ -68,6 +68,7 @@ function Work() {
     approach: string;
     stats: Array<{ value: string; label: string }>;
     stack: string[];
+    diagram?: import('@/components/CaseDiagram').DiagramData;
     production: string;
   }>;
 
@@ -92,7 +93,7 @@ function Work() {
           {cases.map((c) => (
             <article key={c.id} id={c.id} className="case-section">
               <div className="case-diagram-area">
-                <CaseDiagram type={c.id} size="large" />
+                <CaseDiagram diagram={c.diagram} size="large" />
               </div>
               <div className="case-header">
                 <div>

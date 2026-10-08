@@ -18,6 +18,7 @@ export default function CaseCard({ index }: Props) {
     summary?: string;
     challenge?: string;
     stack: string[];
+    diagram?: import('@/components/CaseDiagram').DiagramData;
   }>)[index];
 
   const readCase = t('labels.readCase');
@@ -30,7 +31,7 @@ export default function CaseCard({ index }: Props) {
       aria-label={`${readCase}: ${c.client}`}
     >
       <div className="case-thumb has-diagram">
-        <CaseDiagram type={c.id} size="small" />
+        <CaseDiagram diagram={c.diagram} size="small" />
       </div>
       <div className="body">
         <div className="meta">
