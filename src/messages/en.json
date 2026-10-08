@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "jaize",
     "siteUrl": "https://jaizetech.nl",
-    "defaultTitle": "Jaize Tech · Independent software engineering",
-    "defaultDescription": "Software builds, AI features, and infrastructure work. Independent engineering by Abdellah Jaize, based in the Netherlands."
+    "defaultTitle": "Jaize Tech · AI studio for production",
+    "defaultDescription": "Compact AI studio in the Netherlands. We take AI features from demo to production, with fixed scope and a fixed timeline."
   },
   "nav": {
     "home": "Home",
@@ -12,7 +12,7 @@
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "bookCall": "Get in touch",
+    "bookCall": "Book a call",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "homeAria": "Jaize Tech home",
@@ -24,36 +24,36 @@
     "newTabSuffix": "(opens in new tab)"
   },
   "home": {
-    "title": "Jaize Tech · AI demos don't ship. I fix that.",
-    "description": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
+    "title": "Jaize Tech · AI features that reach production",
+    "description": "Compact AI studio in the Netherlands. We take your AI feature from demo to production and make sure it keeps running under real users.",
     "hero": {
-      "headline": "AI demos don't ship. I fix that.",
-      "lead": "Two and a half years running AI in industrial production. Sole engineer on a computer-vision platform serving inference 24/7 for Dutch agritech.",
-      "ctaPrimary": "Get in touch",
-      "ctaSecondary": "See how I work"
+      "headline": "AI features that reach production. And stay there.",
+      "lead": "Jaize Tech is a compact AI studio in the Netherlands. We take a working demo or a sharp idea and deliver an AI feature that holds up under real users. Fixed scope, fixed timeline, one senior team from kickoff to handover.",
+      "ctaPrimary": "Book a 15-minute call",
+      "ctaSecondary": "Or email us"
     },
     "readme": {
-      "label": "profile",
-      "name": "name",
-      "nameValue": "Abdellah Jaize",
-      "role": "role",
-      "roleValue": "AI software engineer",
+      "label": "studio",
+      "name": "studio",
+      "nameValue": "Jaize Tech · A. Jaize",
+      "role": "does",
+      "roleValue": "AI engineering, from demo to production",
       "based": "based",
       "basedValue": "IJlst, Netherlands",
       "lang": "languages",
-      "langValue": "English · French · Arabic",
+      "langValue": "English · Dutch · French",
       "kvk": "kvk",
       "kvkValue": "42051769"
     },
     "services": {
-      "kicker": "How I work",
-      "title": "Three ways to ship it.",
-      "lead": "Fixed scope, fixed timeline. Quoted after a short call.",
-      "viewAll": "See all three"
+      "kicker": "Packages",
+      "title": "Three packages. Fixed scope, clear outcome.",
+      "lead": "Pick the package that matches where you are. Quoted after a 15-minute call.",
+      "viewAll": "See the packages"
     },
     "work": {
       "kicker": "Work",
-      "title": "What I've built recently.",
+      "title": "What we have built.",
       "viewAll": "All case studies"
     },
     "faq": {
@@ -61,52 +61,48 @@
       "title": "Practical answers.",
       "items": [
         {
-          "q": "Do you work remote or on-site?",
-          "a": "Both. Mostly remote, with visits to Amsterdam, Utrecht or Eindhoven when it helps the project."
+          "q": "Who is Jaize Tech for?",
+          "a": "Product teams in the Netherlands and the EU that need an AI feature in production. Scale-ups, software companies and industrial companies that want to get past the demo."
         },
         {
           "q": "How does pricing work?",
-          "a": "Per project, after a short scoping call. No fixed packages, no surprise quotes. We agree the price up front."
+          "a": "Per package. We agree the price up front, after a short scoping call. No hourly billing and no surprises afterwards."
         },
         {
-          "q": "Do you work with one client at a time?",
-          "a": "No. I work with a few clients in parallel, usually a couple of days per week per engagement. That keeps me independent and focused."
+          "q": "Do you work remote or on-site?",
+          "a": "Both. Mostly remote, with visits to your team when the project is better for it."
         },
         {
           "q": "What if the scope changes?",
-          "a": "We talk it through and adjust together. Most changes are minor and just shift the timeline a little."
+          "a": "We talk it through and adjust the package together. Most changes are small and only shift the timeline."
         },
         {
           "q": "What language do you work in?",
-          "a": "English. Documentation, code, meetings, email. Standard for tech teams in the Netherlands."
+          "a": "English or Dutch, whichever your team prefers. Code and documentation in English."
         }
       ]
     },
     "cta": {
-      "title": "Ready to build something?",
-      "lead": "A 15-minute call is enough for both of us to know if there's a fit.",
-      "primary": "Get in touch",
-      "secondary": "Or email directly: abdellah@jaizetech.nl"
+      "title": "Ready to take your AI feature to production?",
+      "lead": "A 15-minute call is enough to know whether we can help.",
+      "primary": "Book a call",
+      "secondary": "Or email info@jaizetech.nl"
     },
     "stats": {
       "label": "By the numbers",
       "eyebrow": "BY THE NUMBERS",
       "items": [
         {
-          "value": "5+ years",
-          "label": "shipping production software"
+          "value": "Millions of images",
+          "label": "processed by our inference pipelines in production"
+        },
+        {
+          "value": "8+ environments",
+          "label": "enterprise client environments on one AI platform"
         },
         {
           "value": "2.5+ years",
           "label": "AI running 24/7 in industrial production"
-        },
-        {
-          "value": "Sole engineer",
-          "label": "end-to-end (model, API, frontend, infra)"
-        },
-        {
-          "value": "Mobile + Web + AI",
-          "label": "three domains, one engineer"
         }
       ]
     },
@@ -150,50 +146,76 @@
     }
   },
   "services": {
-    "title": "AI engineering, scoped and time-boxed",
-    "description": "Three engagements for Dutch teams that need AI features in production. Audit, hardening, or full build. Stack-flexible.",
+    "title": "AI packages with fixed scope",
+    "description": "Three packages for product teams that need an AI feature in production. Audit, hardening or full build. Fixed scope, fixed timeline.",
     "breadcrumb": "Services",
     "hero": {
-      "kicker": "Engagements",
-      "headline": "Three engagements. Pick where you are.",
-      "lead": "From AI audit to full build. Fixed scope, fixed timeline, quoted after a short call."
+      "kicker": "Packages",
+      "headline": "Three packages. Pick where you are.",
+      "lead": "From an audit of your demo to a full build. Fixed scope, fixed timeline, one senior team. Quoted after a short call."
     },
     "labels": {
-      "discussCta": "Talk about this",
-      "serviceLabel": "WHAT I DO",
-      "readMore": "Read more"
+      "discussCta": "Discuss this package",
+      "serviceLabel": "PACKAGE",
+      "readMore": "Read more",
+      "outcome": "Outcome",
+      "deliverables": "What you get",
+      "duration": "Timeline"
     },
     "items": [
       {
         "id": "audit",
         "name": "POC Audit",
-        "summary": "One-week sprint. You have an AI demo that works on your laptop. I tell you exactly what breaks at scale, what to fix first, and a 90-day plan to ship. Includes a written report and a 60-minute readout call with your team."
+        "duration": "1 week",
+        "outcome": "You know exactly what is holding your demo back and what the path to production is.",
+        "summary": "You have an AI demo that works on a laptop. We take it apart: data, prompts, model choice, cost, latency, security. You get an honest verdict and a plan your team can execute right away.",
+        "deliverables": [
+          "Written report with risks ordered by impact",
+          "90-day plan to production",
+          "60-minute readout with your team"
+        ]
       },
       {
         "id": "hardening",
         "name": "Production Hardening",
-        "summary": "Three to six weeks. Your AI feature works in dev. Then it breaks under real users, costs too much, or hallucinates at the wrong moment. I add evals, monitoring, prompt versioning, latency and cost controls, and harden the deploy. You leave with a feature that doesn't wake you up at night."
+        "duration": "3 to 6 weeks",
+        "outcome": "An AI feature that keeps working under real users and does not wake you up at night.",
+        "summary": "Your feature works in dev, then breaks under load, costs too much or hallucinates at the wrong moment. We add evals, monitoring, prompt versioning, cost and latency controls, and harden the deploy.",
+        "deliverables": [
+          "Evaluation set and automated evals",
+          "Monitoring, alerts and cost tracking",
+          "Hardened deploy with rollback",
+          "Handover document for your team"
+        ]
       },
       {
         "id": "build",
         "name": "Full Build",
-        "summary": "Six to twelve weeks. You need the AI feature and the product around it built end-to-end. Backend, frontend, model integration, infra, deploy. I work as the senior engineer who owns the whole thing. Handover includes clean code, real docs, and a walkthrough call."
+        "duration": "6 to 12 weeks",
+        "outcome": "A complete AI feature in production, with the product around it, owned by your team.",
+        "summary": "You need the AI feature and the product around it. Backend, frontend, model integration, infrastructure, deploy. We build it end to end and hand it over as something your team can maintain.",
+        "deliverables": [
+          "Working feature in your production environment",
+          "Clean code and real documentation",
+          "CI/CD and monitoring in place",
+          "Walkthrough and handover to your team"
+        ]
       }
     ],
     "cta": {
       "title": "Got an AI feature that needs to ship?",
-      "lead": "Send a short message describing where you are. I reply within a day.",
+      "lead": "Send a short message about where you are. We reply within one working day.",
       "primary": "Send a message"
     }
   },
   "work": {
-    "title": "Selected work",
-    "description": "Selected case studies. Computer-vision platform in Dutch agritech, and mobile and web product at a sportstech startup.",
+    "title": "Case studies",
+    "description": "Two cases in detail. An AI quality control platform in Dutch agritech and a mobile and web product at a sportstech startup.",
     "breadcrumb": "Work",
     "hero": {
       "kicker": "Work",
-      "headline": "What I've built.",
-      "lead": "A few projects in detail. The challenge, how I tackled it, and what came out."
+      "headline": "What we have built.",
+      "lead": "Two projects in detail. The problem, what we built, and the numbers."
     },
     "labels": {
       "approach": "Approach",
@@ -207,24 +229,24 @@
     "cases": [
       {
         "id": "agritech",
-        "client": "AI computer-vision platform for Dutch agritech",
+        "client": "AI quality control platform for a Dutch agritech company",
         "sector": "Agritech · Industrial quality control",
-        "year": "2023 to Present",
-        "role": "Software Engineer",
-        "summary": "Sole engineer on an AI quality control platform running 24/7 in production. Built and operated the full stack around computer-vision inference: NestJS API, Vue.js annotation interface, PostgreSQL, GitLab CI/CD, hybrid on-prem and cloud deployment. Migrated production services and large image datasets to new hardware with zero data loss.",
-        "approach": "Hybrid architecture combining NVIDIA Triton for model serving with a modular NestJS API and a data pipeline using OCR and validation agents. Designed for production-scale throughput with cost and reliability in mind.",
+        "year": "2023 to present",
+        "role": "Sole engineer, end to end",
+        "summary": "Problem: industrial clients needed automated, 24/7 quality control on image data, in environments that each had their own security requirements. What we built: the full stack around computer-vision inference. NestJS API, Vue.js annotation interface, PostgreSQL, CI/CD and a hybrid deployment across Azure and on-premise. Production services and large image datasets were migrated to new hardware with zero data loss.",
+        "approach": "NVIDIA Triton for model serving (ResNet and YOLO), a modular NestJS API and a data pipeline with OCR and validation agents. Designed for high throughput with cost and reliability in mind.",
         "stats": [
           {
-            "value": "Production",
-            "label": "AI inference at scale"
+            "value": "Millions",
+            "label": "of images processed for quality control"
           },
           {
-            "value": "Sole engineer",
-            "label": "End-to-end ownership"
+            "value": "8+",
+            "label": "enterprise client environments on one platform"
           },
           {
-            "value": "2.5y+",
-            "label": "In production"
+            "value": "2.5+ years",
+            "label": "running 24/7 in production"
           }
         ],
         "stack": [
@@ -235,80 +257,96 @@
           "ResNet",
           "YOLO",
           "Docker",
-          "GitLab CI/CD"
+          "Azure DevOps"
         ],
-        "production": "Production since Q3 2023"
+        "production": "In production since Q3 2023 · zero-downtime deployments"
       },
       {
         "id": "sportstech",
-        "client": "Sportstech startup mobile and web product",
+        "client": "Mobile app, back office and website for a sportstech startup",
         "sector": "Sportstech · Early-stage startup",
         "year": "2022 to 2023",
-        "role": "Software Engineer",
-        "summary": "Mobile and web engineer at an early-stage sportstech startup. Built React Native app with Unity game features plus React and Next.js back-office and public website end-to-end.",
-        "approach": "React Native app with embedded Unity game scenes. React and Next.js back-office and public website on a NestJS backend. AWS CI/CD, OAuth2 and Firebase Auth with RBAC across mobile and web.",
+        "role": "Tech lead",
+        "summary": "Problem: an early-stage startup had to launch a mobile app, a back office and a public website at the same time, with a team that still had to be built. What we built: the React Native app with Unity game features, the React and Next.js back office and the website, on a NestJS backend with OAuth2 and Firebase Auth.",
+        "approach": "Architecture, sprint planning and code reviews for a team of 7 to 12 engineers. CI/CD on AWS and role-based access across mobile and web.",
         "stats": [
           {
-            "value": "Mobile + Web",
-            "label": "Platforms shipped"
+            "value": "3",
+            "label": "product streams shipped to production"
           },
           {
-            "value": "App Store + GP",
-            "label": "Released on"
+            "value": "7 to 12",
+            "label": "engineers on the team"
           },
           {
-            "value": "1y 7mo",
-            "label": "In the role"
+            "value": "App Store + Google Play",
+            "label": "released on"
           }
         ],
         "stack": [
           "React Native",
           "Next.js",
           "Unity",
+          "NestJS",
           "AWS",
           "Firebase",
           "OAuth2"
         ],
-        "production": "Software Engineer 2022 to 2023"
+        "production": "Live on the App Store and Google Play · 2022 to 2023"
       }
     ],
     "cta": {
       "title": "Similar engagement in mind?",
-      "lead": "Let's talk. I'll tell you in 15 minutes whether I can add value.",
-      "primary": "Get in touch"
+      "lead": "In 15 minutes we will know whether we can add value.",
+      "primary": "Book a call"
     }
   },
   "about": {
-    "title": "About Abdellah Jaize",
-    "description": "Independent software engineer based in IJlst, Netherlands. Five years building production software, including AI features.",
+    "title": "About Jaize Tech",
+    "description": "Compact AI studio in IJlst, the Netherlands, founded by A. Jaize. Five years of production software, including 2.5 years of AI running 24/7 in industry.",
     "breadcrumb": "About",
-    "photoAlt": "Abdellah Jaize, AI software engineer based in IJlst, Netherlands",
+    "photoAlt": "A. Jaize, founder of Jaize Tech, AI studio in IJlst, Netherlands",
     "photoInitials": "AJ",
     "photoMeta": {
-      "name": "ABDELLAH JAIZE"
+      "name": "A. JAIZE"
     },
     "hero": {
       "kicker": "About",
-      "name": "Abdellah Jaize",
-      "role": "AI Software Engineer"
+      "name": "Jaize Tech",
+      "role": "Compact AI studio · founded by A. Jaize"
     },
     "bio": [
-      "Hi, I'm Abdellah. A Moroccan engineer based in IJlst, Friesland. I've been building software professionally for five years, and lately a lot of that has been AI work that actually runs in production.",
-      "For the last two and a half years I've been the only engineer on a computer-vision platform at a Dutch agritech company. Backend, frontend, ML pipelines, infrastructure, all in production. Before that I built mobile and web product at an early-stage sportstech startup across React Native, Next.js, and AWS."
+      "Jaize Tech is a compact AI studio in IJlst, Friesland. We build AI features that reach production and stay there. Small enough to move fast, senior enough to own the whole system: model, API, frontend and infrastructure.",
+      "The studio was founded by A. Jaize, an engineer with five years of production software behind him. The last 2.5 years as the sole engineer on an AI computer-vision platform at a Dutch agritech company, before that as tech lead of a team of 7 to 12 engineers at a sportstech startup. He leads every package himself."
     ],
     "experience": {
-      "label": "01 · EXPERIENCE",
-      "title": "Work history",
+      "label": "01 · TRACK RECORD",
+      "title": "Track record",
       "items": [
         {
           "date": "2023 to now",
-          "role": "Software Engineer (AI computer-vision platform for a Dutch agritech company)",
-          "stack": "AI computer-vision platform. NestJS, Vue, Triton, OCR."
+          "role": "AI computer-vision platform for a Dutch agritech company",
+          "stack": "Sole engineer. NVIDIA Triton, NestJS, Vue, Azure and on-premise. Millions of images, 8+ client environments."
+        },
+        {
+          "date": "2025 to 2026",
+          "role": "Receipt-scanning app with OCR pipeline (contract)",
+          "stack": "NestJS backend, OCR, JWT, analytics API. Production on GCP with CI/CD."
+        },
+        {
+          "date": "2025 to 2026",
+          "role": "B2B SaaS dashboard, built from scratch (contract)",
+          "stack": "Nuxt 3, NestJS 11, MongoDB, Playwright E2E. Deployed on AWS."
+        },
+        {
+          "date": "2025",
+          "role": "Architecture audit for an AI compliance platform",
+          "stack": "Node.js and React codebase reviewed, recommendations delivered to the founding team."
         },
         {
           "date": "2022 to 2023",
-          "role": "Software Engineer at an early-stage sportstech startup",
-          "stack": "React Native app with Unity, plus React/Next.js back-office and public website."
+          "role": "Tech lead at a sportstech startup",
+          "stack": "React Native with Unity, React and Next.js back office, NestJS, AWS. Team of 7 to 12 engineers."
         }
       ]
     },
@@ -326,11 +364,11 @@
       "languages": [
         {
           "label": "LANGUAGES",
-          "value": "Arabic (native) · English & French (professional)"
+          "value": "English and Dutch (working languages) · French · Arabic"
         },
         {
           "label": "LOCATION",
-          "value": "IJlst, Friesland · works remote and on-site across NL"
+          "value": "IJlst, Friesland · remote and on-site across the Netherlands and the EU"
         }
       ],
       "kvkLabel": "KVK",
@@ -338,16 +376,16 @@
     },
     "cta": {
       "title": "Want to work together?",
-      "lead": "Easiest way to start is a short call. Fifteen minutes is usually enough to know if I can help. If you'd rather write, the contact form works too.",
-      "primary": "Get in touch"
+      "lead": "The easiest start is a short call. Fifteen minutes is usually enough to know whether we can help. Prefer writing? The contact form works too.",
+      "primary": "Book a call"
     }
   },
   "contact": {
     "title": "Get in touch",
-    "description": "Send a short message about your project, or book a 15-minute call. Reply within a day on business days.",
+    "description": "Book a 15-minute call or send a short message about your project. Reply within one working day.",
     "hero": {
       "headline": "Let's talk.",
-      "lead": "A short call is usually the fastest way to know if we're a fit. Fifteen minutes, no pressure."
+      "lead": "A short call is the fastest way to know whether we are a fit. Fifteen minutes, no pressure."
     },
     "options": {
       "scheduleTitle": "Book directly",
@@ -355,7 +393,7 @@
       "scheduleIntro": "Intro call (15 min)",
       "scheduleDeeper": "In-depth call (30 min)",
       "messageTitle": "Send a message",
-      "messageLead": "Tell me briefly what you're working on. I reply within 24 hours."
+      "messageLead": "Tell us briefly where you are. We reply within 24 hours."
     },
     "form": {
       "name": "Name",
@@ -365,14 +403,14 @@
       "messagePlaceholder": "A few sentences about what you're trying to build or solve...",
       "submit": "Send message",
       "successTitle": "Message received",
-      "successText": "Thanks. I'll reply within 24 hours on business days.",
-      "errorText": "The message could not be sent. Please email me directly at abdellah@jaizetech.nl.",
+      "successText": "Thanks. We reply within 24 hours on working days.",
+      "errorText": "The message could not be sent. Email us directly at info@jaizetech.nl.",
       "requiredMark": "required",
       "requiredHint": "Required fields are marked with an asterisk."
     },
     "trust": "Reply within 24 hours on business days · KvK 42051769 · IJlst, Netherlands",
     "directMailPrefix": "Or email directly:",
-    "directMailAddress": "abdellah@jaizetech.nl"
+    "directMailAddress": "info@jaizetech.nl"
   },
   "blog": {
     "title": "Notes on AI engineering and freelance work",
@@ -388,7 +426,7 @@
     "empty": "No posts published yet. The first one is coming soon."
   },
   "footer": {
-    "tagline": "Independent software engineering.",
+    "tagline": "Compact AI studio. From demo to production.",
     "linksTitle": "Quick links",
     "contactTitle": "Contact",
     "elsewhereTitle": "Elsewhere",
@@ -396,16 +434,16 @@
     "kvk": "KvK 42051769",
     "rights": "All rights reserved",
     "privacy": "Privacy policy",
-    "terms": "Terms",
-    "emailAbdellahAria": "Email Abdellah directly",
-    "emailInfoAria": "Email general inbox",
-    "linkedinAria": "Abdellah Jaize on LinkedIn (opens in new tab)",
-    "githubAria": "Abdellah Jaize on GitHub (opens in new tab)",
-    "twitterAria": "Abdellah Jaize on Twitter (opens in new tab)"
+    "terms": "Terms of service",
+    "emailAbdellahAria": "Email A. Jaize directly",
+    "emailInfoAria": "Email the studio",
+    "linkedinAria": "A. Jaize on LinkedIn (opens in new tab)",
+    "githubAria": "A. Jaize on GitHub (opens in new tab)",
+    "twitterAria": "A. Jaize on Twitter (opens in new tab)"
   },
   "terms": {
     "title": "Terms of engagement",
-    "description": "Terms of engagement for working with Jaize Tech, a sole proprietorship of Abdellah Jaize based in IJlst, Netherlands.",
+    "description": "Terms of engagement for working with Jaize Tech, a sole proprietorship of A. Jaize based in IJlst, Netherlands.",
     "breadcrumb": "Terms",
     "headline": "Terms",
     "lastUpdated": "Last updated: May 2026",
@@ -413,7 +451,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "I'm Abdellah Jaize, software engineer trading as Jaize Tech (sole proprietorship). Based in IJlst, Friesland. KvK 42051769."
+        "p": "Jaize Tech is a sole proprietorship of A. Jaize, software engineer. Based in IJlst, Friesland. KvK 42051769."
       },
       {
         "h": "2. What I deliver",
@@ -463,7 +501,7 @@
     "sections": [
       {
         "h": "1. Who I am",
-        "p": "Abdellah Jaize, sole proprietorship Jaize Tech, based in IJlst, Netherlands. KvK 42051769. For questions about your data: abdellah@jaizetech.nl."
+        "p": "A. Jaize, sole proprietorship Jaize Tech, based in IJlst, Netherlands. KvK 42051769. For questions about your data: abdellah@jaizetech.nl."
       },
       {
         "h": "2. What data I collect",
