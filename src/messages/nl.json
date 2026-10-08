@@ -594,7 +594,7 @@
         "sector": "Martech · B2B SaaS",
         "year": "2025 tot 2026",
         "role": "Full-stack engineer, van nul tot live",
-        "summary": "Probleem: bureaus rapporteerden campagnes aan klanten via spreadsheets en losse pdf's. Wat we bouwden: Screebl, een SaaS waarin een campagnespreadsheet een live, gebrand klantdashboard wordt dat via een beveiligde link gedeeld wordt. Met rollen per bureau en per klant, een AI-rapportassistent en zes talen.",
+        "summary": "Probleem: bureaus rapporteerden campagnes aan klanten via spreadsheets en losse pdf's. Wat we bouwden: Screebl, een SaaS waarin een campagnespreadsheet een live, gebrand klantdashboard wordt dat via een beveiligde link gedeeld wordt. Met rollen per bureau en per klant en een AI-rapportassistent die het klantrapport schrijft.",
         "approach": "Nuxt 3 met Tailwind aan de voorkant, NestJS en MongoDB erachter, hiërarchische rolgebaseerde toegang, OpenAI voor rapportteksten en invulsuggesties. Playwright end-to-end en visuele regressietests, deploy op AWS.",
         "stats": [
           {
@@ -680,7 +680,7 @@
             ]
           ],
           "footer": "AWS · Playwright end-to-end and visual tests",
-          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards in six languages and shared by secure link"
+          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards and shared by secure link"
         }
       },
       {

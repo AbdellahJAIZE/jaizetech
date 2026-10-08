@@ -594,7 +594,7 @@
         "sector": "Martech · B2B SaaS",
         "year": "2025 to 2026",
         "role": "Full-stack engineer, from zero to live",
-        "summary": "Problem: agencies reported campaigns to clients through spreadsheets and loose PDFs. What we built: Screebl, a SaaS where a campaign spreadsheet becomes a live, branded client dashboard shared by secure link. With roles per agency and per client, an AI report assistant and six languages.",
+        "summary": "Problem: agencies reported campaigns to clients through spreadsheets and loose PDFs. What we built: Screebl, a SaaS where a campaign spreadsheet becomes a live, branded client dashboard shared by secure link. With roles per agency and per client and an AI report assistant that writes the client report.",
         "approach": "Nuxt 3 with Tailwind on the front, NestJS and MongoDB behind it, hierarchy-aware role-based access, OpenAI for report text and fill suggestions. Playwright end-to-end and visual regression tests, deployed on AWS.",
         "stats": [
           {
@@ -680,7 +680,7 @@
             ]
           ],
           "footer": "AWS · Playwright end-to-end and visual tests",
-          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards in six languages and shared by secure link"
+          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards and shared by secure link"
         }
       },
       {
