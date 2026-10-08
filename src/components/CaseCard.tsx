@@ -46,7 +46,7 @@ export default function CaseCard({ index }: Props) {
             <span key={s} className="tag">{s}</span>
           ))}
         </div>
-        <span className="read-more">{readCase} <span aria-hidden="true">→</span></span>
+        <span className="read-more">{readCase}</span>
       </div>
     </Link>
   );

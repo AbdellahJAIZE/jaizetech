@@ -139,7 +139,7 @@ function Home() {
           <h2>{t('work.title')}</h2>
         </div>
         <div className="cases-row reveal">
-          {[0, 1].map((i) => (
+          {[0, 1, 2].map((i) => (
             <CaseCard key={i} index={i} />
           ))}
         </div>

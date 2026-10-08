@@ -220,12 +220,12 @@
   },
   "work": {
     "title": "Case studies",
-    "description": "Two cases in detail. An AI quality control platform in Dutch agritech and a mobile and web product at a sportstech startup.",
+    "description": "Eight cases: an AI quality control platform, a job platform, SaaS dashboards, a receipt app, developer tools, local websites and an architecture audit.",
     "breadcrumb": "Work",
     "hero": {
       "kicker": "Work",
       "headline": "What we have built.",
-      "lead": "Two projects in detail. The problem, what we built, and the numbers."
+      "lead": "Eight projects in detail. The problem, what we built, and the numbers."
     },
     "labels": {
       "approach": "Approach",
@@ -354,6 +354,124 @@
         }
       },
       {
+        "id": "arrowlancer",
+        "client": "ArrowLancer: job platform for skilled migrants and sponsoring employers",
+        "sector": "HR tech · Own product",
+        "year": "2024 to present",
+        "role": "Own product, built by the studio",
+        "summary": "Problem: international professionals apply to jobs that will never sponsor a visa, and the job ad rarely says so. What we built: a platform that reads the career pages of Dutch companies itself, gives every job a sponsorship score, matches CVs and emails the matches. With a Moroccan edition, Stripe subscriptions and autonomous writers that publish daily SEO articles and social posts for five sites.",
+        "approach": "An LLM crawler with parallel workers and sponsorship scoring, a NestJS API on MongoDB, a Next.js frontend, all on Azure Container Apps. PostHog monitoring and an hourly watchdog keep the pipelines honest.",
+        "stats": [
+          {
+            "value": "4,900+",
+            "label": "jobs indexed from company sites"
+          },
+          {
+            "value": "1,300+",
+            "label": "companies in the index"
+          },
+          {
+            "value": "5 sites",
+            "label": "served daily by the writers"
+          }
+        ],
+        "stack": [
+          "NestJS",
+          "MongoDB",
+          "Next.js",
+          "Azure Container Apps",
+          "Stripe",
+          "OpenAI",
+          "PostHog",
+          "Python"
+        ],
+        "production": "Live on arrowlancer.com and arrowlancer.ma · since 2024",
+        "diagram": {
+          "zones": [
+            "SOURCES",
+            "CRAWLER",
+            "PLATFORM",
+            "USERS"
+          ],
+          "nodes": [
+            {
+              "id": "pages",
+              "zone": 0,
+              "label": "Career pages",
+              "sub": "1,300+ companies"
+            },
+            {
+              "id": "crawl",
+              "zone": 1,
+              "label": "LLM crawler",
+              "sub": "parallel workers"
+            },
+            {
+              "id": "score",
+              "zone": 1,
+              "label": "Sponsorship score",
+              "sub": "per job",
+              "soft": true
+            },
+            {
+              "id": "api",
+              "zone": 2,
+              "label": "NestJS API",
+              "sub": "MongoDB · Stripe"
+            },
+            {
+              "id": "writers",
+              "zone": 2,
+              "label": "Daily writers",
+              "sub": "SEO · social",
+              "soft": true
+            },
+            {
+              "id": "site",
+              "zone": 3,
+              "label": "Next.js site",
+              "sub": "search · visa badge"
+            },
+            {
+              "id": "match",
+              "zone": 3,
+              "label": "CV matching",
+              "sub": "email digests"
+            }
+          ],
+          "edges": [
+            [
+              "pages",
+              "crawl"
+            ],
+            [
+              "crawl",
+              "score",
+              "soft"
+            ],
+            [
+              "crawl",
+              "api"
+            ],
+            [
+              "api",
+              "site"
+            ],
+            [
+              "api",
+              "match"
+            ],
+            [
+              "writers",
+              "api",
+              "soft"
+            ]
+          ],
+          "footer": "Azure Container Apps · PostHog monitoring · hourly watchdog",
+          "aria": "Company career pages are crawled by an LLM crawler with sponsorship scoring into a NestJS API with MongoDB and Stripe, serving a Next.js site, CV matching with email digests and daily SEO and social writers"
+        }
+      },
+      {
         "id": "sportstech",
         "client": "Mobile app, back office and website for a sportstech startup",
         "sector": "Sportstech · Early-stage startup",
@@ -402,7 +520,7 @@
             {
               "id": "bo",
               "zone": 1,
-              "label": "Next.js back-office",
+              "label": "Next.js backoffice",
               "sub": "roles · RBAC"
             },
             {
@@ -468,6 +586,560 @@
           ],
           "footer": "Three product streams on one backend · OAuth2 · AWS",
           "aria": "A React Native app with Unity scenes, a Next.js back-office and a public website share one NestJS API with OAuth2 and Firebase Auth, MongoDB and AWS CI/CD"
+        }
+      },
+      {
+        "id": "saas-dashboards",
+        "client": "SaaS dashboards for digital marketing agencies",
+        "sector": "Martech · B2B SaaS",
+        "year": "2025 to 2026",
+        "role": "Full-stack engineer, from zero to live",
+        "summary": "Problem: agencies reported campaigns to clients through spreadsheets and loose PDFs. What we built: a SaaS where a campaign spreadsheet becomes a live, branded client dashboard shared by secure link. With roles per agency and per client, an AI report assistant and six languages.",
+        "approach": "Nuxt 3 with Tailwind on the front, NestJS and MongoDB behind it, hierarchy-aware role-based access, OpenAI for report text and fill suggestions. Playwright end-to-end and visual regression tests, deployed on AWS.",
+        "stats": [
+          {
+            "value": "6 languages",
+            "label": "in the interface"
+          },
+          {
+            "value": "Live",
+            "label": "in production at agencies"
+          },
+          {
+            "value": "From zero",
+            "label": "built and delivered"
+          }
+        ],
+        "stack": [
+          "Nuxt 3",
+          "NestJS",
+          "MongoDB",
+          "OpenAI",
+          "AWS",
+          "Playwright",
+          "Tailwind"
+        ],
+        "production": "Live since 2025 · end-to-end tested on every release",
+        "diagram": {
+          "zones": [
+            "IMPORT",
+            "API",
+            "DASHBOARDS",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "sheet",
+              "zone": 0,
+              "label": "Spreadsheet upload",
+              "sub": "campaign data"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS API",
+              "sub": "roles · MongoDB"
+            },
+            {
+              "id": "ai",
+              "zone": 1,
+              "label": "Report assistant",
+              "sub": "OpenAI",
+              "soft": true
+            },
+            {
+              "id": "dash",
+              "zone": 2,
+              "label": "Nuxt dashboards",
+              "sub": "6 languages"
+            },
+            {
+              "id": "link",
+              "zone": 3,
+              "label": "Secure link",
+              "sub": "client view"
+            }
+          ],
+          "edges": [
+            [
+              "sheet",
+              "api"
+            ],
+            [
+              "ai",
+              "api",
+              "soft"
+            ],
+            [
+              "api",
+              "dash"
+            ],
+            [
+              "dash",
+              "link"
+            ]
+          ],
+          "footer": "AWS · Playwright end-to-end and visual tests",
+          "aria": "Campaign spreadsheets are uploaded to a NestJS API with hierarchy-aware roles and an OpenAI report assistant, rendered as Nuxt dashboards in six languages and shared by secure link"
+        }
+      },
+      {
+        "id": "receipt-ocr",
+        "client": "Backend for a receipt-scanning app",
+        "sector": "Fintech · Consumer app",
+        "year": "2025 to 2026",
+        "role": "Backend and mobile engineer",
+        "summary": "Problem: an app had to photograph receipts, read them, categorise them and analyse spending, with a separate OCR service that must be called securely. What we built: the full NestJS 11 backend with OCR integration, authentication, a categorisation engine and an analytics API, on Google Cloud with separate dev and production environments.",
+        "approach": "NestJS 11 with TypeORM on managed PostgreSQL, Cloud Run with CI/CD, service-to-service authentication to the OCR microservice, Firebase auth for users and object storage for the images.",
+        "stats": [
+          {
+            "value": "Live",
+            "label": "in production with CI/CD"
+          },
+          {
+            "value": "2 environments",
+            "label": "dev and production, separated"
+          },
+          {
+            "value": "Service auth",
+            "label": "between API and OCR service"
+          }
+        ],
+        "stack": [
+          "NestJS 11",
+          "PostgreSQL",
+          "TypeORM",
+          "Cloud Run",
+          "Firebase Auth",
+          "OCR"
+        ],
+        "production": "Live on Google Cloud · 2025 to 2026",
+        "diagram": {
+          "zones": [
+            "APP",
+            "API",
+            "OCR",
+            "DATA",
+            "ANALYTICS"
+          ],
+          "nodes": [
+            {
+              "id": "app",
+              "zone": 0,
+              "label": "Mobile app",
+              "sub": "Firebase auth"
+            },
+            {
+              "id": "api",
+              "zone": 1,
+              "label": "NestJS 11 API",
+              "sub": "Cloud Run · CI/CD"
+            },
+            {
+              "id": "ocr",
+              "zone": 2,
+              "label": "OCR service",
+              "sub": "service auth",
+              "soft": true
+            },
+            {
+              "id": "db",
+              "zone": 3,
+              "label": "PostgreSQL",
+              "sub": "managed"
+            },
+            {
+              "id": "store",
+              "zone": 3,
+              "label": "Object storage",
+              "sub": "receipt images",
+              "soft": true
+            },
+            {
+              "id": "ana",
+              "zone": 4,
+              "label": "Spending analytics",
+              "sub": "categories · API"
+            }
+          ],
+          "edges": [
+            [
+              "app",
+              "api"
+            ],
+            [
+              "api",
+              "ocr",
+              "soft"
+            ],
+            [
+              "api",
+              "db"
+            ],
+            [
+              "api",
+              "store",
+              "soft"
+            ],
+            [
+              "db",
+              "ana"
+            ]
+          ],
+          "footer": "Google Cloud · separate dev and prod environments",
+          "aria": "A mobile app with Firebase auth calls a NestJS API on Cloud Run, which uses a separate OCR microservice with service-to-service auth, stores data in managed PostgreSQL and object storage, and serves spending analytics"
+        }
+      },
+      {
+        "id": "prjlab",
+        "client": "PrjLab: a home for projects and their AI context",
+        "sector": "Developer tools · Own product",
+        "year": "2026 to present",
+        "role": "Own product, built by the studio",
+        "summary": "Problem: code travels with git, but a project's AI context (instructions, memory, sessions) stays behind on one machine. What we built: a GitHub-like platform plus an open-source CLI that pushes, pulls and clones repositories together with their AI context. Private context is encrypted, sharing works and can be revoked.",
+        "approach": "Open-source CLI on npm, client-side encrypted storage, versioned context, public repositories and profiles. 150+ CLI tests, integration tests on PostgreSQL and browser tests for the platform.",
+        "stats": [
+          {
+            "value": "Open source",
+            "label": "CLI on npm, MIT licence"
+          },
+          {
+            "value": "150+",
+            "label": "CLI tests on Linux, macOS, Windows"
+          },
+          {
+            "value": "Live",
+            "label": "on prjlab.com since 2026"
+          }
+        ],
+        "stack": [
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Git",
+          "Encryption",
+          "Playwright"
+        ],
+        "production": "Live on prjlab.com · since October 2026",
+        "diagram": {
+          "zones": [
+            "CLI",
+            "ENCRYPTION",
+            "PLATFORM",
+            "SHARE"
+          ],
+          "nodes": [
+            {
+              "id": "cli",
+              "zone": 0,
+              "label": "Open-source CLI",
+              "sub": "npm · 150+ tests"
+            },
+            {
+              "id": "enc",
+              "zone": 1,
+              "label": "Client encryption",
+              "sub": "private context"
+            },
+            {
+              "id": "repos",
+              "zone": 2,
+              "label": "Git repositories",
+              "sub": "push · pull · clone"
+            },
+            {
+              "id": "ctx",
+              "zone": 2,
+              "label": "AI context store",
+              "sub": "memories · sessions"
+            },
+            {
+              "id": "db",
+              "zone": 2,
+              "label": "PostgreSQL",
+              "sub": "versioned",
+              "soft": true
+            },
+            {
+              "id": "share",
+              "zone": 3,
+              "label": "Sharing",
+              "sub": "revocable access"
+            },
+            {
+              "id": "pub",
+              "zone": 3,
+              "label": "Public repos",
+              "sub": "profiles",
+              "soft": true
+            }
+          ],
+          "edges": [
+            [
+              "cli",
+              "enc"
+            ],
+            [
+              "enc",
+              "repos"
+            ],
+            [
+              "enc",
+              "ctx"
+            ],
+            [
+              "ctx",
+              "db",
+              "soft"
+            ],
+            [
+              "ctx",
+              "share"
+            ],
+            [
+              "repos",
+              "pub",
+              "soft"
+            ]
+          ],
+          "footer": "Linux · macOS · Windows · integration and browser tests",
+          "aria": "An open-source CLI encrypts a project's AI context on the client and pushes it with the git repository to the platform, which stores versions in PostgreSQL and supports revocable sharing and public repos"
+        }
+      },
+      {
+        "id": "localpages",
+        "client": "LocalPages: demo-first websites for local businesses",
+        "sector": "Local services · Own venture",
+        "year": "2026 to present",
+        "role": "Own venture under Jaize Tech",
+        "summary": "Problem: many local businesses have no website and never answer a quote. What we built: a pipeline that finds businesses without a site, enriches their data, designs a unique site, passes it through a quality gate and puts it live as a demo. The owner sees the result first, then the conversation. Opting out takes the demo offline in one click.",
+        "approach": "Node pipeline: lead harvesting, data enrichment, AI design per business, quality gate on content and links, deploy through a tunnel, outreach console for follow-up and opt-out.",
+        "stats": [
+          {
+            "value": "100",
+            "label": "live demo sites"
+          },
+          {
+            "value": "3 towns",
+            "label": "in Friesland"
+          },
+          {
+            "value": "Opt-out",
+            "label": "demo offline in one click"
+          }
+        ],
+        "stack": [
+          "Node.js",
+          "AI design",
+          "Static sites",
+          "Cloudflare Tunnel",
+          "Playwright"
+        ],
+        "production": "100 demos live · 2026",
+        "diagram": {
+          "zones": [
+            "LEADS",
+            "ENRICH",
+            "DESIGN",
+            "DEPLOY",
+            "OUTREACH"
+          ],
+          "nodes": [
+            {
+              "id": "leads",
+              "zone": 0,
+              "label": "Lead harvesting",
+              "sub": "businesses, no site"
+            },
+            {
+              "id": "enrich",
+              "zone": 1,
+              "label": "Data enrichment",
+              "sub": "hours · services"
+            },
+            {
+              "id": "design",
+              "zone": 2,
+              "label": "AI design",
+              "sub": "unique per business"
+            },
+            {
+              "id": "gate",
+              "zone": 2,
+              "label": "Quality gate",
+              "sub": "content · links",
+              "soft": true
+            },
+            {
+              "id": "deploy",
+              "zone": 3,
+              "label": "Tunnel deploy",
+              "sub": "live demo"
+            },
+            {
+              "id": "optout",
+              "zone": 3,
+              "label": "Opt-out takedown",
+              "sub": "one click",
+              "soft": true
+            },
+            {
+              "id": "out",
+              "zone": 4,
+              "label": "Outreach console",
+              "sub": "replies · status"
+            }
+          ],
+          "edges": [
+            [
+              "leads",
+              "enrich"
+            ],
+            [
+              "enrich",
+              "design"
+            ],
+            [
+              "design",
+              "gate",
+              "soft"
+            ],
+            [
+              "gate",
+              "deploy"
+            ],
+            [
+              "deploy",
+              "out"
+            ],
+            [
+              "out",
+              "optout",
+              "soft"
+            ]
+          ],
+          "footer": "100 live demos · 3 towns · Node pipeline",
+          "aria": "Leads for businesses without a website are enriched, get an AI-designed unique site that passes a quality gate, are deployed as live demos through a tunnel and followed up from an outreach console with opt-out takedown"
+        }
+      },
+      {
+        "id": "compliance-audit",
+        "client": "Architecture audit for an AI compliance platform",
+        "sector": "Regtech · Advisory",
+        "year": "2025",
+        "role": "Technical advisor",
+        "summary": "Problem: a founding team with an AI platform for screening customer calls wanted to know what had to happen before a reliable production release. What we did: reviewed the Node.js and React codebase on architecture, security and AI pipeline, and delivered a prioritised list of recommendations. This is the kind of work that is now our Production Readiness Audit package.",
+        "approach": "Code review per service and per data flow, transcription and LLM pipeline assessed on reliability and cost, a risk register with severity and owner, a plan for the first 30 days and for 90 days.",
+        "stats": [
+          {
+            "value": "Advisory",
+            "label": "for the founding team"
+          },
+          {
+            "value": "Report",
+            "label": "written, with a readout"
+          },
+          {
+            "value": "Roadmap",
+            "label": "prioritised, 90 days"
+          }
+        ],
+        "stack": [
+          "Node.js",
+          "React",
+          "MongoDB",
+          "Transcription",
+          "LLM pipeline",
+          "Security review"
+        ],
+        "production": "Recommendations delivered to the founding team · 2025",
+        "diagram": {
+          "zones": [
+            "CODEBASE",
+            "REVIEW",
+            "RISK",
+            "ROADMAP"
+          ],
+          "nodes": [
+            {
+              "id": "code",
+              "zone": 0,
+              "label": "Node.js + React",
+              "sub": "call screening"
+            },
+            {
+              "id": "arch",
+              "zone": 1,
+              "label": "Architecture",
+              "sub": "services · data flow"
+            },
+            {
+              "id": "sec",
+              "zone": 1,
+              "label": "Security",
+              "sub": "auth · secrets"
+            },
+            {
+              "id": "pipe",
+              "zone": 1,
+              "label": "AI pipeline",
+              "sub": "transcription · LLM"
+            },
+            {
+              "id": "risk",
+              "zone": 2,
+              "label": "Risk register",
+              "sub": "severity · owner"
+            },
+            {
+              "id": "fix",
+              "zone": 3,
+              "label": "Prioritised fixes",
+              "sub": "first 30 days"
+            },
+            {
+              "id": "plan",
+              "zone": 3,
+              "label": "90-day plan",
+              "sub": "to production"
+            }
+          ],
+          "edges": [
+            [
+              "code",
+              "arch"
+            ],
+            [
+              "code",
+              "sec"
+            ],
+            [
+              "code",
+              "pipe"
+            ],
+            [
+              "arch",
+              "risk"
+            ],
+            [
+              "sec",
+              "risk"
+            ],
+            [
+              "pipe",
+              "risk"
+            ],
+            [
+              "risk",
+              "fix"
+            ],
+            [
+              "risk",
+              "plan"
+            ]
+          ],
+          "footer": "Written report · readout with the founding team",
+          "aria": "A Node.js and React codebase for AI call screening is reviewed on architecture, security and AI pipeline, producing a risk register, prioritised fixes and a 90-day plan"
         }
       }
     ],
